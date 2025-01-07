@@ -43,7 +43,7 @@ Computers have expansion slots on the motherboard to install adapter cards. The 
 Peripheral Component Interconnect is a 32-bit or 64-bit expansion slot. It is currently found in few computers. PCI expansion slots have become mostly obsolete.
 
 **Mini-PCI**
-This is smaller version of PCI found in some laptops. Mini PCI has three different form factors; Type I, Type II, and Type III.
+This is smaller version of PCI found in some laptops. Mini PCI has three different form factors; Type I, Type II, and Type III. Type I and II cards have 100 pins, while Type III has 124. Type II cards include RJ-45 connectors on the board, and the card must be housed at the edge of the laptop so the sockets reach the outside. Type I and III cards connect to external RJ-45 sockets by cables.
 
 **PCI-X**
 PCI eXtended is an updated version of the standard PCI. It uses a 32-bit bus with higher bandwidth than the PCI bus. PCI-X can operate up to four times faster than PCI. PCI-X expansion slots have become mostly obsolete.

@@ -60,7 +60,7 @@ an individual memory chip. A DIP has dual rows of pins used to attach it to the 
  a small circuit board that holds several memory chips. SIMMs have 30-pin or 72-pin configurations.
 
 #### Dual Inline Memory Module (DIMM) 
- a circuit board that holds SDRAM, DDR SDRAM, DDR2 SDRAM, DDR3 SDRAM, and DDR4 SDRAM chips. There are 168-pin SDRAM DIMMs, 184-pin DDR DIMMs, 240-pin DDR2 and DDR3 DIMMs, and 288-pin DDR4 DIMMs.
+a circuit board that holds SDRAM, DDR SDRAM, DDR2 SDRAM, DDR3 SDRAM, and DDR4 SDRAM chips. There are 168-pin SDRAM DIMMs, 184-pin DDR DIMMs, 240-pin DDR2 and DDR3 DIMMs, and 288-pin DDR4 DIMMs.
 
 #### Small Outline Dual Inline Memory Module (SODIMM)
 Small outline dual inline memory modules are commonly found in laptops where space is at a premium and come in 100-, 144-, 200-, 204-, and 260-pin configurations. SODIMM defines the physical form factor of the module.

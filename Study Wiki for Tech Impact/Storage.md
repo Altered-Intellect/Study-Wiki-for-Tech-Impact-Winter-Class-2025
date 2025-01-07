@@ -4,7 +4,6 @@ parent docs:
   - "[[Hardware]]"
 sibling docs: 
 child docs: 
-date created: ""
 last updated: 
 media:
 ---
@@ -40,9 +39,10 @@ the method through which an SSD communicates with the motherboard and other comp
 **PCIe**—**Peripheral component interconnect express** offers faster speeds than SATA but slower than NVMe.
 
 #### Form Factors
-Form factors of the SSD are the shape and size of the SSD.
+The shape and size of the SSD.
 
 **M.2**—M.2 is a form factor for SSDs. It is 22 mm wide and can vary in length, with the most common lengths being 80 mm and 60 mm. It is referred to as “gumstick memory” because its size is similar to a stick of gum. M.2 drives plug into an M.2 slot on a motherboard.
+
 **mSATA**—**Mini-serial ATA** is a form factor for SSDs. mSATAs have a 30-mm wide, 52-pin connector and use the SATA interface for communication. mSATAs can be either 30 mm x 50.95 mm or 30 mm x 26.8 mm.
 
 ### Drive Configurations

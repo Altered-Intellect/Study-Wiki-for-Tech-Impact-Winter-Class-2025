@@ -7,6 +7,7 @@ media:
 ---
 # CompTIA A+ Core Series Exam
 ## 220-1101
+[[Tech Safety]]
 [[Hardware]]
 	[[Computer (Dis)Assembly]]
 	[[Cabling and Ports]]
