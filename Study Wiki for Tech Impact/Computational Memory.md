@@ -27,10 +27,10 @@ The fastest memory is typically static RAM (SRAM) which is cache memory for stor
 - **L2** : an external cache that was originally mounted on the motherboard near the CPU. L2 cache is now integrated into the CPU.
 - **L3** : used on some high-end workstations and server CPUs.
 
-#### SDRAM
+#### Synchronous Dynamic RAM - (SDRAM)
 DRAM that operates in synchronization with the memory bus. It is able to process overlapping instructions in parallel – e.g. It can process a read before a write has been completed. It has high transfer rates.
 
-#### DDRSD - Double Data Rate Synchronous Dynamic RAM
+#### Double Data Rate Synchronous Dynamic RAM - (DDRSD) 
 DDR-SDRAM transfers data twice as fast as SDRAM as it is able to support two writes and two reads per CPU clock cycle. The connector has 184 pins and a single notch and uses lower standard voltage (2.5 V)
 
 ##### Double Data Rate 2 (DDR2) 
