@@ -1,17 +1,14 @@
 ---
-tags: []
+tags: 
 parent docs:
   - "[[Navigation]]"
 sibling docs: 
 child docs: 
-date created: 2024-06-27T06:00:00
-last updated: 
+last updated: 2025-01-06T20:25:00
 media:
 ---
 # Nav
 ^ [[Navigation|Home]] ^ > [[Hardware and Network Troubleshooting|Next]] >
-
-[link](https://uniontestprep.com/comptia-a-core-series-exam/study-guide) 
 
 ---
 
@@ -43,6 +40,7 @@ Most devices will come with **easy installation media**. Windows devices will au
 
 # References
 ## Union Test Prep
+[link](https://uniontestprep.com/comptia-a-core-series-exam/study-guide)
 [Page 1](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1101-hardware/pages/1)
 [Page 2](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1101-hardware/pages/2)
 [Page 3](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1101-hardware/pages/3)

@@ -4,9 +4,8 @@ parent docs:
   - "[[Navigation]]"
 sibling docs: 
 child docs: 
-date created: 2024-10-25T23:59:00
 last updated: 
-media: 
+media:
 ---
 # Nav
 < [[Mobile Devices|Previous]] < ^ [[Navigation|Home]] ^ > [[Virtualization and Cloud Computing|Next]] >

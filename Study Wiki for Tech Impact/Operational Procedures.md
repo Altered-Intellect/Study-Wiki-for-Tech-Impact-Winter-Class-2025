@@ -4,9 +4,8 @@ parent docs:
   - "[[Navigation]]"
 sibling docs: 
 child docs: 
-date created: 1999-12-31T23:59
 last updated: 
-media: 
+media:
 ---
 # Nav
 < [[Operating System|Previous]] < ^ [[Navigation|Home]] ^ > [[Network Security|Next]] >

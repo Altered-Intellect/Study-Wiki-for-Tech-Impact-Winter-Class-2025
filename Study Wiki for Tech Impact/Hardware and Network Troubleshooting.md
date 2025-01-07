@@ -4,9 +4,8 @@ parent docs:
   - "[[Navigation]]"
 sibling docs: 
 child docs: 
-date created: 2024-06-27T18:00:00
 last updated: 
-media: 
+media:
 ---
 # Nav
 < [[Hardware|Previous]] < ^ [[Navigation|Home]] ^ > [[Mobile Devices|Next]] >

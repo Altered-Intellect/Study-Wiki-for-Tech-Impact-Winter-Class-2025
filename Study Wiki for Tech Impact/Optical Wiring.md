@@ -1,0 +1,6 @@
+
+# Fiber
+Refers to the small strings of flexible glass that are used for optical data transmission. Referred to as **fiber optic cables**, a fiber is surrounded by a rubberized coating and provides transmission speeds from 100 Mbps to 10 Gbps over a max distance of several miles. Fiber is immune to both **electrical interference** and **wiretapping**. There are two basic types of fiber: single-mode and multimode. **Single-mode** fiber carries only one light path, typically sourced by a laser. **Multimode** carries multiple light paths and is sourced by an LED. Single-mode has a much longer transmission distance than multimode.
+
+## T568A/T568B
+Twisted pair wires are **color coded** for proper referencing. T568A and T568B are the two standards used for RJ-45 wiring connectors. The **T568A standard** is green/white, green, orange/white, blue, blue/white, orange, brown/white, and brown. The **T568B standard** is orange/white, orange, green/white, blue, blue/white, green, brown/white, and brown.

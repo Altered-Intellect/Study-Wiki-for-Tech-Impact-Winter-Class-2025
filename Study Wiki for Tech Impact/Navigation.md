@@ -1,10 +1,8 @@
 ---
 tags: 
-parent docs: []
 sibling docs: 
 child docs: 
-date created: 2024-06-27T18:00:00
-last updated: 
+last updated: 2025-01-06T20:35:00
 media:
 ---
 # CompTIA A+ Core Series Exam
@@ -13,8 +11,12 @@ media:
 	[[Computer (Dis)Assembly]]
 	[[Cabling and Ports]]
 	[[Computational Memory]]
+	[[Storage]]
+	[[Cases]]
+	[[Power Supply]]
+	[[Motherboards]]
+	[[Peripherals]]
 [[Hardware and Network Troubleshooting]]
-	[[]]
 [[Mobile Devices]]
 [[Computational Networking]]
 [[Virtualization and Cloud Computing]]
@@ -30,7 +32,5 @@ media:
 ## Union Test Prep
 https://uniontestprep.com/comptia-a-core-series-exam/study-guide
 
-## Wikipedia
-(via article sources)
 # Templates
 Default temp - [[_Blank_]]

@@ -4,9 +4,8 @@ parent docs:
   - "[[Navigation]]"
 sibling docs: 
 child docs: 
-date created: 2024-09-10T23:59:00
 last updated: 
-media: 
+media:
 ---
 # Nav
 < [[Hardware and Network Troubleshooting|Previous]] < ^ [[Navigation|Home]] ^ > [[Computational Networking|Next]] >

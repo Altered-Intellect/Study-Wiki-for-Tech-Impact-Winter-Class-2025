@@ -32,79 +32,8 @@ Computers are kept cool using active and passive cooling solutions. Active solut
 **Heat Sink (Passive Cooling)**
 **Case Fan (Active Cooling)**
 
-#### Memory
+#### [[Computational Memory]]
 A computer might use different types of memory chips. However, all memory chips store data in the form of bytes. A byte is a grouping of digital information and represents information such as letters, numbers, and symbols. Specifically, a byte is a block of eight bits stored as either 0 or 1 in the memory chip.
-
-**Read-Only Memory**
-An essential computer chip is the read-only memory (ROM) chip. ROM chips are located on the motherboard and other circuit boards and contain instructions that can be directly accessed by a CPU. The instructions stored in ROM include basic operation instructions such as booting the computer and loading the operating system.
-ROM is nonvolatile which means that the contents are not erased when the computer is powered off.
-Information is written to a ROM chip when it is manufactured. A ROM chip that cannot be erased or re-written is now obsolete. The term ROM still tends to be used generically for any read-only memory chip type.
-
-**PROM**
-Information on a programmable read-only memory chip is written after it is manufactured. PROMs are manufactured blank and then can be programmed by a PROM programmer when needed. Generally, these chips cannot be erased and can only be programmed once.
-
-**EPROM**
-Erasable programmable read-only memory is non-volatile but can be erased by exposing it to strong ultraviolet light. EPROMs usually have a transparent quartz window on the top of the chip. Constant erasing and reprogramming could ultimately render the chip useless.
-
-**EEPROM**
-Information is written to an electrically erasable programmable read-only memory chip after it is manufactured and without removing it from the device. EEPROM chips are also called Flash ROMs since its contents can be "flashed" for deletion. EEPROMs are often used to store a computer system's BIOS.
-
-
-**Random Access Memory (RAM)** 
-This is a temporary location to store data and applications
-RAM is the temporary working storage for data and programs that are being accessed by the CPU. Unlike ROM, RAM is volatile memory, which means that the contents are erased every time the computer is powered off.
-Adding more RAM in a computer enhances the system performance. For instance, more RAM increases the memory capacity of the computer to hold and process programs and files. With less RAM, a computer must swap data between RAM and the much slower hard drive. The maximum amount of RAM that can be installed is limited by the form factor of the motherboard.
-
-**Dynamic RAM**
-DRAM gradually discharges energy so it must be constantly refreshed with pulses of electricity in order to maintain the stored data in the chip. it is an older type of RAM popular until the mid-1990s and was used as the main memory bank 
-
-**Static RAM**
-requires constant but lower power to function. used in the modern day for cache memory as it is faster but more expensive than DRAM
-
-**SDRAM**
-DRAM that operates in synchronization with the memory bus. It is able to process overlapping instructions in parallel – e.g. It can process a read before a write has been completed. It has high transfer rates.
-
-**Double Data Rate Synchronous Dynamic RAM**
-DDR-SDRAM transfers data twice as fast as SDRAM as it is able to support two writes and two reads per CPU clock cycle. The connector has 184 pins and a single notch and uses lower standard voltage (2.5 V)
-- DDR2 : runs at higher clock speeds than DDR (553 MHz vs. DDR at 200 MHz) Improves performance by decreasing noise and crosstalk between signal wires. The connector has 240 pins and uses an even lower standard voltage (1.8 V)
-- DDR3 : expands memory bandwidth by doubling the clock rate of DDR2. It consumes less power than DDR2 (1.5 V), generates less heat, runs at higher clock speeds (up to 800 MHz) and has a connector with 240 pins
-- DDR4 : quadruples DDR3 maximum storage capacity, consumes less power than DDR3 (1.2 V), runs at higher clock speeds (up to 1600 MHz), and has a connector with 288 pins. Available with advanced error correction features such as error-correcting code memory (ECC memory) to detect multiple bit errors.
-- DDR5 : more than double the speed of the fastest DDR4 modules and quadruples its maximum storage capacity. Slightly lower power consumption than DDR4 (1.1 V). Has a maximum module size is 128 GB, and a connector with 288 pins but a different pattern than DDR4, so they are not compatible.
-- Graphics DDR : RAM designed for video graphics. Used in conjunction with a dedicated GPU, and processes massive amounts of data but not necessarily at the fastest speeds. Has a hardware family (GDDR2-5) with each family member improves performance and lowers power consumption.
-
-##### Modules
-Early computers had RAM installed on the motherboard as individual chips. The individual memory chips, called dual inline package (DIP) chips, were difficult to install and often became loose. To solve this problem, designers soldered the memory chips to a circuit board to create a memory module which would then be placed into a memory slot on the motherboard.
-
-**DIP**
-Dual Inline Package is an individual memory chip. A DIP has dual rows of pins used to attach it to the motherboard.
-
-**SIMM**
-Single Inline Memory Module is a small circuit board that holds several memory chips. SIMMs have 30-pin or 72-pin configurations.
-
-**DIMM Memory**
-Dual Inline Memory Module is a circuit board that holds SDRAM, DDR SDRAM, DDR2 SDRAM, DDR3 SDRAM, and DDR4 SDRAM chips. There are 168-pin SDRAM DIMMs, 184-pin DDR DIMMs, 240-pin DDR2 and DDR3 DIMMs, and 288-pin DDR4 DIMMs.
-
-**SODIMM**
-Small Outline DIMM has a 72-pin and 100-pin configurations for support of 32-bit transfers or a 144-pin, 200-pin, 204-pin, and 260-pin configurations for support of 64-bit transfers. This smaller, more condensed version of DIMM provides random access data storage that is ideal for use in laptops, printers, and other devices where conserving space is desirable.
-
-##### Single-Sided, Double-Sided, and Multi-channel
-Memory modules can be single-sided or double-sided. Single-sided memory modules contain RAM on only one side of the module. Double-sided memory modules contain RAM on both sides.
-
-The speed of memory has a direct impact on how much data a processor can process in a given period of time. As processor speed increases, memory speed must also increase. Memory throughput has also been increased through multichannel technology. Standard RAM is single channel, meaning that all of the RAM slots are addressed at the same time. Dual channel RAM adds a second channel to be able to access a second module at the same time. 
-
-Triple channel technology provides another channel so that three modules can be accessed at the same time. Quadruple channel adds another channel to the memory controller for even higher bandwidth. To use triple and quadruple channel memory controllers for the most bandwidth, the chipset architecture must support it and will only be able to use as many channels that have memory slots populated. In many cases, memory slots can only be populated in a certain order to ensure all memory channels are used.
-
-##### Cache Memory
-The fastest memory is typically static RAM (SRAM) which is cache memory for storing the most recently used data and instructions by the CPU. SRAM provides the processor with faster access to the data than retrieving it from the slower dynamic RAM (DRAM), or main memory.
-- **L1** : an internal cache that is integrated into the CPU. A CPU can have various models each with a different amount of L1 cache.
-- **L2** : an external cache that was originally mounted on the motherboard near the CPU. L2 cache is now integrated into the CPU.
-- **L3** : used on some high-end workstations and server CPUs.
-
-##### Error
-Memory errors occur when the data is not stored correctly in the chips. The computer uses different methods to detect and correct data errors in memory.
-- **Nonparity** : does not check for errors in memory. Nonparity RAM is the most common RAM used for home and business workstations.
-- **Parity** : contains eight bits for data and one bit for error checking. The error-checking bit is called a parity bit.
-- **ECC** : Error Correction Code memory can detect multiple bit errors in memory and correct single bit errors in memory. On servers used for financial or data analytics, ECC memory modules may be required.
 
 #### **Expansion slots** 
 These provide locations to connect additional components.

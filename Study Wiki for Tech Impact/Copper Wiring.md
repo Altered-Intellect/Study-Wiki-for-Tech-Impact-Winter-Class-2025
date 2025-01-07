@@ -6,7 +6,7 @@ sibling docs:
 child docs: 
 date created: ""
 last updated: 
-media: 
+media:
 ---
 # Cat Cabling 
 **Cat 5**—**Category 5** cables have a transmission rate of up to 100 Mbps over a max distance of 100 meters.
@@ -24,3 +24,9 @@ An unshielded twisted pair (UTP) is made of two to four pairs of twisted wires. 
 
 ## Shielded Twisted Pair
 A shielded twisted pair (STP) is made of two to four pairs of twisted wires. Each pair is contained in a layer of braided foil sheathing before being twisted with the other pairs in the cable. This reduces electrical interference. STP is used in Cat 7 and Cat 8 cables.
+
+**Direct burial**
+the practice of burying cables underground. Direct burial cables should be STP cables with an extra waterproof sheathing. It is recommended that direct burial be between six and eight inches underground in a protective PVC pipe and placed away from any other lines that contain electrical current.
+
+#### Plenum
+Plenum is a **Teflon-type covering** used to cover all types of network cables. Plenum is used in cables that may be exposed to extreme heat or have the possibility of releasing gasses into a ventilation system, such as in ceilings.
