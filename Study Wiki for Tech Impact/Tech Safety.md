@@ -4,9 +4,18 @@ parent docs:
   - "[[Navigation]]"
 sibling docs: 
 child docs: 
-last updated: 2025-01-07T12:10:00
+last updated: 2025-01-08T23:50:00
 media:
 ---
+
+# Nav
+| ^ [[Navigation|Home]] ^ | > [[Computer (Dis)Assembly]] > |
+
+---
+# General
+When you lift heavy computer towers, printers, servers and more, make sure that you bend your knees when you lift heavy objects to avoid injuring your back. Make sure that as we work inside of a computer case, that any sharp objects should be covered with tape. And while we work it's very important to wear safety goggles to prevent damage to your eyesight.
+For your own safety, you should never open a power supply or a monitor that has a built-in power supply. 
+ 
 # Electrical
 Follow electrical safety guidelines to prevent electrical fires, injuries, and fatalities.
 
@@ -28,5 +37,22 @@ ESD can cause permanent damage to electrical components. Follow these recommenda
 - Use antistatic wrist straps when working inside computers.
 
 # Fire
+Guidelines in order to avoid cuts, burns, electrical shock and damage to your eyesight.
+- remove any watches or jewelry and also secure our loose clothing
+- turn off and unplug any equipment before we work on it. 
+- keep food and drinks and any clutter out of our workspace.
+
+As we work with electrical and dangerous components, you never know when something might catch fire. You should always know where the closest fire extinguisher is and also how to use it.
+As we discuss fire safety, it's important that you remember to never fight a fire that is out of control or not contained. You should make sure you know how to get out of the building quickly that you are in. And don't forget to contact emergency services for help. Make sure you're prepared. You should locate and read instructions on any fire extinguisher near your workspace before you use them. Also you should make sure that the fire extinguisher is going to work.
+
+Now a fire can spread very quickly and also be very costly. You should know the basics of using a fire extinguisher to prevent a small fire
+from getting out of control.
+The word you have to remember is pass. 
+- P stands for pull the pin. 
+- A stands for aim at the base of the fire. Not at the flames. 
+- S stands for squeeze the lever. 
+- S stands for sweep the nozzle from side to side.
+
+You should be familiar with the different types of fire extinguishers. Some fire extinguishers, they're actually designed for paper, wood, plastics and cardboard. While others are designed for electrical equipment or even gasoline or combustible metals. This fire extinguisher here is rated for a couple items. It's rated for trash,wood and paper. It's rated for liquids, grease and it's rated for electrical.
 
 # Regulation

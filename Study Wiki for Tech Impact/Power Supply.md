@@ -4,9 +4,12 @@ parent docs:
   - "[[Hardware]]"
 sibling docs: 
 child docs: 
-date created: ""
-last updated: 
+last updated: 2025-01-07T23:59:00
 media:
+---
+# Nav
+| < [[Cases]] < | ^ [[Hardware]] ^ | > [[Motherboards]] > |
+
 ---
 The following describes the various computer desktop power supply form factors that have evolved over time:
 
@@ -46,3 +49,22 @@ Wattage rating, or **power rating**, is the total capacity of the power supply. 
 To determine the wattage requirement of the power supply, add all of the wattage ratings of the individual components. Your power supply’s wattage must meet or preferably exceed that total value. The connectors needed are determined by the connector types used on the devices to be powered. For example, if you have an older ATX motherboard, it has a 20-pin power connection, while newer models contain the 24-pin Molex power connection.
 
 The power supply you select obviously must physically fit into the case. It also needs long enough cables from the power supply to reach the components.
+
+# Selection
+
+| Factore             | ---                                                                                                                                                                                                                       |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Type of Motherboard | The power supply must be compatible with the motherboard                                                                                                                                                                  |
+| Required Wattage    | Add the wattage for each component. If the wattage is not listed on a component, calculate it by multiplying its voltage and amperage. If the component requires different levels of wattage, use that higher requirement |
+| # of components     | Make sure the power supply provides enough wattage to support the # and types of components plus another 25% at minimum                                                                                                   |
+| Type of components  | Make sure the power supply provides the right types of power connectors                                                                                                                                                   |
+| Type of case        | Make sure the power supply can be mounted in the desired case                                                                                                                                                             |
+# Installation
+Step 1: Open the Computer Case.
+a: Remove the screws from the side panels.
+b: Remove the side panels from the computer case.
+
+Step 2: Install the Power Supply.
+a: Align the screw holes in the power supply with the screw holes in the case.
+b: Secure the power supply to the case with the power supply screws.
+c: If the power supply has a voltage selection switch, set this switch to match the voltage in your area.

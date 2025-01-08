@@ -4,11 +4,13 @@ parent docs:
   - "[[Hardware]]"
 sibling docs: 
 child docs: 
-date created: ""
-last updated: 
+last updated: 2025-01-07T23:59:00
 media:
 ---
+# Nav
+| < [[Power Supply]] < | ^ [[Hardware]] ^ | > [[Peripherals]] > |
 
+---
 ### Components
 
 #### **Central Processing Unit (CPU)** 
@@ -39,16 +41,16 @@ A computer might use different types of memory chips. However, all memory chips 
 These provide locations to connect additional components.
 Computers have expansion slots on the motherboard to install adapter cards. The type of adapter card connector must match the expansion slot.
 
-**PCI**
+**[[PCI]]**
 Peripheral Component Interconnect is a 32-bit or 64-bit expansion slot. It is currently found in few computers. PCI expansion slots have become mostly obsolete.
 
-**Mini-PCI**
+**[[Mini-PCI]]**
 This is smaller version of PCI found in some laptops. Mini PCI has three different form factors; Type I, Type II, and Type III. Type I and II cards have 100 pins, while Type III has 124. Type II cards include RJ-45 connectors on the board, and the card must be housed at the edge of the laptop so the sockets reach the outside. Type I and III cards connect to external RJ-45 sockets by cables.
 
-**PCI-X**
+**[[PCI-X]]**
 PCI eXtended is an updated version of the standard PCI. It uses a 32-bit bus with higher bandwidth than the PCI bus. PCI-X can operate up to four times faster than PCI. PCI-X expansion slots have become mostly obsolete.
 
-**PCIe**
+**[[PCIe]]**
 PCI Express is a 64-bit parallel interface that is backward compatible with 32-bit PCI devices. PCIe is a serial point-to-point connection with a different physical interface that was designed to supersede both PCI and PCI-X. There are four sizes (lengths): PCI Express x1, PCI Express x4, PCI Express x8, and PCI Express x16.'PCIe x4' connections have four data lanes. 'PCIe x8' connections have eight data lanes. 'PCIe x16' connections have sixteen data lanes. PCIe can supply up to 25 watts of power to each slot. For a graphics card, it can supply up to 75 watts. For very powerful graphics cards, an additional 75 watts can be supplied by a PCIe power connector from the power supply.
 - **Versions** : Every version of PCIe is backward-compatible with all other versions, for example, if you have a motherboard that supports version 4, you can still use version 3 PCIe components. The speed of the bus will be determined by the lowest version component installed. 
 
@@ -59,10 +61,10 @@ PCI Express is a 64-bit parallel interface that is backward compatible with 32-b
 | 4       | 1.969       | 31.508      |
 | 5       | 3.938       | 63.015      |
 
-**Riser Card**
+**[[Riser Card]]**
 added to a computer to provide additional expansion slots for more expansion cards.
 
-**AGP**
+**[[AGP]]**
 Accelerated Graphics Port (AGP) was a high speed slot for attaching an AGP video card. The AGP has been superceeded by PCI. Few motherboards still use this technology today.
 
 ##### Adapter Cards
@@ -90,10 +92,10 @@ Most chipsets consist of the following two types:
 **Basic input/output system (BIOS) chip and Unified Extensible Firmware Interface (UEFI) chip** - BIOS is used to help boot the computer and manage the flow of data between the hard drive, video card, keyboard, mouse, and more. In modern computers BIOS has been replaced by UEFI. UEFI specifies a different firmware for boot and runtime services. Firmware is programming that allows a computer operating system to control the hardware.
 
 #### Connectors
-**SATA**
+**[[SATA]]**
 Serial Advanced Technology Attachment (ATA), is a disk drive interface used for connecting optical drives, hard drives, and solid-state drives to the motherboard. SATA supports hot swapping, which is the ability to replace devices without powering off the computer.
 
-**IDE**
+**[[IDE]]**
 Integrated Drive Electronics (IDE) is an older standard interface for connecting disk drives to the motherboard. IDE uses a 40-pin connector. Each IDE interface supports a maximum of two devices.
 
 **Internal USB**
@@ -120,7 +122,7 @@ Motherboards have a variety of connectors that determine what can be connected t
 **PCI**—**Peripheral Component Interconnect** was introduced by Intel™ in the 1990s. This replaced older 8- and 16-bit expansion slots with a 32-bit slot.
 **PCIe**—**PCI express** sends data in a serial stream at higher speeds than conventional PCI. It has superseded PCI.
 **Power connectors**—The power connector of a motherboard is a special **24-pin** connection point through which a motherboard receives electrical power.
-**SATA**—The **serial ATA connector** is used to connect a hard drive or optical drive.
+**[[SATA]]**—The **serial ATA connector** is used to connect a hard drive or optical drive.
 **eSATA**—An **external SATA** is a connection type that allows for external devices to connect directly to the motherboard using a SATA connection.
 **Headers**—A header is a motherboard connection type that allows for external components, such as lights and buttons, to connect directly to the motherboard. Examples of components connected to headers are the power button and light, the reset button, drive activity lights, audio jacks, and USB ports.
 **M.2**—M.2 (pronounced M dot 2) is not technically a connection or bus type but rather a form factor. M.2 supports SATA, USB, and PCIe buses.
@@ -128,16 +130,16 @@ Motherboards have a variety of connectors that determine what can be connected t
 ### Motherboard Compatibility
 Motherboards only work with compatible components. Components dependent upon motherboard compatibility include bus architecture, chipsets, expansion slots, memory slots, CPUs, power connectors, non-volatile storage, firmware, CMOS batteries, and front panel connectors and headers.
 
-#### CPU Sockets
+#### [[CPU]] Sockets
 the space on the motherboard designed to hold the CPU that contains a specific pin grid array dependent upon the motherboard.
 
-##### Advanced Micro Devices, Inc.™ (AMD)
+##### [[Advanced Micro Devices, Inc.™ (AMD)]]
 Specific AMD CPUs must run with specific AMD chipsets. The motherboard manufacturers may vary.
 
-##### Intel™
+##### [[Intel™]]
 Specific Intel CPUs must run with specific Intel chipsets. The motherboard manufacturers may vary.
 
-#### Server
+#### [[Server]]
 Server motherboards are typically capable of **housing multiple processors** with expanded memory and networking capabilities. Most server motherboards are **ATX sized** and specifically designed to fit within the server chassis.
 
 #### Multi-socket

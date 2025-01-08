@@ -2,7 +2,7 @@
 tags: 
 sibling docs: 
 child docs: 
-last updated: 2025-01-06T20:35:00
+last updated: 2025-01-07T23:50:00
 media:
 ---
 # CompTIA A+ Core Series Exam
@@ -28,10 +28,17 @@ media:
 [[Network Security]]
 [[Software Troubleshooting]]
 
+## [[Study Questions]]
 # References
 
 ## Union Test Prep
 https://uniontestprep.com/comptia-a-core-series-exam/study-guide
+
+## NetAcad
+www.netacad.com
+
+## PC Mag
+https://www.pcmag.com/encyclopedia
 
 # Templates
 Default temp - [[_Blank_]]

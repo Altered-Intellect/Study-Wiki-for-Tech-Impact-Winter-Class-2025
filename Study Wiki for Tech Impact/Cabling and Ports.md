@@ -7,6 +7,9 @@ child docs:
 last updated: 2025-01-06T20:56:00
 media:
 ---
+# Nav
+| ^ [[Hardware]] ^ | > [[Computational Memory]] > |
+
 You must be able to describe different cable and their matching port types and their characteristics and uses, including connector types, features, and purposes.
 
 # [[Network]]
