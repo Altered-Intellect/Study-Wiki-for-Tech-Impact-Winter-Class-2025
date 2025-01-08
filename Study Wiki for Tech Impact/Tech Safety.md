@@ -7,7 +7,6 @@ child docs:
 last updated: 2025-01-08T23:50:00
 media:
 ---
-
 # Nav
 | ^ [[Navigation|Home]] ^ | > [[Computer (Dis)Assembly]] > |
 
@@ -35,6 +34,7 @@ ESD can cause permanent damage to electrical components. Follow these recommenda
 - Use grounded mats on workbenches.
 - Use grounded floor mats in work areas.
 - Use antistatic wrist straps when working inside computers.
+- Remove jewelry
 
 # Fire
 Guidelines in order to avoid cuts, burns, electrical shock and damage to your eyesight.
@@ -54,5 +54,10 @@ The word you have to remember is pass.
 - S stands for sweep the nozzle from side to side.
 
 You should be familiar with the different types of fire extinguishers. Some fire extinguishers, they're actually designed for paper, wood, plastics and cardboard. While others are designed for electrical equipment or even gasoline or combustible metals. This fire extinguisher here is rated for a couple items. It's rated for trash,wood and paper. It's rated for liquids, grease and it's rated for electrical.
+
+### Extinguishers
+Class A : dry fires, wood, 
+Class B : liquid fires, gas and oil
+Class C : electrical fires
 
 # Regulation

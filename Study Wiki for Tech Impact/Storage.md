@@ -91,3 +91,14 @@ The table describes the various types of optical media and their approximate sto
 | BD-ROM        | various media (games, movies, or software), pre-recorded (read only) | 25 GB (SL), 50 GB (DL)   |
 | BD-R          | memory media, recordable (write once)                                | 25 GB (SL), 50 GB (DL)   |
 | BD-RE         | memory media, re-recordable (read and write multiple times)          | 25 GB (SL), 50 GB (DL)   |
+#### Media Reader
+Many digital devices such as cameras, smart phones, and tablets use media cards to store information, music, pictures, videos, data, and more.
+
+Several media card formats have been developed over the years including:
+
+- **Secure digital (SD)** - SD cards were designed for use in portable devices such as cameras, MP3 players, and laptops. SD cards can hold as much as 2 TB of data.
+- **MicroSD** – This is a much smaller version of SD, commonly used in smartphones and tablets.
+- **MiniSD** – A version of SD between the size of an SD card and a microSD card. The format was developed for mobile phones.
+- **CompactFlash** - CompactFlash is an older format, but still in wide use because of its high speed and high capacity (up to 128 GB is common). CompactFlash is often used as storage for video cameras.
+- **Memory** **Stick** – Created by Sony Corporation, Memory Stick is a proprietary flash memory used in cameras, MP3 players, hand-held video game systems, mobile phones, cameras, and other portable electronics.
+- **xD** – Also known as Picture Card, it was used in some digital cameras.

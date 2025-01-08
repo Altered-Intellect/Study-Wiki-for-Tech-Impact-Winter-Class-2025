@@ -7,6 +7,8 @@ child docs:
 last updated: 2025-01-07T23:50:00
 media:
 ---
+
+# Disassembly
 Steps might have to be re arranged to allow for proper disassembly
 
 1. **Power off the computer**
@@ -39,3 +41,5 @@ Steps might have to be re arranged to allow for proper disassembly
 
 9. **Remove RAM**
 - lift tabs on the module and remove from case
+
+# (Re)Assembly

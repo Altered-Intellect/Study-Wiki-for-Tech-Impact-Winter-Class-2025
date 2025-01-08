@@ -244,14 +244,41 @@ A network interface card (NIC) is a device that provides a device with the capab
 ### Cooling
 Components on motherboards and add-on cards generate heat, especially CPUs and GPUs. There are several types of cooling mechanisms to remove heat from a computer.
 
-#### Fans
+The speed of a modern processor is measured in GHz. A maximum speed rating refers to the maximum speed at which a processor can function without errors. Two primary factors can limit the speed of a processor:
+
+- **Transmission Delay** - The processor chip is a collection of transistors interconnected by wires. Transmitting data through the transistors and wires creates delays.
+- **Heat Generation** - As the transistors change state from on to off or off to on, a small amount of heat is generated. The amount of heat generated increases as the speed of the processor increases. When the processor becomes too hot, it begins to produce errors.
+
+The front-side bus (FSB) is the path between the CPU and the [[Northbridge]]. It is used to connect various components, such as the chipset, expansion cards, and RAM. Data can travel in both directions across the FSB. The frequency of the bus is measured in MHz. The frequency at which a CPU operates is determined by applying a clock multiplier to the FSB speed. For example, a processor running at 3200 MHz might be using a 400 MHz FSB. 3200 MHz divided by 400 MHz is 8, so the CPU is eight times faster than the FSB.
+
+Processors are further classified as 32-bit and 64-bit. The primary difference is the number of instructions that can be handled by the processor at one time. A 64-bit processor processes more instructions per clock cycle than a 32-bit processor. A 64-bit processor can also support more memory. To utilize the 64-bit processor capabilities, ensure that the operating system and applications installed support a 64-bit processor.
+
+The CPU is one of the most expensive and sensitive components in the computer case. The CPU can become very hot; therefore most CPUs require an air-cooled or liquid cooled heat sink, combined with a fan for cooling.
+
+#### Types
+##### Fans
 are used to **move air** through a computer to remove heat. Fans are positioned in the case to allow air to pass between the inside of the case and the outside. Fans are also used on individual components to provide extra cooling. They are sometimes integrated with a heat sink.
 
-#### Heat Sink
+##### Heat Sink
 devices that conduct heat and have the effect of increasing the surface area of a component. This **removes heat** from the component more quickly than fans alone. Some heat sinks have fans built into them.
 
-#### Thermal Paste/Pads
+##### Thermal Paste/Pads
 The quality of contact between a component to be cooled and the heat sink used to cool it will impact how effectively it is cooled. Thermal paste and thermal pads conduct heat and are used between the component and heat sink to **make the best thermal-conductive connection**.
 
-#### Liquid
+##### Liquid
 For high-performance computers, air cooling may not be enough. Liquid cooling is more effective at **transferring heat** away from components. **Distilled water** is the most commonly used liquid. Liquid cooling systems include a tank for the liquid, a radiator, a water pump, and a cooling block that attaches to the component being cooled. These components may be in the computer or outside in a separate unit that connects to the computer.
+
+#### Selection
+
+| **Factors**            |                                                                                                      |
+| ---------------------- | ---------------------------------------------------------------------------------------------------- |
+| Socket type            | The heat sink or fan type must match the socket type of the motherboard                              |
+| Motherboard dimensions | The heat sink or fan must not interfere with any components attached to the motherboard              |
+| Case size              | The heat sink and fan must fit within the case                                                       |
+| Physical environment   | The heat sink and fan must be able to disperse enough heat to keep the CPU cool in warm environments |
+
+# Installation
+
+1. Install the [[CPU]]
+2. Install the [[RAM]]
+3. Install motherboard in the case

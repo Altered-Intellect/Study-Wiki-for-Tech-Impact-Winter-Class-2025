@@ -26,6 +26,18 @@ Computer components tend to generate a lot of heat; therefore, computer cases co
 
 **Note**: Computer cases are also referred to as the computer chassis, cabinet, tower, housing, or simply box.
 
+# Fans
+
+| Factors                     | ---                                                                                                                                                                        |
+| --------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Case size                   | Larger cases often require larger fans because smaller fans cannot create enough air flow                                                                                  |
+| Fan speed                   | Larger fans can spin more slowly than smaller fans for the same air flow rate, which reduces noise                                                                         |
+| # of components             | Multiple components on a computer create additional heat, which requires more, larger, or faster fans                                                                      |
+| Physical environment        | The case fans must be able to disperse enough heat to keep the interior of the case cool. The amount of ambient temp, dust, and humidity must be taken into consideration. |
+| # of mounting places        | Different cases have different #'s of mounting places for fans                                                                                                             |
+| Location of mounting places | Different cases have different #'s of locations for fans                                                                                                                   |
+| Electrical connections      | Some case fans are connected directly to the motherboard, while others are connected directly to the power supply                                                          |
+
 # Selection
 The choice of motherboard and external components influences the selection of the case and power supply. The motherboard form factor must be matched with the correct type of computer case and power supply. For example, an ATX motherboard requires both an ATX-compatible case and power supply.
 
@@ -42,14 +54,3 @@ A computer has many internal components that generate heat while the computer is
 
 **Note**: The direction of air flow created by all the fans in the case must work together to inject cooler air and expel hotter air. Installing a fan backwards or using fans with the incorrect size or speed for the case can cause the air flows to work against each other.
 
-# Fans
-
-| Factors                     | ---                                                                                                               |
-| --------------------------- | ----------------------------------------------------------------------------------------------------------------- |
-| Case size                   | Larger cases often require larger fans because smaller fans cannot create enough air flow                         |
-| Fan speed                   | Larger fans can spin more slowly than smaller fans for the same air flow rate, which reduces noise                |
-| # of components             | Multiple components on a computer create additional heat, which requires more, larger, or faster fans             |
-| Physical environment        | The case fans must be able to disperse enough heat to keep the interior of the case cool                          |
-| # of mounting places        | Different cases have different #'s of mounting places for fans                                                    |
-| Location of mounting places | Different cases have different #'s of locations for fans                                                          |
-| Electrical connections      | Some case fans are connected directly to the motherboard, while others are connected directly to the power supply |

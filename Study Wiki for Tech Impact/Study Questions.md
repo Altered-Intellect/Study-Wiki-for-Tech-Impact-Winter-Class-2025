@@ -78,3 +78,20 @@ Non-Volatile Memory express is an open source standard for optimizing the transf
  
 21. What are the steps when disassembling a PC?(1.3.2.1)
 see [[Computer (Dis)Assembly]]
+
+# Computer Assembly
+what are the three considerations when picking a power supply
+
+hard drive sizes
+
+speeding up memory
+
+what interface would most commonly be used in HHD
+
+replacing old RAM
+
+buffer memory
+
+visual question on the motherboard
+
+what is the best safety precaution when operating on a computer 
