@@ -12,7 +12,7 @@ media:
 
 You must be able to describe different cable and their matching port types and their characteristics and uses, including connector types, features, and purposes.
 
-# [[Network]]
+# [[Computational Networking]]
 Network cables are used to connect devices such as computers to networking equipment. There are **three primary types** of network cable: **coaxial**, **twisted pair**, and **fiber**. A cable is the medium through which data is transferred from one device to another.
 
 ## [[Copper Wiring]]
@@ -33,6 +33,19 @@ Peripheral cables attach peripheral devices to a computing device. Input/output 
 **Personal System 2 (PS/2)**—A PS/2 port connects a keyboard or a mouse to a computer. The PS/2 port is a 6-pin mini-DIN female connector. The connectors for the keyboard and mouse are often colored differently. If the ports are not color-coded, look for a small figure of a mouse or keyboard next to each port.
 
 **[[Thunderbolt]]**—Thunderbolt is a combination of PCI Express 2.0 x4 and DisplayPort 1.x technology. Thunderbolt was designed primarily for video transmission but can be used by other peripheral devices as well. There are **four Thunderbolt standards** labeled 1 to 4 with Thunderbolt 1 and 2 terminating in a Mini-DisplayPort connector and Thunderbolt 3 and 4 terminating in a USB-C connector.
+
+## Front Panel
+The case will front panel cables that must be connected to a common system panel connector on a motherboard. Writing on the motherboard near the system panel connector shows where each cable is connected.
+
+- **Power Button:** to turn on the computer
+- **Reset Button:** to refresh the system by turning it on and off
+- **Power LED:** in dictates the the motherboard is receiving power
+- **Drive Activity LEDs:** when the storage
+- **System Speaker:** beeping for troubleshooting
+- **Audio:** headphone jack, aux port
+
+### Installation
+
 
 # [[Video]]
 A video cable and port is designed to transmit data to visual display units, usually connecting a monitor to a computer. Video ports and monitor cables transfer analog signals, digital signals, or both. Computers are digital devices that create digital signals. The digital signals are sent to the graphics card where they are transmitted through a cable to a display.

@@ -57,8 +57,24 @@ There are different RAID configurations, known as RAID 0, 1, 5, 10, that provide
 
 RAID 0: offers striping of data only; no redundancy; good performance
 RAID 1: offers mirroring of data only; requires more storage space to store full copies of data
-RAID 5: offers striping with parity; minimum of three drives; ability to calculate missing data and rebuild
+RAID 5: offers striping with parity; minimum of three drives; ability to calculate missing data and rebuild. Data are striped across three or more drives for performance, and parity is computed for safety. RAID 5 is similar to RAID 3, except that the parity is distributed to all drives. RAID 6 offers more reliability than RAID 5 by performing more parity computations.
 RAID 10: offers striping and mirroring for full redundancy; minimum of four drives
+
+
+| RAID # | Desc.                                                                                                                         | Disk cost    | Data Reliability                                           | Data Transfer Rate                                                   | Max I/O Rate                                                             |
+| ------ | ----------------------------------------------------------------------------------------------------------------------------- | ------------ | ---------------------------------------------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| 0      | data is distributed across disk in the array, no redundant info provided                                                      | N            | lower than single disk                                     | very high                                                            | very high read and write                                                 |
+| 1      | Mirroring, all data replicated on N separate disks. N is almost always 2.                                                     | 2N, 3N, ect. | higher than Raid 2, 3, 4, or 5. Lower than 6               | read : higher than disk, write : similar to single disk              | read : up to two times single disk, write :                              |
+| 2      | data is protected by hamming code. redundant info distributed across m disks (m = # of disk in array)                         | N+m          | much higher than single disk; comparable to RAID 2, 3 or 4 | highest                                                              | similar to 2x single disk                                                |
+| 3      | Each data sector is subdivided and distributed across all data disk. redundant info normally stored on dedicated parity disk. | N+1          | much higher than single disk; comparable to RAID 2, 3 or 4 | highest                                                              | similar to 2x single disk                                                |
+| 4      | data sectors distributed as with disk stripping. redundant info stored on dedicated parity disk                               | N+1          | much higher than single disk; comparable to RAID 2, 3 or 4 | read : similar to disk striping, write : much lower than single disk | read : similar to disk stripping, write : usually lower than single disk |
+| 5      | data sectors distributed as with disk stripping. redundant info interspersed with user data                                   | N+1          | much higher than single disk; comparable to RAID 2, 3 or 4 | read : similar to disk stripping, write : lower than single disk     | read : similar to disk stripping, write : usually lower than single disk |
+| 6      | as RAID 5, but with additional independently computed redundant info                                                          | N+2          | highest                                                    | read : similar to disk striping write : lower than RAID 5            | read : similar to disk striping write : much lower than RAID 5           |
+
+#### Big RAID
+EMC has been a leader in high-end RAID systems for years with systems storing multiple terabytes of data.
+#### Small RAID
+Arco was first to provide RAID 1 on IDE disk drives rather than SCSI. This two-drive unit connected to the motherboard with one cable like a single drive.
 
 ### Removable Storage
 Removable storage devices are not contained internally but externally and can be relocated.
@@ -66,8 +82,14 @@ Removable storage devices are not contained internally but externally and can be
 #### Flash Drives
 Flash drives are removable storage devices that are capable of containing a large quantity of information in a **non-volatile, small, and portable** form. Flash memory devices include SD cards, USB flash drives, and optical cards.
 
+##### Early RAID
+This RAID prototype was built by University of Berkeley graduate students in 1992. Housing 36 320MB disk drives, total storage was 11GB.
+
 #### Memory Cards
 A memory card is a **flash memory** device that can **store data in a non-volatile state**. Common memory card form factors include SD, CF, micro-SD, mini-SD, and xD.
+
+##### USB RAID
+Super Talent's USB 3.0 RAID drives provide RAID 0 storage that is faster than an internal hard drive.
 
 #### Optical Cards
 **flash storage** devices that store data through the use of **lasers** on spinning discs. Examples of optical cards include CDs, DVDs, and BDs. Optical drives are a type of removable media storage device that use lasers to read and write data on optical media. They were developed to overcome the storage capacity limitations of removable magnetic media such as floppy discs and magnetic storage cartridges.

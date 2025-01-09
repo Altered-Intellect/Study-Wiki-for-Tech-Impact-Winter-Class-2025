@@ -8,7 +8,7 @@ last updated: 2025-01-08T23:50:00
 media:
 ---
 # Nav
-| ^ [[Navigation|Home]] ^ | > [[Computer (Dis)Assembly]] > |
+| ^ [[Navigation|Home]] ^ | > [[Computer (Dis-Re)Assembly]] > |
 
 ---
 # General

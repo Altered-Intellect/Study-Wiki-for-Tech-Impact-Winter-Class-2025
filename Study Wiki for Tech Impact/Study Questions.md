@@ -16,7 +16,7 @@ media:
  The purpose of the power supply is to supply electrical power to the computer by converting the AC power of the power grid to the lower voltage DC required for computer components. 
  
 3. What are the six power connectors described in the Cisco curriculum? What are the most common voltage units supplied by the Power Supply? (1.2.1.3 – 1.2.1.4)
-20/24 pin, molex, 4/8 pin, 6/8 pin, SATA, and Berg Keyed connectors. 3.3, 5, and 12v.
+20/24 pin, Molex, 4/8 pin, 6/8 pin, SATA, and Berg Keyed connectors. 3.3, 5, and 12v.
   
 4. How can ESD affect computer components? What are two precautions a tech can use to reduce this risk? (1.1.2.2) 
 ESD is caused by the discharge of an electric charge with a lot of voltage. When a computer component is exposed to ESD it over-volts the circuitry and prevents it from properly holding a charge. ESD can be reduced by wear anti-static equipment such as mats, and wrist straps, removing metal from the body like jewelry, as well as self grounding via contact with a metal surface such as the computer case or metal furniture.
@@ -77,14 +77,14 @@ VR is an I/O system that used lenses and two displays to simulate an environment
 Non-Volatile Memory express is an open source standard for optimizing the transfer of data that uses the PCIe bus. It was created to connect SSDs to the motherboard via the PCIe bus without using specialized drivers.
  
 21. What are the steps when disassembling a PC?(1.3.2.1)
-see [[Computer (Dis)Assembly]]
+see [[Computer (Dis-Re)Assembly]]
 
-# [[Computer (Dis)Assembly]]
+# [[Computer (Dis-Re)Assembly]]
 1. **What are some common factors to keep in mind when selecting a computer case?**
 motherboard form factor, power supply, case fans, physical environment, and number of components, 
 
 2. **When selecting a case fan, why do these factors need to be considered?**
-number of components Multiple components on a computer create additional heat, which requires more, larger, or faster fans
+number of components, multiple components on a computer create additional heat, which requires more, larger, or faster fans
 physical environment, The case fans must be able to disperse enough heat to keep the interior of the case cool. The amount of ambient temp, dust, and humidity must be taken into consideration.
 
 3. **Which factors need to be considered when choosing a power supply?**

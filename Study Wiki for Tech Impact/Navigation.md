@@ -9,7 +9,7 @@ media:
 ## 220-1101
 [[Tech Safety]]
 [[Hardware]]
-	[[Computer (Dis)Assembly]]
+	[[Computer (Dis-Re)Assembly]]
 	[[Cabling and Ports]]
 	[[Computational Memory]]
 	[[Storage]]
@@ -27,8 +27,10 @@ media:
 [[Operational Procedures]]
 [[Network Security]]
 [[Software Troubleshooting]]
-
 ## [[Study Questions]]
+## [[PC build]]
+# CCNA
+
 # References
 
 ## Union Test Prep
