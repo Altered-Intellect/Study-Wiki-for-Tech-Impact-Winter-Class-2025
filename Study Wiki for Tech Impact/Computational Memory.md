@@ -36,6 +36,17 @@ DRAM that operates in synchronization with the memory bus. It is able to process
 
 #### Double Data Rate Synchronous Dynamic RAM - (DDRSD) 
 DDR-SDRAM transfers data twice as fast as SDRAM as it is able to support two writes and two reads per CPU clock cycle. The connector has 184 pins and a single notch and uses lower standard voltage (2.5 V)
+##### Transfer Rates
+
+| RAM Type | Speed                  | Peak Transfer Rate*                                                                     |
+| -------- | ---------------------- | --------------------------------------------------------------------------------------- |
+| DDR      | 266, 333, 400          | 2.1 GB/s, 2.7 GB/s, 3.2 GB/s                                                            |
+| DDR2     | 533, 667, 800          | 4.27 GB/s, 5.33 GB/s, 6.4 GB/s                                                          |
+| DDR3     | 1066, 1333, 1600, 1866 | 8.5 GB/s, 10.6 GB/s, 12.8 GB/s, 14.9 GB/s                                               |
+| DDR4     | 2133, 2400, 2666, 3200 | 17 GB/s, 19.2 GB/s, 21.3 GB/s, 25.6 GB/s                                                |
+| DDR5     |                        |                                                                                         |
+|          |                        | Practical transfer rate is limited by the CPU and the specifications of the motherboard |
+
 
 ##### Double Data Rate 2 (DDR2) 
 runs at higher clock speeds than DDR (553 MHz vs. DDR at 200 MHz) Improves performance by decreasing noise and crosstalk between signal wires. The connector has 240 pins and uses an even lower standard voltage (1.8 V)

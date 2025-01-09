@@ -23,8 +23,9 @@ The speed at which a HDD operates is measured by the number of **revolutions per
 #### Form Factor
 The form factor refers to the **physical size of the hard drive**. Both form factors contain the same connectors.
 
-**2.5”**—2.5” hard drives are typically used in **laptops**, can be mounted in a 3.5” form factor slot with the use of a converter kit.
-**3.5”**—3.5” hard drives are typically used in **desktop** computers.
+**2.5”**—2.5” hard drives are typically used in **laptops** and compact desktops, can be mounted in a 3.5” form factor slot with the use of a converter kit.
+**3.5”**—3.5” hard drives are typically used in full-size **desktop** computers.
+**5.5"**—5.5” hard drives are typically used in full-size **desktop** computers and servers
 
 ### Semiconductor Storage 
 #### SSDs
@@ -83,14 +84,14 @@ The table describes the various types of optical media and their approximate sto
 | ------------- | -------------------------------------------------------------------- | ------------------------ |
 | CD-ROM        | memory media, pre-recorded (read only)                               | 700 MB                   |
 | CD-R          | memory media, recordable (write once)                                | 700 MB                   |
-| CD-RW         | memory media, re-recordable (read and write multiple times)          | 700 MB                   |
+| CD-RW         | memory media, re-recordable (rewritable)                             | 700 MB                   |
 | DVD-ROM       | memory media, pre-recorded (read only)                               | 4.7 GB (SL), 8.5 GB (DL) |
-| DVD-RAM       | memory media, re-recordable (read and write multiple times)          | 4.7 GB (SL), 8.5 GB (DL) |
+| DVD-RAM       | memory media, re-recordable (rewritable)                             | 4.7 GB (SL), 8.5 GB (DL) |
 | DVD+/-R       | memory media, recordable (write once)                                | 4.7 GB (SL), 8.5 GB (DL) |
-| DVD+/-RW      | memory media, re-recordable (read and write multiple times)          | 4.7 GB (SL), 8.5 GB (DL) |
+| DVD+/-RW      | memory media, re-recordable (rewritable)                             | 4.7 GB (SL), 8.5 GB (DL) |
 | BD-ROM        | various media (games, movies, or software), pre-recorded (read only) | 25 GB (SL), 50 GB (DL)   |
 | BD-R          | memory media, recordable (write once)                                | 25 GB (SL), 50 GB (DL)   |
-| BD-RE         | memory media, re-recordable (read and write multiple times)          | 25 GB (SL), 50 GB (DL)   |
+| BD-RE         | memory media, re-recordable (rewritable)                             | 25 GB (SL), 50 GB (DL)   |
 #### Media Reader
 Many digital devices such as cameras, smart phones, and tablets use media cards to store information, music, pictures, videos, data, and more.
 

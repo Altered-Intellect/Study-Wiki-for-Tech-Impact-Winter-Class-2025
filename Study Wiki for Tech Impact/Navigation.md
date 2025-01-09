@@ -40,5 +40,8 @@ www.netacad.com
 ## PC Mag
 https://www.pcmag.com/encyclopedia
 
+## Misc.
+https://www.transcend-info.com/Support/FAQ-292
+
 # Templates
 Default temp - [[_Blank_]]

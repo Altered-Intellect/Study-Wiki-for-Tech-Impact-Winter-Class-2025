@@ -79,19 +79,109 @@ Non-Volatile Memory express is an open source standard for optimizing the transf
 21. What are the steps when disassembling a PC?(1.3.2.1)
 see [[Computer (Dis)Assembly]]
 
-# Computer Assembly
-what are the three considerations when picking a power supply
+# [[Computer (Dis)Assembly]]
+1. **What are some common factors to keep in mind when selecting a computer case?**
+motherboard form factor, power supply, case fans, physical environment, and number of components, 
 
-hard drive sizes
+2. **When selecting a case fan, why do these factors need to be considered?**
+number of components Multiple components on a computer create additional heat, which requires more, larger, or faster fans
+physical environment, The case fans must be able to disperse enough heat to keep the interior of the case cool. The amount of ambient temp, dust, and humidity must be taken into consideration.
+
+3. **Which factors need to be considered when choosing a power supply?**
+wattage for all components plus 25%, case size, type of motherboard and components
+
+4. **List the 6 steps of installing the Motherboard:**
+- 1. Align in the right direction
+- 2. locate standoffs
+- 3. install standoffs, if necessary
+- 4. align and install I/O plate
+- 5. lower into place
+- 6. screw in standoffs to secure motherboard
+
+5. **What six items need to be compatible when** _**replacing**_ **a motherboard:**
+- power supply
+- CPU
+- PSU
+- Adapter cards
+- case size
+- heat sink
+- RAM
+- Chipset
+- bus size and speed
+
+6. **When building a computer, you should choose a motherboard that will meet (Blank).**
+your current and future needs
+
+7. **Describe the Intel and AMD CPU socket naming schemes.**
+Intel is LGA, AMD is PGA, Intel has numbers, AMD has AM(#)
+
+8. **The FSB is used to connect what components?**
+- **Power Button:** to turn on the computer
+- **Reset Button:** to refresh the system by turning it on and off
+- **Power LED:** in dicates the the motherboard is receiving power
+- **Drive Activity LEDs:**
+- **System Speaker:**
+- **Audio:**
+
+9. **Briefly, describe why the speed of the processor is important:**
+it sets the clock speed which is use to coordinate communication across the motherboard 
+
+10. **What are the differences between Un-buffered and Buffered memory?**
+un-buffered is limited but quick RAM used in laptops and personal desktops, buffered is RAM with a control chip that allows for indefinite scaling that is used for servers and archival storage
+
+11. **List all three internal HDD form factor sizes and some acceptable uses of them.**
+- **5.25 in.:** full-size desktops and servers
+- **3.5 in":** desktop computers
+- **2.5 in":** compact desktop and laptops
+
+12. **What 6 factors should be considered when selecting a Hard Drive:**
+- Internal or external
+- HDD, SSD, or SSHD
+- Hot-swappable
+- Heat generation
+- Noise generation
+- Power requirements
+
+13. **What optical drive has the most capabilities?**
+BD-RE
+
+14. **What Optical drive can only read CD and DVD?**
+DVD-ROM
+
+16. **Adapter cards can be used to expand the capabilities of a computer, what are some common uses of an expansion card and at least two factors should be considered when selecting them?**
+x1, x4, x8, x16
+I/O, NIC, sound, video, capture card, external storage
+- What are the user’s current and future needs?
+- Is there an open and compatible expansion slot available?
+- What are the possible configuration options?
+
+17. **A media Reader typically reads what 6 formats?**
+SD, Micro SD, Mini SD, compact flash, external SSD/memory stick (flash drive), xD
+
+18. **External Storage can be connected with:**
+external USB, eSATA, thunderbolt
+
+19. **What are the purposes of these system panel connectors? Where do they plug into**
+- **Power Button:** to turn on the computer
+- **Reset Button:** to refresh the system by turning it on and off
+- **Power LED:** in dictates the the motherboard is receiving power
+- **Drive Activity LEDs:** when the storage
+- **System Speaker:** beeping for troubleshooting
+- **Audio:** headphone jack, aux port
+
+20. **Name and describe the acronym used to explain fire extinguisher safety.**
+- P stands for pull the pin. 
+- A stands for aim at the base of the fire Not at the flames
+- S stands for squeeze the lever
+- S stands for sweep the nozzle from side to side
+
+21. **What interface would most commonly be used in HHD?**
+SATA
+
+22. **How do you replace old RAM?**
+
+
+23. **What is the best safety precaution when operating on a computer?**
+tape sharp edges, remove jewelry
 
 speeding up memory
-
-what interface would most commonly be used in HHD
-
-replacing old RAM
-
-buffer memory
-
-visual question on the motherboard
-
-what is the best safety precaution when operating on a computer 
