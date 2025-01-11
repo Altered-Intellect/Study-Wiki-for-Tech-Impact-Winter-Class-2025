@@ -29,9 +29,14 @@ media:
 [[Software Troubleshooting]]
 ## [[Study Questions]]
 ## [[PC build]]
-# CCNA
+
+# Additional Lectures
+[[On Professionalism]]
 
 # References
+
+## ITWorks by Tech Impact
+https://techimpact.org/itworks
 
 ## Union Test Prep
 https://uniontestprep.com/comptia-a-core-series-exam/study-guide
@@ -47,3 +52,6 @@ https://www.transcend-info.com/Support/FAQ-292
 
 # Templates
 Default temp - [[_Blank_]]
+
+# How to Use Obsidian
+https://help.obsidian.md/Home
