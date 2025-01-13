@@ -2,7 +2,7 @@
 tags: 
 sibling docs: 
 child docs: 
-last updated: 2025-01-07T23:50:00
+last updated: 2025-01-13T23:50:00
 media:
 ---
 # CompTIA A+ Core Series Exam
@@ -17,7 +17,7 @@ media:
 	[[Power Supply]]
 	[[Motherboards]]
 	[[Peripherals]]
-[[Hardware and Network Troubleshooting]]
+[[Network Troubleshooting]]
 [[Mobile Devices]]
 [[Computational Networking]]
 [[Virtualization and Cloud Computing]]
@@ -39,7 +39,18 @@ media:
 https://techimpact.org/itworks
 
 ## Union Test Prep
-https://uniontestprep.com/comptia-a-core-series-exam/study-guide
+[study guide](https://uniontestprep.com/comptia-a-core-series-exam/study-guide)
+[[Hardware]]
+	[Page 1](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1101-hardware/pages/1)
+	[Page 2](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1101-hardware/pages/2)
+	[Page 3](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1101-hardware/pages/3)
+	[Page 4](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1101-hardware/pages/4)
+	[Page 5](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1101-hardware/pages/5)
+[[Network Troubleshooting]]
+	[Page 1](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1101-hardware-and-network-troubleshooting/pages/1)
+	[Page 2](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1101-hardware-and-network-troubleshooting/pages/2)
+	[Page 3](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1101-hardware-and-network-troubleshooting/pages/3)
+	[Page 4](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1101-hardware-and-network-troubleshooting/pages/4)
 
 ## NetAcad
 www.netacad.com

@@ -8,7 +8,7 @@ last updated: 2025-01-07T20:25:00
 media:
 ---
 # Nav
-| ^ [[Navigation|Home]] ^ | > [[Hardware and Network Troubleshooting|Next]] > |
+| ^ [[Navigation|Home]] ^ | > [[Network Troubleshooting|Next]] > |
 
 ---
 
@@ -39,13 +39,7 @@ a motherboard is a printed circuit board (PCB) that contains buses, or electrica
 Most devices will come with **easy installation media**. Windows devices will automatically recognize a device upon connection and powerup. Install the appropriate **driver** for the OS and the device. Install any **updates** for the appropriate drivers.
 
 # References
-## Union Test Prep
-[link](https://uniontestprep.com/comptia-a-core-series-exam/study-guide)
-[Page 1](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1101-hardware/pages/1)
-[Page 2](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1101-hardware/pages/2)
-[Page 3](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1101-hardware/pages/3)
-[Page 4](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1101-hardware/pages/4)
-[Page 5](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1101-hardware/pages/5)
+
 
 ## PC mag
 [link](https://www.pcmag.com/encyclopedia/term/mini-pci)

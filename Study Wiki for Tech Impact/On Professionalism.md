@@ -31,7 +31,7 @@ Tips and tricks she recommended for surviving and thriving in a corporate enviro
 	People pay attention, to body language, presentation, and looks, always be aware of yours and what is appropriate for any situation.
 ## Quotes
 >"our world is ever moving." 
->"don't be afraid to step back." (about carrier progress, especially if it means moving forward)
+>"don't be afraid to step back." (about carrier progress, especially if it means moving forward in the long run)
 >"everything is negotiable."
 >"First impression lead to opportunity."
 >"An interview is a conversation."

@@ -4,7 +4,7 @@ parent docs:
   - "[[Hardware]]"
 sibling docs: 
 child docs: 
-last updated: 2025-01-07T23:59:00
+last updated: 2025-01-13T23:59:00
 media:
 ---
 # Nav
@@ -26,15 +26,13 @@ Power supplies can also be single rail, dual rail, or multi rail. A rail is the 
 A computer can tolerate slight fluctuations in power, but a significant deviation can cause the power supply to fail.
 
 #### Input 110-120 VAC vs. 220-240 VAC
-
-The input to a power supply is provided by the power company. This is the power available at a wall outlet. In North America and some other parts of the world, **110 volts AC - 120 volts AC** is supplied. Other countries supply **220 volts AC - 240 volts AC**. So, power supplies are designed to accept either or both of these inputs. You may find power supplies that accept only one or the other voltage, but most accept both. Some have a switch to set for the correct input. Others accept either input without having to set a switch.
+The input to a power supply is provided by the power company. This is the power available at a wall outlet. In North America and some other parts of the world, **110 volts AC - 120 volts AC** is supplied. Other countries supply **220 volts AC - 240 volts AC**. So, power supplies are designed to accept either or both of these inputs. On the back of some power supplies is a small switch called the voltage selector switch, as shown in the image. This switch sets the input voltage to the power supply to either 110V/115V or 220V/230V. A power supply with this switch is called a dual voltage power supply. You may find power supplies that accept only one or the other voltage, but most accept both.
+**CAUTION**: Do not open a power supply. Electronic capacitors located inside of a power supply can hold a charge for extended periods of time.
 
 #### Output 3.3V vs. 5V vs. 12V
-
 The power supply **converts the AC power input to DC power** that supplies the computer’s components. Most power supplies provide +5V and +12V. Others may also provide -12V, -5V, and +3.3V. You may see more than one connector for a specific output. For example, you may see two +12V outputs, each with its own connector. Each output is called a **rail**, so in this example, there would be two +12V rails.
 
 ### 20-Pin to 24-Pin Motherboard Adapter
-
 Most power supplies provide DC output power on a standard 24-pin connector, also called the **ATX power connector**, which plugs into the motherboard. The connector is keyed so that it can only plug in one way, ensuring that the proper voltages are supplied to the right pins. Specific pins are designated to supply +5V, +12V, -12V, and 3.3V.
 
 ### Redundant Power Supply

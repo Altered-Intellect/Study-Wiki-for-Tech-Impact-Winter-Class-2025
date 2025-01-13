@@ -4,11 +4,11 @@ parent docs:
   - "[[Hardware]]"
 sibling docs: 
 child docs: 
-last updated: 
+last updated: 2025-01-13T01:50:00
 media:
 ---
 
-### Input Devices
+# Input Devices
 Input devices allow the user to communicate with a computer.
 
 **Keyboard and Mouse**
@@ -63,38 +63,83 @@ These biometric input devices identify a user based on a unique physical feature
 **Voice Recognition Scanners**
 These biometric input devices identify a user based on their unique voice. These devices are often used to provide secure access to locations. Voice recognition is also being used as input into personal assistant applications such as Apple’s Siri and Amazon’s Alexa.
 
-### Output Devices
+# Output Devices
 An output device takes binary information from the computer and converts it into a form that is easily understood by the user.
 
 Monitors and projectors are output devices that create visual and audio signals for the user. Virtual Reality (VR) headsets are another type of output device. Televisions may also be output devices. Printers are visual output devices that create hard copies of computer files.
 
-**Monitor**
+## **Monitor**
 Most monitors use one of three types of technology: LCD, LED, or OLED.  
 Liquid crystal display (LCD) has two polarizing filters with a liquid crystal solution between them. An electronic current aligns the crystals so that light can pass through or not pass through, creating the image.  
 Light-emitting diode (LED) is an LCD display that uses LED backlighting. LED has lower power consumption than standard LCD backlighting. The panel is thinner, lighter, brighter, and has better contrast than LCD.  
 Organic LED (OLED) is a type of LED display that uses a layer of organic material which responds to electrical stimulus to emit light. Each pixel lights individually, resulting in much deeper black levels than LED.
+There are many types of computer monitors available. Some are designed for casual use, while others are for specific requirements, such as those used by architects, graphic designers, or even gamers.
 
-**Projector**
+Monitors vary by use, size, quality, clarity, brightness and more. Therefore, it is useful to understand the various terms used when discussing monitors.
+
+Computer monitors are usually described by:
+- **Screen size** – This is the diagonal measurement of the screen (i.e., top left to bottom right) in inches. Common sizes include 19 to 24 inches, to ultrawide monitors that are 30 or more inches wide. Larger monitors are usually better but are more expensive and require more desk space.
+- **Resolution** – Resolution is measured by the number of horizontal and vertical pixels. For example, 1920 x 1080 (i.e., 1080p) is a common resolution. This means it has 1920 horizontal pixels and 1080 vertical pixels.
+- **Monitor resolution** – This relates to the amount of information that can be displayed on a screen. A higher resolution monitor displays more information on a screen than a lower resolution monitor does. This is true even with monitors that have the same screen size.
+- **Native resolution** – This identifies the best monitor resolution for the specific monitor. In Windows 10, the native resolution of a monitor is identified using the keyword (Recommended) beside the monitor resolution. For example, in the figure, the native resolution of the monitor is 1920 x 1080.
+- **Native mode** – This term describes when the image sent to the monitor by the video adapter card matches the native resolution of the monitor.
+- **Connectivity** – Older monitors used VGA or DVI connectors while newer monitors support HDMI and DisplayPort ports. DisplayPort is a connection found on newer monitors. It supports higher resolutions and high refresh rates.
+
+### Monitor Terms
+- Pixel - Abbreviation for “picture element” and is a tiny dot capable of displaying the shades red, green, and blue (RGB). More pixels mean the monitor can display more detail.
+- Dot Pitch - This is the distance between pixels on the screen. A lower dot pitch (i.e., a smaller distance between dots) produces a better image.
+- Brightness - Describes the luminance of a monitor measured in candelas per square meter (cd/m2). Brightness up to 250 cd/m2 is typically recommended, however, in well-lit rooms, use up to 350 cd/m2. Too much brightness may cause eyestrain.
+- Contrast Ratio - This is a measurement of how white and how black a monitor can get. A contrast ratio of 1,000:1 displays dimmer whites and more pale blacks than 4,500:1.
+- Aspect Ratio - the horizontal to vertical measurement of the viewing area of a monitor. For example, QSXGA measures 2,560 pixels horizontally by 2,048 pixels vertically, which creates an aspect ratio of 5:4. If a viewing area was 16 inches wide by 12 inches high, then the aspect ratio would be 4:3. A viewing area that is 24 inches wide by 18 inches high also has an aspect ratio of 4:3.
+- Refresh Rate - Expressed in Hertz (Hz) and refers to how often per second your monitor can redraw the screen.
+- Response time - The amount in time for a pixel to change properties (i.e., color or brightness). Fast response times display a smooth image when displaying fast action.
+- Frames per second (fps) - FPS is is how many times the computer is creating each frame. The higher the FPS, the better, but the monitor must be able to display the frames at the high rate.
+- Interlaced/Non-Interlaced - Interlaced monitors create the image by scanning the screen two times. The first scan covers the odd lines, top to bottom, and the second scan covers the even lines. Non-interlaced monitors create the image by scanning the screen, one line at a time from top to bottom.
+
+**Note**: If you want to display more things on the screen, then select a higher resolution monitor. If you just want things to appear bigger, then select a larger screen size.
+
+### Display Standards
+
+| Standard | Resolution  | Aspect Ratio | Desc.                                                                             |
+| -------- | ----------- | ------------ | --------------------------------------------------------------------------------- |
+| CGA      | 320 x 200   | 16:10        | color graphics adapter, introduced by IBM in 1981, now obsolete                   |
+| VGA      | 640 x 480   | 4:3          | video graphics array, introduced in 1987, legacy standard                         |
+| SVGA     | 800 x 600   | 4:3          | super video graphics array, introduced in 1989, still supported on some platforms |
+| HD       | 1280 x 720  | 16:9         | high definition, aka 720p                                                         |
+| FHD      | 1920 x 1080 | 16:9         | full high definition, aka 1080p, good setting for typical user                    |
+| QHD      | 2560 x 1440 | 16:9         | quad high definition, aka 1440p, suggested for high-end users and gamers          |
+| UHD      | 3840 x 2160 | 16:9         | ultra high definition, aka 4k                                                     |
+
+### Multiple Monitors
+Adding monitors can increase your visual desktop area and improve productivity. The added monitors enable you to expand the size of the monitor or duplicate the desktop so you can view additional windows. For example, the woman in the figure below is using multiple displays. She is using the right monitor to make changes to a website and the left monitor to display the resulting change. She is also using a laptop to display a library of images she is considering for inclusion in the website.
+
+Many computers have built-in support for multiple monitors. To connect multiple monitors to a computer, you need the supporting cables. Then you need to enable your computer to support multiple monitors.
+
+For example, on a Windows 10 host, right-click anywhere on the Desktop and choose **Display settings**. This should open the Display window as shown in the figure. In the example, the user has two monitors connected in the configuration displayed. The current monitor selected is in blue and has a resolution of 1920 x 1080. It is also the main display monitor. Clicking on monitor 2 would display its resolutions.
+
+## **Projector**
 Most video projectors use LCD or DLP technology. DLP stands for Digital Light Processing. DLP uses a spinning color wheel with an array of mirrors. Each mirror corresponds to a pixel and reflects light toward or away from the projector optics, creating an image of up to 1024 shades of gray. The color wheel then adds the color data to complete the projected image.  
 Different projectors have different numbers of lumens, which affects the level of brightness of the projected image. LCD projectors typically have more lumens (brighter) than DLP projectors. ANSI has a standardized procedure for testing projectors. Projectors tested with this procedure are quoted in "ANSI lumens". Projectors can be easily compared on the basis of their brightness specifications.  
 Brightness (white light output) measures the total amount of light projected in lumens. The color brightness specification measures red, green, and blue using the same approach used to measure brightness.
 
-**Speakers**
+## **Speakers**
 Speakers are a type of auditory output device. Most computers and mobile devices have audio support either integrated into the motherboard or on an adapter card. Audio support includes ports that allow input and output of audio signals. The audio card has an amplifier to power headphones and external speakers.
 
-**Headphones**
+## **Headphones**
 Headphones, earbuds, and the earphones found in headsets are all auditory output devices. These may be wired or wireless. Some are Wi-Fi or Bluetooth-enabled.
 
-### Input/Output Devices
+# Input/Output Devices
 
-**Virtual Reality Headset** uses computer technology to create a simulated, three-dimensional environment. The user feels immersed in this ‘virtual world’ and manipulates it. A VR headset completely encases the upper portion of users’ faces, not allowing in any ambient light from their surroundings. Most VR experiences have three-dimensional images that seem life-sized to the user. VR experiences also track a user's motions, and adjust the images on the user's display accordingly.
+## **Virtual Reality Headset** 
+uses computer technology to create a simulated, three-dimensional environment. The user feels immersed in this ‘virtual world’ and manipulates it. A VR headset completely encases the upper portion of users’ faces, not allowing in any ambient light from their surroundings. Most VR experiences have three-dimensional images that seem life-sized to the user. VR experiences also track a user's motions, and adjust the images on the user's display accordingly.
 These devices are typically used with computer games, simulators, and training applications. They are head-mounted devices that provide separate images for each eye. Most headsets include head-motion and eye-motion tracking sensors. These devices are also output devices delivering video and audio to the wearer. 
 VR headsets can have specific hardware and software platforms. They may be tethered to a controller, standalone, or mobile. They may have a variety of sensors including motion, external visual positioning, camera(s), motion tracking, accelerometer, gyroscope and magnetometer. Resolution and refresh rates vary.
 
-**Augmented Reality (AR)** uses similar technology but superimposes images and audio over the real world in real time. AR can provide users with immediate access to information about their real surroundings. An AR headset usually does not close off ambient light to users, allowing them to see their real life surroundings. Not all AR requires a headset. Some AR can simply be downloaded onto a smart phone. Pokemon GO is an early version of an AR game that uses a player’s smart phone to ‘see and capture’ virtual objects in the real world. Other AR devices are smart glasses. They weigh much less than the headsets and are often designed for a specific audience, such as cyclists.
+## **Augmented Reality (AR)** 
+uses similar technology but superimposes images and audio over the real world in real time. AR can provide users with immediate access to information about their real surroundings. An AR headset usually does not close off ambient light to users, allowing them to see their real life surroundings. Not all AR requires a headset. Some AR can simply be downloaded onto a smart phone. Pokemon GO is an early version of an AR game that uses a player’s smart phone to ‘see and capture’ virtual objects in the real world. Other AR devices are smart glasses. They weigh much less than the headsets and are often designed for a specific audience, such as cyclists.
 AR headsets and smart glasses come with a wide array of features. Most have a camera, motion sensors, GPS, a CPU, battery power, and a controller. Many also have storage, Bluetooth, speakers, and voice control. The Microsoft Hololens is a headset with an integrated holographic processing unit.
 
-#### Multi-Function Devices
+# Multi-Function Devices
 You must be able to identify, deploy, and configure multi-function devices and printers with the appropriate setting. The questions about these concepts will be scenario based.
 
 ## [[Printers]]
