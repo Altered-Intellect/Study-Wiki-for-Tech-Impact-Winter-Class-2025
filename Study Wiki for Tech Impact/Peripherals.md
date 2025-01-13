@@ -27,11 +27,11 @@ A keyboard, video, and mouse (KVM) switch is a hardware device that can be used 
 These input devices have touch or pressure sensitive screens. The computer receives instructions specific to the place on the screen that the user touches.
 
 **Stylus**
-This device is a type of digitizer that allows a designer or artist to create blueprints, images, or other artwork by using a pen-like tool called a stylus on a surface that senses where the tip is touching it. Some digitizers have more than one surface, or sensor, and allow the user to create 3D models by performing actions with the stylus in mid-air.
+This device is a type of digitizer that allows a designer or artist to create blueprints, images, or other artwork by using a pen-like tool called a stylus on a surface that senses where the tip is touching it. Some digitizers have more than one surface, or sensor, and allow the user to create 3D models by performing actions with the stylus in mid-air. 
 
 **Magnetic Stripe Reader**
 Also called a magstripe reader, this device reads information magnetically encoded on the back of plastic cards, such as identification badges or credit cards.  
-Also shown at the top of the device is a chip reader. For cards with chips, the card is inserted into the device and the device reads the chip. Chip reading provides much more security of the user's data because each transaction is a unique code that cannot be used again.
+Also shown at the top of the device is a chip reader. For cards with chips, the card is inserted into the device and the device reads the chip. Chip reading provides much more security of the user's data because each transaction is a unique code that cannot be used again. 
 
 **Barcode Scanner**
 This type of scanner, also called a price scanner, reads the information contained in the barcodes affixed to most products. They can be hand-held, wireless devices, or a stationary device. The light source on the reader captures the barcode image and translates the image into computer readable content. This device is typically used at checkout counters in stores or for determining inventory levels.
@@ -85,16 +85,16 @@ Computer monitors are usually described by:
 - **Native mode** – This term describes when the image sent to the monitor by the video adapter card matches the native resolution of the monitor.
 - **Connectivity** – Older monitors used VGA or DVI connectors while newer monitors support HDMI and DisplayPort ports. DisplayPort is a connection found on newer monitors. It supports higher resolutions and high refresh rates.
 
-### Monitor Terms
-- Pixel - Abbreviation for “picture element” and is a tiny dot capable of displaying the shades red, green, and blue (RGB). More pixels mean the monitor can display more detail.
-- Dot Pitch - This is the distance between pixels on the screen. A lower dot pitch (i.e., a smaller distance between dots) produces a better image.
-- Brightness - Describes the luminance of a monitor measured in candelas per square meter (cd/m2). Brightness up to 250 cd/m2 is typically recommended, however, in well-lit rooms, use up to 350 cd/m2. Too much brightness may cause eyestrain.
-- Contrast Ratio - This is a measurement of how white and how black a monitor can get. A contrast ratio of 1,000:1 displays dimmer whites and more pale blacks than 4,500:1.
-- Aspect Ratio - the horizontal to vertical measurement of the viewing area of a monitor. For example, QSXGA measures 2,560 pixels horizontally by 2,048 pixels vertically, which creates an aspect ratio of 5:4. If a viewing area was 16 inches wide by 12 inches high, then the aspect ratio would be 4:3. A viewing area that is 24 inches wide by 18 inches high also has an aspect ratio of 4:3.
-- Refresh Rate - Expressed in Hertz (Hz) and refers to how often per second your monitor can redraw the screen.
-- Response time - The amount in time for a pixel to change properties (i.e., color or brightness). Fast response times display a smooth image when displaying fast action.
-- Frames per second (fps) - FPS is is how many times the computer is creating each frame. The higher the FPS, the better, but the monitor must be able to display the frames at the high rate.
-- Interlaced/Non-Interlaced - Interlaced monitors create the image by scanning the screen two times. The first scan covers the odd lines, top to bottom, and the second scan covers the even lines. Non-interlaced monitors create the image by scanning the screen, one line at a time from top to bottom.
+### Terms
+- **Pixel** - Abbreviation for “picture element” and is a tiny dot capable of displaying the shades red, green, and blue (RGB). More pixels mean the monitor can display more detail.
+- **Dot Pitch** - This is the distance between pixels on the screen. A lower dot pitch (i.e., a smaller distance between dots) produces a better image.
+- **Brightness** - Describes the luminance of a monitor measured in candelas per square meter (cd/m2). Brightness up to 250 cd/m2 is typically recommended, however, in well-lit rooms, use up to 350 cd/m2. Too much brightness may cause eyestrain.
+- **Contrast Ratio** - This is a measurement of how white and how black a monitor can get. A contrast ratio of 1,000:1 displays dimmer whites and more pale blacks than 4,500:1.
+- **Aspect Ratio** - the horizontal to vertical measurement of the viewing area of a monitor. For example, QSXGA measures 2,560 pixels horizontally by 2,048 pixels vertically, which creates an aspect ratio of 5:4. If a viewing area was 16 inches wide by 12 inches high, then the aspect ratio would be 4:3. A viewing area that is 24 inches wide by 18 inches high also has an aspect ratio of 4:3.
+- **Refresh Rate** - Expressed in Hertz (Hz) and refers to how often per second your monitor can redraw the screen.
+- **Response time** - The amount in time for a pixel to change properties (i.e., color or brightness). Fast response times display a smooth image when displaying fast action.
+- **Frames Per Second** (FPS) - FPS is is how many times the computer is creating each frame. The higher the FPS, the better, but the monitor must be able to display the frames at the high rate.
+- **Interlaced/Non-Interlaced** - Interlaced monitors create the image by scanning the screen two times. The first scan covers the odd lines, top to bottom, and the second scan covers the even lines. Non-interlaced monitors create the image by scanning the screen, one line at a time from top to bottom.
 
 **Note**: If you want to display more things on the screen, then select a higher resolution monitor. If you just want things to appear bigger, then select a larger screen size.
 
@@ -113,29 +113,27 @@ Computer monitors are usually described by:
 ### Multiple Monitors
 Adding monitors can increase your visual desktop area and improve productivity. The added monitors enable you to expand the size of the monitor or duplicate the desktop so you can view additional windows. For example, the woman in the figure below is using multiple displays. She is using the right monitor to make changes to a website and the left monitor to display the resulting change. She is also using a laptop to display a library of images she is considering for inclusion in the website.
 
-Many computers have built-in support for multiple monitors. To connect multiple monitors to a computer, you need the supporting cables. Then you need to enable your computer to support multiple monitors.
-
-For example, on a Windows 10 host, right-click anywhere on the Desktop and choose **Display settings**. This should open the Display window as shown in the figure. In the example, the user has two monitors connected in the configuration displayed. The current monitor selected is in blue and has a resolution of 1920 x 1080. It is also the main display monitor. Clicking on monitor 2 would display its resolutions.
+Many computers have built-in support for multiple monitors. To connect multiple monitors to a computer, you need the supporting cables. Then you need to enable your computer to support multiple monitors. For example, on a Windows 10 host, right-click anywhere on the Desktop and choose **Display settings**. This should open the Display window.
 
 ## **Projector**
 Most video projectors use LCD or DLP technology. DLP stands for Digital Light Processing. DLP uses a spinning color wheel with an array of mirrors. Each mirror corresponds to a pixel and reflects light toward or away from the projector optics, creating an image of up to 1024 shades of gray. The color wheel then adds the color data to complete the projected image.  
 Different projectors have different numbers of lumens, which affects the level of brightness of the projected image. LCD projectors typically have more lumens (brighter) than DLP projectors. ANSI has a standardized procedure for testing projectors. Projectors tested with this procedure are quoted in "ANSI lumens". Projectors can be easily compared on the basis of their brightness specifications.  
 Brightness (white light output) measures the total amount of light projected in lumens. The color brightness specification measures red, green, and blue using the same approach used to measure brightness.
 
-## **Speakers**
+## Speakers
 Speakers are a type of auditory output device. Most computers and mobile devices have audio support either integrated into the motherboard or on an adapter card. Audio support includes ports that allow input and output of audio signals. The audio card has an amplifier to power headphones and external speakers.
 
-## **Headphones**
+## Headphones
 Headphones, earbuds, and the earphones found in headsets are all auditory output devices. These may be wired or wireless. Some are Wi-Fi or Bluetooth-enabled.
 
 # Input/Output Devices
 
-## **Virtual Reality Headset** 
+## Virtual Reality Headset
 uses computer technology to create a simulated, three-dimensional environment. The user feels immersed in this ‘virtual world’ and manipulates it. A VR headset completely encases the upper portion of users’ faces, not allowing in any ambient light from their surroundings. Most VR experiences have three-dimensional images that seem life-sized to the user. VR experiences also track a user's motions, and adjust the images on the user's display accordingly.
 These devices are typically used with computer games, simulators, and training applications. They are head-mounted devices that provide separate images for each eye. Most headsets include head-motion and eye-motion tracking sensors. These devices are also output devices delivering video and audio to the wearer. 
 VR headsets can have specific hardware and software platforms. They may be tethered to a controller, standalone, or mobile. They may have a variety of sensors including motion, external visual positioning, camera(s), motion tracking, accelerometer, gyroscope and magnetometer. Resolution and refresh rates vary.
 
-## **Augmented Reality (AR)** 
+## Augmented Reality (AR)
 uses similar technology but superimposes images and audio over the real world in real time. AR can provide users with immediate access to information about their real surroundings. An AR headset usually does not close off ambient light to users, allowing them to see their real life surroundings. Not all AR requires a headset. Some AR can simply be downloaded onto a smart phone. Pokemon GO is an early version of an AR game that uses a player’s smart phone to ‘see and capture’ virtual objects in the real world. Other AR devices are smart glasses. They weigh much less than the headsets and are often designed for a specific audience, such as cyclists.
 AR headsets and smart glasses come with a wide array of features. Most have a camera, motion sensors, GPS, a CPU, battery power, and a controller. Many also have storage, Bluetooth, speakers, and voice control. The Microsoft Hololens is a headset with an integrated holographic processing unit.
 

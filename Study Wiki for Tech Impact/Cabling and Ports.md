@@ -24,7 +24,7 @@ Optical is a transmission method that depends on light pulses for data transfer.
 # [[Peripherals]] 
 Peripheral cables attach peripheral devices to a computing device. Input/output (I/O) ports on a computer connect peripheral devices such as printers, scanners, and portable drives. In addition to the ports and interfaces, a computer may also have other ports. 
 
-**Serial**—A **serial cable** is built for serial communications with a corresponding serial connector on the end. The most common serial connection type is **DB9**[1](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1101-hardware/pages/1#footnote_1), which has nine pins. Today, serial ports are sometimes used for making console connections to network devices to perform initial configuration. There are two form factors of serial ports, a 9-pin DB-9 port and a 25-pin port.
+**Serial**—A **serial cable** is built for serial communications with a corresponding serial connector on the end. The most common serial connection type is **DB9**^[1], which has nine pins. Today, serial ports are sometimes used for making console connections to network devices to perform initial configuration. There are two form factors of serial ports, a 9-pin DB-9 port and a 25-pin port.
 
 **Parallel**—Parallel ports have a 25-pin receptacle used to connect various peripheral devices. As the name implies, parallel ports send data in multiple bits at once, in parallel communication. Because these ports were often used to connect printers, they are often called printer ports.
 
@@ -54,13 +54,13 @@ Over the years, the USB protocol has evolved and the various standards can be co
 
 **USB Type-A**—This is a rectangular connector found on virtually every desktop PC and laptop, as well as TVs, game consoles, and media players. USB 1.1, 2.0, and 3.0 Type-A connectors and receptacles are physically compatible.
 
-**Mini-USB**—The USB Mini-B connector is rectangular with a small indention on each side. The Mini-USB form factor is being phased out and replaced by the micro-USB connector.
+**Mini-USB**—The USB Mini-B connector is rectangular with a small indention on each side. The Mini-USB form factor is being phased out and replaced by the micro-USB connector. A mini USB is the **second smallest** USB connector type, contains **five pins**, and is **direction dependent**.
 
-**Micro-USB**—The Micro-USB connector is found on smartphones, tablets, and other devices. Except for Apple, most manufacturers have adopted the Micro-USB interface. The USB 2.0 Micro-B connector has two corners pushed in at an angle.
+**Micro-USB**—The Micro-USB connector is found on smartphones, tablets, and other devices. Except for Apple, most manufacturers have adopted the Micro-USB interface. The USB 2.0 Micro-B connector has two corners pushed in at an angle. A micro USB connector is the **smallest** USB connector type, and contains **five pins**.
 
 **USB Type-B**—The USB Type-B connector is commonly used to connect printer and external hard drives. It has a square shape with beveled exterior corners and an extra notch at the top.
 
-**USB Type-C**—The USB Type-C connector is the newest USB interface. It is smaller than the Type-A connector and is rectangular with four rounded corners. Both Thunderbolt 3 and USB Type-C are an example of a multipurpose cable that can be used to attach different kinds of peripheral devices to a PC. USB Type C is the shape of the port. Thunderbolt 3 combines the functionality of USB, Thunderbolt, DisplayPort, and the ability to deliver power to devices through the cable.
+**USB Type-C**—The USB Type-C connector is the newest USB interface. It is smaller than the Type-A connector and is rectangular with four rounded corners. Both Thunderbolt 3 and USB Type-C are an example of a multipurpose cable that can be used to attach different kinds of peripheral devices to a PC. USB Type C is the shape of the port. Thunderbolt 3 combines the functionality of USB, Thunderbolt, DisplayPort, and the ability to deliver power to devices through the cable. USB-C contains **24 pins** in an **oval** shape, allowing for **reversible connection**.
 
 **Lightning**—The Lightning connector is a small proprietary 8-pin connector used by Apple mobile devices such as iPhones, iPads, and iPods for both power charging and data transfer. It is similar in appearance to a USB Type-C connector.
 
@@ -116,7 +116,8 @@ There are many connection standards in use today. Many are interoperable but req
 - **USB to PS/2**
 - **Molex to SATA**
 
-**Converter** – This performs the same function as an adapter but also translates the signals from one technology to the other. For example, a USB 3.0 to SATA converter enables a hard disk drive to be used as a flash drive.
+## Converter
+This performs the same function as an adapter but also translates the signals from one technology to the other. For example, a USB 3.0 to SATA converter enables a hard disk drive to be used as a flash drive.
 - **HDMI to VGA converter**
 
 # Connector Types
@@ -126,20 +127,16 @@ installed at the terminating points of cables to provide connection to compatibl
 **Data Pins**—
 **Power Pins**—
 
-**RJ11**—A **registered jack (J)** is a **standard for telecommunication network interfaces** for voice and data equipment connection to a service provider or carrier. RJ11 is used with twisted pair cables to connect four to six wires to traditional telephone lines of modems.
-**RJ45**—RJ45 is used with twisted pair cables for eight-wire connections. A twisted pair cable with RJ45 connectors is commonly called an **ethernet cable**.
-**F-type**—An F-type connector (or just **F connector**) is used with coaxial cables for cable and satellite data connections.
-**ST**—A **straight tip** connector is a **bayonet style** connector used with fiber optic cables.
-**SC**—A **subscriber connector** is a push/pull-style connector used with fiber optic cables.
-**LC**—A **lucent connector** is a push/pull-style connector used with fiber optic cables that is half the size of an SC, making it more suitable for office and data center usage.
-
-**Punchdown block**—A punchdown block is an electrical connection device that allows for multiple copper wires to be “punched down” or inserted into a slot providing insulation as well as electrical connection to attached wires.
-**Micro USB**—A micro USB connector is the **smallest** USB connector type, contains **five pins**, and is **direction dependent**.
-**MiniUSB**—A mini USB is the **second smallest** USB connector type, contains **five pins**, and is **direction dependent**.
-**USB-C**—USB-C is the most recent USB connector type containing **24 pins** in an **oval** shape, allowing for **reversible connection**.
-**Molex™**—Molex is an older **two-piece** pin-and-socket interconnection type used for drive connections.
-**Lightning port**—Lightning port is an **eight-pin Apple** proprietary connector type that has **reversible** orientation.
-**DB9**—The DB9[1](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1101-hardware/pages/1#footnote_1) is a **trapezoid**-shaped nine-pin connector arranged in **two rows of four and five pins**. It is used for serial connections to network device consoles or management ports.
+- **RJ11**—A **registered jack (J)** is a **standard for telecommunication network interfaces** for voice and data equipment connection to a service provider or carrier. RJ11 is used with twisted pair cables to connect four to six wires to traditional telephone lines of modems.
+- **RJ45**—RJ45 is used with twisted pair cables for eight-wire connections. A twisted pair cable with RJ45 connectors is commonly called an **ethernet cable**.
+- **F-type**—An F-type connector (or just **F connector**) is used with coaxial cables for cable and satellite data connections.
+- **ST**—A **straight tip** connector is a **bayonet style** connector used with fiber optic cables.
+- **SC**—A **subscriber connector** is a push/pull-style connector used with fiber optic cables.
+- **LC**—A **lucent connector** is a push/pull-style connector used with fiber optic cables that is half the size of an SC, making it more suitable for office and data center usage.
+- **Punchdown block**—A punchdown block is an electrical connection device that allows for multiple copper wires to be “punched down” or inserted into a slot providing insulation as well as electrical connection to attached wires.
+- **Molex™**—Molex is an older **two-piece** pin-and-socket interconnection type used for drive connections.
+- **Lightning port**—Lightning port is an **eight-pin Apple** proprietary connector type that has **reversible** orientation.
+- **DB9**—The DB9[1](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1101-hardware/pages/1#footnote_1) is a **trapezoid**-shaped nine-pin connector arranged in **two rows of four and five pins**. It is used for serial connections to network device consoles or management ports.
 
 ---
 _1. The term “DB9” is commonly used but is technically incorrect; the proper name is “DE9,” referring to the size of the connector’s shell and the number of pins, with DE indicating a smaller shell size than DB. However, given that this misconception has been prevalent for so long in the industry, the CompTIA objectives use the term DB9._
@@ -171,3 +168,7 @@ These connectors are used to power various internal components such as the mothe
 
 ### Legacy Ports
 Computers have many different types of ports to connect the computer to external peripheral devices. As computer technology has evolved, so have the types of ports used to connect peripheral devices. Legacy ports are typically found on older computers and have been mostly replaced by newer technologies such as USB.
+# Data transfer
+
+attenuation
+distance

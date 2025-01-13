@@ -34,7 +34,6 @@ media:
 [[On Professionalism]]
 
 # References
-
 ## ITWorks by Tech Impact
 https://techimpact.org/itworks
 

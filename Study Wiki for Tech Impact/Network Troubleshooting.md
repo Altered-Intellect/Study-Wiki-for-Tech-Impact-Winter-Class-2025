@@ -56,7 +56,8 @@ There are many different situations that can arise when various types of hardwar
 The **motherboard**, **RAM**, **CPU**, and **power supply** are the most critical components to a computer system. Problems with these components may have the same or similar symptoms. The list below covers general troubleshooting guidelines and causes of common symptoms.
 
 
-## UEFI and BIOS
+## Pre-Boot System/Software
+software that is used to configure various components of a computer before the booting of the OS
 ### Unified Extendable Firmware Interface (UEFI)
 Most computers today run Unified Extensible Firmware Interface (UEFI). All new computers come with UEFI, which provides additional features and addresses security issues with legacy BIOS. You may see “BIOS/UEFI” when booting into your BIOS settings. This is because Intel chips currently support backwards compatibility with legacy BIOS systems. However, by 2020, Intel will end support for legacy BIOS. For more information, do an internet search for “Intel to remove legacy BIOS”.
 
@@ -69,7 +70,7 @@ UEFI can run on 32-bit and 64-bit systems, supports larger boot drives and inclu
 **Note**: UEFI setup screens will not look the same as yours. Please refer to your motherboard manufacturer documents.
 
 ### Basic Input/Output System (BIOS)
-All motherboards need BIOS to operate. BIOS is a ROM chip on the motherboard that contains a small program. This program controls the communication between the operating system and the hardware.
+All motherboards need BIOS to operate. BIOS is a ROM chip on the motherboard that contains a small program. This program controls the communication between the operating system and the hardware. 
 
 Along with the POST, the UEFI/BIOS also identifies:
 - Which drives are available
@@ -111,7 +112,7 @@ type of OS
 #### System Status
 
 #### Boot
-
+the order in which the computer loads its software, all pre-boot software allow the use to configure the order in which 
 #### Security
 The legacy BIOS supports some security features to protect the BIOS setting. UEFI adds additional security features and is used to set the admin password, user password, and U-key. These are some common security features found in the BIOS/UEFI systems:
 - **Passwords** - Passwords allow for different levels of access to the BIOS settings. Usually, there are two password settings that can be altered; the Supervisor Password and the User Password. The Supervisor Password can access all user-access passwords and all BIOS screens and settings. The User Password gives access to the BIOS based on a defined level. The table below displays common levels of user access to BIOS. The Supervisor Password must be set before the User Password can be configured.
@@ -123,6 +124,9 @@ The legacy BIOS supports some security features to protect the BIOS setting. UEF
 	**Delete** - remove all the files on the device to protect personal information and prevent identity theft
 - **Trusted Platform Module (TPM)** – This is a chip designed to secure hardware by storing encryption keys, digital certificates, passwords, and data. TPM is used by Windows to support BitLocker full-disk encryption.
 - **Secure** **boot** - Secure Boot is a UEFI security standard that ensures that a computer only boots an OS that is trusted by the motherboard manufacturer. Secure boot prevents an “unauthorized” OS from loading during startup.
+
+Hardware Security Module (HSM) - 
+Encrypted File System (EFS) - 
 ##### Access Levels
 
 | Access Level | Description                                                                    |
@@ -148,7 +152,7 @@ To download a new BIOS, consult the manufacturer’s website and follow the reco
 
 Many motherboard manufacturers now provide software to flash the BIOS from within an operating system. For example, the ASUS EZ Update utility automatically updates a motherboard’s software, drivers, and the BIOS version. It also enables a user to manually update a saved BIOS and select a boot logo when the system goes into POST. The utility is included with the motherboard, or it can be downloaded from the ASUS website.
 
-**CAUTION**: An improperly installed or aborted BIOS update can cause the computer to become unusable.
+**CAUTION**: An improperly installed or aborted BIOS update can cause the computer to become unusable. Consult the manufacturers website and follow the recommended installation procedures.
 
 ### Hardware Monitor
 CPU fan speed, temp, case fan speed, some with settings for an average temp

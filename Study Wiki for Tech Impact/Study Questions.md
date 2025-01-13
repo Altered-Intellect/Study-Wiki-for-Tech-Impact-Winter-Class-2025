@@ -187,21 +187,31 @@ tape sharp edges, remove jewelry
 # Advanced [[Hardware]]
 1. What is the BIOS?(3.1.1.3)
 
+
 2. What is POST? How does it work with the BIOS?(3.1.1.2 – 3.1.1.3) 
+Power On Self Test
 
 3. How do you access the BIOS on your computer? 
 
+
 4. What are some common security features found in the BIOS/UEFI Systems? (3.1.2.2)
+Restricted/Complex Instruction Set Computer
 
 5. What is the CMOS? (3.1.1.3)
+Complementary Metal Oxide Semiconductor
 
 6. List the different Power Fluctuation Types: (3.2.2.1)
 
+
 7. List the Power Protection Devices: (3.2.2.2)
+Uninterruptable Power Supply (UPS) - small battery, acts as a buffer between the input power and the computer components
+Standby Power Supply (SPS) - large battery, used as a backup generator
 
 8. Name the two CPU Instruction Sets and how they differ. (3.3.1.1)
+Restricted/Complex Instruction Set Computer
+restricted is fast and used for smaller intruction sets
 
-9. Describe the difference between an integrated GPU and a dedicated GPU:(3.3.1.3)
+9. Describe the difference between an integrated GPU and a dedicated GPU (3.3.1.3)
 
 10. What is RAID? What are the different levels of RAID? How does RAID store data?(3.3.2.2 – 3.3.2.3)
 
@@ -209,18 +219,19 @@ tape sharp edges, remove jewelry
 
 12. Which USB Connection Type is a proprietary connection? Who is the proprietary manufacturer?(3.3.3.3)
 
-13.  What is a Thick Client? What is a Thin Client?(3.4.2.6)
+13.  What is a Thick Client? What is a Thin Client? (3.4.2.6)
+
 
 14. List the required components for the 5 specialized computer systems described: (3.4.2.1 – 3.4.2.5)
 
 | **Specialized System**              | **Powerful Processor** | **Maximum RAM** | **High End Audio Card** | **High End Video Card** | **Large/Fast HDD** | **Other** |
 | ----------------------------------- | ---------------------- | --------------- | ----------------------- | ----------------------- | ------------------ | --------- |
 | Thick Clients                       |                        |                 |                         |                         |                    |           |
-| Thin Clients                        |                        |                 |                         |                         |                    |           |
+| Thin Clients                        |                        |                 |                         |                         |                    | x         |
 | CAx Workstation                     |                        |                 |                         |                         |                    |           |
-| Audio and Video Editing Workstation |                        |                 |                         |                         |                    |           |
-| Virtualization Workstation          |                        |                 |                         |                         |                    |           |
-| Gaming PCs                          |                        |                 |                         |                         |                    |           |
+| Audio and Video Editing Workstation | x                      | x               |                         |                         |                    |           |
+| Virtualization Workstation          | x                      | x               |                         |                         |                    |           |
+| Gaming PCs                          | x                      | x               | x                       | x                       |                    |           |
 
 15. Define NAS. What is it? What does it do?(3.4.2.7)
 

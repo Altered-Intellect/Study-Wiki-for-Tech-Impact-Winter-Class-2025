@@ -64,7 +64,7 @@ measured in Volts (V)
 A basic equation, known as Ohm's Law, expresses how voltage is equal to the current multiplied by the resistance: **V = IR**. In an electrical system, power is equal to the voltage multiplied by the current: **P = VI**.
 
 ## Power Fluctuation
-Voltage is a measure of energy required to move a charge from one location to another. The movement of electrons is called current. Computer circuits need voltage and current to operate electronic components. When the voltage in a computer is not accurate or steady, computer components might not operate correctly. Unsteady voltages are called power fluctuations.
+Voltage is a measure of energy required to move a charge from one location to another. The movement of electrons is called current. Computer circuits need voltage and current to operate electronic components. When the voltage in a computer is not accurate or steady, computer components might not operate correctly. Unsteady voltages are called power fluctuations. 
 
 The following types of AC power fluctuations can cause data loss or hardware failure:
 - **Blackout** - Complete loss of AC power. A blown fuse, damaged transformer, or downed power line can cause a blackout.

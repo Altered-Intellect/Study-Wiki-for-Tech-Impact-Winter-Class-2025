@@ -164,7 +164,7 @@ The CMOS battery serves several crucial functions in your computer:
 3. **Enables Quick Startups**: By maintaining BIOS settings, it allows for faster boot times and ensures the operating system loads correctly.
 4. **Supports Power Management**: It helps manage low-power states when the computer is in sleep or hibernation mode.
 
-## **Key Facts About CMOS Batteries:**
+## Key Facts About CMOS Batteries:
 
 - Typically a CR2032 lithium coin cell battery
 - Lasts between 2 to 10 years, depending on usage
@@ -249,6 +249,8 @@ Hyper-Transport - a high speed connection between the CPU and the northbridge ch
 #### Virtualization Support
 CPU virtualization is a hardware feature supported by AMD and Intel CPUs that enables a single processor to act as multiple processors. AMD refers to virtualization support in their products as AMD-V, while Intel refers to virtualization support as Virtualization Technology (VT). This hardware virtualization technology allows the operating system to support virtualization more effectively and efficiently than is possible through software emulation. With CPU virtualization multiple operating systems can run in parallel on their own virtual machines as if they were running on completely independent computers. CPU virtualization is sometimes disabled by default in the BIOS and will need to be enabled.
 
+screen subnet
+DMZ
 ### Expansion Cards
 An expansion card can be attached to a motherboard through **expansion slots**. An expansion slot can be used to expand the capabilities of a computer. You must use expansion cards that are compatible with the expansion slots available.
 
@@ -292,7 +294,7 @@ An active cooling solution uses fans inside of a computer case to blow out hot a
 CPUs that are overclocked or running multiple cores tend to generate excessive heat. It is a very common practice to install a fan on top of the heat sink. The fan moves heat away from the metal fins of the heatsink. This is known as active cooling.
 
 ##### Heat Sink
-devices that conduct heat and have the effect of increasing the surface area of a component. The heat sink has a large surface area with metal fins to dissipate heat into the surrounding air. This is known as passive cooling. Between the heat sink and the CPU is a special thermal compound. The thermal compound increases the efficiency of heat transfer from the CPU to the heat sink by filling any tiny gaps between the two. This **removes heat** from the component more quickly than fans alone. Some heat sinks have fans built into them.
+devices that conduct heat and have the effect of increasing the surface area of a component. The heat sink has a large surface area with metal fins to dissipate heat into the surrounding air. This is known as passive cooling. Between the heat sink and the CPU is a special thermal compound. The thermal compound increases the efficiency of heat transfer from the CPU to the heat sink by filling any tiny gaps between the two. This **removes heat** from the component more quickly than fans alone. Some heat sinks have fans built into them. Used in CPUs, M.2 SSDs, and GPUs
 
 ##### Thermal Paste/Pads
 The quality of contact between a component to be cooled and the heat sink used to cool it will impact how effectively it is cooled. Thermal paste and thermal pads conduct heat and are used between the component and heat sink to **make the best thermal-conductive connection**.
@@ -331,19 +333,13 @@ Before beginning an upgrade, ensure that you know where and how everything is co
 
 To upgrade a motherboard from a computer case, follow these steps:
 
-**Step 1.** Record how the power supply, case fans, case LEDs, and case buttons attach to the old motherboard.
-
-**Step 2.** Disconnect the cables from the old motherboard.
-
-**Step 3.** Disconnect the expansion cards from the case. Remove each expansion card and place them in antistatic bags, or on an antistatic mat.
-
-**Step 4.** Carefully record how the old motherboard is secured to the case. Some mounting screws provide support while some may provide an important grounding connection between the motherboard and chassis. In particular, pay attention to screws and standoffs that are non-metallic, because these may be insulators. Replacing insulating screws and supports with metal hardware that conducts electricity might damage electrical components.
-
-**Step 5.** Remove the old motherboard from the case.
-
-**Step 6.** Examine the new motherboard and identify where all of the connectors are such as power, SATA, fan, USB, audio, front panel connector, and any others.
-
-**Step 7.** Examine the I/O shield located at the back of the computer case. Replace the old I/O shield with the I/O shield that comes with the new motherboard.
+- **Step 1.** Record how the power supply, case fans, case LEDs, and case buttons attach to the old motherboard.
+- **Step 2.** Disconnect the cables from the old motherboard.
+- **Step 3.** Disconnect the expansion cards from the case. Remove each expansion card and place them in antistatic bags, or on an antistatic mat.
+- **Step 4.** Carefully record how the old motherboard is secured to the case. Some mounting screws provide support while some may provide an important grounding connection between the motherboard and chassis. In particular, pay attention to screws and standoffs that are non-metallic, because these may be insulators. Replacing insulating screws and supports with metal hardware that conducts electricity might damage electrical components.
+- **Step 5.** Remove the old motherboard from the case.
+- **Step 6.** Examine the new motherboard and identify where all of the connectors are such as power, SATA, fan, USB, audio, front panel connector, and any others.
+- **Step 7.** Examine the I/O shield located at the back of the computer case. Replace the old I/O shield with the I/O shield that comes with the new motherboard.
 
 **Step 8.** Insert and secure the motherboard into the case. Be sure to consult the case and motherboard manufacturer user guides. Use the proper types of screws. Do not swap threaded screws with self-tapping metal screws, because they will damage the threaded screw holes and might not be secure. Make sure that the threaded screws are the correct length and have the same number of threads per inch. If the thread is correct, they fit easily. If you force a screw to fit, you can damage the threaded hole, and it will not hold the motherboard securely. Using the wrong screw can also produce metal shavings that can cause short circuits.
 

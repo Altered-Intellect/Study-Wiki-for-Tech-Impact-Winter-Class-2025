@@ -33,7 +33,7 @@ Tips and tricks she recommended for surviving and thriving in a corporate enviro
 >"our world is ever moving." 
 >"don't be afraid to step back." (about carrier progress, especially if it means moving forward in the long run)
 >"everything is negotiable."
->"First impression lead to opportunity."
+>"First impressions lead to opportunity."
 >"An interview is a conversation."
 
 # Defining Professionalism
