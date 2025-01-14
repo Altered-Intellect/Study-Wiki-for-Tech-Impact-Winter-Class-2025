@@ -94,7 +94,7 @@ Computer monitors are usually described by:
 - **Refresh Rate** - Expressed in Hertz (Hz) and refers to how often per second your monitor can redraw the screen.
 - **Response time** - The amount in time for a pixel to change properties (i.e., color or brightness). Fast response times display a smooth image when displaying fast action.
 - **Frames Per Second** (FPS) - FPS is is how many times the computer is creating each frame. The higher the FPS, the better, but the monitor must be able to display the frames at the high rate.
-- **Interlaced/Non-Interlaced** - Interlaced monitors create the image by scanning the screen two times. The first scan covers the odd lines, top to bottom, and the second scan covers the even lines. Non-interlaced monitors create the image by scanning the screen, one line at a time from top to bottom.
+- **Interlaced/Non-Interlaced** - Interlaced monitors create the image by scanning the screen two times. The first scan covers the odd lines, top to bottom, and the second scan covers the even lines. Non-interlaced monitors create the image by scanning the screen, one line at a time from top to bottom. 
 
 **Note**: If you want to display more things on the screen, then select a higher resolution monitor. If you just want things to appear bigger, then select a larger screen size.
 

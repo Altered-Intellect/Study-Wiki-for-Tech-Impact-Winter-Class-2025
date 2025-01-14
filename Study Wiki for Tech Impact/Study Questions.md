@@ -227,6 +227,9 @@ DVI : has analogue and digital variants
 VGA : analogue only, now limited use 
 Serial : used for peripherals
 Parallel : used most commonly used for old printer
+Game : controllers
+Ps/2 : key board and mouse
+Audio : analogue audio with separate left and right channel connectors
 
 12. Which USB Connection Type is a proprietary connection? Who is the proprietary manufacturer? (3.3.3.3)
 lightning connector made by apple
@@ -240,24 +243,24 @@ thin client : handles basic I/O, processing and memory is offloaded to a network
 | **Specialized System**              | **Powerful Processor** | **Maximum RAM** | **High End Audio Card** | **High End Video Card** | **Large/Fast HDD** | **Other** |
 | ----------------------------------- | ---------------------- | --------------- | ----------------------- | ----------------------- | ------------------ | --------- |
 | Thick Clients                       |                        |                 |                         |                         | x                  |           |
-| Thin Clients                        |                        |                 |                         |                         |                    | x         |
+| Thin Clients                        |                        |                 |                         |                         |                    |           |
 | CAx Workstation                     | x                      | x               | x                       | x                       |                    |           |
 | Audio and Video Editing Workstation |                        |                 | x                       | x                       | x                  |           |
 | Virtualization Workstation          | x                      | x               |                         |                         |                    |           |
 | Gaming PCs                          | x                      |                 | x                       | x                       | x                  | x         |
 
-15. Define NAS. What is it? What does it do?(3.4.2.7)
+15. Define NAS. What is it? What does it do? (3.4.2.7)
 Network Attached Storage, external storage that links directly to the network allowing the sharing of files
 
-16. What is an SDS? What is the purpose of it?(3.5.1.2)
+16. What is an SDS? What is the purpose of it? (3.5.1.2)
 Safety Data Sheet, used to inform users on how to dispose of computer hardware, and peripherals
 
 17. Describe the dangers of these technology products, and the proper disposal methods for them.
 
-| **Item**                           | **Dangers**                           | **Disposal Methods**        |
-| ---------------------------------- | ------------------------------------- | --------------------------- |
-| Batteries                          | mercury, rare earth metals            | recycling                   |
-| Monitors                           | lead, rare earth metals               | recycling                   |
-| Toner Kits, Cartridges, Developers | refill cartages my void warranty, and | recycling                   |
-| Chemical Solvents, Aerosol Cans    | water contamination                   | local sanitation            |
-| Cell Phones, Tablets               | rare earth metals                     | check with local regulators |
+| **Item**                           | **Dangers**                      | **Disposal Methods**        |
+| ---------------------------------- | -------------------------------- | --------------------------- |
+| Batteries                          | mercury, rare earth metals       | recycling                   |
+| Monitors                           | lead, rare earth metals          | recycling                   |
+| Toner Kits, Cartridges, Developers | refill cartages my void warranty | recycling                   |
+| Chemical Solvents, Aerosol Cans    | water contamination              | local sanitation            |
+| Cell Phones, Tablets               | rare earth metals                | check with local regulators |
