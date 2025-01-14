@@ -21,6 +21,9 @@ Copper is the most common medium used in both coaxial and twisted-pair cables. C
 ## [[Optical Wiring]]
 Optical is a transmission method that depends on light pulses for data transfer.
 
+## Legacy Ports
+Computers have many different types of ports to connect the computer to external peripheral devices. As computer technology has evolved, so have the types of ports used to connect peripheral devices. Legacy ports are typically found on older computers and have been mostly replaced by newer technologies such as USB.
+
 # [[Peripherals]] 
 Peripheral cables attach peripheral devices to a computing device. Input/output (I/O) ports on a computer connect peripheral devices such as printers, scanners, and portable drives. In addition to the ports and interfaces, a computer may also have other ports. 
 
@@ -166,8 +169,6 @@ These connectors are used to power various internal components such as the mothe
 **6/8-pin PCIe power connector**
 • Connector has two rows of three to four pins and supplies power to internal components
 
-### Legacy Ports
-Computers have many different types of ports to connect the computer to external peripheral devices. As computer technology has evolved, so have the types of ports used to connect peripheral devices. Legacy ports are typically found on older computers and have been mostly replaced by newer technologies such as USB.
 # Data transfer
 
 attenuation

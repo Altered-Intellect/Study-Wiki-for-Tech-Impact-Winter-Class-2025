@@ -7,7 +7,6 @@ child docs:
 last updated: 2025-01-13T07:39:00
 media:
 ---
-
 # [[Hardware]]
 1. What is a Form Factor? What are some common desktop form factors? (1.2.1.1)
  The size and shape of the motherboard and the case that the computers components are put into. Common form factors include all-in-one, compact, full-size, and horizontal.
@@ -186,63 +185,78 @@ tape sharp edges, remove jewelry
 
 # Advanced [[Hardware]]
 1. What is the BIOS?(3.1.1.3)
+Basic I/O System, a legacy pre-boot system that is used to configure the motherboard and its components
 
-
-2. What is POST? How does it work with the BIOS?(3.1.1.2 – 3.1.1.3) 
-Power On Self Test
+2. What is POST? How does it work with the BIOS? (3.1.1.2 – 3.1.1.3) 
+Power On Self Test, the BIOS runs it, tests hardware components for compatibility and errors
 
 3. How do you access the BIOS on your computer? 
-
+it depends on the motherboard manufacturer, esc, f11, shift+enter
 
 4. What are some common security features found in the BIOS/UEFI Systems? (3.1.2.2)
-Restricted/Complex Instruction Set Computer
+- encryption : TPM chip has the encryption key 
+- secure boot : only by UEFI
+- lojack : 
+- passwords :
 
 5. What is the CMOS? (3.1.1.3)
-Complementary Metal Oxide Semiconductor
+Complementary Metal Oxide Semiconductor, it is a dedicated memory chip that stores the setting of the BIOS
 
 6. List the different Power Fluctuation Types: (3.2.2.1)
-
+- blackout : complete loss of power
+- brown out : temporary loss of power below 80%
+- noise : variation in the input voltage
+- surge : a nanoseconds long jump in power 
+- spike : an increase in power over 100%
 
 7. List the Power Protection Devices: (3.2.2.2)
-Uninterruptable Power Supply (UPS) - small battery, acts as a buffer between the input power and the computer components
-Standby Power Supply (SPS) - large battery, used as a backup generator
+Uninterruptable Power Supply (UPS) - small battery, acts as a buffer between the input power and the computer components, more expensive
+Standby Power Supply (SPS) - large battery, used as a backup generator, requires a manual turn on, less expensive
 
 8. Name the two CPU Instruction Sets and how they differ. (3.3.1.1)
 Restricted/Complex Instruction Set Computer
-restricted is fast and used for smaller intruction sets
+restricted is fast and used for smaller instruction sets, complex is for larger and slower 
 
 9. Describe the difference between an integrated GPU and a dedicated GPU (3.3.1.3)
+an integrated GPU is built into the CPU, the dedicated GPU is attached to the motherboard using a PCI
 
 10. What is RAID? What are the different levels of RAID? How does RAID store data?(3.3.2.2 – 3.3.2.3)
+Redundant Array of Independent Disks is a way to store data across several drives, providing reliability, capacity, or performance depending on the level
 
 11. List and describe the legacy ports: (3.3.3.1)
+DVI : has analogue and digital variants
+VGA : analogue only, now limited use 
 
-12. Which USB Connection Type is a proprietary connection? Who is the proprietary manufacturer?(3.3.3.3)
+12. Which USB Connection Type is a proprietary connection? Who is the proprietary manufacturer? (3.3.3.3)
+lightning made by apple
 
 13.  What is a Thick Client? What is a Thin Client? (3.4.2.6)
-
+thick client : self reliant, regular desktop PC
+thin client : handles basic I/O, processing and memory is offloaded to a network server
 
 14. List the required components for the 5 specialized computer systems described: (3.4.2.1 – 3.4.2.5)
 
 | **Specialized System**              | **Powerful Processor** | **Maximum RAM** | **High End Audio Card** | **High End Video Card** | **Large/Fast HDD** | **Other** |
 | ----------------------------------- | ---------------------- | --------------- | ----------------------- | ----------------------- | ------------------ | --------- |
-| Thick Clients                       |                        |                 |                         |                         |                    |           |
+| Thick Clients                       |                        |                 |                         |                         | x                  |           |
 | Thin Clients                        |                        |                 |                         |                         |                    | x         |
-| CAx Workstation                     |                        |                 |                         |                         |                    |           |
-| Audio and Video Editing Workstation | x                      | x               |                         |                         |                    |           |
+| CAx Workstation                     | x                      | x               | x                       | x                       |                    |           |
+| Audio and Video Editing Workstation |                        |                 | x                       | x                       | x                  |           |
 | Virtualization Workstation          | x                      | x               |                         |                         |                    |           |
-| Gaming PCs                          | x                      | x               | x                       | x                       |                    |           |
+| Gaming PCs                          | x                      |                 | x                       | x                       | x                  | x         |
 
 15. Define NAS. What is it? What does it do?(3.4.2.7)
+external storage that links directly to the network allowing the sharing of files
 
 16. What is an SDS? What is the purpose of it?(3.5.1.2)
+Safety Data Sheet, used to inform users on how to dispose of computer hardware, and peripherals
 
 17. Describe the dangers of these technology products, and the proper disposal methods for them.
 
-| **Item**                           | **Dangers** | **Disposal Methods** |
-| ---------------------------------- | ----------- | -------------------- |
-| Batteries                          |             |                      |
-| Monitors                           |             |                      |
-| Toner Kits, Cartridges, Developers |             |                      |
-| Chemical Solvents, Aerosol Cans    |             |                      |
-| Cell Phones, Tablets               |             |                      |
+| **Item**                           | **Dangers**                           | **Disposal Methods**        |
+| ---------------------------------- | ------------------------------------- | --------------------------- |
+| Batteries                          | mercury, rare earth metals            | recycling                   |
+| Monitors                           | lead, rare earth metals               | recycling                   |
+| Toner Kits, Cartridges, Developers | refill cartages my void warranty, and | recycling                   |
+| Chemical Solvents, Aerosol Cans    | water contamination                   | local sanitation            |
+| Cell Phones, Tablets               | rare earth metals                     | check with local regulators |
