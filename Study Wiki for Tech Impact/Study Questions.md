@@ -184,7 +184,7 @@ SATA
 tape sharp edges, remove jewelry
 
 # Advanced [[Hardware]]
-1. What is the BIOS?(3.1.1.3)
+1. What is the BIOS? (3.1.1.3)
 Basic I/O System, a legacy pre-boot system that is used to configure the motherboard and its components
 
 2. What is POST? How does it work with the BIOS? (3.1.1.2 – 3.1.1.3) 
@@ -195,9 +195,9 @@ it depends on the motherboard manufacturer, esc, f11, shift+enter
 
 4. What are some common security features found in the BIOS/UEFI Systems? (3.1.2.2)
 - encryption : TPM chip has the encryption key 
-- secure boot : only by UEFI
-- lojack : 
-- passwords :
+- secure boot : only by UEFI not BIOS
+- lojack : used to locate, lock, delete a computer and its data remotely
+- passwords : used to protect access level and the changes to the UEFI/BIOS
 
 5. What is the CMOS? (3.1.1.3)
 Complementary Metal Oxide Semiconductor, it is a dedicated memory chip that stores the setting of the BIOS
@@ -214,8 +214,7 @@ Uninterruptable Power Supply (UPS) - small battery, acts as a buffer between the
 Standby Power Supply (SPS) - large battery, used as a backup generator, requires a manual turn on, less expensive
 
 8. Name the two CPU Instruction Sets and how they differ. (3.3.1.1)
-Restricted/Complex Instruction Set Computer
-restricted is fast and used for smaller instruction sets, complex is for larger and slower 
+Restricted/Complex Instruction Set Computer - restricted is fast and used for smaller instruction sets, complex is for larger and slower instruction sets in larger computers
 
 9. Describe the difference between an integrated GPU and a dedicated GPU (3.3.1.3)
 an integrated GPU is built into the CPU, the dedicated GPU is attached to the motherboard using a PCI
@@ -226,9 +225,11 @@ Redundant Array of Independent Disks is a way to store data across several drive
 11. List and describe the legacy ports: (3.3.3.1)
 DVI : has analogue and digital variants
 VGA : analogue only, now limited use 
+Serial : used for peripherals
+Parallel : used most commonly used for old printer
 
 12. Which USB Connection Type is a proprietary connection? Who is the proprietary manufacturer? (3.3.3.3)
-lightning made by apple
+lightning connector made by apple
 
 13.  What is a Thick Client? What is a Thin Client? (3.4.2.6)
 thick client : self reliant, regular desktop PC
@@ -246,7 +247,7 @@ thin client : handles basic I/O, processing and memory is offloaded to a network
 | Gaming PCs                          | x                      |                 | x                       | x                       | x                  | x         |
 
 15. Define NAS. What is it? What does it do?(3.4.2.7)
-external storage that links directly to the network allowing the sharing of files
+Network Attached Storage, external storage that links directly to the network allowing the sharing of files
 
 16. What is an SDS? What is the purpose of it?(3.5.1.2)
 Safety Data Sheet, used to inform users on how to dispose of computer hardware, and peripherals
