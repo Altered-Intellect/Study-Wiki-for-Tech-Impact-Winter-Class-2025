@@ -4,7 +4,7 @@ parent docs:
   - "[[Navigation]]"
 sibling docs: 
 child docs: 
-last updated: 2025-01-13T23:50:00
+last updated: 2025-01-14T23:08:00
 media:
 ---
 # Nav
@@ -144,3 +144,5 @@ A Safety Data Sheet (SDS), formerly known as a Material Safety and Data Sheet (M
 The SDS explains how to dispose of potentially hazardous materials in the safest manner. Always check local regulations concerning acceptable disposal methods before disposing of any electronic equipment.
 
 In the European Union, the regulation Registration, Evaluation, Authorization and restriction of Chemicals (REACH) came into effect on June 1, 2007, replacing various directives and regulations with a single system.
+
+# [[Troubleshooting]]

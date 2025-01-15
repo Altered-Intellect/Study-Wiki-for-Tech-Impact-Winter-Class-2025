@@ -4,7 +4,7 @@ parent docs:
   - "[[Navigation]]"
 sibling docs: 
 child docs: 
-last updated: 2025-01-13T01:50:00
+last updated: 2025-01-14T23:32:00
 media:
 ---
 # Nav
@@ -17,36 +17,6 @@ A Technician’s knowledge must extend beyond knowing how to assemble a computer
 You will learn about the computer boot process including the power on self-test (POST) conducted by the BIOS. Explore various BIOS and UEFI settings and how they impact this process. You will explore basic electrical theory and Ohm’s law and calculate voltage, current, resistance, and power. Power fluctuations can damage computer components so you will learn how to mitigate the risk of power fluctuations with surge protectors, uninterruptible power supplies (UPSs), and standby power supplies (SPSs). You will learn how to provide storage redundancy and load balancing using redundant arrays of independent disks (RAID). You will also learn how to upgrade computer components and configure specialized computers. Finally, after upgrading a computer, technicians must dispose of the old parts properly. Many computer components contain hazardous materials, such as mercury and rare earth metals in batteries and deadly voltage levels in power supplies. You will learn the risks posed by these components and how to dispose of them properly.
 
 As an IT support professional, you will be depended upon to fix whatever goes wrong. Any device or network issue will fall within your domain. This is why hardware and network troubleshooting is the most emphasized area on the CompTIA A+ 1101 test, with 29% (nearly one-third) of the questions pertaining to it. It is important to note that _all_ the questions about hardware and network troubleshooting will begin with a scenario.
-
-# Methodology
-Best practice methodology refers to the use of basic structured principles that should be followed when approaching a troubleshooting situation. While individuals may approach troubleshooting differently, certain **basic principles remain constant**: create a backup, prioritize tasks, and document the process. _Note:_ Questions regarding this section of the exam will come in the form of scenarios.
-
-## Corporate Policies, Procedures, and Impacts
-Every corporate enterprise has differing policies and procedures. Always consider corporate policies, procedures, and potential impacts before you begin troubleshooting.
-
-### 1. Identify the Problem
-Observation is that first step of any action and is crucial for problem solving. Technical problems with computer systems generally occur in one (or more) of **four areas**: hardware, the operating system, software, and the user. It is vital to accurately identify the problem **before taking action**.
-- **Gather information**—To properly identify a problem, begin by gathering information **from the user and the computer system** in question. When gathering information from the user, ask questions to clarify the problem. Clarifying the issue will give you a starting point for further investigation. After questioning the user, examine the device to determine what is working and what is not. Check for common issues such as power problems or issues resolved upon reboot. Look into systems logs or application logs for information. Is the issue a hardware problem or a software problem?
-- **Inquire about changes**—Consider all the changes that could affect the user (e.g., network, computer, power issues, external connection, user account) and how those changes can be involved in the problem. As an example, let’s say the network team worked over the weekend performing an upgrade to the infrastructure (switch replacement) and neglected to plug all the cabling back into the switch (as simple as a cable falling behind the wiring channel and being missed). The user might have been the one missed and now they cannot authenticate to the network, access their files, print to the network printer, and, therefore, cannot perform common functions. These things happen daily and other teams can be conducting changes without regard to the effect on employees.
-
-### 2. Create a Theory of Probable Cause
-Keep it **simple**. Always question the obvious and don’t assume something isn’t relevant. You might think it is common sense to be plugged into the network, but the user might not know this. Using your questioning ability, develop a theory (or two) regarding what the problem might be. When developing a theory, remember to **eliminate possible theories** as well if they do not fit the scenario.
-- **External or internal research**—Utilize research resources, which can include internal and external resources. Check previous service **documentation** within the company, refer back to the **device manual**, and check for potential theories using **online** forums and search engines. The internet, when utilized properly, can be extremely helpful for troubleshooting problems.
-
-### 3. Test the Theory/Determine the Cause
-When you have your theory developed, you need to test it. On a time-sensitive issue, or if you know 100% that the theory is valid, you can implement it based upon corporate policies and/or procedures. In a perfect world, you would be able to replicate the issue within a testing (or laboratory) environment for verification. This isn’t always the case and you should be ready to test your theory at a moment’s notice. When testing a theory, **begin with the most obvious** and simple theories first, such as checking the power supply or ensuring cables are properly seated, before moving onto more complicated theories.
-- **If theory is confirmed, determine next steps**—Only **test one possible solution at a time** and only **make one change at a time**. Sounds like a lengthy process? It is, but if you implement multiple changes in one process, how do you know which one worked and which one didn’t? Remember, keep it simple. If your theory is confirmed, then you can skip to the plan of action to implement your theory. If not, then it’s back to testing again. No worries, proper troubleshooting is an art.
-- **If theory is not confirmed, establish new theory or escalate**—You’ve tested your theory and the problem still exists. Step back and take a look at your theory to see what other avenues are available and develop a working theory regarding the next possible solution. If you have exhausted all your potential theories, it may be time to escalate the problem.
-
-### 4. Create a Plan of Action
-Always remember: Your **company’s policies and procedures take precedence** and should be in the forefront prior to acting on any plan. The conclusion that you make might affect the whole company, but that might also be needed depending on the breath of the issue. Does correcting the issue require downtime for the company or just a single computer? Can that be scheduled around the users’ workday? Does it need to happen immediately? These are all questions that should be included in your plan of action.
-- **Vendor instructions**—When creating a plan of action, remember to take into account vendor instructions. Vendors often provide **documented fixes** to identified issues, which should be considered.
-
-### 5. Verify System Functionality
-Once the issues have been resolved or appear to be resolved, verify full functionality of the problem system. Remember to verify **full system functionality** and do not focus strictly on the problem system. A fix to one system or component may cause issues with another system or component.
-
-### 6. Document Findings, Actions, and Outcomes
-Documentation! We can’t express how important it is for issues to be fully documented. **Everything that you have done** from the moment the user contacted you to the moment the user was back online, such as indications, findings, actions, outcomes, scenarios, etc., must be documented. Your **company should have a repository** to keep this information safe. It should also be possible to share among your peers in the event the same type of issue arises in the future.
 
 # [[Motherboards]]
 RAM, CPU, and Power

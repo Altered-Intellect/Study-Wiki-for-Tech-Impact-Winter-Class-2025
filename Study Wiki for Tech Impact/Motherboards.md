@@ -215,6 +215,8 @@ There are two distinct types of instruction sets that CPUs may use:
 
 While the CPU is executing one step of the program, the remaining instructions and the data are stored nearby in a special, high-speed memory, called cache.
 
+Execute Disable Bit - a bit that labels parts of the operating system unusable 
+
 #### x64/x86
 The x64/x86 platform uses **CISC technology** (CISC is an instruction set architecture [ISA]) that is designed to work with **either 64 or 32 bits** of data at a time. Working with 64 bits is referred to as x64 while working with 32 bits is referred to as x86.
 

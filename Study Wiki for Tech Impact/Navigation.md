@@ -8,6 +8,7 @@ media:
 # CompTIA A+ Core Series Exam
 ## 220-1101
 [[Tech Safety]]
+	[[Troubleshooting]]
 [[Hardware]]
 	[[Computer (Dis-Re)Assembly]]
 	[[Cabling and Ports]]
@@ -17,18 +18,23 @@ media:
 	[[Power Supply]]
 	[[Motherboards]]
 	[[Peripherals]]
-[[Network Troubleshooting]]
-[[Mobile Devices]]
+	[[Mobile Devices]]
 [[Computational Networking]]
-[[Virtualization and Cloud Computing]]
+	[[Network Troubleshooting]]
+	[[Virtualization and Cloud Computing]]
 
 ## 220-1102
 [[Operating System]]
 [[Operational Procedures]]
 [[Network Security]]
 [[Software Troubleshooting]]
+
+# Cisco
+[[Troubleshooting]]
 ## [[Study Questions]]
 ## [[PC build]]
+
+## [[Acronym Sheet]]
 
 # Additional Lectures
 [[On Professionalism]]

@@ -4,7 +4,7 @@ parent docs:
   - "[[Navigation]]"
 sibling docs: 
 child docs: 
-last updated: 2025-01-13T07:39:00
+last updated: 2025-01-14T23:34:00
 media:
 ---
 # [[Hardware]]
@@ -220,7 +220,12 @@ Restricted/Complex Instruction Set Computer - restricted is fast and used for sm
 an integrated GPU is built into the CPU, the dedicated GPU is attached to the motherboard using a PCI
 
 10. What is RAID? What are the different levels of RAID? How does RAID store data?(3.3.2.2 – 3.3.2.3)
-Redundant Array of Independent Disks is a way to store data across several drives, providing reliability, capacity, or performance depending on the level
+Redundant Array of Independent Disks is a way to store data across several drives, providing reliability, capacity, economy, or performance depending on the level
+RAID 0 - striping, performance, economy, and capacity
+RAID 1 - mirroring, reliability and economy
+RAID 5 - parity, reliability and capacity
+RAID 6 - double parity, reliability, capacity, and performance
+RAID 10 - mirroring and striping, reliability, capacity, or performance
 
 11. List and describe the legacy ports: (3.3.3.1)
 DVI : has analogue and digital variants
@@ -235,15 +240,15 @@ Audio : analogue audio with separate left and right channel connectors
 lightning connector made by apple
 
 13.  What is a Thick Client? What is a Thin Client? (3.4.2.6)
-thick client : self reliant, regular desktop PC
-thin client : handles basic I/O, processing and memory is offloaded to a network server
+thick client : self reliant, regular desktop PC, used for personal computing and small networks
+thin client : handles basic I/O, processing and memory is offloaded to a network server, used for remote work and call centers that need to scale large networks
 
 14. List the required components for the 5 specialized computer systems described: (3.4.2.1 – 3.4.2.5)
 
 | **Specialized System**              | **Powerful Processor** | **Maximum RAM** | **High End Audio Card** | **High End Video Card** | **Large/Fast HDD** | **Other** |
 | ----------------------------------- | ---------------------- | --------------- | ----------------------- | ----------------------- | ------------------ | --------- |
-| Thick Clients                       |                        |                 |                         |                         | x                  |           |
-| Thin Clients                        |                        |                 |                         |                         |                    |           |
+| Thick Clients                       |                        |                 |                         |                         |                    |           |
+| Thin Clients                        |                        |                 |                         |                         |                    | x         |
 | CAx Workstation                     | x                      | x               | x                       | x                       |                    |           |
 | Audio and Video Editing Workstation |                        |                 | x                       | x                       | x                  |           |
 | Virtualization Workstation          | x                      | x               |                         |                         |                    |           |
@@ -264,3 +269,52 @@ Safety Data Sheet, used to inform users on how to dispose of computer hardware, 
 | Toner Kits, Cartridges, Developers | refill cartages my void warranty | recycling                   |
 | Chemical Solvents, Aerosol Cans    | water contamination              | local sanitation            |
 | Cell Phones, Tablets               | rare earth metals                | check with local regulators |
+
+CPU replacement
+- chipset
+- power supply 
+- socket
+
+Motherboard replacement
+- case
+- power supply
+- compatibility 
+
+Computer upgrade
+- old software
+- damage
+- user requirement
+
+virtualization
+- RAM
+- CPU cores
+- storage
+
+# Preventive Maintenance and [[Troubleshooting]]
+1. What are the benefits of preventative maintenance?
+
+2. In your own words, what is troubleshooting?
+
+3. Give 3 examples each of typical hardware and software maintenance in the chart below: 
+
+| Hardware maintenance | Software maintenance |
+| -------------------- | -------------------- |
+|                      |                      |
+
+4. List Cisco’s 6 steps of troubleshooting.  
+
+5. What task should typically be performed before a technician begins repairing a computer?
+
+6. In what scenario would a technician want to use more closed than open-ended questions?
+
+7. What information does the Event Viewer give that you can’t get from the Device Manager in Windows?
+
+8. What would a technician do before escalating the problem to a technician with more experience?
+
+9. List 4 ways to verify full system functionality.
+
+10. What are the ideal temperature and humidity ranges for computers? 
+
+11. What should a technician document during the troubleshooting process?
+
+12. Write a preventative maintenance plan for the laptops in this classroom at the end of each semester. Give your reason for including each task. 
