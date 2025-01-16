@@ -13,7 +13,7 @@ media:
 ---
 ## Components
 
-### **Central Processing Unit (CPU)** 
+### Central Processing Unit ([[CPU]])
 This is considered the brain of the computer.
 The central processing unit (CPU) is responsible for interpreting and executing commands. It handles instructions from the computer's other hardware, such as a keyboard, and software. The CPU interprets the instructions and outputs the information to the monitor or performs the requested tasks.
 

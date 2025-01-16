@@ -29,8 +29,6 @@ media:
 [[Network Security]]
 [[Software Troubleshooting]]
 
-# Cisco
-[[Troubleshooting]]
 ## [[Study Questions]]
 ## [[PC build]]
 

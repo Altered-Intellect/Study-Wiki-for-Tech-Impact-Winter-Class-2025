@@ -292,29 +292,65 @@ virtualization
 
 # Preventive Maintenance and [[Troubleshooting]]
 1. What are the benefits of preventative maintenance?
+reduces wear and tear, hardware and software problems, computer down time, repair costs, and the number of equipment failures.
+Improves data protection, equipment life and stability, and saves money
+
 
 2. In your own words, what is troubleshooting?
+the process of using observation, testing, and documentation in conjunction with each other to problem solve
 
 3. Give 3 examples each of typical hardware and software maintenance in the chart below: 
 
-| Hardware maintenance | Software maintenance |
-| -------------------- | -------------------- |
-|                      |                      |
+| Hardware maintenance                                    | Software maintenance                                                             |
+| ------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| cleaning dust, checking for damage, and securing cables | updating drivers, software, or security, remove unwanted files, scan for viruses |
+|                                                         |                                                                                  |
 
 4. List Cisco’s 6 steps of troubleshooting.  
+	1. Identify the problem
+	2. Establish a theory of probable cause
+	3. Test the theory
+	4. Establish a plan of action
+	5. Verify the solution and functionality
+	6. Document findings and educate user
 
 5. What task should typically be performed before a technician begins repairing a computer?
+backing up all data, not practical in small repairs but critical with sensitive information and intensive repairs
 
 6. In what scenario would a technician want to use more closed than open-ended questions?
+when a technician needs direct answers, and a quick turn over of information
 
 7. What information does the Event Viewer give that you can’t get from the Device Manager in Windows?
+the detailing of the errors within the computer, the device manager only displays the status of
 
 8. What would a technician do before escalating the problem to a technician with more experience?
+gather and document the tests they have tried
 
 9. List 4 ways to verify full system functionality.
+- reboot the computer and test applications
+- verify network connections
+- ensure peripherals are functioning
+- ensure there are no error messages
 
 10. What are the ideal temperature and humidity ranges for computers? 
+45-90 degrees fahrenheit, and 10-80% humidity  
 
 11. What should a technician document during the troubleshooting process?
+the questions asked to the user, the steps they took to solve the problem, and the components and tools used in the repair
 
 12. Write a preventative maintenance plan for the laptops in this classroom at the end of each semester. Give your reason for including each task. 
+- check the event viewer, task manager, and anti-virus : ensure there is not software problems
+- test all ports and their functionality : ensure peripherals and cables can be used
+- check all UEFI settings : ensure that there are no errors or problems with the pre-boot system settings
+- check battery, motherboard and cables : ensure the functionality of critical hardware
+- clean internal and external components : remove dust and debris to maintain hardware
+
+
+13. led light for the storage is on and a program is running slow, what should you do?
+install more RAM
+
+14. before troubleshooting what is the first thing that needs to be done?
+back up data
+
+15. what do you do to figure out what direction the fans spin?
+watch it when it is plugged in

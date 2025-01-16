@@ -39,7 +39,8 @@ Best practice methodology refers to the use of basic structured principles that 
 ## Corporate Policies, Procedures, and Impacts
 Every corporate enterprise has differing policies and procedures. Always consider corporate policies, procedures, and potential impacts before you begin troubleshooting.
 
-### 1. Identify the Problem
+### Observation
+#### 1. Identify the Problem
 Observation is that first step of any action and is crucial for problem solving. Technical problems with computer systems generally occur in one (or more) of **four areas**: hardware, the operating system, software, and the user. It is vital to accurately identify the problem **before taking action**.
 - **Gather information**—To properly identify a problem, begin by gathering information **from the user and the computer system** in question. When gathering information from the user, ask questions to clarify the problem. Clarifying the issue will give you a starting point for further investigation. After questioning the user, examine the device to determine what is working and what is not. Check for common issues such as power problems or issues resolved upon reboot. Look into systems logs or application logs for information. Is the issue a hardware problem or a software problem?
 - **Inquire about changes**—Consider all the changes that could affect the user (e.g., network, computer, power issues, external connection, user account) and how those changes can be involved in the problem. As an example, let’s say the network team worked over the weekend performing an upgrade to the infrastructure (switch replacement) and neglected to plug all the cabling back into the switch (as simple as a cable falling behind the wiring channel and being missed). The user might have been the one missed and now they cannot authenticate to the network, access their files, print to the network printer, and, therefore, cannot perform common functions. These things happen daily and other teams can be conducting changes without regard to the effect on employees.
@@ -57,6 +58,7 @@ Information to gather
 | Computer Configuration | manufacturer, model, OS, network environment, connection type |
 | Problem Description    | open/close-ended questions                                    |
 | Feedback               | error messages, beep sequences, LEDs, POST                    |
+
 **Open-Ended and Closed-Ended Questions**
 Open-ended questions allow customers to explain the details of the problem in their own words. Use open-ended questions to obtain general information.
 
@@ -80,7 +82,7 @@ The Device Manager displays all the devices that are configured on a computer. T
 **Task Manager**
 The Task Manager displays the applications and background processes that are currently running. With the Task Manager, you can close applications that have stopped responding. You can also monitor the performance of the CPU and virtual memory, view all processes that are currently running, and view information about the network connections.
 
-### 2. Create a Theory of Probable Cause
+#### 2. Create a Theory of Probable Cause
 Keep it **simple**. Always question the obvious and don’t assume something isn’t relevant. You might think it is common sense to be plugged into the network, but the user might not know this. Using your questioning ability, develop a theory (or two) regarding what the problem might be. When developing a theory, remember to **eliminate possible theories** as well if they do not fit the scenario.
 - **External or internal research**—Utilize research resources, which can include internal and external resources. Check previous service **documentation** within the company, refer back to the **device manual**, and check for potential theories using **online** forums and search engines. The internet, when utilized properly, can be extremely helpful for troubleshooting problems.
 	- device is powered off
@@ -90,7 +92,8 @@ Keep it **simple**. Always question the obvious and don’t assume something isn
 	- non-bootable disk in designated boot drive
 	- incorrect boot order in BIOS setup
 
-### 3. Test the Theory/Determine the Cause
+### Action
+#### 3. Test the Theory/Determine the Cause
 When you have your theory developed, you need to test it. On a time-sensitive issue, or if you know 100% that the theory is valid, you can implement it based upon corporate policies and/or procedures. In a perfect world, you would be able to replicate the issue within a testing (or laboratory) environment for verification. This isn’t always the case and you should be ready to test your theory at a moment’s notice. When testing a theory, **begin with the most obvious** and simple theories first, such as checking the power supply or ensuring cables are properly seated, before moving onto more complicated theories.
 - **If theory is confirmed, determine next steps**—Only **test one possible solution at a time** and only **make one change at a time**. Sounds like a lengthy process? It is, but if you implement multiple changes in one process, how do you know which one worked and which one didn’t? Remember, keep it simple. If your theory is confirmed, then you can skip to the plan of action to implement your theory. If not, then it’s back to testing again. No worries, proper troubleshooting is an art.
 - **If theory is not confirmed, establish new theory or escalate**—You’ve tested your theory and the problem still exists. Step back and take a look at your theory to see what other avenues are available and develop a working theory regarding the next possible solution. If you have exhausted all your potential theories, it may be time to escalate the problem.
@@ -106,7 +109,7 @@ Common steps to determine a cause
 
 If you cannot determine the exact cause of the problem after testing all your theories, establish a new theory of probable cause and test it. If necessary, escalate the problem to a technician with more experience. Before you escalate, document each test that you tried, as shown in the work order below.
 
-### 4. Create and Execute a Plan of Action
+#### 4. Create and Execute a Plan of Action
 Always remember: Your **company’s policies and procedures take precedence** and should be in the forefront prior to acting on any plan. The conclusion that you make might affect the whole company, but that might also be needed depending on the breath of the issue. Does correcting the issue require downtime for the company or just a single computer? Can that be scheduled around the users’ workday? Does it need to happen immediately? These are all questions that should be included in your plan of action.
 - **Vendor instructions**—When creating a plan of action, remember to take into account vendor instructions. Vendors often provide **documented fixes** to identified issues, which should be considered.
 
@@ -120,7 +123,8 @@ If no solution is achieved in the previous step, further research is needed to i
 - device manuals
 - online forums
 - internet search
-### 5. Verify System Functionality
+### Documentation
+#### 5. Verify System Functionality
 Once the issues have been resolved or appear to be resolved, verify full functionality of the problem system. Remember to verify **full system functionality** and do not focus strictly on the problem system. A fix to one system or component may cause issues with another system or component. Verifying full system functionality confirms that you have solved the original problem while repairing the computer. Whenever possible, have the customer verify the solution and system functionality.
 - reboot the computer
 - ensure multiple applications work properly
@@ -129,7 +133,7 @@ Once the issues have been resolved or appear to be resolved, verify full functio
 - ensure all attached devices work properly
 - ensure no error messages are received
 
-### 6. Document Findings, Actions, and Outcomes
+#### 6. Document Findings, Actions, and Outcomes
 We can’t express how important it is for issues to be fully documented. **Everything that you have done** from the moment the user contacted you to the moment the user was back online, such as indications, findings, actions, outcomes, scenarios, etc., must be documented. Your **company should have a repository** to keep this information safe. It should also be possible to share among your peers in the event the same type of issue arises in the future. 
 
 If the customer is available, demonstrate how the solution has corrected the computer problem. have the customer relay the solution and try to reproduce the problem. When the customer can verify that the problem has been resolved, you can complete the documentation for the repair in the work order and in your journal. 
@@ -138,7 +142,7 @@ Include the following information in the documentation:
 - steps to resolve the problem, from description to testing
 - components and tools used in the repair
 
-# Common PC Problems
+# Common Problems
 Computer problems can be attributed to hardware, software, networks, or some combination of the three. You will resolve some types of problems more often than others.
 
 These are some common hardware problems:
@@ -149,6 +153,36 @@ These are some common hardware problems:
 - **Displays** - Display problems are often caused by incorrect settings, loose connections, and incorrect or corrupted drivers.
 
 ## [[Storage]]
+Storage devices include persistent storage such as storage drives and RAID storage. The most common causes of storage device problems are **bad adapters**, a **bad or failing drive**, or **improper connection**. You must be able to troubleshoot and diagnose problems with these systems based on a given scenario.
+
+### Common Symptoms
+While a bad adapter and an improper connection are relatively simple to detect and test, symptoms of a bad or failing drive are more complicated. Below is a list of common symptoms of a bad or failing drive or RAID.
+
+#### LED Status Indicators
+Light-emitting diode (LED) status indicators are typically visible on storage devices. A blinking light typically indicates a busy drive, while a light that does not come on at all or stays solid may be an indicator of a problem. However, you need to look at the **vendor-specific specifications** for indicator lights since the indicator lights on one product may not have the same meaning as lights on another product, such as a RAID display with a light that only comes on when a problem is detected in the array.
+
+#### Grinding Noises
+A grinding noise originating from a storage device is a significant **indicator of imminent failure** in a motor or spindle within the device. This grinding sound can also be heard as squealing sounds or nails on a chalkboard. It is important to **back up** the affected drive immediately and **replace** the drive.
+
+#### Clicking Sounds
+A rhythmic clicking or ticking sound is an indicator of a drive that is **in the process of failing**. Once again, back up and replace the drive immediately.
+
+#### Bootable Device Not Found
+Upon bootup, a storage device is first detected by the **BIOS/UEFI**, and then the OS. The “Bootable Device Not Found” error can be an indicator of a complete failure to boot or a failure of the OS to be found. Check **connection points and cables** between the motherboard and the drive if BIOS/UEFI autodetection fails. If a proper connection does not resolve the issue, it may be a bad drive. If the BIOS/UEFI is able to detect the drive but is unable to detect the OS, the issue may lie in the **master boot record (MBR)**.
+
+#### Data Loss/Corruption
+Data loss or corruption can be caused by a **failing or full drive**. To remedy the issue, first attempt to **remove unneeded files** or applications or **defragment** the drive. If this does not remedy the issue, you may attempt to **format** the drive and **reinstall** the OS. If the issue persists, the drive is most likely failing.
+
+#### Extended Read/Write Times
+Extended read/write times, like data loss/corruption, can be indicators of a **failing or full drive**. Troubleshoot this issue as you would data loss/corruption.
+
+#### Input/Output Operations Per Second (IOPS)
+Input/output operations per second (IOPS) refers to how many reads and writes a storage device can perform in a second and is listed on storage devices, such as NAS and RAID systems. A **steadily declining IOPS** may be an **indicator of drive failure**.
+
+#### Missing Drives in OS
+Missing drives in the OS may be indications of a connection issue or an improperly set up storage device. Troubleshoot missing drives by checking connections, checking the **BIOS/UEFI** for the enabled drive, finding the drive in disk management or disk utility, making sure the drive is prepared and partitioned properly, updating drive drivers, and checking for bad sectors, which may cause the OS to show the drive as unreadable.
+
+#### Solutions
 Computer does not recognize a storage device.
 
 | Probable Cause              | Possible Solutions                   |
@@ -207,6 +241,13 @@ The computer does not recognize a removable external drive
 | failing drive  | replace disk       |
 
 ### [[RAID]]
+#### Failure
+Troubleshooting a RAID failure is similar to troubleshooting a single storage drive. First determine if the problem originates with a single drive or the system as a whole and proceed from there. Check the **indicator lights** on the RAID system for insight. Remember that the problem could originate from the type of RAID that is being employed.
+
+#### S.M.A.R.T. Failure
+Self-monitoring, analysis, and reporting technology (S.M.A.R.T.) is software installed on drives that monitors hard drive reliability and performance. S.M.A.R.T. metrics, while in theory useful for diagnosing and predicting drive failure, tend to be overly complicated and difficult to parse. One **useful component** of S.M.A.R.T. is the **ability to create performance benchmarks** that may prove valuable in diagnosing potential drive failures.
+
+#### Solutions
 RAID can not be found or stops working
 
 | Probable Cause                                      | Possible Solutions                                                                       |
@@ -217,6 +258,125 @@ RAID can not be found or stops working
 | missing driver for RAID controller                  | check the drivers are installed and use the RAID configurations utility to verify status |
 
 ## [[Motherboards]]
+
+RAM, CPU, and Power
+There are many different situations that can arise when various types of hardware components start failing. You must be able to troubleshoot common problems through a scenario.
+
+The **motherboard**, **RAM**, **CPU**, and **power supply** are the most critical components to a computer system. Problems with these components may have the same or similar symptoms. The list below covers general troubleshooting guidelines and causes of common symptoms.
+
+
+### Pre-Boot System/Software
+software that is used to configure various components of a computer before the booting of the OS
+#### Unified Extendable Firmware Interface (UEFI)
+Most computers today run Unified Extensible Firmware Interface (UEFI). All new computers come with UEFI, which provides additional features and addresses security issues with legacy BIOS. You may see “BIOS/UEFI” when booting into your BIOS settings. This is because Intel chips currently support backwards compatibility with legacy BIOS systems. However, by 2020, Intel will end support for legacy BIOS. For more information, do an internet search for “Intel to remove legacy BIOS”.
+
+**Note**: This section uses BIOS, UEFI, and BIOS/UEFI interchangeably. In addition, manufacturers may continue to label their UEFI programs with “BIOS” so that users know it supports the same functions.
+
+UEFI configures the same settings as traditional BIOS but also provides additional options. For example, UEFI can provide a mouse-enabled software interface instead of the traditional BIOS screens. However, most systems have a text-based interface, similar to legacy BIOS systems.
+
+UEFI can run on 32-bit and 64-bit systems, supports larger boot drives and includes additional features such as secure boot. Secure boot ensures your computer boots to your specified operating system. This helps prevent rootkits from taking over the system. For more information, do an internet search for “Secure boot and rootkits”.
+
+**Note**: UEFI setup screens will not look the same as yours. Please refer to your motherboard manufacturer documents.
+
+#### Basic Input/Output System (BIOS)
+All motherboards need BIOS to operate. BIOS is a ROM chip on the motherboard that contains a small program. This program controls the communication between the operating system and the hardware. 
+
+Along with the POST, the UEFI/BIOS also identifies:
+- Which drives are available
+- Which drives are bootable
+- How the memory is configured and when it can be used
+- How PCIe and PCI expansion slots are configured
+- How SATA and USB ports are configured
+- Motherboard power management features
+
+The motherboard manufacturer saves the motherboard BIOS settings in a Complementary Metal Oxide Semiconductor (CMOS) memory chip
+#### Power On Self Test (POST)
+When a computer is booted, the basic input/output system (BIOS) performs a hardware check on the main components of the computer. This check is called a power-on self-test (POST).
+
+The figure below displays a screen capture of a sample POST being performed. Within this test the computer checks whether the computer hardware is operating correctly.
+##### Power-on Self-Test (POST) Beeps
+A built-in diagnostic program in the BIOS/UEFI. When an error in the POST occurs, the computer performs a series of beeps, called the **beep code**. To identify the issue, listen to the beep code and refer to the **vendor documentation** to match the beep code with the corresponding error. The cause of these beeps could be problems with BIOS configuration or hardware.
+
+**Common Beep Codes**
+
+| **Beep Code**     | **Meaning**            | **Cause**            |
+| ----------------- | ---------------------- | -------------------- |
+| 1 Beep (No Video) | Memory Refresh Failure | Memory               |
+| 2 Beeps           | Memory Parity Error    | Memory               |
+| 3 Beeps           | Base 64 Memory Failure | Memory               |
+| 4 Beeps           | Timer not Operational  | Motherboard          |
+| 5 Beeps           | Processor Error        | Processor            |
+| 6 Beeps           | 8042 Gate A20 Failure  | CPU or Motherboard   |
+| 7 Beeps           | Processor Exception    | Processor            |
+| 8 Beeps           | Video Memory Error     | Video Card or Memory |
+| 9 Beeps           | ROM Check-sum Error    | BIOS                 |
+| 10 Beeps          | CMOS Check-sum Error   | Motherboard          |
+| 11 Beeps          | Cache Memory Bad       | CPU or Motherboard   |
+**Installation Tip**: To determine if POST is working properly, remove all of the RAM modules from the computer and power it on. The computer should emit the beep code for a computer with no RAM installed. This will not harm the computer.
+
+#### Settings
+change what the computer has access to before the computer has been booted up and running such as Wi-Fi, Bluetooth, LAN, Audio and video card, and SATA ports
+controls how quickly the machine will boot
+type of OS
+##### System Status
+
+##### Boot
+the order in which the computer loads its software, all pre-boot software allow the use to configure the order in which 
+##### Security
+The legacy BIOS supports some security features to protect the BIOS setting. UEFI adds additional security features and is used to set the admin password, user password, and U-key. These are some common security features found in the BIOS/UEFI systems:
+- **Passwords** - Passwords allow for different levels of access to the BIOS settings. Usually, there are two password settings that can be altered; the Supervisor Password and the User Password. The Supervisor Password can access all user-access passwords and all BIOS screens and settings. The User Password gives access to the BIOS based on a defined level. The table below displays common levels of user access to BIOS. The Supervisor Password must be set before the User Password can be configured.
+- **U-key** - a password set for a specific Flash drive used to prevent foreign data
+- **Drive encryption** - A hard drive can be encrypted to prevent data theft. Encryption changes the data on the drive into code. Without the correct password, the computer cannot boot and data read from the hard drive cannot be understood. Even if the hard drive is placed in another computer, the data remains encrypted.
+- **LoJack** – This is a security feature that consists of two programs; the Persistence Module and the Application Agent. The Persistence Module is embedded in the BIOS while the Application Agent is installed by the user. When installed, the Persistence Module in the BIOS is activated and cannot be turned off. The Application Agent routinely contacts a monitoring center over the internet to report device information and location. The owner can perform the functions described in the figure below.
+	**Locate** - locate the device using Wi-Fi or IP geo-location to see the last location saved
+	**Lock** - lock the device remotely to prevent access to your personal information, and displays a customized message on the screen
+	**Delete** - remove all the files on the device to protect personal information and prevent identity theft
+- **Trusted Platform Module (TPM)** – This is a chip designed to secure hardware by storing encryption keys, digital certificates, passwords, and data. TPM is used by Windows to support BitLocker full-disk encryption.
+- **Secure** **boot** - Secure Boot is a UEFI security standard that ensures that a computer only boots an OS that is trusted by the motherboard manufacturer. Secure boot prevents an “unauthorized” OS from loading during startup.
+
+Hardware Security Module (HSM) - 
+Encrypted File System (EFS) - 
+###### Access Levels
+
+| Access Level | Description                                                                    |
+| ------------ | ------------------------------------------------------------------------------ |
+| Full         | All screens and settings are available                                         |
+| Limited      | Changes can be made to a certain settings only, for example, the time and date |
+| View Only    | All screens are available, but no settings can be changed                      |
+| None         | No access is provided to the BIOS set up utility                               |
+
+#### Over-Clocking
+
+#### M-Flash
+firmware updates and storage of the UEFI/BIOS via a flash drive
+
+Motherboard manufacturers may publish updated BIOS versions to provide enhancements to system stability, compatibility, and performance. However, updating the firmware is risky. The release notes, such as those shown in the figure, describe the upgrade to the product, compatibility improvements, and the known bugs that have been addressed. Some newer devices operate properly only with an updated BIOS installed. You can usually find the current version on the main screen of the BIOS/UEFI interface.
+
+Before updating motherboard firmware, record the manufacturer of the BIOS and the motherboard model. Use the information to identify the exact files to download from the motherboard manufacturer’s site. Only update the firmware if there are problems with the system hardware or to add functionality to the system.
+
+Early computer BIOS information was contained in ROM chips. To upgrade the BIOS information, the ROM chip had to be physically replaced, which was not always possible. Modern BIOS chips are Electronically Erasable Programmable Read Only Memory (EEPROM) which can be upgraded by the user without opening the computer case. This process is called flashing the BIOS.
+
+To download a new BIOS, consult the manufacturer’s website and follow the recommended installation procedures. Installing BIOS software online may involve downloading a new BIOS file, copying or extracting files to removable media, and then booting from the removable media. An installation program prompts the user for information to complete the process.
+
+Many motherboard manufacturers now provide software to flash the BIOS from within an operating system. For example, the ASUS EZ Update utility automatically updates a motherboard’s software, drivers, and the BIOS version. It also enables a user to manually update a saved BIOS and select a boot logo when the system goes into POST. The utility is included with the motherboard, or it can be downloaded from the ASUS website.
+
+**CAUTION**: An improperly installed or aborted BIOS update can cause the computer to become unusable. Consult the manufacturers website and follow the recommended installation procedures.
+
+##### Hardware Monitor
+CPU fan speed, temp, case fan speed, some with settings for an average temp
+
+##### Board Explorer
+
+##### Complementary Metal Oxide Semiconductor (CMOS)
+When a computer boots, the BIOS software reads the configured settings stored in CMOS to determine how to configure the hardware.
+
+The BIOS settings are retained by CMOS using a battery, such as the one shown in the figure below. However, if the battery fails, important settings can be lost. Therefore, it is recommended that BIOS settings always be documented.
+
+**Note**: An easy way to document these settings is to take pictures of the various BIOS settings.
+
+**Installation Tip**: If the computer’s time and date are incorrect, it could indicate that the CMOS battery is bad or is getting very low.
+
+### Solutions
 The clock on the computer is no longer keeping the correct time or the BIOS setting are changing when the computer is rebooted.
 
 | Probable Cause                  | Possible Solutions |
@@ -283,7 +443,9 @@ After updating the BOIS firmware, the computer will not start
 | -------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | the BIOS firmware update did not install correctly | restore the original firmware from the onboard backup if it is available, if the motherboard has two BIOS chips use the second one, or contact the motherboard manufacturer to obtain a new BIOS chip |
 
-### CPU and memory
+### [[CPU]]
+
+#### Solutions
 The computer will not boot or it locks up
 
 | Probable Cause                | Possible Solutions                                              |
@@ -312,6 +474,10 @@ A CPU will not install onto the motherboard
 | Probable Cause                | Possible Solutions                                                    |
 | ----------------------------- | --------------------------------------------------------------------- |
 | the CPU is the incorrect tpye | replace the CPU with the CPU that matches the motherboard socket type |
+
+## [[Computational Memory]]
+
+### Solutions
 The computer does not recognize the RAM that was added
 
 | Probable Cause                          | Possible Solutions                |
@@ -335,6 +501,46 @@ the computer exhibits slow performance
 ## [[Peripherals]]
 
 ### Displays
+Consider this situation:
+	A call comes in to the help desk: The Chief Financial Officer has started a meeting with the “C” level officers (including the Chief Executive Officer) in your company, and the projector won’t power on. This has happened before and will happen again. What’s the next step?
+Below are some of the more common symptoms to look for. Watch out, those projector bulbs can be hot!
+
+When troubleshooting issues with video, projectors, and displays, there are some common symptoms that should be considered prior to escalation. Remember to **always check the basics** first.
+
+#### Incorrect Data Source
+An incorrect data source means that the input source for the viewing device and the input source selected for the computer are not the same. Viewing devices, such as monitors and projectors, can have multiple data ports on them, including **HDMI**, **DisplayPort**, or **VGA**.
+
+#### Physical Cabling Issues
+Physical cabling can cause a wide variety of issues, such as no image being produced or an image that appears and then disappears. **Visually inspect** cabling for imperfections and **switch out cables** with known working cables to diagnose or rule out cabling issues.
+
+#### Burned-Out Bulb
+Burned-out bulbs are specific to projectors. Projector bulbs have a limited life. Replace the bulb to solve this issue.
+
+#### Fuzzy Image
+Fuzzy images can be caused by different problems depending on the display device. With a **projector**, check the focus mechanism. With an **LCD screen**, fuzzy images can be caused by external interference, cabling issues, or resolution settings.
+
+#### Display Burn-In
+Burn-in is when an image or image outline is still visible on the display. This is caused when images remain on the screen and become permanent parts of the display.The only solution is to **replace the display**.
+
+#### Dead Pixels
+The result of pixels that do not fire. This issue is typically related to the hardware or the monitor itself. **Replacement** of the display is usually necessary to correct it.
+
+#### Flashing Screen
+Often, a malfunctioning screen will either flash or flicker. A flickering screen is most likely caused by a **failing backlight**. Replace the backlight. With a flashing screen or a screen that turns on and off, the most likely cause is a **bad connection cable**.
+
+#### Incorrect Color Display
+With an LCD monitor, an incorrect color display is most likely caused by a **failing controller board**, which is responsible for color mapping. Another cause of an incorrect color display may be the **connection cable** or the **pins** on the display device itself. 
+
+#### Audio Issues
+Many display devices today have built-in audio. To troubleshoot any audio issues, first check that the audio is **not muted** and the audio **volume is up**. On the computer itself, make sure that the appropriate audio output is selected.
+
+#### Dim Image
+caused by either an issue with the display device itself, generally caused by a **failing backlight**, or the computer being set to a **low brightness setting**.
+
+#### Intermittent Projector Shutdown
+most commonly caused by **overheating**. Check to ensure proper airflow and unimpeded fans and filters.
+
+#### Solutions
 Display has power but no image on the screen
 
 | Probable Cause                                                     | Possible Solutions                                                               |
@@ -396,6 +602,58 @@ The display is in VGA mode
 | the computer is in safe mode    | reboot the computer                         |
 | the driver had become corrupted | update or reinstall the driver in safe mode |
 
+### [[Printers]]
+
+Given a scenario, you’ll need to be able to troubleshoot printers. Although a lot of information is being passed digitally, printers still have their uses in offices and IT professionals need to know their way around troubleshooting and maintaining them. **Inkjet** and **laser** are the most common printer types in offices. Other less common printer types are **impact** and **thermal**. Printers can be either directly connected to a computer for local use or shared over a network.
+
+Below are some fairly common symptoms, corresponding troubleshooting steps, and questions you should ask with regard to printers and printing issues.
+
+#### Lines Down the Printed Pages
+Lines on the printed page are usually caused by **ink residue**. Follow the printer’s **cleaning procedure**. This may include physically cleaning the internal parts of a printer, or a cleaning process that can be triggered by the printer’s software. Try printing a **test page**—are there streaks too? Sometimes streaks may be caused by **the scanning part** of a copier, and therefore they aren’t a printing problem.
+
+#### Garbled Print
+A garbled print may mean a software or connection issue. Are **correct drivers** installed? Is the printer connected firmly with a good **cable**? Is there **enough RAM** free on the printer?
+
+#### Toner Not Fusing to Paper
+Toner not fusing (or sticking) to the paper will only happen on laser printers, and it is due to a fuser problem. Try **replacing the fusing roller or the fuser lamp**.
+
+#### Paper Jams
+There are many reasons for frequent or sporadic paper jams. The reasons can be categorized as related to the **paper** or to the **printer hardware**. Ensure that the paper size and weight used are as recommended by the printer’s manufacturer. Try using a new, dry pack of good-quality paper. Don’t load too much paper at once. Bend the stack of paper to separate sheets before loading. If the problem is not with the paper, then the printer hardware needs to be checked. Check to see if the printer has been **maintained** per the manufacturer’s recommendations. Some printers have a page counter and recommendations on replacing specific internal parts to prevent paper jams. If the jams are very frequent, check for **broken parts** in the feeding path.
+
+#### Faded Print
+Check **toner or ink levels** if the print is faded. Try replacing the cartridges with new ones of known good quality. Check **printing settings**. Are there any **ink-saving settings** enabled that may reduce the amount of ink or toner used?
+
+#### Incorrect Paper Size
+If a printer is loaded with the incorrect paper size, it may jam or misprint. Check the printer’s **settings** to ensure the correct **paper size and orientation** is selected to match the desired outcome.
+
+#### Paper Not Feeding
+If the paper is not feeding, follow the same troubleshooting steps as for a _paper jam_.
+
+#### Multipage Misfeed
+Multiple page misfeeds can be caused by **separation pad** issues or **sticky/damp paper**.
+
+#### Multiple Prints Pending in Queue
+Are there specific errors on these pending jobs that can direct to the troubleshooting steps, such as issues with toner, paper, or access? A backed-up queue may also be due to **spooler issues**. **Restart** the spooler service. Try **disabling the spooler** and printing directly to the printer with no queueing.
+
+#### Speckling on Printed Pages
+Speckling, small marks, or defects on printed pages are common with frequently used or older laser printers. This is often caused by spilled toner or a crack or chip in the EP drum. To fix, **clean or replace the roller**. Speckling with an inkjet printer is often caused by dust or residue in the printer. **Clean the printer** with compressed air. If the problem persists, it may be a leaking cartridge. **Replace the cartridge.**
+
+#### Double/Echo Images on the Print
+Echo images may happen on laser printers due to a **broken cleaning blade** or **bad erasure lamps**. Try replacing the toner cartridge or the erasure lamps.
+
+#### Incorrect Color Settings
+Incorrect color production on an inkjet printer, referred to as the **chroma display**, could be caused by incorrect **cartridge placement**, ink bleeding from a **leaking cartridge**, or the incorrect **paper type**. If the paper is correct, try cleaning the print cartridges with the installed software and reprint a test page.
+
+#### Grinding Noise
+Impact printers can produce grinding noises with a damaged stepper motor. Replace the motor.
+
+#### Finishing Issues
+Many laser printers have finishing options, such as collation, stapling, and hole punching. Issues with the finisher are typically resolved with thorough cleaning.
+- **Staple jams**—Problems with the stapling process are typically caused by malfunctions in the finisher. Check to ensure there are staples in the mechanism and that it does not have any jams.
+- **Hole punch**—Problems with the hole punch process require the same process as the stapler. Ensure there are no blockages to the hole punch mechanism.
+
+#### Incorrect Page Orientation
+Incorrect page orientation is most likely caused by the settings within the printer or software. Ensure that the printer is set to print the correct orientation.
 
 ## [[Power Supply]]
 The computer will not turn on
@@ -415,12 +673,13 @@ The computer reboots, turns off unexpectedly; or there is smoke or the smell of 
 | the power supply is starting to fail | replace the power supply |
 
 # Reference Tools
-Good customer service includes providing the customer with a detailed description of the problem and the solution. It is important that a technician document all services and repairs and that this documentation is available to all other technicians. The documentation can then be used as reference material for similar problems.
+Good customer service includes providing the customer with a detailed description of the problem and the solution. It is important that a technician document all services and repairs and that this documentation is available to all other technicians. The documentation can then be used as reference material for similar problems. Includes the
+also know as the knowledge base
 
 ## Personal
 Personal reference tools include troubleshooting guides, manufacturer manuals, quick reference guides, and repair journals. In addition to an invoice, a technician keeps a journal of upgrades and repairs:
 - **Notes** - Make notes as you go through the troubleshooting and repair process. Refer to these notes to avoid repeating steps and to determine what needs to be done next.
-- **Journal** - Include descriptions of the problem, possible solutions that have been tried to correct the problem, and the steps taken to repair the problem. Note any configuration changes made to the equipment and any replacement parts used in the repair. Your journal, along with your notes, can be valuable when you encounter similar situations in the future.
+- **Journal** - Include descriptions of the problem, possible solutions that have been tried to correct the problem, and the steps taken to repair the problem. Note any configuration changes made to the equipment and any replacement parts used in the repair. Your journal, along with your notes, can be valuable when you encounter similar situations in the future. Also used for a knowledge base article, which are submitted to the company for future referance
 - **History of repairs** - Make a detailed list of problems and repairs, including the date, replacement parts, and customer information. The history allows a technician to determine what work has been performed on a specific computer in the past.
 
 ## Online
@@ -448,7 +707,9 @@ Regular preventive maintenance:
 - Reduces potential hardware and software problems, computer downtime, repair costs, and the number of equipment failures.
 - Improves data protection, equipment life and stability, and saves money.
 
-## Dust
+## Cleaning
+
+### Dust
 The following are considerations to keep dust from damaging computer components:
 
 - Clean/replace building air filters regularly to reduce the amount of dust in the air.
@@ -463,7 +724,7 @@ The following are considerations to keep dust from damaging computer components:
 
 **CAUTION**: When you clean a fan with compressed air, hold the fan blades in place. This prevents overspinning the rotor or moving the fan in the wrong direction.
 
-## Internal Components
+### Internal Components
 This is a basic checklist of components to inspect for dust and damage:
 - **CPU heat sink and fan assembly** – The fan should spin freely, the fan power cable should be secure, and the fan should turn when the power is on.
 - **RAM modules** – The modules must be seated securely in the RAM slots. Ensure that the retaining clips are not loose.
