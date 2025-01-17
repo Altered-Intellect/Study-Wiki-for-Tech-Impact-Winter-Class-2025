@@ -8,7 +8,7 @@ last updated:
 media:
 ---
 # Nav
-< [[Computational Networking|Previous]] < ^ [[Navigation|Home]] ^
+< [[Networks|Previous]] < ^ [[Navigation|Home]] ^
 
 ---
 # [Page 1](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1101-virtualization-and-cloud-computing/pages/1)
@@ -103,4 +103,4 @@ Just as security is vital in physical computing, it’s also important to consid
 
 ---
 # Nav
-< [[Computational Networking|Previous]] < ^ [[Navigation|Home]] ^
+< [[Networks|Previous]] < ^ [[Navigation|Home]] ^

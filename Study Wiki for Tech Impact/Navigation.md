@@ -19,7 +19,7 @@ media:
 	[[Motherboards]]
 	[[Peripherals]]
 	[[Mobile Devices]]
-[[Computational Networking]]
+[[Networks]]
 	[[Network Troubleshooting]]
 	[[Virtualization and Cloud Computing]]
 
@@ -37,9 +37,13 @@ media:
 # Additional Lectures
 [[On Professionalism]]
 
+## Lunch and Learn Sessions
+[[Penn Gaming]]
+
 # References
 ## ITWorks by Tech Impact
 https://techimpact.org/itworks
+Lvstudents@techimpact.org
 
 ## Union Test Prep
 [study guide](https://uniontestprep.com/comptia-a-core-series-exam/study-guide)
@@ -54,6 +58,10 @@ https://techimpact.org/itworks
 	[Page 2](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1101-hardware-and-network-troubleshooting/pages/2)
 	[Page 3](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1101-hardware-and-network-troubleshooting/pages/3)
 	[Page 4](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1101-hardware-and-network-troubleshooting/pages/4)
+[[Networks]]
+	[Page 1](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1101-networking/pages/1)
+	[Page 2](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1101-networking/pages/2)
+	[Page 3](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1101-networking/pages/3)
 
 ## NetAcad
 www.netacad.com

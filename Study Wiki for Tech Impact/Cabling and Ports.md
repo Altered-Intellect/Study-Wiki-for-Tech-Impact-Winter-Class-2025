@@ -12,7 +12,7 @@ media:
 
 You must be able to describe different cable and their matching port types and their characteristics and uses, including connector types, features, and purposes.
 
-# [[Computational Networking]]
+# [[Networks]]
 Network cables are used to connect devices such as computers to networking equipment. There are **three primary types** of network cable: **coaxial**, **twisted pair**, and **fiber**. A cable is the medium through which data is transferred from one device to another.
 
 ## [[Copper Wiring]]

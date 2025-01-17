@@ -8,7 +8,7 @@ last updated:
 media:
 ---
 # Nav
-< [[Network Troubleshooting|Previous]] < ^ [[Navigation|Home]] ^ > [[Computational Networking|Next]] >
+< [[Network Troubleshooting|Previous]] < ^ [[Navigation|Home]] ^ > [[Networks|Next]] >
 
 ---
 # [Page 1](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1101-mobile-devices/pages/1)
@@ -250,4 +250,4 @@ All data synchronization utilities typically synchronize the most common types o
 
 ---
 # Nav
-< [[Network Troubleshooting|Previous]] < ^ [[Navigation|Home]] ^ > [[Computational Networking|Next]] >
+< [[Network Troubleshooting|Previous]] < ^ [[Navigation|Home]] ^ > [[Networks|Next]] >

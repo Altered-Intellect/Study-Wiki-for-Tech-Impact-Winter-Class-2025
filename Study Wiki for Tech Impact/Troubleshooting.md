@@ -18,7 +18,6 @@ This section presents an approach to problem-solving that you can apply to both 
 Before you begin troubleshooting problems, always follow the necessary precautions to protect data on a computer. Some repairs, such as replacing a hard drive or reinstalling an operating system, might put the data on the computer at risk. Make sure you do everything possible to prevent data loss while attempting repairs. If your work results in data loss for the customer, you or your company could be held liable.
 
 ## Data Backup
-
 A data backup is a copy of the data on a computer hard drive that is saved to another storage device or to cloud storage. Cloud storage is online storage that is accessed via the internet. In an organization, backups may be performed on a daily, weekly, or monthly basis.
 
 If you are unsure that a backup has been done, do not attempt any troubleshooting activities until you check with the customer. Here is a list of items to verify with the customer that a backup has been performed:
@@ -44,12 +43,14 @@ Every corporate enterprise has differing policies and procedures. Always conside
 Observation is that first step of any action and is crucial for problem solving. Technical problems with computer systems generally occur in one (or more) of **four areas**: hardware, the operating system, software, and the user. It is vital to accurately identify the problem **before taking action**.
 - **Gather information**—To properly identify a problem, begin by gathering information **from the user and the computer system** in question. When gathering information from the user, ask questions to clarify the problem. Clarifying the issue will give you a starting point for further investigation. After questioning the user, examine the device to determine what is working and what is not. Check for common issues such as power problems or issues resolved upon reboot. Look into systems logs or application logs for information. Is the issue a hardware problem or a software problem?
 - **Inquire about changes**—Consider all the changes that could affect the user (e.g., network, computer, power issues, external connection, user account) and how those changes can be involved in the problem. As an example, let’s say the network team worked over the weekend performing an upgrade to the infrastructure (switch replacement) and neglected to plug all the cabling back into the switch (as simple as a cable falling behind the wiring channel and being missed). The user might have been the one missed and now they cannot authenticate to the network, access their files, print to the network printer, and, therefore, cannot perform common functions. These things happen daily and other teams can be conducting changes without regard to the effect on employees.
+
 **Conversation Etiquette**
 When you are talking to the customer, follow these guidelines:
 - ask direct questions
 - use common terms
 - be polite, do not talk down or insult
 - do not accuse the customer of causing the problem
+
 Information to gather 
 
 | type                   | description                                                   |
@@ -672,17 +673,21 @@ The computer reboots, turns off unexpectedly; or there is smoke or the smell of 
 | ------------------------------------ | ------------------------ |
 | the power supply is starting to fail | replace the power supply |
 
-# Reference Tools
+# Tools
+## Testers
+### Multimeter
+used for testing the volts, current, and amperage between two points using metallic leads
+## Reference
 Good customer service includes providing the customer with a detailed description of the problem and the solution. It is important that a technician document all services and repairs and that this documentation is available to all other technicians. The documentation can then be used as reference material for similar problems. Includes the
 also know as the knowledge base
 
-## Personal
+### Personal
 Personal reference tools include troubleshooting guides, manufacturer manuals, quick reference guides, and repair journals. In addition to an invoice, a technician keeps a journal of upgrades and repairs:
 - **Notes** - Make notes as you go through the troubleshooting and repair process. Refer to these notes to avoid repeating steps and to determine what needs to be done next.
 - **Journal** - Include descriptions of the problem, possible solutions that have been tried to correct the problem, and the steps taken to repair the problem. Note any configuration changes made to the equipment and any replacement parts used in the repair. Your journal, along with your notes, can be valuable when you encounter similar situations in the future. Also used for a knowledge base article, which are submitted to the company for future referance
 - **History of repairs** - Make a detailed list of problems and repairs, including the date, replacement parts, and customer information. The history allows a technician to determine what work has been performed on a specific computer in the past.
 
-## Online
+### Online
 The internet is an excellent source of information about specific hardware problems and possible solutions:
 - Internet search engines
 - News groups
@@ -708,7 +713,10 @@ Regular preventive maintenance:
 - Improves data protection, equipment life and stability, and saves money.
 
 ## Cleaning
-
+loose tangled cables
+loose screws
+missing cables
+slot covers
 ### Dust
 The following are considerations to keep dust from damaging computer components:
 

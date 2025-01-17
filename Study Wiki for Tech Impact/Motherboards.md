@@ -87,7 +87,7 @@ There are a variety of adapter cards available that are used to expand and custo
 It should be noted that some of these adapter cards can be integrated on the motherboard.
 **Note**: Older computers may also have a modem adapter, Accelerated Graphics Port (AGP), a Small Computer System Interface (SCSI) adapter, and more.
 
-### **Chipset** 
+### Chipset
 This consists of the integrated circuits on the motherboard that control how system hardware interacts with the CPU and motherboard. It also establishes how much memory can be added to a motherboard and the type of connectors on the motherboard.
 Most chipsets consist of the following two types:
 - **Northbridge** – Controls high speed access to the RAM and video card. It also controls the speed at which the CPU communicates with all of the other components in the computer. Video capability is sometimes integrated into the Northbridge.

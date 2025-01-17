@@ -104,7 +104,7 @@ Cursor drift is most commonly caused by a faulty pointing stick. You may **move*
 
 ---
 
-## [[Computational Networking]]
+## [[Networks]]
 Given a scenario, you will need to troubleshoot common wired and wireless network problems. Networks are at the heart of today’s computing. A failure in network access has a good chance of preventing users from doing their work or information from being accessed. It needs to be addressed effectively.
 
 ### Common Symptoms

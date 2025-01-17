@@ -292,9 +292,7 @@ virtualization
 
 # Preventive Maintenance and [[Troubleshooting]]
 1. What are the benefits of preventative maintenance?
-reduces wear and tear, hardware and software problems, computer down time, repair costs, and the number of equipment failures.
-Improves data protection, equipment life and stability, and saves money
-
+improves equipment life and stability, reduces wear and tear, and computer down time, prevents hardware and software problems, increases data protection, saves money via repair costs, and the number of equipment failures.  
 
 2. In your own words, what is troubleshooting?
 the process of using observation, testing, and documentation in conjunction with each other to problem solve
@@ -318,7 +316,7 @@ the process of using observation, testing, and documentation in conjunction with
 backing up all data, not practical in small repairs but critical with sensitive information and intensive repairs
 
 6. In what scenario would a technician want to use more closed than open-ended questions?
-when a technician needs direct answers, and a quick turn over of information
+when a technician needs direct answers, and a quick turn over for information
 
 7. What information does the Event Viewer give that you can’t get from the Device Manager in Windows?
 the detailing of the errors within the computer, the device manager only displays the status of
@@ -347,10 +345,109 @@ the questions asked to the user, the steps they took to solve the problem, and t
 
 
 13. led light for the storage is on and a program is running slow, what should you do?
-install more RAM
+install more RAM, hard drive is being use as 
 
-14. before troubleshooting what is the first thing that needs to be done?
+14. workstation locks up after 5 min
+overheating
+
+15. 4 year old computer has slow booting because of BIOS rediscovery
+change the CMOS battery
+
+16. before troubleshooting what is the first thing that needs to be done?
 back up data
 
-15. what do you do to figure out what direction the fans spin?
+17. where can the tech find the most recent errors in the computer system
+the event viewer
+
+18. what is the solution to a problem that requires knowledge a tech does not have
+document your testing and attach it to the ticket and escalate 
+
+19. what do you do to figure out what direction the fans spin?
 watch it when it is plugged in
+
+the first and last steps have to do with interacting with the customer(s)
+
+# [[Networks]]
+1. How are hosts and intermediary devices different? What are 3 types of intermediary devices a tech would find on most modern networks?
+
+
+2. Give an example of the following network topologies:
+- PAN: Bluetooth network connections
+- WMN: 
+- MAN: 
+- LAN: 
+- VPN: 
+ 
+3. How do switches direct traffic differently than routers?
+
+
+4. What are the different advantages of the 2 Transport Layer Protocols? Give a scenario for each.
+
+
+5. How do TCP/UDP use port numbers to keep up with applications conversations when sending data over a network?
+
+
+6. What are three common remote access protocols used by TCP/UDP? What are the default ports for these protocols? 
+
+
+7. What group of standards specify speeds and other capacities for WLANs? Which organization is responsible for these? 
+
+
+8. Give an example of how each close-proximity connection standard below is used. 
+- RFID : 
+- Zigbee :
+- Z-wave :
+- NFC : 
+
+9. What is the purpose of AFH?
+
+
+10. DHCP and DNS do different things. Explain the role of each in accessing a simple webpage.
+
+
+11. What are some secure protocols that can be used to access data on file server? 
+
+
+12. Which two email protocols allow hosts to retrieve email from a server and what are their secure & unsecure ports?
+
+13. In what 3 ways does the syslog protocol help with the management of multiple networking devices?
+
+
+14. How would you describe the difference between a repeater and a bridge?
+
+
+15. Every NIC has a unique MAC. Describe the role the MAC address plays in networks. 
+
+
+16. Switches connect networking __________________. Routers connect _______________________.
+
+
+17. What three network devices are contained in most home or small business integrated routers?
+
+
+18. How do IPS and IDS handle threats to a network differently? What does the term “inline” mean?
+
+
+19.  What are some examples of embedded systems? When are embedded devices also considered “legacy?”
+
+
+20. How is the purpose of a patch panel different than that of a switch?
+
+
+
+21. What sorts of devices might require PoE equipment and what IEEE standard is used?
+
+
+22. What tool must I use when attaching RJ-45 connectors to Ethernet cables or RJ-11 to telephone cables?
+
+
+23. Why has UTP cable replaced coax for cabling LANs? What are the pros and cons of using STP over UTP?
+
+
+24. CAT5e and CAT6 both provide speeds up to ______________.  What is different about CAT6? 
+
+
+25. The two modes of fiber media discussed in the chapter differ primarily in distance covered. Which mode is more popular in LANs and why? 
+
+
+26. What is a proxy server?
