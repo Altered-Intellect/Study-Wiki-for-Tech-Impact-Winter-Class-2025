@@ -372,10 +372,10 @@ the first and last steps have to do with interacting with the customer(s)
 
 
 2. Give an example of the following network topologies:
-- PAN: Bluetooth network connections
+- PAN: an area network that spans a person personal space such as Bluetooth network connections
 - WMN: 
-- MAN: 
-- LAN: 
+- MAN: an area network that covers a multiple location that are next to one another such as sections of a city, town, or campus
+- LAN: an area network that covers a a set area like the inside of a office or home, often wifi
 - VPN: 
  
 3. How do switches direct traffic differently than routers?

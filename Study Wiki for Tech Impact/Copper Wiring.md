@@ -4,7 +4,6 @@ parent docs:
   - "[[Cabling and Ports]]"
 sibling docs: 
 child docs: 
-date created: ""
 last updated: 2025-01-13T00:29:00
 media:
 ---

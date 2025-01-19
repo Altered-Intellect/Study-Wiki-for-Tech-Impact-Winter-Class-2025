@@ -40,32 +40,27 @@ For the CompTIA A+ exam, you must be able to **compare and contrast** TCP and UD
 a transport protocol that is designed for reliability, with guaranteed delivery, and data assembled in the proper order, required a digital handshake.
 
 TCP transport is analogous to sending packages that are tracked from source to destination. If a shipping order is broken up into several packages, a customer can check online to see the order of the delivery.
+#### Connection-Oriented
+TCP is a connection-oriented which establishes a set connection before data flow begins between two devices. 
 
 With TCP, there are three basic operations of reliability:
-
 - Numbering and tracking data segments transmitted to a specific device from a specific application
 - Acknowledging received data
 - Retransmitting any unacknowledged data after a certain period of time
 
-Click Play in the figure to see how TCP segments and acknowledgments are transmitted between sender and receiver.
+| Port  | Protocol           | Application                                      | Description                                                                                                                                                                                                                                             |
+| ----- | ------------------ | ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 20/21 | File Transport     | File Transfer Protocol : [[FTP]]                 | used to manipulate files. FTP can copy files, list and manipulate directories, and view file contents. **Port 21** is mainly used for file management and **port 20** is used for data transfer. FTP is **not secure** and transmits in **plain text**. |
+| 22    | Remote Access      | Secure Shell : [[SSH]]                           | connection-oriented protocol used to set up secure Telnet connections for remote logins. SSH is **secure**.                                                                                                                                             |
+| 23    | Remote Access      | Telnet                                           | a terminal emulation program that allows for remote access to text on another computer. Telnet is **not secure** and transmits **plaintext**.                                                                                                           |
+| 25    | Email and Identity | Simple Mail Transfer Protocol : [[SMTP]]         | used to send **email only** and is a **push protocol**. It may also be used to relay email messages from source to destination email servers.                                                                                                           |
+| 80    | World Wide Web     | Hypertext Transfer Protocol : [[HTTP]]           | manages communications between a web server and a client to view internet content using a set of notation. HTTP is **not secure** and transmits in **plain text**.                                                                                      |
+| 110   | Email and Identity | Post Office Protocol 3 : [[POP3]]                | used for **downloading email**.                                                                                                                                                                                                                         |
+| 143   | Email and Identity | Internet Message Access Protocol : [[IMAP]]      | currently in its fourth version, or IMAP4, and is used for downloading email. IMAP4 is **secure** and runs over **port 143**.                                                                                                                           |
+| 389   |                    | Lightweight Directory Access Protocol : [[LDAP]] | used for **accessing information** stored in an information directory.                                                                                                                                                                                  |
+| 548   | File Transfer      | Apple Filing Protocol : [[AFP]]                  | proprietary port for file transfer for Apple devices                                                                                                                                                                                                    |
 
-#### 20/21—File Transfer Protocol (FTP)
-File Transfer Protocol (FTP) is used to manipulate files. FTP can copy files, list and manipulate directories, and view file contents. FTP runs on ports 20 and 21. **Port 21** is mainly used for file management and **port 20** is used for data transfer. FTP is **not secure** and transmits in **plain text**.
 
-#### 22—Secure Shell (SSH)
-Secure Shell (SSH) is a connection-oriented protocol used to set up secure Telnet connections for remote logins. SSH is **secure** and runs on **port 22**.
-
-#### 25—Simple Mail Transfer Protocol (SMTP)
-Simple Mail Transfer Protocol (SMTP) is used to send **email only** and is a **push protocol**. SMTP uses **port 25**.
-
-#### 80—Hypertext Transfer Protocol (HTTP)
-Hypertext Transfer Protocol (HTTP) manages communications between a web server and a client to view internet content. HTTP is **not secure** and transmits in **plain text**. HTTP uses **port 80**.
-
-#### 443—Hypertext Transfer Protocol Secure (HTTPS)
-Hypertext Transfer Protocol Secure (HTTPS) is the **secure version of HTTP**. HTTPS uses **port 443**.
-
-#### 23—Telnet
-Telnet is a terminal emulation program that allows for remote access to text on another computer. Telnet is **not secure** and transmits **plaintext**. Telnet uses **port 23**.
 
 ### The TCP/IP Model
 The TCP/IP model consists of layers that perform functions necessary to prepare data for transmission over a network. TCP/IP stands for two important protocols in the model: Transmission Control Protocol (TCP) and Internet Protocol (IP). TCP is responsible for tracking all the network connections between a user’s device and multiple destinations. The Internet Protocol (IP) is responsible for adding addressing so that data can be routed to the intended destination.
@@ -74,57 +69,37 @@ The two protocols that operate at the transport layer are TCP and User Datagram 
 
 TCP is considered a reliable, full-featured transport layer protocol, which ensures that all of the data arrives at the destination. In contrast, UDP is a very simple transport layer protocol that does not provide for any reliability. The next figure highlights the TCP and UDP properties.
 
-## User Datagram Protocol (UDP) Ports
+## User Datagram Protocol : [[UDP]] Ports
 a transport protocol that is designed for speed, transferring the data as quickly as possible, with some tolerance for data loss
 
 UDP is similar to placing a regular, non-registered, letter in the mail. The sender of the letter is not aware of the availability of the receiver to receive the letter. Nor is the post office responsible for tracking the letter or informing the sender if the letter does not arrive at the final destination.
 
+#### Connectionless
+UDP is a connectionless protocol which allow for data to flow without guaranteeing an established connection. This allows for faster data flow but does not guarantee reliable data flow. 
+
 UDP provides the basic functions for delivering data segments between the appropriate applications, with very little overhead and data checking. UDP is known as a best-effort delivery protocol. In the context of networking, best-effort delivery is referred to as unreliable because there is no acknowledgment that the data is received at the destination.
 
-#### 53—Domain Name System (DNS)
-The Domain Name System (DNS) is used to resolve hostnames to IP addresses and uses **port 53**.
+| Port  | Protocol           | Application                                                       | Description                                                                                                                                               |
+| ----- | ------------------ | ----------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 67/68 | Network Operations | Dynamic Host Configuration Protocol : [[DHCP]]                    | **assigns IP addresses** dynamically to network clients through a lease. DHCP uses **port 67** for the server and **port 68** for the client.             |
+| 69    | File Transfer      | Trivial File Transfer Protocol : [[TFTP]]                         | a **faster version of FTP** that **uses UDP** rather than TCP as its transport protocol.                                                                  |
+| 161   | Network Operations | Simple Network Management Protocol : [[SNMP]]                     | used for network management. SNMP uses **port 161** for sending and receiving requests and **port 162** for receiving transmissions from managed devices. |
+| 445   | File transport     | Server Message Block (SMB)/Common Internet File System : [[CIFS]] | primarily a **Microsoft protocol** used for **shared file access**. Common Internet File System (CIFS) is an enhanced version of SMB.                     |
 
-#### 67/68—Dynamic Host Configuration Protocol (DHCP)
-Dynamic Host Configuration Protocol (DHCP) **assigns IP addresses** dynamically to network clients. DHCP uses **port 67** for the server and **port 68** for the client.
-
-#### 110—Post Office Protocol 3 (POP3)
-Post Office Protocol 3 (POP3) is used for **downloading email**. POP3 uses **port 110**.
-
-#### 137/139—Network Basic Input/Output System (NetBIOS)/NetBIOS over TCP/IP (NetBT
-Network Basic Input/Output System (NetBIOS) is an API for **communication between computers** over a network. NetBIOS works over OSI layer 4 and needs to work with a layer 5 protocol, namely TCP/IP, to function properly. NetBIOS over TCP/IP is called NetBT. NetBIOS runs on **ports 137/139**.
-
-#### 143—Internet Message Access Protocol (IMAP)
-Internet Message Access Protocol (IMAP) is currently in its fourth version, or IMAP4, and is used for downloading email. IMAP4 is **secure** and runs over **port 143**.
-
-#### 161/162—Simple Network Management Protocol (SNMP)
-Simple Network Management Protocol (SNMP) is used for network management. SNMP uses **port 161** for sending and receiving requests and **port 162** for receiving transmissions from managed devices.
-
-#### 389—Lightweight Directory Access Protocol (LDAP)
-Lightweight Directory Access Protocol (LDAP) is used for **accessing information** stored in an information directory. LDAP uses **port 389**.
-
-
-#### 445—Server Message Block (SMB)/Common Internet File System (CIFS)
-Server Message Block (SMB) is primarily a **Microsoft protocol** used for **shared file access**. Common Internet File System (CIFS) is an enhanced version of SMB. SMB/CIFS use **port 445**.
-
-#### 3389—Remote Desktop Protocol (RDP)
-Remote Desktop Protocol (RDP) allows for remote connection to computers. RDP uses **port 3389**.
-
-### TCP vs. UDP
+## TCP vs. UDP
 **Transmission Control Protocol (TCP)** is a connection-oriented protocol used to send and receive data over a network. Before data is sent, a connection is established with the receiving host. It is considered a **reliable protocol** because the receiving host acknowledges that it received the data. TCP is used in cases where receiving the proper data is more important than speed. **User Datagram Protocol (UDP)** is a **connectionless protocol**. Data is sent without any assurance that the receiving host is actually receiving the data. For that reason, it is considered an **unreliable protocol**. The advantage of UDP over TCP is that it is faster.
 
-#### Connectionless
-Connectionless protocols allow for data to flow without guaranteeing an established connection. This allows for faster data flow but does not guarantee reliable data flow. UDP is connectionless.
+TCP and UDP use a source and destination port number to keep track of application conversations. The source port number is associated with the originating application on the local device. The destination port number is associated with the destination application on the remote device. These are not physical ports. They are numbers that are used by TCP and UDP to identify the applications that should handle the data.
 
-**DHCP**—Dynamic Host Configuration Protocol (DHCP) is used to dynamically **assign IP configuration information** to clients through a lease and uses UDP as its transport protocol. DHCP runs on **port 67/68**.
+The source port number is dynamically generated by the sending device. This process allows multiple conversations to occur at the same time for the same application. For example, when you use a web browser, you can have more than one tab open at a time. The destination port number is 80 for regular web traffic or 443 for secure web traffic. These are called well-known port numbers because they are consistently used by most webservers on the Internet. Source port numbers will be different for each tab opened. This is how your computer knows which browser tab to deliver the web content to. Similarly, other network applications like email and file transfer have their own assigned port numbers.
 
-**TFTP**—Trivial File Transfer Protocol (TFTP) is a **faster version of FTP** that **uses UDP** rather than TCP as its transport protocol. TFTP uses **port 69**.
-
-#### Connection-Oriented
-Connection-oriented communication establishes a set connection before data flow begins between two devices. TCP is connection-oriented.
-
-**HTTPS**—Hypertext Transfer Protocol Secure (HTTPS) is a connection-oriented protocol that uses TCP as its transport protocol. HTTPS uses **port 443**.
-
-**SSH**—Secure Shell (SSH) is a connection-oriented protocol that uses TCP as its transport protocol. SSH uses **port 22**.
+| Port    | Protocol           | Application                                                         | Description                                                                                                                                                                                                                                               |
+| ------- | ------------------ | ------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 53      |                    | Domain Name System : [[DNS]]                                        | used to resolve hostnames to IP addresses for Web, Email, and other Internet services. It uses UDP for request and information transfer between DNS servers. TCP will be used for DNS responses if required                                               |
+| 137/139 | Network Operations | Network Basic Input/Output System : [[NetBIOS]] over TCP/IP (NetBT) | an API for **communication between computers** over a network. NetBIOS works over OSI layer 4 and needs to work with a layer 5 protocol, namely TCP/IP, to function properly. NetBIOS over TCP/IP is called NetBT. NetBIOS runs on **ports 137/139**.<br> |
+| 427     |                    | Service Location Protocol : [[SLP]]                                 | allows computers and other devices to locate services on a LAN without previous configuration. Usually uses UDP, but can use TCP.                                                                                                                         |
+| 443     |                    | Hypertext Transfer Protocol Secure : [[HTTPS]]                      | the **secure version of HTTP**. HTTPS used encryption and authenticates your connect with the webserver                                                                                                                                                   |
+| 3389    | Remote Access      | Remote Desktop Protocol : [[RDP]]                                   | allows for remote connection to computers.                                                                                                                                                                                                                |
 
 ## Common Networking Hardware
 Networking hardware includes the physical components used to achieve network connectivity. You must be able to **compare and contrast** common networking hardware.
@@ -150,7 +125,7 @@ A patch panel is a dumb device that is essentially a large rack-mounted HUB whos
 ### Firewall
 A firewall is a **security appliance**, either hardware or software, that filters network traffic based on a preconfigured set of rules.
 
-### Power over Ethernet (PoE)
+### Power over Ethernet : [[PoE]]
 Power over Ethernet (PoE) is a technology that **delivers power to devices** over data lines, such as an ethernet cable, rather than having a separate power cord.
 
 #### Injectors
@@ -173,18 +148,18 @@ A HUB is a dumb **Layer 1** device that sends all incoming data to all connected
 ### Cable Modem
 A cable modem is a device that connects to a cable line to provide **connectivity**. A cable modem is technically no longer a modem, however, since it does not modulate and demodulate analog signals.
 
-### Digital Subscriber Line (DSL)
+### Digital Subscriber Line : [[DSL]]
 A digital subscriber line (DSL) modem provides connectivity **via a telephone line**.
 DSL is an always-on service, which means that there is no need to dial up each time you want to connect to the internet. Voice and data signals are carried on different frequencies on the copper telephone wires. A filter prevents DSL signals from interfering with phone signals.
 
 Very high-speed DSL (VDSL) attains much higher bit rates than DSL. A symmetric link can carry as much as 26 Mbps in both directions while an asymmetric link can carry as much as 52 Mbps download and 6 Mbps upload. VDSL2 can carry as much as 100 Mbps in both directions.
-### Optical Network Terminal (ONT)
+### Optical Network Terminal : [[ONT]]
 An optical network terminal (ONT) modem is one that provides connectivity **via a fiber-optic line**.
 
-### Network Interface Card (NIC)
+### Network Interface Card : [[NIC]]
 A network interface card (NIC), also known as a **network adapter card**, is used to provide the physical interface between a computer and the cabling used for connectivity.
 
-### Software-Defined Networking (SDN)
+### Software-Defined Networking : [[SDN]]
 Software-defined networking (SDN) sets up a network virtually **via the cloud**. The SDN replaces the functionality of the router in a network.
 
 ---
@@ -214,17 +189,17 @@ Bluetooth allows devices to communicate over short distances (10 meters) in a pe
 ### 802.11
 The Wi-Fi specification 802.11 is part of the IEEE 802 wireless networking standards. It is used for Wi-Fi communications. They all use the ethernet protocol and carrier sense multiple access with collision avoidance (CSMA/CA) media access method. The main characteristics that differentiate them are their operating frequencies, theoretical maximum data speed, and throughput.
 
-**a**—5 GHz frequency, 54 Mbps maximum throughput, 120 meters range
+**a**—5 GHz frequency, 54 Mbps maximum throughput, 120 meters range, no backwards compatibility
 
-**b**—2.4 GHz frequency, 11 Mbps maximum throughput, 140 meters range
+**b**—2.4 GHz frequency, 11 Mbps maximum throughput, 140 meters range, no backwards compatibility
 
-**g**—2.4 GHz frequency, 54 Mbps maximum throughput, 140 meters range
+**g**—2.4 GHz frequency, 54 Mbps maximum throughput, 140 meters range, backward compatible with 802.11b
 
-**n**—5/2.4 GHz frequency, 600 Mbps maximum throughput, 250 meters range
+**n**—5/2.4 GHz frequency, 600 Mbps maximum throughput, 250 meters range, backward compatible with 802.11a/b/g
 
-**ac (Wi-Fi 5)**—5 GHz frequency, 6.5 Gbps maximum throughput, 140 meters range
+**ac (Wi-Fi 5)**—5 GHz frequency, 6.5 Gbps maximum throughput, 140 meters range, backward compatible with 802.11a/n
 
-**ax (Wi-Fi 6)**—5/2.4 GHz frequency, 9.6 Gbps maximum throughput, 140 meters range
+**ax (Wi-Fi 6/6e)**—5/2.4 GHz frequency, 9.6 Gbps maximum throughput, 140 meters range, 6e has 1 and 6 GHz frequency, backward compatible with 802.11a/b/g/n/ac
 
 ### Long-Range Fixed Wireless
 

@@ -4,7 +4,6 @@ parent docs:
   - "[[Peripherals]]"
 sibling docs: 
 child docs: 
-date created: ""
 last updated: 
 media:
 ---

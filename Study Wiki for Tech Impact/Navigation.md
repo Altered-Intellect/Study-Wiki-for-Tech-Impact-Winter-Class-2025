@@ -36,7 +36,7 @@ media:
 
 # Additional Lectures
 [[On Professionalism]]
-
+[[On Recruiting and the IT Workplace]]
 ## Lunch and Learn Sessions
 [[Penn Gaming]]
 
