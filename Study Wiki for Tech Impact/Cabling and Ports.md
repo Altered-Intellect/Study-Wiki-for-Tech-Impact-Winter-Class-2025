@@ -24,6 +24,44 @@ Optical is a transmission method that depends on light pulses for data transfer.
 ## Legacy Ports
 Computers have many different types of ports to connect the computer to external peripheral devices. As computer technology has evolved, so have the types of ports used to connect peripheral devices. Legacy ports are typically found on older computers and have been mostly replaced by newer technologies such as USB.
 
+## Tools
+
+### Wire Cutters
+used to cut wires. Also known as side-cutters, these wire cutters are specifically designed to snip aluminum and copper wire.
+
+### Wire Strippers
+used to remove the insulation from wire so that it can be twisted to other wires or crimped to connectors to make a cable. Wire strippers typically come with a variety of notches for different wire gauges.
+
+### Crimpers
+used to attach connectors to wires. The crimper tool shown here can attach RJ-45 connectors to networking cables used for Ethernet and RJ-11 connectors to telephone cables used for land lines.
+
+### Punch-down 
+used to terminate wire into termination blocks.
+
+### Multimeter
+a device that can take many types of measurements. It measures AC/DC voltage, electric current, and other electrical characteristics to test the integrity of circuits and the quality of electricity in computer components.
+
+### Cable Tester
+used to check for wiring shorts, faults, or wires connected to the wrong pins.
+
+### Loopback Adapter
+also called a loopback plug, tests the basic functionality of computer ports. The adapter is specific to the port that you want to test. In networking, a loopback plug can be inserted in a computer NIC to test the send and receive functionality of the port.
+
+### Tone Probe and Generator
+a two-part tool used to trace the remote end of a cable for testing and troubleshooting. The tone generator applies a tone to the wire to be tested. On the remote end, the probe is used to identify the test wire. When the probe is in near proximity to the cable to which the toner is attached, the tone can be heard through a speaker in the probe.
+
+### Wi-Fi Analyzer
+are mobile tools for auditing and troubleshooting wireless networks. Many Wi-Fi analyzers, like the Cisco Spectrum Expert Wi-Fi application, are robust tools designed for enterprise network planning, security, compliance, and maintenance. But Wi-Fi analyzers can also be used for smaller, wireless LANs. Technicians can see all available wireless networks in a given area, determine signal strengths, and position access points to adjust wireless coverage.
+
+Some Wi-Fi analyzers can help troubleshoot a wireless network by detecting misconfigurations, access point failures, and radio frequency interference (RFI) problems.
+
+## Test Access Point : [[TAP]]
+Sometimes it is necessary to capture network traffic to analyze it. This can often be done with software such as Wireshark. If this is not possible, a network tap can be used to capture the cable signals and send them to analyzing software. A network tap can be passive or active (powered). 
+- **Passive TAP** - This type of TAP is a box with network ports to carry signals in and out. Inside, an inductor or optical splitter is used to copy the signal and send it out a monitor port. The monitor port receives all the traffic from the cable. 
+- **Active TAP** - This type of TAP regenerates the signal. Due to the complexity of gigabit signaling, a passive TAP is unable to be used. Also, some fiber links may become corrupt using an optical splitter, so an active TAP is used instead. 
+
+Network sniffing can also be completed using a special port on a network switch. This is known as a switched port analyzer (SPAN)/mirror port. A mirror receives a copy of the traffic that are addressed to a specific port or all other ports.
+
 # [[Peripherals]] 
 Peripheral cables attach peripheral devices to a computing device. Input/output (I/O) ports on a computer connect peripheral devices such as printers, scanners, and portable drives. In addition to the ports and interfaces, a computer may also have other ports. 
 
