@@ -178,9 +178,9 @@ installed at the terminating points of cables to provide connection to compatibl
 - **Molex™**—Molex is an older **two-piece** pin-and-socket interconnection type used for drive connections.
 - **Lightning port**—Lightning port is an **eight-pin Apple** proprietary connector type that has **reversible** orientation.
 - **DB9**—The DB9[1](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1101-hardware/pages/1#footnote_1) is a **trapezoid**-shaped nine-pin connector arranged in **two rows of four and five pins**. It is used for serial connections to network device consoles or management ports.
-
 ---
 _1. The term “DB9” is commonly used but is technically incorrect; the proper name is “DE9,” referring to the size of the connector’s shell and the number of pins, with DE indicating a smaller shell size than DB. However, given that this misconception has been prevalent for so long in the industry, the CompTIA objectives use the term DB9._
+
 ## [[Power Supply]]
 These connectors are used to power various internal components such as the motherboard and disk drives. The connectors are “keyed” which means that they are designed to be inserted in only one orientation.
 

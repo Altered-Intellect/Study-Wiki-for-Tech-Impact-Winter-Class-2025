@@ -39,9 +39,7 @@ For the CompTIA A+ exam, you must be able to **compare and contrast** TCP and UD
 ## Transmission Control Protocol (TCP) 
 a transport protocol that is designed for reliability, with guaranteed delivery, and data assembled in the proper order, required a digital handshake.
 
-TCP transport is analogous to sending packages that are tracked from source to destination. If a shipping order is broken up into several packages, a customer can check online to see the order of the delivery.
-#### Connection-Oriented
-TCP is a connection-oriented which establishes a set connection before data flow begins between two devices. 
+TCP transport is analogous to sending packages that are tracked from source to destination. If a shipping order is broken up into several packages, a customer can check online to see the order of the delivery. TCP is a connection-oriented which establishes a set connection before data flow begins between two devices. 
 
 With TCP, there are three basic operations of reliability:
 - Numbering and tracking data segments transmitted to a specific device from a specific application
@@ -51,12 +49,12 @@ With TCP, there are three basic operations of reliability:
 | Port  | Protocol           | Application                                      | Description                                                                                                                                                                                                                                             |
 | ----- | ------------------ | ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 20/21 | File Transport     | File Transfer Protocol : [[FTP]]                 | used to manipulate files. FTP can copy files, list and manipulate directories, and view file contents. **Port 21** is mainly used for file management and **port 20** is used for data transfer. FTP is **not secure** and transmits in **plain text**. |
-| 22    | Remote Access      | Secure Shell : [[SSH]]                           | connection-oriented protocol used to set up secure Telnet connections for remote logins. SSH is **secure**.                                                                                                                                             |
+| 22    | Remote Access      | Secure Shell : [[SSH]]                           | connection-oriented protocol used to set up secure Telnet connections for remote logins. SSH is **secure**. SCP secure copy protocol, SFTP is SSH FTP                                                                                                   |
 | 23    | Remote Access      | Telnet                                           | a terminal emulation program that allows for remote access to text on another computer. Telnet is **not secure** and transmits **plaintext**.                                                                                                           |
 | 25    | Email and Identity | Simple Mail Transfer Protocol : [[SMTP]]         | used to send **email only** and is a **push protocol**. It may also be used to relay email messages from source to destination email servers.                                                                                                           |
 | 80    | World Wide Web     | Hypertext Transfer Protocol : [[HTTP]]           | manages communications between a web server and a client to view internet content using a set of notation. HTTP is **not secure** and transmits in **plain text**.                                                                                      |
 | 110   | Email and Identity | Post Office Protocol 3 : [[POP3]]                | used for **downloading email**.                                                                                                                                                                                                                         |
-| 143   | Email and Identity | Internet Message Access Protocol : [[IMAP]]      | currently in its fourth version, or IMAP4, and is used for downloading email. IMAP4 is **secure** and runs over **port 143**.                                                                                                                           |
+| 143   | Email and Identity | Internet Message Access Protocol : [[IMAP]]      | currently in its fourth version, or IMAP4, and is used for downloading email. IMAP4 is a **secure** port                                                                                                                                                |
 | 389   |                    | Lightweight Directory Access Protocol : [[LDAP]] | used for **accessing information** stored in an information directory.                                                                                                                                                                                  |
 | 548   | File Transfer      | Apple Filing Protocol : [[AFP]]                  | proprietary port for file transfer for Apple devices                                                                                                                                                                                                    |
 
@@ -72,10 +70,7 @@ TCP is considered a reliable, full-featured transport layer protocol, which ensu
 ## User Datagram Protocol : [[UDP]] Ports
 a transport protocol that is designed for speed, transferring the data as quickly as possible, with some tolerance for data loss
 
-UDP is similar to placing a regular, non-registered, letter in the mail. The sender of the letter is not aware of the availability of the receiver to receive the letter. Nor is the post office responsible for tracking the letter or informing the sender if the letter does not arrive at the final destination.
-
-#### Connectionless
-UDP is a connectionless protocol which allow for data to flow without guaranteeing an established connection. This allows for faster data flow but does not guarantee reliable data flow. 
+UDP is similar to placing a regular, non-registered, letter in the mail. The sender of the letter is not aware of the availability of the receiver to receive the letter. Nor is the post office responsible for tracking the letter or informing the sender if the letter does not arrive at the final destination. UDP is a connectionless protocol which allow for data to flow without guaranteeing an established connection. This allows for faster data flow but does not guarantee reliable data flow. 
 
 UDP provides the basic functions for delivering data segments between the appropriate applications, with very little overhead and data checking. UDP is known as a best-effort delivery protocol. In the context of networking, best-effort delivery is referred to as unreliable because there is no acknowledgment that the data is received at the destination.
 
@@ -98,70 +93,70 @@ The source port number is dynamically generated by the sending device. This proc
 | 53      |                    | Domain Name System : [[DNS]]                                        | used to resolve hostnames to IP addresses for Web, Email, and other Internet services. It uses UDP for request and information transfer between DNS servers. TCP will be used for DNS responses if required                                               |
 | 137/139 | Network Operations | Network Basic Input/Output System : [[NetBIOS]] over TCP/IP (NetBT) | an API for **communication between computers** over a network. NetBIOS works over OSI layer 4 and needs to work with a layer 5 protocol, namely TCP/IP, to function properly. NetBIOS over TCP/IP is called NetBT. NetBIOS runs on **ports 137/139**.<br> |
 | 427     |                    | Service Location Protocol : [[SLP]]                                 | allows computers and other devices to locate services on a LAN without previous configuration. Usually uses UDP, but can use TCP.                                                                                                                         |
-| 443     |                    | Hypertext Transfer Protocol Secure : [[HTTPS]]                      | the **secure version of HTTP**. HTTPS used encryption and authenticates your connect with the webserver                                                                                                                                                   |
+| 443     | World Wide Web     | Hypertext Transfer Protocol Secure : [[HTTPS]]                      | the **secure version of HTTP**. HTTPS used encryption and authenticates your connect with the webserver                                                                                                                                                   |
 | 3389    | Remote Access      | Remote Desktop Protocol : [[RDP]]                                   | allows for remote connection to computers.                                                                                                                                                                                                                |
 
-## Common Networking Hardware
+# Common Networking Hardware
 Networking hardware includes the physical components used to achieve network connectivity. You must be able to **compare and contrast** common networking hardware.
 
-### Routers
+## Routers
 A router is a device that connects multiple network devices and determines the best path for reaching a specified device using routing tables. Routers are **OSI Layer 3** devices and make decisions based on logical addresses. Key functions of a router include **connecting multiple network devices** to one another, breaking up broadcast domains, and connecting one LAN to another LAN on a WAN.
 
 Routers can have all the functionality of a switch or a wireless AP. Switches use MAC addresses to forward traffic within a single network. Routers use IP addresses to forward traffic to other networks.
 
 For some networks, it is more convenient to purchase and configure one device that serves all your needs than to purchase a separate device for each function. This is especially true for the home or small office. Multipurpose devices may also include a modem for connecting to the internet.
 
-### Switches
+## Switches
 A switch is a device that works at **OSI Layer 2**, examines the header of incoming packets for the MAC address, and forwards the packet to the correct location. 
 
 [[#Bridges]] and [[#Hub]](s) are now considered legacy devices because of the benefits and low cost of switches. A switch microsegments a LAN. Microsegmenting means that switches filter and segment network traffic by sending data only to the device to which it is sent. This provides higher dedicated bandwidth to each device on the network. When PC-A sends a job to the printer, only the printer receives the traffic. Both switches and legacy bridges perform microsegmentation, however, switches perform this filtering and forwarding operation in hardware, and also include additional features.
 
-#### Operation
+### Operation
 Every device on a network has a unique media access control (MAC) address. This address is hardcoded by the manufacturer of the NIC. As devices send data, switches enter the device’s MAC address into a switching table that records the MAC address for each device connected to the switch, and records which switch port can be used to reach a device with a given MAC address. When traffic arrives that is destined for a particular MAC address, the switch uses the switching table to determine which port to use to reach the MAC address. The traffic is forwarded out the port to the destination. By sending traffic out of only one port to the destination, other ports are not affected.
 
-#### Managed
+### Managed
 A managed switch is one that **allows for port configuration**, traffic management, and traffic monitoring. Managed switches offer quality of service (QoS), redundancy, port mirroring, and VLANs.
 
-#### Unmanaged
+### Unmanaged
 An unmanaged switch does _not_ allow for configuration and passes on all data for a MAC address to its ports.
 
-### Access Points
+## Access Points
 An access point is technically any device to which a host can connect in order to access a network. Wired access points include **hubs** and **switches**. However, the term usually refers to a wireless access point (WAP) that allows Wi-Fi devices to connect to a network.
-#### Wireless
+### Wireless
 provide network access to wireless devices, such as laptops and tablets. The wireless AP uses radio waves to communicate with the wireless NIC in the devices and other wireless access points. An access point has a limited range of coverage. Large networks require several access points to provide adequate wireless coverage. A wireless access point provides connectivity only to the network, while a wireless router provides additional features.
 
-### Patch Panel
+## Patch Panel
 A patch panel is a dumb device that is essentially a large rack-mounted HUB whose sole purpose is to **connect cables** together. A **dumb device** is a device that broadcasts all data coming in through the input port out over all output ports. A dumb device, like a patch panel, makes no logical decisions and simply serves as a connection and relay point.
 
 A patch panel can be unpowered or powered. A powered patch panel can regenerate weak signals before sending them on to the next device.
 
 For safety, ensure that all cables are secured using cable ties or cable management products and are not crossing walkways or running under desks where they can be kicked.
 
-### Firewall
+## Firewall
 A firewall is a **security appliance**, either hardware or software, that filters network traffic based on a preconfigured set of rules. Firewalls protect data and equipment on a network from unauthorized access. A firewall resides between two or more networks. It does not use the resources of the computers it is protecting, so there is no impact on processing performance.
 
 Firewalls use various techniques for determining what is permitted or denied access to a network segment, such as an Access Control List (ACL). This list is a file that the router uses which contains rules about data traffic between networks.
 
 **Note**: On a secure network, if computer performance is not an issue, enable the internal operating system firewall for additional security. For example, in Windows 10 the firewall is called Windows Defender Firewall. Some applications might not operate properly unless the firewall is configured correctly for them.
 
-#### Intrusion Detection/Prevention Systems : [[ID.PSs]]
+### Intrusion Detection/Prevention Systems : [[ID.PSs]]
 passively monitor traffic on the network. Stand-alone IDS systems have largely disappeared in favor of Intrusion Prevention Systems (IPSs). But the detection feature of an IDS is still part of any IPS implementation. The figure shows that an IDS-enabled device copies the traffic stream and analyzes the copied traffic rather than the actual forwarded packets. Working offline, it compares the captured traffic stream with known malicious signatures, similar to software that checks for viruses.
 
 An IPS builds upon IDS technology. However, an IPS device is implemented in inline mode. This means that all inbound and outbound traffic must flow through it for processing. As shown in the next figure, an IPS does not allow packets to enter the target system without first being analyzed.
 
 The biggest difference between IDS and IPS is that an IPS responds immediately and does not allow any malicious traffic to pass, whereas an IDS allows malicious traffic to pass before it is addressed. However, a poorly configured IPS can negatively affect the flow of traffic in the network.
 
-### Power over Ethernet : [[PoE]]
+## Power over Ethernet : [[PoE]]
 Power over Ethernet (PoE) is a technology that **delivers power to devices** over data lines, such as an ethernet cable, rather than having a separate power cord.
 
 For example, a PoE switch transfers small amounts of DC current over an Ethernet cable, along with the data, to power PoE devices. Low voltage devices that support PoE, such as wireless access points, surveillance video devices, and IP phones, can be powered from remote locations. Devices that support PoE can receive power over an Ethernet connection at distances up to 330 ft (100 m) away.
 
 PoE devices like PoE switches, PoE injectors, IP cameras, Voice over IP (VoIP) phones, and wireless access points (WAPs) are the top five most popular devices. Power can also be inserted in the middle of a cable run using a PoE injector.
 
-#### Injectors
+### Injectors
 An injector is a **midspan device** that sits between the switch and the access point and supplies power via an ethernet connection.
 
-#### Switch
+### Switch
 A switch sits in front of the midspan injector device and provides **power to the ethernet cable**.
 
 #### PoE Standards
@@ -239,20 +234,8 @@ There are 25 defined 20 MHz channels at 5 GHz, 24 of which can be used for Wi-Fi
 ### Bluetooth
 Bluetooth allows devices to communicate over short distances (10 meters) in a personal area network (PAN). It is typically used to **connect peripherals**, such as headphones, to a laptop or smartphone. It is the IEEE 802.15.1 standard.
 
-### 802.11
+### [[802.11]]
 The Wi-Fi specification 802.11 is part of the IEEE 802 wireless networking standards. It is used for Wi-Fi communications. They all use the ethernet protocol and carrier sense multiple access with collision avoidance (CSMA/CA) media access method. The main characteristics that differentiate them are their operating frequencies, theoretical maximum data speed, and throughput.
-
-**a**—5 GHz frequency, 54 Mbps maximum throughput, 120 meters range, no backwards compatibility
-
-**b**—2.4 GHz frequency, 11 Mbps maximum throughput, 140 meters range, no backwards compatibility
-
-**g**—2.4 GHz frequency, 54 Mbps maximum throughput, 140 meters range, backward compatible with 802.11b
-
-**n**—5/2.4 GHz frequency, 600 Mbps maximum throughput, 250 meters range, backward compatible with 802.11a/b/g
-
-**ac (Wi-Fi 5)**—5 GHz frequency, 6.5 Gbps maximum throughput, 140 meters range, backward compatible with 802.11a/n
-
-**ax (Wi-Fi 6/6e)**—5/2.4 GHz frequency, 9.6 Gbps maximum throughput, 140 meters range, 6e has 1 and 6 GHz frequency, backward compatible with 802.11a/b/g/n/ac
 
 ### Long-Range Fixed Wireless
 A long-ranged fixed wireless connection is a point-to-point wireless technology that employs the use of directional antennas to send and receive network signals usually from **10 to 20 km**.
@@ -327,14 +310,15 @@ A Dynamic Host Configuration Protocol (DHCP) server provides **IP configuration 
 
 DHCP is the service used by ISPs, network administrators, and wireless routers to automatically assign IP addressing information to hosts, as shown in the figure.
 
-##### DHCP Operation
+##### Operation
 Dynamic Host Configuration Protocol (DHCP) works in a client/server mode, where DHCP clients request available IP configurations from a DHCP server. A DHCP server is configured with a scope (i.e., a pool or a range) of addresses that it can lease to requesting DHCP clients.
 
 **Note**: The DHCP server can be a dedicated server or a router configured to provide DHCP services.The DHCP scope should not include manually assigned or reserved IP addresses such as the default gateway address, switch management address, printer address, and more.
 
 As shown in the figure, when the DHCP client boots (or otherwise wants to join a network), it initiates the following four-step process to obtain a lease.
 
-##### DHCP 4-step Lease
+##### 4-step Lease
+The client must contact the DHCP server periodically to extend the lease. This lease mechanism ensures that moved or power-off clients do not keep addresses that they no longer need. When a lease expires, the DHCP server returns the address to the pool where it can be reallocated as necessary.
 1. The DHCP client broadcasts a DHCPDISCOVER message to request an IP configuration from a DHCP server.
 2. The DHCP server chooses an available IP configuration from its configured scope, and sends a DHCPOFFER unicast message to the client MAC address. The IP configuration can contain the IP address, subnet mask, default gateway, DNS servers, and the period of time (i.e., the lease) that the host can use the IP configuration.
 3. The client then officially requests the IP configuration by sending a broadcast DHCPREQUEST message to the DHCP Server.
@@ -343,13 +327,10 @@ As shown in the figure, when the DHCP client boots (or otherwise wants to join a
 **Note**: DHCP messages are sent using UDP ports 67 (server) and UDP port 68 (clients). DHCP servers listen for client messages on UDP port 67 and DHCP clients listen for messages from servers on UDP port 68.  
 The figure displays the DHCP process in Wireshark.
 
-##### DHCP Process via Wireshark
+##### Process via Wireshark
 Once a client receives the DHCPACK from the server, it send out an ARP message to the provided IP address to make sure it is not already assigned on the network. ARP (address resolution protocol) is a network protocol to discover the MAC address of a device using an IP address. If there is no response to the ARP request, then the host can use the IP configuration. If the host receives an ARP reply, then it restarts the DHCP process to obtain a different IP configuration.
 
-**DHCP Lease**  
-The client must contact the DHCP server periodically to extend the lease. This lease mechanism ensures that moved or power-off clients do not keep addresses that they no longer need. When a lease expires, the DHCP server returns the address to the pool where it can be reallocated as necessary.
-
-##### DHCP Address Renewal
+##### Address Renewal
 **DHCP Reservations**  
 It is also possible to ensure that some hosts, such as servers and printers, are always assigned the same IP address when they connect. To do so, a DHCP server is configured with a reserved list of IP addresses based on the requesting DHCP client’s MAC address.
 
@@ -387,9 +368,9 @@ Email supports three separate protocols for operation: Simple Mail Transfer Prot
 The syslog server in a client-server model is responsible for **collecting information** obtained through system monitoring, such as **login events or errors**. Messages compiled in a syslog server include the facility code, the severity level, and a textual description of the logged events. Syslog servers are composed of **three primary components**: the listener, the database, and the management and filtering software.
 
 The syslog logging service provides three primary functions:
-- The ability to gather logging information for monitoring and troubleshooting
-- The ability to select the type of logging information that is captured
-- The ability to specify the destinations of captured syslog messages
+- gather logging information for monitoring and troubleshooting
+- select the type of logging information that is captured
+- specify the destinations of captured syslog messages
 
 #### Web Servers
 A web server listens for incoming requests. The requests are executed by the web server and provide the requested content, including text, images, videos, and the running of scripts. Common web server platforms include Microsoft’s Internet Information Services (IIS) and Apache.
@@ -403,7 +384,7 @@ First, as shown in the figure, the browser interprets the three parts of the URL
 2. www.cisco.com (the server name)
 3. **index.html** (the specific filename requested)
 
-##### HTTP Protocol
+##### [[HTTP]] Protocol
 1. The browser then checks with a Domain Name Server (DNS) to convert www.cisco.com into a numeric address, which it uses to connect to the server. Using HTTP requirements, the browser sends a GET request to the server and asks for the index.html file, as shown in the next figure.
 2. The server sends the HTML code for this web page back to the client’s browser, as shown in the next figure.
 3. the browser interprets the HTML code and formats the page for the browser window.

@@ -22,6 +22,7 @@ media:
 [[Networks]]
 	[[Network Troubleshooting]]
 	[[Virtualization and Cloud Computing]]
+	[[Network Topology.canvas|Network Topology]]
 
 ## 220-1102
 [[Operating System]]

@@ -369,85 +369,105 @@ the first and last steps have to do with interacting with the customer(s)
 
 # [[Networks]]
 1. How are hosts and intermediary devices different? What are 3 types of intermediary devices a tech would find on most modern networks?
-
+Hosts are the leaves on the "tree" of a network, and the intermediary devices are the branches.
+- Router : 
+- Modem : 
+- Switch : 
 
 2. Give an example of the following network topologies:
 - PAN: an area network that spans a person personal space such as Bluetooth network connections
-- WMN: 
+- WMN: a wireless network that spans a building used for internet connection
 - MAN: an area network that covers a multiple location that are next to one another such as sections of a city, town, or campus
-- LAN: an area network that covers a a set area like the inside of a office or home, often wifi
-- VPN: 
+- LAN: a wired area network that covers a set area like the inside of a office or home, often wifi
+- VPN: a wide area network that provides an encryption, masks IP addresses
  
 3. How do switches direct traffic differently than routers?
-
+they do not separate the network, switches use a MAC address, routers use IP addresses
 
 4. What are the different advantages of the 2 Transport Layer Protocols? Give a scenario for each.
-
+TCP is use for things like HTTP/S used for web applications, UTP is used for real time applications like VoIP
 
 5. How do TCP/UDP use port numbers to keep up with applications conversations when sending data over a network?
-
+use source ports which allow multiple conversations with the network to happen at the same time by dynamically generating one for each application
+use static destination ports for reliability
 
 6. What are three common remote access protocols used by TCP/UDP? What are the default ports for these protocols? 
-
+SSH 22
+Telnet 23
+RDP 3389
 
 7. What group of standards specify speeds and other capacities for WLANs? Which organization is responsible for these? 
-
+802.11a/b/c/g/n/ac/ax
+institute of electrical and electronic engineers
 
 8. Give an example of how each close-proximity connection standard below is used. 
 - RFID : 
-- Zigbee :
+- Zigbee : 
 - Z-wave :
 - NFC : 
 
 9. What is the purpose of AFH?
-
+Adaptive Frequency Hopping - reduces interference in a PAN like bluetooth by allowing devices to switch their frequency of communication
 
 10. DHCP and DNS do different things. Explain the role of each in accessing a simple webpage.
-
+DHCP - dynamically assigns an IP address from a pool
+DNS - translates a webpage URL to an IP address for the client to requestion information from
 
 11. What are some secure protocols that can be used to access data on file server? 
-
+20/21 FTP 
+22 SFTP
+SCP - secure copy protocol
+445 - SMB
+69 - TFTP
 
 12. Which two email protocols allow hosts to retrieve email from a server and what are their secure & unsecure ports?
+110 unsecure/993 secure - POP3
+143 unsecure/995 secure - IMAP 
 
 13. In what 3 ways does the syslog protocol help with the management of multiple networking devices?
-
+- gather logging information for monitoring and troubleshooting
+- select the type of logging information that is captured
+- specify the destinations of captured syslog messages
 
 14. How would you describe the difference between a repeater and a bridge?
-
+a bridge segments a network and logs the devices in that segment, while a repeater simply amplifies the signals that goes through it
 
 15. Every NIC has a unique MAC. Describe the role the MAC address plays in networks. 
+keeps track of where the NIC is on the network, 
 
-
-16. Switches connect networking __________________. Routers connect _______________________.
-
+16. Switches connect networking devices. Routers connect to area networks.
 
 17. What three network devices are contained in most home or small business integrated routers?
-
+Modem 
+Access point/Internal router
+Firewall
 
 18. How do IPS and IDS handle threats to a network differently? What does the term “inline” mean?
-
+Intrusion Prevention/Detection System, detection monitors traffic while, prevention polices the traffic, inline mean that all traffic is going through the system for processing
 
 19.  What are some examples of embedded systems? When are embedded devices also considered “legacy?”
-
+SCADA - 
+IoT - 
 
 20. How is the purpose of a patch panel different than that of a switch?
-
-
+a patch panel is a static switch
 
 21. What sorts of devices might require PoE equipment and what IEEE standard is used?
-
+802.3 
+laptop screen, VoIP phones, 
 
 22. What tool must I use when attaching RJ-45 connectors to Ethernet cables or RJ-11 to telephone cables?
-
+crimper
 
 23. Why has UTP cable replaced coax for cabling LANs? What are the pros and cons of using STP over UTP?
+cost, convenience and troubleshooting
+reliability
 
-
-24. CAT5e and CAT6 both provide speeds up to ______________.  What is different about CAT6? 
-
+24. CAT5e and CAT6 both provide speeds up to .  What is different about CAT6? 
+more twists and higher transfer rates
 
 25. The two modes of fiber media discussed in the chapter differ primarily in distance covered. Which mode is more popular in LANs and why? 
-
+SC connector - push/pull mechanism 
 
 26. What is a proxy server?
+act as storage or a cache for webpages, allowed to act on behalf of a computer to reduce the amount of links between the client and the server
