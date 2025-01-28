@@ -1,0 +1,31 @@
+{
+	"nodes":[
+		{"id":"1e5fb63f4a92d202","type":"text","text":"# VPN Gateway","x":-383,"y":-127,"width":250,"height":60},
+		{"id":"9dae55ac9f96bc84","type":"text","text":"# Web [[Server]]","x":-368,"y":205,"width":220,"height":60},
+		{"id":"2f3c7b09df88d87e","type":"text","text":"# [[Router]]","x":-344,"y":89,"width":171,"height":50},
+		{"id":"203bbd3e1e621f8b","type":"text","text":"# [[Switch]]","x":-343,"y":-26,"width":170,"height":60},
+		{"id":"d0bd4b661056e096","type":"text","text":"# [[Internet]]","x":108,"y":-264,"width":190,"height":56},
+		{"id":"2b6ec490e5ecce2e","type":"text","text":"# [[Modem]]","x":203,"y":22,"width":180,"height":56},
+		{"id":"afbfb74bb592e300","type":"text","text":"# Host","x":223,"y":139,"width":140,"height":60},
+		{"id":"d77056bce26ac300","type":"text","text":"# Host","x":-22,"y":169,"width":140,"height":60},
+		{"id":"80c4122bf06d552b","type":"text","text":"# [[Router]]","x":118,"y":-133,"width":171,"height":50},
+		{"id":"0091c066fb39caaf","type":"text","text":"# DSL [[Modem]]","x":-133,"y":28,"width":251,"height":56},
+		{"id":"54916ba59189657b","type":"text","text":"# [[Router]]","x":-343,"y":-261,"width":171,"height":50}
+	],
+	"edges":[
+		{"id":"6fe90043f86996c5","fromNode":"1e5fb63f4a92d202","fromSide":"bottom","toNode":"203bbd3e1e621f8b","toSide":"top","toEnd":"none","color":"3"},
+		{"id":"adff88bba7e4c7e7","fromNode":"54916ba59189657b","fromSide":"bottom","toNode":"1e5fb63f4a92d202","toSide":"top","toEnd":"none","color":"3"},
+		{"id":"3699e991be337ffe","fromNode":"2f3c7b09df88d87e","fromSide":"bottom","toNode":"9dae55ac9f96bc84","toSide":"top","toEnd":"none","color":"3"},
+		{"id":"caa2a90a17369a69","fromNode":"203bbd3e1e621f8b","fromSide":"bottom","toNode":"2f3c7b09df88d87e","toSide":"top","toEnd":"none","color":"3"},
+		{"id":"074a4c7d62eb496c","fromNode":"d0bd4b661056e096","fromSide":"bottom","toNode":"80c4122bf06d552b","toSide":"top","toEnd":"none","color":"1","label":"WAN"},
+		{"id":"a55520a186f937de","fromNode":"54916ba59189657b","fromSide":"right","toNode":"d0bd4b661056e096","toSide":"left","toEnd":"none","color":"1","label":"VPN Tunnel"},
+		{"id":"3ba0ca9e8785c2ad","fromNode":"54916ba59189657b","fromSide":"top","toNode":"d0bd4b661056e096","toSide":"bottom","toEnd":"none","color":"#000000"},
+		{"id":"ccc825269a23409b","fromNode":"80c4122bf06d552b","fromSide":"right","toNode":"d0bd4b661056e096","toSide":"right","toEnd":"none","color":"#000000"},
+		{"id":"e379bdab7d4cffda","fromNode":"2b6ec490e5ecce2e","fromSide":"bottom","toNode":"afbfb74bb592e300","toSide":"top","toEnd":"none","color":"3"},
+		{"id":"8f082ee62f4efd82","fromNode":"80c4122bf06d552b","fromSide":"bottom","toNode":"2b6ec490e5ecce2e","toSide":"top","toEnd":"none","color":"1"},
+		{"id":"c2603367b7a59371","fromNode":"0091c066fb39caaf","fromSide":"bottom","toNode":"d77056bce26ac300","toSide":"top","toEnd":"none","color":"3"},
+		{"id":"d80d6a07486a7f27","fromNode":"0091c066fb39caaf","fromSide":"right","toNode":"d77056bce26ac300","toSide":"right","toEnd":"none","color":"#000000"},
+		{"id":"401819ca39c8b557","fromNode":"80c4122bf06d552b","fromSide":"bottom","toNode":"0091c066fb39caaf","toSide":"top","toEnd":"none","color":"1"},
+		{"id":"ed78be93588b3750","fromNode":"80c4122bf06d552b","fromSide":"bottom","toNode":"0091c066fb39caaf","toSide":"right","toEnd":"none","color":"#000000"}
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"b38b6aedb58573e7","type":"text","text":"# [[Internet]]","x":-89,"y":-141,"width":171,"height":50},
+		{"id":"6e6ef7a31443eeca","type":"text","text":"# [[Router]]","x":82,"y":-22,"width":156,"height":52},
+		{"id":"04b6cba932503a00","type":"text","text":"# [[Router]]","x":-237,"y":-22,"width":156,"height":52},
+		{"id":"7939d3f435a5ecc1","type":"text","text":"# [[LAN]]","x":90,"y":92,"width":140,"height":50},
+		{"id":"b428a0539f23ffe9","type":"text","text":"# [[LAN]]","x":-229,"y":92,"width":140,"height":50}
+	],
+	"edges":[
+		{"id":"67bb5572c5371865","fromNode":"b38b6aedb58573e7","fromSide":"bottom","toNode":"6e6ef7a31443eeca","toSide":"left","toEnd":"none","color":"3","label":"LAN"},
+		{"id":"ac79c757494983f6","fromNode":"04b6cba932503a00","fromSide":"right","toNode":"b38b6aedb58573e7","toSide":"bottom","toEnd":"none","color":"3"},
+		{"id":"84fa06ebb702a990","fromNode":"6e6ef7a31443eeca","fromSide":"bottom","toNode":"7939d3f435a5ecc1","toSide":"top","toEnd":"none","color":"3"},
+		{"id":"352f9b404e809a80","fromNode":"04b6cba932503a00","fromSide":"bottom","toNode":"b428a0539f23ffe9","toSide":"top","toEnd":"none","color":"3"}
+	]
+}

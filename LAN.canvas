@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"2a9d1689223a9d29","type":"text","text":"# [[Switch]]","x":-100,"y":-129,"width":195,"height":60},
+		{"id":"c246d8bcdb16f977","type":"text","text":"# Server","x":146,"y":3,"width":150,"height":50},
+		{"id":"ec98538a20a786b3","type":"text","text":"# [[Router]]","x":140,"y":102,"width":156,"height":52},
+		{"id":"e51a3116ef24adcd","type":"text","text":"# IP Phone","x":-340,"y":3,"width":205,"height":50},
+		{"id":"64b651463d942d7d","type":"text","text":"# Clients","x":-340,"y":101,"width":175,"height":53}
+	],
+	"edges":[
+		{"id":"b329de6ed52b0f2f","fromNode":"2a9d1689223a9d29","fromSide":"bottom","toNode":"c246d8bcdb16f977","toSide":"left","toEnd":"none","color":"3"},
+		{"id":"87753983086467f6","fromNode":"2a9d1689223a9d29","fromSide":"bottom","toNode":"e51a3116ef24adcd","toSide":"right","toEnd":"none","color":"3"},
+		{"id":"2ed753274a02af12","fromNode":"2a9d1689223a9d29","fromSide":"bottom","toNode":"ec98538a20a786b3","toSide":"left","toEnd":"none","color":"3"},
+		{"id":"1ca500386d2387d1","fromNode":"2a9d1689223a9d29","fromSide":"bottom","toNode":"64b651463d942d7d","toSide":"right","toEnd":"none","color":"3"}
+	]
+}

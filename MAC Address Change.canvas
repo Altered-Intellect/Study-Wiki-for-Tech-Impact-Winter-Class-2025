@@ -1,0 +1,28 @@
+{
+	"nodes":[
+		{"id":"4bedf65a67824d79","x":-40,"y":0,"width":160,"height":60,"type":"text","text":"# [[Router]]"},
+		{"id":"12e36ad749797a09","x":-268,"y":0,"width":160,"height":60,"type":"text","text":"# [[Switch]]"},
+		{"id":"e28f3725dbfa3a37","type":"text","text":"# [[Switch]]","x":196,"y":0,"width":160,"height":60},
+		{"id":"17f9d6f67e0161e5","x":104,"y":-140,"width":345,"height":60,"type":"text","text":"# [[Wireless Access Point]]"},
+		{"id":"d96e198270d73fc8","type":"text","text":"# [[Wireless Access Point]]","x":-360,"y":-140,"width":345,"height":60},
+		{"id":"da7e013f5f1c46d7","x":-460,"y":0,"width":126,"height":60,"type":"text","text":"# [[Host]]"},
+		{"id":"3599e92e2a6c2c1b","type":"text","text":"# [[Host]]","x":-251,"y":100,"width":126,"height":60},
+		{"id":"86f79ef9f4f23c83","type":"text","text":"# [[Host]]","x":449,"y":0,"width":126,"height":60},
+		{"id":"8648de8bbaebf226","type":"text","text":"# [[Host]]","x":213,"y":100,"width":126,"height":60},
+		{"id":"2f00891dbae3b342","type":"text","text":"# [[Laptop]]\n- [[MAC]] : 00:50:56:BE:D7:87\n- [[IP#IPv4|IPv4]] : 192.168.100.8\n- [[IP#IPv6|IPv6]] : 2001:db8:cafe100::8","x":140,"y":-420,"width":272,"height":200},
+		{"id":"f721066ce8f22ad3","x":-324,"y":-420,"width":272,"height":200,"type":"text","text":"# [[Laptop]]\n- [[MAC]] : 00:50:56:BE:D7:87\n- [[IP#IPv4|IPv4]] : 192.168.200.8\n- [[IP#IPv6|IPv6]] : 2001:db8:cafe200::8"}
+	],
+	"edges":[
+		{"id":"d1cae6a912e01e84","fromNode":"4bedf65a67824d79","fromSide":"left","toNode":"12e36ad749797a09","toSide":"right","toEnd":"none"},
+		{"id":"6328b09e717e7906","fromNode":"4bedf65a67824d79","fromSide":"right","toNode":"e28f3725dbfa3a37","toSide":"left","toEnd":"none"},
+		{"id":"ace6512740f81141","fromNode":"d96e198270d73fc8","fromSide":"bottom","toNode":"12e36ad749797a09","toSide":"top","toEnd":"none"},
+		{"id":"3e5dc538220a4fe3","fromNode":"17f9d6f67e0161e5","fromSide":"bottom","toNode":"e28f3725dbfa3a37","toSide":"top","toEnd":"none"},
+		{"id":"dc6f105559289a85","fromNode":"e28f3725dbfa3a37","fromSide":"right","toNode":"86f79ef9f4f23c83","toSide":"left","toEnd":"none"},
+		{"id":"66bb696577d00dc5","fromNode":"e28f3725dbfa3a37","fromSide":"bottom","toNode":"8648de8bbaebf226","toSide":"top","toEnd":"none"},
+		{"id":"c3f4b3d172bcc4c9","fromNode":"12e36ad749797a09","fromSide":"bottom","toNode":"3599e92e2a6c2c1b","toSide":"top","toEnd":"none"},
+		{"id":"8e2fe1bfec98d705","fromNode":"12e36ad749797a09","fromSide":"left","toNode":"da7e013f5f1c46d7","toSide":"right","toEnd":"none"},
+		{"id":"794b5f6c2aa568b3","fromNode":"f721066ce8f22ad3","fromSide":"right","toNode":"2f00891dbae3b342","toSide":"left"},
+		{"id":"9ba918e750c7aa3d","fromNode":"d96e198270d73fc8","fromSide":"top","toNode":"f721066ce8f22ad3","toSide":"bottom","toEnd":"none"},
+		{"id":"5ac2b03258735c98","fromNode":"2f00891dbae3b342","fromSide":"bottom","toNode":"17f9d6f67e0161e5","toSide":"top","toEnd":"none"}
+	]
+}

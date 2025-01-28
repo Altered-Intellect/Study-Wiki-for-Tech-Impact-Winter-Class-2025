@@ -1,0 +1,20 @@
+{
+	"nodes":[
+		{"id":"1406580f687d3a12","type":"text","text":"# Access Point","x":-375,"y":-174,"width":250,"height":56},
+		{"id":"4a3eee1767c295be","type":"text","text":"# Access Point","x":125,"y":-174,"width":250,"height":56},
+		{"id":"d70afa3d2c484f9a","type":"text","text":"# Access Point","x":-125,"y":-294,"width":250,"height":56},
+		{"id":"bfe77be4b508ef26","type":"text","text":"# [[Modem]]","x":-89,"y":91,"width":180,"height":56},
+		{"id":"ae2d1744547d2e6f","type":"text","text":"# Wireless [[Router]]","x":-140,"y":-40,"width":281,"height":56},
+		{"id":"ab190190ddfb4348","type":"text","text":"# [[Internet]]","x":-124,"y":235,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"343eeb815e01b8d3","fromNode":"bfe77be4b508ef26","fromSide":"top","toNode":"ae2d1744547d2e6f","toSide":"bottom","toEnd":"none","color":"3","label":"LAN"},
+		{"id":"32f37d0b2e4db7f6","fromNode":"ab190190ddfb4348","fromSide":"top","toNode":"bfe77be4b508ef26","toSide":"bottom","toEnd":"none","color":"3","label":"LAN"},
+		{"id":"46fc07bfac21d61b","fromNode":"ae2d1744547d2e6f","fromSide":"right","toNode":"4a3eee1767c295be","toSide":"bottom","toEnd":"none","color":"5"},
+		{"id":"573b7da12cd2a4dd","fromNode":"ae2d1744547d2e6f","fromSide":"top","toNode":"d70afa3d2c484f9a","toSide":"bottom","toEnd":"none","color":"5"},
+		{"id":"73976b41b982f81e","fromNode":"1406580f687d3a12","fromSide":"bottom","toNode":"ae2d1744547d2e6f","toSide":"left","toEnd":"none","color":"5"},
+		{"id":"de08c81d52139b6a","fromNode":"1406580f687d3a12","fromSide":"top","toNode":"d70afa3d2c484f9a","toSide":"left","toEnd":"none","color":"5"},
+		{"id":"7717eaecce02c311","fromNode":"1406580f687d3a12","fromSide":"right","toNode":"4a3eee1767c295be","toSide":"left","toEnd":"none","color":"5","label":"Bluetooth"},
+		{"id":"0b87d07024ed10f2","fromNode":"4a3eee1767c295be","fromSide":"top","toNode":"d70afa3d2c484f9a","toSide":"right","toEnd":"none","color":"5"}
+	]
+}

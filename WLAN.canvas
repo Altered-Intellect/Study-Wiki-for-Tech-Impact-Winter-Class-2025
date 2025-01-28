@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"4e29c4e958e8daa8","type":"text","text":"# [[Modem]]","x":-113,"y":115,"width":180,"height":56},
+		{"id":"3aaa33f2d4f2491c","type":"text","text":"# Wireless TV","x":61,"y":-124,"width":250,"height":56},
+		{"id":"016e66a90b0146bc","type":"text","text":"# [[Printers]]","x":96,"y":-221,"width":180,"height":56},
+		{"id":"4c78f4e85502974c","type":"text","text":"# Phone","x":-310,"y":-218,"width":175,"height":50},
+		{"id":"e8c5280bf375649b","type":"text","text":"# Laptop","x":-310,"y":-124,"width":195,"height":56},
+		{"id":"ecd8834e9193ae24","type":"text","text":"# Wireless [[Router]]","x":-164,"y":-16,"width":281,"height":56},
+		{"id":"34c06b73f83b5c6e","type":"text","text":"# Tablet","x":-114,"y":-319,"width":179,"height":50},
+		{"id":"6699ce77a3abc82e","type":"text","text":"# [[Internet]]","x":-148,"y":259,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"cc77c95184e9edf0","fromNode":"4e29c4e958e8daa8","fromSide":"top","toNode":"ecd8834e9193ae24","toSide":"bottom","toEnd":"none","color":"3","label":"LAN"},
+		{"id":"5e697d5d0dc272c5","fromNode":"6699ce77a3abc82e","fromSide":"top","toNode":"4e29c4e958e8daa8","toSide":"bottom","toEnd":"none","color":"3","label":"LAN"},
+		{"id":"8fe3cce295c1b25d","fromNode":"ecd8834e9193ae24","fromSide":"top","toNode":"3aaa33f2d4f2491c","toSide":"left","toEnd":"none","color":"5"},
+		{"id":"9b52c31e34414209","fromNode":"ecd8834e9193ae24","fromSide":"top","toNode":"016e66a90b0146bc","toSide":"left","toEnd":"none","color":"5"},
+		{"id":"d8aa8f58006cc1cc","fromNode":"ecd8834e9193ae24","fromSide":"top","toNode":"4c78f4e85502974c","toSide":"right","toEnd":"none","color":"5"},
+		{"id":"8e7503e3e06e56a1","fromNode":"ecd8834e9193ae24","fromSide":"top","toNode":"e8c5280bf375649b","toSide":"right","toEnd":"none","color":"5"},
+		{"id":"a4bf10acfdeedcc3","fromNode":"ecd8834e9193ae24","fromSide":"top","toNode":"34c06b73f83b5c6e","toSide":"bottom","toEnd":"none","color":"5","label":"Wi-FI"}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"64946216d90468eb","type":"text","text":"# [[WAN]]","x":-70,"y":-34,"width":140,"height":65},
+		{"id":"6b5f66589a0bf70c","type":"text","text":"# [[LAN]]","x":70,"y":-135,"width":140,"height":50},
+		{"id":"cc97f36b4b3d8ee1","type":"text","text":"# [[LAN]]","x":-210,"y":-135,"width":140,"height":50},
+		{"id":"b6744b327fb6a6dd","type":"text","text":"# [[LAN]]","x":70,"y":85,"width":140,"height":50},
+		{"id":"a9e518687d4e5a24","type":"text","text":"# [[LAN]]","x":-210,"y":85,"width":140,"height":50}
+	],
+	"edges":[
+		{"id":"e0a173bf78954f6c","fromNode":"cc97f36b4b3d8ee1","fromSide":"bottom","toNode":"64946216d90468eb","toSide":"left","toEnd":"none","color":"1"},
+		{"id":"60d8ae57eb57fa23","fromNode":"a9e518687d4e5a24","fromSide":"top","toNode":"64946216d90468eb","toSide":"left","toEnd":"none","color":"1","label":"WAN"},
+		{"id":"5ab871439334e4c2","fromNode":"cc97f36b4b3d8ee1","fromSide":"right","toNode":"64946216d90468eb","toSide":"top","toEnd":"none","color":"1","label":"WAN"},
+		{"id":"e86aa12eb5d64c97","fromNode":"6b5f66589a0bf70c","fromSide":"left","toNode":"64946216d90468eb","toSide":"top","toEnd":"none","color":"1"},
+		{"id":"f308daa718a3108c","fromNode":"6b5f66589a0bf70c","fromSide":"bottom","toNode":"64946216d90468eb","toSide":"right","toEnd":"none","color":"1","label":"WAN"},
+		{"id":"0661faa4d129f24e","fromNode":"b6744b327fb6a6dd","fromSide":"top","toNode":"64946216d90468eb","toSide":"right","toEnd":"none","color":"1"},
+		{"id":"57638639439da510","fromNode":"a9e518687d4e5a24","fromSide":"right","toNode":"64946216d90468eb","toSide":"bottom","toEnd":"none","color":"1"},
+		{"id":"40c563c03647b7da","fromNode":"b6744b327fb6a6dd","fromSide":"left","toNode":"64946216d90468eb","toSide":"bottom","toEnd":"none","color":"1","label":"WAN"}
+	]
+}

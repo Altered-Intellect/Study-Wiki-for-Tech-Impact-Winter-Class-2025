@@ -1,0 +1,28 @@
+{
+	"nodes":[
+		{"id":"cc2ac14b5a3bef42","type":"text","text":"# Wireless [[Router]]","x":-1680,"y":-431,"width":281,"height":56},
+		{"id":"63cc75a7e431a1b4","type":"text","text":"# [[Router]]","x":-1680,"y":-338,"width":250,"height":56},
+		{"id":"88e7aab4ca2ec374","type":"text","text":"# [[Modem]]","x":-1399,"y":-338,"width":180,"height":56},
+		{"id":"326c9e1b2618b580","type":"text","text":"# Proxy Server","x":-1680,"y":-244,"width":250,"height":56},
+		{"id":"76d2d148091bad7d","type":"text","text":"# [[Internet]]","x":-1399,"y":-244,"width":180,"height":56},
+		{"id":"e05e52120c2b33b5","type":"text","text":"# [[Printers]]","x":-1399,"y":-158,"width":180,"height":56},
+		{"id":"eb19330a609c502c","type":"text","text":"# Patch Panel","x":-1370,"y":-67,"width":250,"height":56},
+		{"id":"912caece0354001a","type":"text","text":"# Host","x":-1059,"y":-67,"width":128,"height":56},
+		{"id":"520b50dc2a382627","type":"file","file":"Networks.md","x":-760,"y":-700,"width":400,"height":740},
+		{"id":"f27cf57d3640ce2d","type":"text","text":"# [[Switch]]\n# [[Switch]]\n# [[Switch]]","x":-1175,"y":-158,"width":171,"height":56},
+		{"id":"ed8acc8e5af45754","type":"text","text":"# Access Point","x":-1680,"y":-158,"width":250,"height":56},
+		{"id":"d7b75ef4767b4f48","type":"text","text":"# Wireless TV","x":-1184,"y":-244,"width":250,"height":56},
+		{"id":"ee2abd6267834507","type":"text","text":"# Tablet","x":-1680,"y":-67,"width":250,"height":56},
+		{"id":"3bb6992f0374ddbf","type":"text","text":"# Laptop","x":-1190,"y":-338,"width":195,"height":56},
+		{"id":"5c563712ecfbe641","type":"text","text":"# Phone","x":-1385,"y":-431,"width":195,"height":56},
+		{"id":"83351e9068b4b366","type":"text","text":"# Host","x":-1074,"y":-675,"width":140,"height":60},
+		{"id":"19861c1eb2edab64","type":"text","text":"# Host","x":-1074,"y":-585,"width":140,"height":60},
+		{"id":"6409df12db98399e","type":"text","text":"# Host","x":-1074,"y":-485,"width":140,"height":60},
+		{"id":"85d9852b0e20f297","type":"text","text":"# Server","x":-1623,"y":-585,"width":150,"height":60}
+	],
+	"edges":[
+		{"id":"784b433963cd0b76","fromNode":"85d9852b0e20f297","fromSide":"right","toNode":"83351e9068b4b366","toSide":"left","toEnd":"none","color":"3","label":"LAN"},
+		{"id":"2e76d9efa31db01d","fromNode":"85d9852b0e20f297","fromSide":"right","toNode":"19861c1eb2edab64","toSide":"left","toEnd":"none","color":"1","label":"WAN"},
+		{"id":"9068644a5bacf3f8","fromNode":"85d9852b0e20f297","fromSide":"right","toNode":"6409df12db98399e","toSide":"left","toEnd":"none","color":"5","label":"Wireless"}
+	]
+}
