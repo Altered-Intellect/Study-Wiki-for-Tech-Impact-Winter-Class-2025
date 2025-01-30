@@ -554,3 +554,52 @@ the frequency ranges do not overlap
 | 13.225.224.47  | A      | Priv               |
 | 54.191.191.127 | A      | Pub                |
 | 169.254.65.65  | C      | Priv               |
+
+# [[Mobile Devices]]
+1. How does a Laptop Motherboard differ from a Desktop Motherboard? 
+laptop - proprietary, small for factor, 
+desktop - standard sizes, 
+
+2. Define CRUs and describe some examples that would be found in laptops.
+Customer Replaceable Unit, battery, optical drives, wireless card, 
+
+3. Describe the biggest differences between the following devices?
+Laptop - runs desktop level OS, physical keyboard
+Tablet - digital key board
+E-Reader - black and white screen, simple OS, limited access to wireless networks
+Smartwatch - 
+Fitness Tracker - 
+Smartphone - 
+
+4. What are the three common laptop display types? 
+LDC - 
+LED - 
+OLED - 
+
+5. How can you typically distinguish between a port replicator and a docking station?  
+proprietary connection to the laptop
+
+6. What are some laptop display features?
+viewing angle, brightness, contrast, color accuracy, and touch capability
+
+7. How do an inverter and backlight work together? 
+
+
+8. Summarize the key features of each ACPI power state.
+
+ 
+9. What is the difference between tethering and a hotspot?
+
+
+10. What type of data typically gets synchronized?
+
+
+11. What is Bluetooth pairing?
+ 
+
+12. What is a probable cause if your mobile device is unresponsive? What is a possible solution?
+
+
+
+
+Team up with a partner who has a different type of phone than you e.g. If you have an android, find someone with an iPhone. List 4 hardware pieces that are different and 2 that are the same.  Differences can be anything, from the number of buttons, to size, to design. 

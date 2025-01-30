@@ -70,7 +70,9 @@ Lvstudents@techimpact.org
 	[Page 1](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1101-networking/pages/1)
 	[Page 2](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1101-networking/pages/2)
 	[Page 3](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1101-networking/pages/3)
-
+[[Mobile Devices]]
+	[Page 1](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1101-mobile-devices/pages/1)
+	[Page 2]()
 ## NetAcad
 www.netacad.com
 
@@ -81,11 +83,8 @@ https://www.pcmag.com/encyclopedia
 https://www.transcend-info.com/Support/FAQ-292
 
 # Templates
-Default temp - [[_Blank_]]
+Default temp - [[_Properties_]]
 
 # How to Use Obsidian
 https://help.obsidian.md/Home
 
-PC0 - 192.168.61.209
-PC1 - 192.168.5.100
-PC2 - 192.168.5.102

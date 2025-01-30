@@ -163,9 +163,7 @@ However, MAC address filtering may be your only option. Better solutions, such a
 
 # Design
 As a computer technician, you must be able to support the networking needs of your customers. Therefore, you must be familiar with:
-
 - **Network components** – Includes wired and wireless network interface cards (NIC) and network devices such as switches, wireless access points (APs), routers, multipurpose devices, and more.
-
 - **Network design** – Involves knowing how networks are interconnected to support the needs of a business. For instance, the needs of a small business will differ greatly from the needs of a large business.
 
 Consider a small business with 10 employees. The business has contracted you to connect their users. As shown in the figure, a home or small office wireless router could be used for such a small number of users. These routers are multiple purpose and typically provide router, switch, firewall, and access point capabilities. In addition, these wireless routers often provide a variety of other services including DHCP.

@@ -228,7 +228,7 @@ An advanced RISC machine (ARM) processor uses RISC ISA (RISC stands for **reduce
 
 ### Processing
 The latest processor technology has resulted in CPU manufacturers finding ways to incorporate more than one CPU  core into a single chip. Multicore processors have two or more processors on the same integrated circuit. In some  architectures, the cores have separate L2 and L3 cache resources, while in other architectures cache is shared  among the different cores for better performance and resource allocation. 
-Integrating the processors on the same chip creates a very fast connection between them. Multicore processors execute instructions more quickly than single-core processors. Instructions can be distributed to all the processors  at the same time. RAM is shared between the processors because the cores reside on the same chip. A multicore processor is recommended for applieations such as video editing, gaming, and photo manipulation.
+Integrating the processors on the same chip creates a very fast connection between them. Multicore processors execute instructions more quickly than single-core processors. Instructions can be distributed to all the processors  at the same time. RAM is shared between the processors because the cores reside on the same chip. A multicore processor is recommended for applications such as video editing, gaming, and photo manipulation.
 
 High-power consumption creates more heat in the computer case. Multicore processors conserve power and  produce less heat than multiple single-core processors, thus increasing performance and efficiency.  
 
