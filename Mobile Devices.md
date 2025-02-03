@@ -4,7 +4,6 @@ parent docs:
   - "[[Navigation]]"
 sibling docs: 
 child docs: 
-last updated: 
 media:
 ---
 # Nav
@@ -14,12 +13,25 @@ media:
 
 The purpose of assessing your knowledge and skills in this area is to be sure you know how to configure and install all types of mobile devices, including, but not limited to, laptops. This does not stop after the installation and configuration are complete, however. You must also be able to ensure continued connectivity for the end-users. Approximately **15%** of the questions on the **CompTIA A+ Core Series 1101 test** pertain to mobile device concepts. Note that approximately **75%** of these questions will begin with a **scenario**.
 
-The mobile computing environment is designed with higher tolerances than desktops or servers due to the space constraint. This can make repairing mobile devices difficult especially if the company designs the devices has little support for non-company repairs. 
-## Laptop Hardware and Components
+The mobile computing environment is designed with higher tolerances than desktops or servers due to the space constraint. This can make repairing mobile devices difficult especially if the company designs the devices has little support for non-company repairs.
+
+# Mobility
+Mobility in information technology means the ability to access information electronically from different locations outside of the home or office. Mobile connectivity is limited only by the availability of cellular or data networks. Mobile devices have self-contained power in the form of rechargeable batteries, are generally small and lightweight, and do not rely on other connected peripheral devices, such as a mouse and keyboard, to operate.
+
+## Laptops
+Portable computers, that usually run full versions of operating systems such as Microsoft Windows, MacOS or Linux.
+
+Laptops can have the same computing power and memory resources as desktop computers. As shown in the figure, laptops integrate a screen, keyboard, and a pointing device, such as a touchpad, in one portable device. Laptops can be run from an internal battery or from an electrical outlet. They offer connectivity options such as wired or wireless Ethernet networking and Bluetooth.
+
+Laptops offer device connection options such as USB and HDMI. Laptops frequently have speaker and microphone connections as well. Some laptops offer graphic connectivity using different types of graphics standards, similar to desktops. However, in order to make laptops more portable, some peripheral connection options may require additional hardware, such as a dock or port replicator.
+
+In order to increase portability, laptops may sacrifice some of the advantages that are offered by desktop computers. For example, laptops may not use the fastest processors available due to cooling concerns and high power consumption. Laptop memory upgrades may be limited, and some types of laptop memory are more expensive than comparable desktop memory. Laptops lack the expansion capability of desktops as well. Special-purpose expansion cards and large volume storage often cannot be installed in laptops. For example, upgrading the graphics subsystem in a laptop is likely to be impossible.
+
+### Hardware and Components
 You must be able to **[install and configure]** the hardware and components of a laptop in a given scenario. You should be aware of the following hardware and be comfortable replacing it.
 Most laptop manufacturers provide service information to replace components like the battery, display, or keyboard
 
-### Hardware/Device Replacement
+### Replacement
 Hardware/device replacement in laptops differs from desktop replacements. Space comes at a premium and the **correct tools** should be used to disassemble and reassemble laptops and their components. Be aware of the main techniques and tools used to replace laptop components. Always check **manufacturer documentation** before attempting hardware/device replacement.
 
 #### Battery
@@ -44,6 +56,28 @@ HDDs and SSDs for laptops come in **three possible form factors**: 2.5‚Äù, 1.8‚Ä
 #### Wireless Cards
 The wireless **[[Motherboards#NIC|NIC]]** allows for wireless communication between the laptop and wireless access points. The wireless NIC is located in the bottom of the clamshell. Remove the bottom cover, remove the screw holding the wireless NIC in place, disconnect the two antenna wires, and pull straight out of the M.2 socket. Replace by reversing the procedure.
 
+## Smart Phones
+Smartphones differ from laptops in that they run special operating systems that are designed for mobile devices. Examples of these operating systems are Google's Android and Apple's iOS. Smartphones may have limited OS upgradeability, so they can become out-of-date and require a purchase of a new phone to take advantage of new features of the OS and apps that require a higher OS version. Software for smartphones is usually limited to apps that can be downloaded from stores such as Google Play or the Apple App Store.
+
+Smartphones are very compact and quite powerful. They have small touch screens with no physical keyboard. The keyboard is displayed on the screen. Because they are so small, they are usually limited to only one or two types of physical connection such as USB and headphones.
+
+Smartphones use cellular connectivity options for voice, text, and data services. Other data connections include Bluetooth and Wi-Fi.
+
+### Features
+An additional feature of smartphones is location services. Most phones include [[Global Positioning System|GPS]] functionality. A GPS receiver in the phone uses satellites to determine the geographic location of the device. This allows the device location to be used by apps for various purposes such as social media updates or receiving offers from nearby businesses. Some apps allow a smartphone to act as a navigational GPS that provides guidance for driving, biking, or walking. If the GPS is off, most smartphones can still determine the location, in a less precise way, by using info coming from nearby mobile service antennas or nearby Wi-Fi access points.
+
+Another feature of some smartphones is the ability to "tether", or share, the cellular data connection with other devices. The smartphone can be configured to act as a modem that provides other devices to the cellular data network over USB, Bluetooth, or Wi-Fi. Not all smartphone carriers permit tethering.
+
+## Tablets
+Tablets are similar to smartphones in that they use special mobile operating systems like Android or iOS. However, most tablets do not have the ability to access cellular networks. Some higher-end models do allow access to cellular services.
+
+Unlike smartphones, tablets normally have larger touch-screen displays. The displays are often quite vivid in their graphic rendering. Tablets usually offer Wi-Fi and Bluetooth connectivity and most have USB and audio ports. In addition, some tablets include GPS receivers that can be activated to provide location services, similar to smartphones. Most of the apps that work on phones are also available for tablets.
+
+## E-reader
+E-readers, such as the Amazon Kindle, are special purpose devices with black and white displays that have been optimized for reading text. Although they resemble tablets, they lack many of the features and functions that tablets provide. Web access is limited to eBook stores that may be operated by the e-reader manufacturer. Many have touch displays that make it easy to turn pages, change settings, and access eBooks online. Many E-readers can store 1,000 or more books. For connectivity, some offer free cellular data connections for downloading books from a specific store, but most rely on Wi-Fi. Bluetooth is also available and supports headphones for audio books. E-reader battery life is usually longer than tablets, at up 15-20 hours of reading time or more. 
+
+## Wearables
+
 ### Physical Privacy and Security Components
 designed to prevent the loss of information through physical means such as shoulder surfing or theft.
 
@@ -51,8 +85,7 @@ designed to prevent the loss of information through physical means such as shoul
 the use of a **physical body part** to enhance security. Commonly used biometrics are **facial recognition** or a **fingerprint scanner** with older models. Biometrics can also be added to a laptop as a peripheral device via a USB port.
 
 #### Near-Field Scanner Features
-
-**Near-field communication (NFC)** is a wireless communication method that sends signals between compatible devices in close proximity, up to 10 cm, to another NFC compatible device. NFC scanners are often used for wireless payments and can be intercepted by malicious devices in close proximity. Be aware of surroundings and suspicious electronic devices when using NFC.
+[NFC] A wireless communication method that sends signals between compatible devices in close proximity, up to 10 cm, to another NFC compatible device. NFC scanners are often used for wireless payments and can be intercepted by malicious devices in close proximity. Be aware of surroundings and suspicious electronic devices when using NFC.
 
 ## Mobile Device Components
 perform the same functions as desktop components and control input and output, processing, storage, display, and connection capabilities. _Note:_ You must be able to **compare and contrast** mobile device components for the exam.
@@ -72,7 +105,7 @@ LCD is a display technology that uses a current passed through a semi-crystallin
 #### Organic Light-Emitting Diode (OLED)
 OLED displays contain both the image-producing components and the light source in a **single panel**. An organic light-emitting compound is sandwiched between an anode and a cathode which produces a current. The current runs through the electroluminescent compound producing light. The structure of OLEDs allows them to be flexible for curved displays. **Power consumption** with an OLED is less than with an LCD, and the **contrast ratio** is higher, producing sharper images. OLED is popular in high-end monitors and smaller devices such as smartphones.
 
-### Mobile Display Components
+### Display Components
 Besides the display unit, mobile device components contained in the top part of the clamshell include the backlight (for LCDs), the inverter (for LCDs), the screen (LCD or OLED), the digitizer (if applicable), the webcam, the microphone, and the Wi-Fi antenna.
 
 ### Wi-Fi Antenna Connector/Placement

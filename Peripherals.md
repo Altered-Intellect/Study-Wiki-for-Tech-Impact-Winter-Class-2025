@@ -3,7 +3,7 @@ tags:
 parent docs:
   - "[[Hardware]]"
 sibling docs: 
-child docs: 
+child docs: "[[Printers]]"
 last updated: 2025-01-13T01:50:00
 media:
 ---

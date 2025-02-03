@@ -817,8 +817,7 @@ Setting wireless encryption secures your wireless network with an authentication
 Guest access should be disabled on the wireless network. While guest access is designed to allow minimal permissions, it can easily be exploited for privilege escalation.
 
 #### Changing Channels
-
-Wireless local area networks (WLANs) operate on two primary frequency channels, 2.4 GHz and 5 GHz. For security, the channel can be changed to reduce the possibility of overlap in the network.
+[[Networks#Wireless Local Area Network|WLAN]] operate on two primary frequency channels, 2.4 GHz and 5 GHz. For security, the channel can be changed to reduce the possibility of overlap in the network.
 
 ### Firewall Settings
 

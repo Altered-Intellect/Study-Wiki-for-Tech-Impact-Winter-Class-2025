@@ -557,49 +557,160 @@ the frequency ranges do not overlap
 
 # [[Mobile Devices]]
 1. How does a Laptop Motherboard differ from a Desktop Motherboard? 
-laptop - proprietary, small for factor, 
+laptop - proprietary, small for factor, internal PCI/e, SODIMM
 desktop - standard sizes, 
 
 2. Define CRUs and describe some examples that would be found in laptops.
-Customer Replaceable Unit, battery, optical drives, wireless card, 
+Customer Replaceable Unit, battery, optical drives, wireless card, RAM
 
 3. Describe the biggest differences between the following devices?
-Laptop - runs desktop level OS, physical keyboard
-Tablet - digital key board
-E-Reader - black and white screen, simple OS, limited access to wireless networks
-Smartwatch - 
-Fitness Tracker - 
-Smartphone - 
+Laptop - runs desktop level OS, physical keyboard, bluetooth
+Tablet - digital key board, high resolution display, touchscreen, mobile OS, no cellular on low end devices
+E-Reader - black and white screen, simple OS, limited access to wireless networks, bluetooth
+Smartwatch - notifications, simple OS, bluetooth, microprocessor
+Fitness Tracker - heartrate, oxygen level, calories burned, bluetooth
+Smartphone - SIM card, cellular, mobile OS, bluetooth, GPS, tethering/hotspot
 
 4. What are the three common laptop display types? 
-LDC - 
-LED - 
-OLED - 
+LCD - Liquid Crystal Display
+	TN Twisted Nematic - fast refresh, narrow FOV, less color accuracy
+	ISP - In-Plane Switching - low refresh, wide FOV, more color accuracy
+	VA - Vertical Alignment - better contrast, narrow FOV, ghosting, best 
+LED -
+OLED -
 
 5. How can you typically distinguish between a port replicator and a docking station?  
-proprietary connection to the laptop
+docking station - proprietary connection to the laptop, charging capability
+port replicator - standardized ports, no charging
 
 6. What are some laptop display features?
-viewing angle, brightness, contrast, color accuracy, and touch capability
+viewing angle, refresh rate, brightness, contrast, color accuracy, detachability, cut-off switch, and touch capability
 
 7. How do an inverter and backlight work together? 
-
+the inverter supplies the backlight with power, converts DC to AC, 
 
 8. Summarize the key features of each ACPI power state.
+S0 - computer is fully powered
+S1 -  CPU and RAM are powered but unused devices are powered off
+S2 - CPU is off, RAM is being refreshed, "save to RAM", "suspend mode"
+S3 - RAM is put into low refresh rate, "hibernate"
+S4 - RAM is turned off, memory is copied to hard drive, "save to disk"
+S6 - no power
 
+the refresh rate of the RAM, power to the components, 
  
 9. What is the difference between tethering and a hotspot?
-
+tethering can be done through a cable, hotspots are only wireless
 
 10. What type of data typically gets synchronized?
-
+- passwords
+- contacts
+- documents, music, videos, photo, e-books
+- email
+- applications
+- location data
+- bookmarks
+- calendar data
+- social media
 
 11. What is Bluetooth pairing?
- 
+ a short range wireless, radio connection between two devices, through a PIN, to initiate the connection, used to share resources or transfer data
 
 12. What is a probable cause if your mobile device is unresponsive? What is a possible solution?
+RAM needs to be cleared - soft or hard reset
+apps have been taking up resources - close background apps
+
+13. Team up with a partner who has a different type of phone than you e.g. If you have an android, find someone with an iPhone. List 4 hardware pieces that are different and 2 that are the same.  Differences can be anything, from the number of buttons, to size, to design. 
+iphone - home button, lightning, audio jack
+android - 
+same - touch screen, power and volume 
+
+laptop hdd sizes 1.8" and 2.5"
+AFH - Active Frequency Hopping
+ACPI - Advance configuration and power interface
+bluetooth operates at 4 and 15 GHz
+embedded multi media card - eMMD
+
+# [[Printers]]
+1. How are quality, speed, and reliability of printers measured? 
+quality - dot per inch
+speed - pages per minute
+reliability - Mean Time Between Failures (MTBF)
+
+2. What are 6 common interfaces for printers? 
+ethernet, serial, parallel, USB
+
+3. List the advantages and disadvantages for each printer type: 
+
+| Type    | Pros                                                                                          | Cons                                                                         |
+| ------- | --------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| Inkjet  | low cost, high resolution                                                                     | nozzles prone to clog, ink cartrages are expensive                           |
+| Laser   | low cost per page, high PPM, print comes out dry                                              | high cost, heavy, toner cartridges are expensive                             |
+| Impact  | hight MTBF, quiet, no ink or toner                                                            | thermal paper is expensive, images degrade over time and can not be in color |
+| Thermal | ink ribbons are less expensive, use regular paper or continuous feed, can print cardon copies | loud, low resolution and limited color                                       |
 
 
+4. Name 5 parts of a 3D Printer:
+Hot-end Nozzle
+Printing bed 
+Axis
+Filament 
+Feeder
 
+5. Describe the 7 steps in the printing process of a laser printer. 
+1:Processing - convert data to a printable form
+2:Charging - previous image is removed and imaging drum is charged
+3:Exposing - 
+4:Developing - 
+5:Transferring - 
+6:Fusing - 
+7:Cleaning - 
 
-Team up with a partner who has a different type of phone than you e.g. If you have an android, find someone with an iPhone. List 4 hardware pieces that are different and 2 that are the same.  Differences can be anything, from the number of buttons, to size, to design. 
+6. What is virtual printing? What is cloud printing? 
+Virtual - saves data to a file 
+Cloud - printing on a network, often a LAN
+
+7. Describe the differences between PostScript and PCL.
+used in virtual printing, Post Script was developed by Adobe is higher quality, and PCL was developed by HP and is faster
+
+8. List the 3 types of print servers and the purpose of using a print server. 
+Software - hosted by a computer on a network, printer is unavailable when the host is off and uses host resources, Mac OS has a free print server software called Bonjour
+Hardware - a simple device that connects to the [[LAN]] and gives printer access to the whole network, usually only a single printer
+Dedicated - corporate networks, uses a switch and dedicated computer to operate many printers in parallel
+
+9. What are the global settings? 
+configuration options
+- paper type
+- print quality
+- color printing
+- black and white
+media types
+paper output
+
+10. You have been asked to draft a preventative maintenance policy for the printers in a department. What are some of the key ideas you would want to make sure to include? 
+Inkjet - printer software utility, 
+Laser - use High Efficiency Particulate Air (HEPA)  vacuum cleaner, and maintenance kit
+Thermal - cotton swab for damped with isopropal alcohol
+Impact - replace ribbon or print head
+3D - consult manual 
+
+11. What is an MFD and what distinguishes it from a standard printer or copier?
+Multi-Function Device - it can scan, copy, print, and fax all in one device
+
+12. What is the purpose of a print spooler?
+the software that manages the print queue and the print resources
+
+13. A customer calls and says, "I can't connect to the network printer." What are 3 questions you could ask the customer to begin the troubleshooting process?
+1:What where you doing when you identified the problem?
+2:Can you print a test page?
+3:Have you made any software changes recently?
+4:Are you able to connect to the network on another device?
+5:Can you reproduce the problem?
+6:Is the printer connected to the network and powered on?
+
+Remove the orange plastic strips when setting up a printer
+resetting the page counter after preventative maintenance 
+
+hard drive caching - 
+user authentication - services in place that prevent access to users not on the database
+data privacy - the safety of information shared over a network

@@ -5,6 +5,8 @@ child docs:
 last updated: 2025-01-13T23:50:00
 media:
 ---
+Questions for Art
+how do you distinguish between Data as a Service and Desktop as a Service in the Comptia exam?
 # CompTIA A+ Core Series
 [[CompTIA Testing Policies]]
 ## 220-1101
@@ -39,15 +41,10 @@ media:
 # Additional Lectures
 [[On Professionalism]]
 [[On Recruiting and the IT Workplace]]
+[[On Office Conduct]]
 ## Lunch and Learn Sessions
 [[Penn Gaming]]
 
-# CompTIA XK0-005 Linux+
-[[System Management]]
-[[Linux OS]]
-	[[OS Security]]
-	[[OS Troubleshooting]]
-	[[Boot Process]]
 # References
 ## IT-Works by Tech Impact
 https://techimpact.org/itworks
