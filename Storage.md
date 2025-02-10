@@ -4,14 +4,13 @@ parent docs:
   - "[[Hardware]]"
 sibling docs: 
 child docs: 
-last updated: 2025-01-13T23:59:00
 media:
 ---
 # Nav
 | < [[Computational Memory]] < | ^ [[Hardware]] ^ | > [[Cases]] > |
 
 ---
-### Hard Drives
+### # Hard Drive Disc | [[HDD]]
 A hard drive is a **non-volatile storage device** designed for **quick access**. It is also known as a **hard disk drive (HDD)** or a **conventional drive** and uses a magnetic spinning internal platter to store memory.
 HDDs are the traditional magnetic disk devices that have been used for years. Their storage capacity ranges from gigabytes (GBs) to terabytes (TBs). Their speed is measured in revolutions per minute (RPM). This indicates how fast the spindle turns the platters that hold the data. The faster the spindle speed, the faster a hard drive can find data on the platters. This can correspond to faster transfer speeds.
 

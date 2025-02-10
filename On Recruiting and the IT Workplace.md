@@ -4,7 +4,6 @@ parent docs:
   - "[[Navigation]]"
 sibling docs: 
 child docs: 
-last updated: 2025-01-18T19:39:00
 media:
 ---
 by Tabitha Scarbrough

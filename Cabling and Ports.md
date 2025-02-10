@@ -4,7 +4,6 @@ parent docs:
   - "[[Hardware]]"
 sibling docs: 
 child docs: 
-last updated: 2025-01-13T20:56:00
 media:
 ---
 # Nav

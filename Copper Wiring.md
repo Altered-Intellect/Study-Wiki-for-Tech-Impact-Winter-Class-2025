@@ -2,9 +2,9 @@
 tags: 
 parent docs:
   - "[[Cabling and Ports]]"
-sibling docs: "[[Optical Wiring]]"
+sibling docs:
+  - "[[Optical Wiring]]"
 child docs: 
-last updated: 2025-01-13T00:29:00
 media:
 ---
 # Cat Cabling 

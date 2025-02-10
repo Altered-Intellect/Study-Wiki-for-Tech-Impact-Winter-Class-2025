@@ -4,7 +4,6 @@ parent docs:
   - "[[Navigation]]"
 sibling docs: 
 child docs: 
-last updated: 2025-01-14T23:34:00
 media:
 ---
 # [[Hardware]]
@@ -15,7 +14,8 @@ media:
  The purpose of the power supply is to supply electrical power to the computer by converting the AC power of the power grid to the lower voltage DC required for computer components. 
  
 3. What are the six power connectors described in the Cisco curriculum? What are the most common voltage units supplied by the Power Supply? (1.2.1.3 – 1.2.1.4)
-20/24 pin, Molex, 4/8 pin, 6/8 pin, SATA, and Berg Keyed connectors. 3.3, 5, and 12v.
+20/24 pin, Molex, 4/8 pin, 6/8 pin, SATA, and Berg Keyed connectors.
+3.3, 5, and 12v.
   
 4. How can ESD affect computer components? What are two precautions a tech can use to reduce this risk? (1.1.2.2) 
 ESD is caused by the discharge of an electric charge with a lot of voltage. When a computer component is exposed to ESD it over-volts the circuitry and prevents it from properly holding a charge. ESD can be reduced by wear anti-static equipment such as mats, and wrist straps, removing metal from the body like jewelry, as well as self grounding via contact with a metal surface such as the computer case or metal furniture.
@@ -49,7 +49,7 @@ modules. (1.2.4.4)
 Dual Inline Package is a single memory chip with two rows of pins.
 Single Inline Memory Module is a single board with multiple chips with a single row of pins, usually 30 or 72.
 Dual Inline Memory Module is a SIMM with two rows of pins.
-Small Outline DIMM is a condensed version of a DIMM
+Small Outline DIMM is a condensed version of a DIMM used in mobile devices
  
 13. What are the benefits of DDR4 SDRAM? (1.2.4.3) 
 It has quadruple the storage of it previous iteration, decreases the voltage to 1.1v, and advanced ECC that can correct multiple errors.
@@ -678,7 +678,8 @@ Software - hosted by a computer on a network, printer is unavailable when the ho
 Hardware - a simple device that connects to the [[LAN]] and gives printer access to the whole network, usually only a single printer
 Dedicated - corporate networks, uses a switch and dedicated computer to operate many printers in parallel
 
-9. What are the global settings? 
+1. What are the global settings? 
+the default setting when a printer is shared, these include
 configuration options
 - paper type
 - print quality
@@ -687,20 +688,20 @@ configuration options
 media types
 paper output
 
-10. You have been asked to draft a preventative maintenance policy for the printers in a department. What are some of the key ideas you would want to make sure to include? 
+3. You have been asked to draft a preventative maintenance policy for the printers in a department. What are some of the key ideas you would want to make sure to include? 
 Inkjet - printer software utility, 
 Laser - use High Efficiency Particulate Air (HEPA)  vacuum cleaner, and maintenance kit
-Thermal - cotton swab for damped with isopropal alcohol
+Thermal - cotton swab for damped with isopropyl alcohol
 Impact - replace ribbon or print head
 3D - consult manual 
 
-11. What is an MFD and what distinguishes it from a standard printer or copier?
+4. What is an MFD and what distinguishes it from a standard printer or copier?
 Multi-Function Device - it can scan, copy, print, and fax all in one device
 
-12. What is the purpose of a print spooler?
+5. What is the purpose of a print spooler?
 the software that manages the print queue and the print resources
 
-13. A customer calls and says, "I can't connect to the network printer." What are 3 questions you could ask the customer to begin the troubleshooting process?
+6. A customer calls and says, "I can't connect to the network printer." What are 3 questions you could ask the customer to begin the troubleshooting process?
 1:What where you doing when you identified the problem?
 2:Can you print a test page?
 3:Have you made any software changes recently?
@@ -711,6 +712,48 @@ the software that manages the print queue and the print resources
 Remove the orange plastic strips when setting up a printer
 resetting the page counter after preventative maintenance 
 
-hard drive caching - 
-user authentication - services in place that prevent access to users not on the database
-data privacy - the safety of information shared over a network
+# [[Virtualization and Cloud Computing]]
+1. How are virtualization and cloud computing different? 
+virtualization - simulates an OS locally, and is reliant on 
+cloud computing - provides access to computational resources via a network connection
+
+2. What is a limiting factor to how many VMs that can run simultaneously? 
+the CPU cores, and RAM
+
+3. List three reasons traditional server deployment is being phased out. 
+server swamp, wasted resources and single point of failure
+
+4. What resources does a hypervisor allow a user to manipulate via Virtual Machines (VMs)? 
+computational resources
+
+5. Name 4 advantages of server virtualization:
+
+
+6. Define the following: 
+Host computer -
+Host operating system (host OS) -
+Guest operating system (guest OS) -
+
+7. What is the difference between a Type 1 and Type 2 Hypervisors?
+Type 1: 
+Type 2: 
+
+8. Virtual Machines require a powerful hardware configuration. What are some system requirements to keep in mind when configuring? 
+
+
+9. List 5 ways we use the cloud. 
+
+
+10. Briefly describe and provide an example of the following types of cloud services? 
+SaaS (Software as a Service): payroll system
+PaaS (Platform as a Service):  
+IaaS (Infrastructure as a Service):
+
+11. Describe the 4 Cloud Models: 
+Public: 
+Private: 
+Community:
+Hybrid:
+
+
+12. What is the purpose of Software Defined Networking (SDN)? 

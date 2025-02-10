@@ -191,7 +191,7 @@ A **wireless data network** is one that is connected via wireless rather than wi
 - **2G**, or 2nd generation, has a max data rate of 64 Kbps with limited network range.
 - **3G** sets the data rate standard at 200 Kbps. Both 2G and 3G use traditional telephone circuits.
 - **4G** uses IP instead of traditional telephone circuits and comes in two varieties, WiMax and Long-Term Evolution (LTE). It offers a higher range and faster download and upload speeds.
-- **5G** was announced in 2016 and implemented in 2018. 5G has three classifications: enhanced mobile broadband (eMBB) for cell phone and mobile communication, ultra-reliable low-latency communications (URLLC) for autonomous vehicles and industrial applications, and massive machine-type communications (mMTC) for sensors supporting Internet of Things (IoT) devices.
+- **5G** was announced in 2016 and implemented in 2018. 5G has three classifications: enhanced mobile broadband (eMBB) for cell phone and mobile communication, Ultra-Reliable Low-Latency Communications (URLLC) for autonomous vehicles and industrial applications, and massive machine-type communications (mMTC) for sensors supporting Internet of Things (IoT) devices.
 
 #### Hotspot
 A wireless connection method that allows for a **shared cellular internet connection** with Wi-Fi-capable devices. To enable the hotspot on an iOS device, go to Settings, then Personal Hotspot, and slide toggle to _On_. To enable a hotspot on an Android device, go to Settings, Connections, Mobile Hotspot, then Tethering, and toggle to _On_.

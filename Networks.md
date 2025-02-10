@@ -4,7 +4,6 @@ parent docs:
   - "[[Navigation]]"
 sibling docs: 
 child docs: 
-last updated: 2025-01-20T18:24:00
 media:
 ---
 # Nav

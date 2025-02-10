@@ -4,7 +4,6 @@ parent docs:
   - "[[Navigation]]"
 sibling docs: 
 child docs: 
-last updated: 2025-01-10T16:16:00
 media:
 ---
 notes on a lecture by Angela Afiones 

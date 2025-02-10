@@ -6,7 +6,6 @@ sibling docs:
   - "[[Hardware]]"
   - "[[Troubleshooting]]"
 child docs: 
-last updated: 2025-01-07T23:50:00
 media:
 ---
 

@@ -4,7 +4,6 @@ parent docs:
   - "[[Navigation]]"
 sibling docs: 
 child docs: 
-last updated: 
 media:
 ---
 # Nav
@@ -14,152 +13,114 @@ media:
 
 # [Page 1](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1102-security/pages/1)
 
-## General Information
-
 No IT system is totally functional without impeccable security, and there is a need for increasing proficiency in this area so that vital data is protected. This involves not only planning to deter threat actors but also having plans in place for procedures in case security is breached. You need to be ultimately conversant in all types of security vulnerabilities for devices and network connections. The CompTIA A+ 1102 test devotes **25% (one-fourth) of its questions** to security concept assessment. More than half (**60%**) of the questions about security will begin with a **scenario**.
 
 ## Security Measures
-
 Security measures are practical concepts, both physical and logical, which are designed to maintain the integrity and security of a network, device, or program among others. For the Comptia A+ 1102 test, you must be able to summarize various security measures and their purposes.
 
 ### Physical Security
-
 When thinking about cybersecurity, it’s sometimes easy to forget what an important role [physical security](https://uniontestprep.com/comptia-a-core-series-exam/blog/what-are-physical-security-measures) plays in keeping digital data safe. Physical security is important because no matter how many security measures you put in place on a device itself, physical security is the only thing that will stop a criminal from walking away with the entire device.
 
 #### Access Control Vestibule
-
 An access control vestibule, commonly known as a **mantrap**, is exactly what it sounds like. It’s a trap used to prevent infiltration methods such as **tailgating** and **piggybacking**. The access control vestibule is a small area with a set of two locked doors, and it separates the outside world from a secured area. When entering, an individual will enter through the first door, but that door must then be closed behind them before the second door may be opened.
 
 #### Badge Reader
-
 Identification badges can be used as proof of access authorization. Badge readers can be implemented to help prevent unauthorized access. In this type of environment, employees are given badges, such as **proximity cards** or **smart cards**. When the employee scans the badge, he or she is allowed entry to the area.
 
 #### Video Surveillance
-
 Video surveillance is one of the most important aspects of physical security as it allows for the investigator to physically see what has occurred in the physical area. The two primary types of camera employed for video surveillance are the fixed and pan-tilt-zoom (PTZ) variety. A **fixed camera** is limited to the scope of the stationary camera and may create blind spots. The **PTZ camera**, however, has the capability of covering 360 degrees as well as zooming capabilities. The drawback of the PTZ camera, though, is that one camera is commonly employed to cover a large area, reducing the likelihood of the camera being pointed at the direction of the occurrence at the time.
 
 #### Alarm Systems
-
 An alarm system can be installed to alert for potential unauthorized access. Alarm systems can be used to notify if an access control system has logged unauthorized access or for break-in response and detection. **Common sensors** found in an alarm system include video surveillance, motion detection devices, and magnetic contact sensors.
 
 #### Motion Sensors
-
 A motion sensor is a device that is programmed to detect motion in a space. The sensitivity of these sensors can be adjusted to fit the needs of the enterprise to avoid false alarms.
 
 #### Door Locks
-
 Door locks should be utilized whenever possible. Aside from locks preventing unauthorized entrance to the building, locks should also be utilized to protect rooms containing sensitive equipment (such as the server room or network closet).
 
 #### Equipment Locks
-
 Equipment locks are locks designed to secure a specific type or piece of equipment. For example, a cable lock can be used to help prevent a thief from walking off with laptops. A **cable lock** is used by looping the cable around a heavy (ideally immovable) object and then securing the lock to a small security hole on the side of the laptop. **Server locks** are used to secure servers, but are becoming obsolete since a rack-mounted enclosure provides more security for servers. **USB locks** are plastic pieces that can be inserted into a USB port to close the port. A specialty tool is needed to remove the lock.
 
 #### Guards
-
 Security guards are one of the few security controls that are considered not only **preventative** controls, but also **deterrent** and **detective** controls. This is because organizations with onsite security staff are less likely to be targeted for attacks than those with no security guards. Security guards have the ability to physically limit access to the premises or specific places within the premises to those without proper identification and authorization. They can also investigate if something seems amiss.
 
 #### Bollards
-
 A bollard is a physical security measure that is placed around the perimeter of an area and is used to prevent catastrophic entrance or access to the area. Bollards are very sturdy, usually made of concrete or steel, and are designed to keep vehicles such as cars or trucks from driving into a secured area.
 
 #### Fences
-
 Fences are physical barriers designed to keep unauthorized persons out of an area or space. Fences are commonly the **first line of physical defense** against unauthorized access and work best when paired with other physical security measures, such as badge readers and security guards.
 
 ### Physical Security for Staff
-
 Physical security for staff include methods of access control for sensitive areas or equipment that provide authentication for the user.
 
 #### Key Fobs
-
 Key fobs are small security devices that store authentication information. They can easily be attached to a keyring or lanyard to provide both security and instant availability.
 
 #### Smart Cards
-
 Smart cards are typically the size of your driver’s license or credit card. The embedded memory and chipset in these cards can store identification and authentication information.
 
 #### Keys
-
 A key is a physical key used to open a specific lock or set of locks. Keys are easily duplicated or stolen, and their usage is hard to control.
 
 #### Biometrics
-
 Biometric locks can add an additional layer of protection to an organization’s physical security. Smart cards and proximity badges can be lost and possibly wind up in the wrong hands. Biometric locks **use an individual’s features**, such as their retina or fingerprints, to authenticate them.
 
 ##### Retina Scanner
-
 A retina scanner compares the retinal scan of a person’s eye against the markers on file to verify identity. Retinal scanners are considered to be **more intrusive** than other types of biometric authentication and the accuracy of the scan **can be limited** by diseases of the eye, such as cataracts, glaucoma, or severe astigmatism.
 
 ##### Fingerprint Scanner
-
 A fingerprint scanner matches fingerprints to verified users. Fingerprint scanners are a common method of biometric authentication but **may cause bottlenecking** at high traffic locations or **lack accuracy** in high dirt environments.
 
 ##### Palmprint Scanner
-
 A palmprint scanner compares the scanned palmprint against the verified users and looks for such markers as lines, scars, and fingerprints. Palmprint scans tend to be **more accurate** than fingerprint scans due to the large surface area of the scan location allowing for more points of comparison.
 
 #### Lighting
-
 Lighting can impact the picture quality of video surveillance. To ensure high-quality video, the area should be properly lighted. Most video surveillance used today, however, includes **infrared (IR) capabilities** that allow for surveillance in low light or dark areas.
 
 #### Magnetometers
-
 A magnetometer, commonly known as a **metal detector**, can be used to detect metal objects. The metal detector can also be used as a security choke point. Metal detectors can also be used upon exiting if the enterprise is concerned about insider threats, but this is controversial as it can be considered to be infringing upon employee rights to privacy.
 
 ### Logical Security
-
 Unlike physical security controls that you can see and touch, logical security controls are concepts like security policies and software safeguards that are used to protect systems. You should be able to explain these.
 
 #### Principle of Least Privilege
-
 Permissions should only be given to a user if they absolutely need them to complete their job. This idea is known as the principle of least privilege. The fewer users who have access to sensitive files, the less likelihood that something bad will happen to those files.
 
 #### Access-Control Lists (ACLs)
-
 ACLs are used to specify **which traffic should be allowed** through a firewall and which traffic should be blocked. Using an ACL, traffic can be blocked or allowed based upon a number of items including source or destination port as well as source or destination IP address.
 
 #### Multi-Factor Authentication (MFA)
-
 Even the strongest passwords can be compromised. This is where MFA comes in. MFA requires two or more _different_ authentication types. Authentication types are typically broken down into categories, such as **something you know** (password, PIN, security question), **something you have** (authenticator, token), and **something you are** (biometrics). Because MFA requires two or more _different types_ of authentication, a user would not be able to use just a personal identification number (PIN) and a password, since they both fall into the category of something you know. Rather, the user would need a combination of the authentication types, such as a password and a token.
 
 #### Email
-
 Email can be used as a method of MFA, but it is the **least secure method** of MFA. Email can be helpful as a notification tool for unauthorized access by notifying the individual if suspicious activity has been detected.
 
 #### Hard Token
-
 A hard token, or hardware token, is a physical device that the user must have on them to gain access to a network’s resources. The drawback of a hard token is the **chance of losing** the token, which could then be used by an unauthorized user to authenticate to a system.
 
 #### Soft Token
-
 A soft token or software token is similar to a hardware token, except they come in the form of either a piece of software on your laptop or an app on your mobile device. A software token is more commonly used for MFA with applications such as Google Authenticator, where it acts as a hard token but is software based.
 
 #### Short Message Service (SMS)
-
 An SMS can be used as a method of MFA by sending a **time sensitive code**, typically a five- to eight-digit code to the authorized users connected SMS number.
 
 #### Voice Call
-
 A voice call, like an SMS, can be used to verify the user by placing an automated call to the contact number on file for the user. A verification code is thereby provided to the user for authentication purposes.
 
 #### Authenticator Application
-
 Authenticator applications are technically soft tokens that act like hard tokens. An application is loaded onto a device and used for authentication, such as Google Authenticator.
 
 ### Mobile Device Management (MDM)
-
 MDM policies are used to enforce security measures on mobile devices, such as cell phones and tablets. Many organizations require that their users access email or other business-related apps on their phone, but this can present security risks to the organization. MDM policies can help offset some of the risk. An example of an MDM policy would be an organization requiring anyone accessing business email or business apps to have a lock screen on their phone with a PIN.
 
 ### Active Directory (AD)
-
 AD is the Microsoft® directory used to manage users, applications, computers, and much more. AD can be used to help implement security measures across an organization. AD is not an authentication protocol but acts as **storage for the authentication data** and works closely with **Kerberos**, which is the actual authentication protocol.
 
 #### Login Script
-
 A login script can be thought of as a series of instructions given for a device to perform upon login. Login scripts can be set on the profile tab of a user in AD. Login scripts can be used to map network drives, log computer access, gather information from a computer, and much more.
 
 #### Domain
-
 Ensuring that all computers in an environment are in your domain helps ensure they will be given the proper security policies. When a computer is in your domain, you’ll be able to see it and manage it within AD.
 
 #### Group Policy/Updates
@@ -167,19 +128,15 @@ Ensuring that all computers in an environment are in your domain helps ensure th
 Group policies can be extremely **useful in securing an organization**. Group policies can be used to set password policies, block unwanted applications, and even block access to the internet entirely in some cases. They can also be used to push out security updates, which are important to keep an organization safe.
 
 #### Organizational Units (OU)
-
 OUs are subdivisions of your domain within Active Directory. For example, if an organization has three separate locations, they may choose to have three organizational units within their domain.
 
 #### Home Folder
-
 A home folder can be set for each user in AD. If the home folder doesn’t exist when it’s added in AD, then AD will create the folder and set the permissions for you. By default, this folder can be accessed only by the user and the domain administrators. Home folders should be used by personnel to store their files on the server. Because computers can be lost or stolen, it’s best for users to store their documents on the server in this way rather than store them locally on their own machines.
 
 #### Folder Redirection
-
-Folder redirection allows administrators (and, in some cases, users) to redirect the path of a specific folder to a new location. One popular implementation of this is to redirect a user’s Documents folder (that is stored locally on their machine) to a network location, such as the home folder.
+Allows administrators (and, in some cases, users) to redirect the path of a specific folder to a new location. One popular implementation of this is to redirect a user’s Documents folder (that is stored locally on their machine) to a network location, such as the home folder.
 
 #### Security Groups
-
 A security group can be created to make assigning privileges and permissions to groups of users more efficient. Security groups are also helpful when auditing permissions. The security groups can be examined rather than the individual user.
 
 ---
@@ -187,19 +144,15 @@ A security group can be created to make assigning privileges and permissions to 
 # [Page 2](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1102-security/pages/2)
 
 ## Wireless Security Protocols and Authentication Methods
-
 Wireless networks are inherently less secure than wired networks. However, there are several methods that can be used to secure wireless networks. You must be able to compare and contrast these protocols and authentication methods.
 
 ### Protocols and Encryption
-
 You should be able to differentiate between different protocols and encryption methods used with wireless networks.
 
 #### Wi-Fi Protected Access 2 (WPA2)
-
 WPA2 improved upon WPA by using the Advanced Encryption Standard (AES). WPA2 is exploitable if the WPS service is enabled on the device.
 
 #### WPA3
-
 WPA3 is the successor to WPA2. It introduced 192-bit cryptographic strength in Enterprise mode and requires CCMP 128 as a minimum in personal mode. WPA3-Personal also uses Simultaneous Authentication of Equals (SAE) instead of the preshared key (PSK) exchange used in previous versions of WPA.
 
 #### Temporal Key Integrity Protocol (TKIP)

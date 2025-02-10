@@ -4,7 +4,6 @@ parent docs:
   - "[[Navigation]]"
 sibling docs: 
 child docs: 
-last updated: 2025-01-14T23:28:00
 media:
 ---
 # Nav
@@ -21,7 +20,7 @@ Troubleshooting is a skill that you refine over time. Each time you solve a prob
 Before you begin troubleshooting problems, always follow the necessary precautions to protect data on a computer. Some repairs, such as replacing a hard drive or reinstalling an operating system, might put the data on the computer at risk. Make sure you do everything possible to prevent data loss while attempting repairs. If your work results in data loss for the user, you or your company could be held liable.
 
 ## Data Backup
-A data backup is a copy of the data on a computer hard drive that is saved to another storage device or to cloud storage. Cloud storage is online storage that is accessed via the internet. In an organization, backups may be performed on a daily, weekly, or monthly basis.
+A copy of the data on a computer hard drive that is saved to another storage device or to cloud storage. Cloud storage is online storage that is accessed via the internet. In an organization, backups may be performed on a daily, weekly, or monthly basis.
 
 If you are unsure that a backup has been done, do not attempt any troubleshooting activities until you check with the user. Here is a list of items to verify with the user that a backup has been performed:
 - Date of the last backup
@@ -83,7 +82,7 @@ Conduct research to determine which software is available to help diagnose and s
 The Device Manager displays all the devices that are configured on a computer. The operating system flags the devices that are not operating correctly with an error icon. A yellow triangle with an exclamation point indicates that the device is in a problem state. A red X means that the device is disabled, removed, or Windows can't locate the device. An arrow down means the device has been disabled. A yellow question mark indicates that the system does not know which driver to install for the hardware.
 
 **Task Manager**
-The Task Manager displays the applications and background processes that are currently running. With the Task Manager, you can close applications that have stopped responding. You can also monitor the performance of the [[CPU]] and virtual memory, view all processes that are currently running, and view information about the network connections.
+Displays the applications and background processes that are currently running. With the Task Manager, you can close applications that have stopped responding. You can also monitor the performance of the [[CPU]] and virtual memory, view all processes that are currently running, and view information about the network connections.
 
 #### 2. Create a Theory of Probable Cause
 Keep it **simple**. Always question the obvious and don’t assume something isn’t relevant. You might think it is common sense to be plugged into the network, but the user might not know this. Using your questioning ability, develop a theory (or two) regarding what the problem might be. When developing a theory, remember to **eliminate possible theories** as well if they do not fit the scenario.

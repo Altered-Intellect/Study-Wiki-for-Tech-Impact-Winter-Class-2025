@@ -2,9 +2,9 @@
 tags: 
 parent docs:
   - "[[Navigation]]"
-sibling docs: "[[Cabling and Ports]]"
+sibling docs:
+  - "[[Cabling and Ports]]"
 child docs: 
-last updated: 2025-01-20T18:23:00
 media:
 ---
 # Fiber
@@ -30,12 +30,12 @@ Consists of a larger core and uses LED emitters to send light pulses. Specifical
 ## Connectors
 An optical fiber connector terminates the end of an optical fiber. A variety of optical fiber connectors are available. The main differences among the types of connectors are dimensions and methods of coupling. Businesses decide on the types of connectors that will be used, based on their equipment.
 
-For fiber standards with FX and SX in the name, light travels in one direction over optical fiber. Therefore, two fibers are required to support the full duplex operation. Fiber-optic patch cables bundle together two optical fiber cables and terminate them with a pair of standard single fiber connectors. Some fiber connectors accept both the transmitting and receiving fibers in a single connector known as a duplex connector, as shown in the Duplex Multimode LC Connector in the figure.
+For fiber standards with FX and SX in the name, light travels in one direction over optical fiber. Therefore, two fibers are required to support the full duplex operation. Fiber-optic patch cables bundle together two optical fiber cables and terminate them with a pair of standard single fiber connectors. Some fiber connectors accept both the transmitting and receiving fibers in a single connector known as a duplex connector, also known as the Duplex Multimode LC Connector.
 
 For fiber standards with BX in the name, light travels in both directions on a single strand of fiber. It does this through a process called Wave Division Multiplexing (WDM). WDM is a technology that separates the transmit and receive signals inside the fiber.
 
 **Straight-Tip (ST) Connectors**
-One of the first connector types used. The connector locks securely with a "twist-on/twist-off" bayonet style mechanism.
+One of the first connector types used. The connector locks securely with a "twist-on/twist-off" bayonet style mechanism. Used mainly in multimode networks
 
 **Subscriber Connector (SC) Connectors**
 Sometimes referred to as square connector or standard connector. It is a widely adopted LAN and WAN connector that uses a push-pull mechanism to ensure positive insertion. This connector type is used with multimode and single-mode fiber.

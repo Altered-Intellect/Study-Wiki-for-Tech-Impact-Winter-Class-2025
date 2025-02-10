@@ -4,10 +4,12 @@ parent docs:
   - "[[Navigation]]"
 sibling docs: 
 child docs: 
-last updated: 2025-01-09T10:14:00
 media:
 ---
-A/V machine
+# Goal 
+build a PC for an A/V technician
+
+## A/V machine
 - color grading pad (v)
 - good graphic card (v)
 - thunder bolt 3 support (v)
@@ -15,7 +17,7 @@ A/V machine
 - external SSD or HDD (v)
 - 10-bit monitor (v)
 
-Peripherals
+## Peripherals
 - DaVinci Resolve Replay editor, 495$
 - FIFINE Audio mixer, 40$
 - VIRTUOSO PRO Open Back Headset - Carbon, 140$

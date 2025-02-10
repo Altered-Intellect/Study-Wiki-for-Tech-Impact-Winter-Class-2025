@@ -1,7 +1,7 @@
 ---
 tags: 
 parent docs:
-  - "[[Motherboards]]"
+  - "[[Navigation]]"
 sibling docs: 
 child docs: 
 media:

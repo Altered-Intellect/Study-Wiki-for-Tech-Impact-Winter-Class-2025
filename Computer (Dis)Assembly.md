@@ -2,9 +2,9 @@
 tags: 
 parent docs:
   - "[[Navigation]]"
-sibling docs: "[[Hardware]]"
+sibling docs:
+  - "[[Hardware]]"
 child docs: 
-last updated: 2025-01-07T23:50:00
 media:
 ---
 

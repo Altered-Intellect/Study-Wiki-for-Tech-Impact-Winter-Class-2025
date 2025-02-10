@@ -2,8 +2,8 @@
 tags: 
 parent docs:
   - "[[Cabling and Ports]]"
-sibling docs: "[[Motherboards]]"
+sibling docs:
+  - "[[Motherboards]]"
 child docs: 
-last updated: 2025-01-15T08:29:00
 media:
 ---

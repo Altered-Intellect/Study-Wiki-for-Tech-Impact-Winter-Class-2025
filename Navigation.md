@@ -2,13 +2,17 @@
 tags: 
 sibling docs: 
 child docs: 
-last updated: 2025-01-13T23:50:00
 media:
 ---
-Questions for Art
-how do you distinguish between Data as a Service and Desktop as a Service in the Comptia exam?
+# Cisco Essentials v7
+[[Study Questions]]
+[[Miss Log]]
+[[Acronym Sheet]]
+[[PC build]]
+computer parts we researched for a lab
 # CompTIA A+ Core Series
 [[CompTIA Testing Policies]]
+[[CompTIA A+ Objectives]]
 ## 220-1101
 [[Tech Safety]]
 	[[Troubleshooting]]
@@ -21,6 +25,8 @@ how do you distinguish between Data as a Service and Desktop as a Service in the
 	[[Power Supply]]
 	[[Motherboards]]
 	[[Peripherals]]
+		[[Printers]]
+		[[Monitor]]
 	[[Mobile Devices]]
 [[Networks]]
 	[[Network Troubleshooting]]
@@ -33,18 +39,15 @@ how do you distinguish between Data as a Service and Desktop as a Service in the
 [[Network Security]]
 [[Software Troubleshooting]]
 
-## [[Study Questions]]
-## [[PC build]]
-
-## [[Acronym Sheet]]
-
 # Additional Lectures
 [[On Professionalism]]
 [[On Recruiting and the IT Workplace]]
 [[On Office Conduct]]
+[[On IT Consulting]]
+[[On Time Management]]
 ## Lunch and Learn Sessions
 [[Penn Gaming]]
-
+[[Raiders IT Security]]
 # References
 ## IT-Works by Tech Impact
 https://techimpact.org/itworks
@@ -70,6 +73,9 @@ Lvstudents@techimpact.org
 [[Mobile Devices]]
 	[Page 1](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1101-mobile-devices/pages/1)
 	[Page 2]()
+[[Virtualization and Cloud Computing]]
+	[Page 1](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1101-virtualization-and-cloud-computing/pages/1)
+
 ## NetAcad
 www.netacad.com
 

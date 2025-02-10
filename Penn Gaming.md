@@ -4,7 +4,6 @@ parent docs:
   - "[[Navigation]]"
 sibling docs: 
 child docs: 
-last updated: 2025-01-17T19:18:00
 media:
 ---
 by Carlos Figeroa, Jim Hallman, and Aleyna

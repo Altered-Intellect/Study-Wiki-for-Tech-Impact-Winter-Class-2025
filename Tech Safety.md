@@ -2,9 +2,9 @@
 tags: 
 parent docs:
   - "[[Navigation]]"
-sibling docs: "[[Troubleshooting]]"
+sibling docs:
+  - "[[Troubleshooting]]"
 child docs: 
-last updated: 2025-01-14T23:08:00
 media:
 ---
 # Nav

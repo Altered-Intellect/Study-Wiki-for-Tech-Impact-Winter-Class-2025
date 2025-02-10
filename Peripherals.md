@@ -4,12 +4,11 @@ parent docs:
   - "[[Hardware]]"
 sibling docs: 
 child docs: "[[Printers]]"
-last updated: 2025-01-13T01:50:00
 media:
 ---
 
 # Input Devices
-Input devices allow the user to communicate with a computer.
+allow the user to communicate and interface with a computer
 
 ## PC
 ### Keyboard and Mouse
@@ -73,13 +72,13 @@ An output device takes binary information from the computer and converts it into
 
 Monitors and projectors are output devices that create visual and audio signals for the user. Virtual Reality (VR) headsets are another type of output device. Televisions may also be output devices. Printers are visual output devices that create hard copies of computer files.
 
-## **Monitor**
+## [[Monitor]]
 Most monitors use one of three types of technology: LCD, LED, or OLED.  
-Liquid crystal display (LCD) has two polarizing filters with a liquid crystal solution between them. An electronic current aligns the crystals so that light can pass through or not pass through, creating the image.  
-Light-emitting diode (LED) is an LCD display that uses LED backlighting. LED has lower power consumption than standard LCD backlighting. The panel is thinner, lighter, brighter, and has better contrast than LCD.  
-Organic LED (OLED) is a type of LED display that uses a layer of organic material which responds to electrical stimulus to emit light. Each pixel lights individually, resulting in much deeper black levels than LED.
-There are many types of computer monitors available. Some are designed for casual use, while others are for specific requirements, such as those used by architects, graphic designers, or even gamers.
+- Liquid crystal display (LCD) has two polarizing filters with a liquid crystal solution between them. An electronic current aligns the crystals so that light can pass through or not pass through, creating the image.  
+- Light-emitting diode (LED) is an LCD display that uses LED backlighting. LED has lower power consumption than standard LCD backlighting. The panel is thinner, lighter, brighter, and has better contrast than LCD.  
+- Organic LED (OLED) is a type of LED display that uses a layer of organic material which responds to electrical stimulus to emit light. Each pixel lights individually, resulting in much deeper black levels than LED.
 
+There are many types of computer monitors available. Some are designed for casual use, while others are for specific requirements, such as those used by architects, graphic designers, or even gamers.
 Monitors vary by use, size, quality, clarity, brightness and more. Therefore, it is useful to understand the various terms used when discussing monitors.
 
 Computer monitors are usually described by:
@@ -89,36 +88,6 @@ Computer monitors are usually described by:
 - **Native resolution** – This identifies the best monitor resolution for the specific monitor. In Windows 10, the native resolution of a monitor is identified using the keyword (Recommended) beside the monitor resolution. For example, in the figure, the native resolution of the monitor is 1920 x 1080.
 - **Native mode** – This term describes when the image sent to the monitor by the video adapter card matches the native resolution of the monitor.
 - **Connectivity** – Older monitors used VGA or DVI connectors while newer monitors support HDMI and DisplayPort ports. DisplayPort is a connection found on newer monitors. It supports higher resolutions and high refresh rates.
-
-### Terms
-- **Pixel** - Abbreviation for “picture element” and is a tiny dot capable of displaying the shades red, green, and blue (RGB). More pixels mean the monitor can display more detail.
-- **Dot Pitch** - This is the distance between pixels on the screen. A lower dot pitch (i.e., a smaller distance between dots) produces a better image.
-- **Brightness** - Describes the luminance of a monitor measured in candelas per square meter (cd/m2). Brightness up to 250 cd/m2 is typically recommended, however, in well-lit rooms, use up to 350 cd/m2. Too much brightness may cause eyestrain.
-- **Contrast Ratio** - This is a measurement of how white and how black a monitor can get. A contrast ratio of 1,000:1 displays dimmer whites and more pale blacks than 4,500:1.
-- **Aspect Ratio** - the horizontal to vertical measurement of the viewing area of a monitor. For example, QSXGA measures 2,560 pixels horizontally by 2,048 pixels vertically, which creates an aspect ratio of 5:4. If a viewing area was 16 inches wide by 12 inches high, then the aspect ratio would be 4:3. A viewing area that is 24 inches wide by 18 inches high also has an aspect ratio of 4:3.
-- **Refresh Rate** - Expressed in Hertz (Hz) and refers to how often per second your monitor can redraw the screen.
-- **Response time** - The amount in time for a pixel to change properties (i.e., color or brightness). Fast response times display a smooth image when displaying fast action.
-- **Frames Per Second** (FPS) - FPS is is how many times the computer is creating each frame. The higher the FPS, the better, but the monitor must be able to display the frames at the high rate.
-- **Interlaced/Non-Interlaced** - Interlaced monitors create the image by scanning the screen two times. The first scan covers the odd lines, top to bottom, and the second scan covers the even lines. Non-interlaced monitors create the image by scanning the screen, one line at a time from top to bottom. 
-
-**Note**: If you want to display more things on the screen, then select a higher resolution monitor. If you just want things to appear bigger, then select a larger screen size.
-
-### Display Standards
-
-| Standard | Resolution  | Aspect Ratio | Desc.                                                                             |
-| -------- | ----------- | ------------ | --------------------------------------------------------------------------------- |
-| CGA      | 320 x 200   | 16:10        | color graphics adapter, introduced by IBM in 1981, now obsolete                   |
-| VGA      | 640 x 480   | 4:3          | video graphics array, introduced in 1987, legacy standard                         |
-| SVGA     | 800 x 600   | 4:3          | super video graphics array, introduced in 1989, still supported on some platforms |
-| HD       | 1280 x 720  | 16:9         | high definition, aka 720p                                                         |
-| FHD      | 1920 x 1080 | 16:9         | full high definition, aka 1080p, good setting for typical user                    |
-| QHD      | 2560 x 1440 | 16:9         | quad high definition, aka 1440p, suggested for high-end users and gamers          |
-| UHD      | 3840 x 2160 | 16:9         | ultra high definition, aka 4k                                                     |
-
-### Multiple Monitors
-Adding monitors can increase your visual desktop area and improve productivity. The added monitors enable you to expand the size of the monitor or duplicate the desktop so you can view additional windows. For example, a user may use multiple displays. She is using the right monitor to make changes to a website and the left monitor to display the resulting change. She is also using a laptop to display a library of images she is considering for inclusion in the website.
-
-Many computers have built-in support for multiple monitors. To connect multiple monitors to a computer, you need the supporting cables. Then you need to enable your computer to support multiple monitors. For example, on a Windows 10 host, right-click anywhere on the Desktop and choose **Display settings**. This should open the Display window.
 
 ## Projector
 Most video projectors use LCD or DLP technology. DLP stands for Digital Light Processing. DLP uses a spinning color wheel with an array of mirrors. Each mirror corresponds to a pixel and reflects light toward or away from the projector optics, creating an image of up to 1024 shades of gray. The color wheel then adds the color data to complete the projected image. 
