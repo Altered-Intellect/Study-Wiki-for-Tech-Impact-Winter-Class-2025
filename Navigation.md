@@ -1,8 +1,7 @@
 ---
 tags: 
 sibling docs: 
-child docs: 
-media:
+child docs:
 ---
 # Cisco Essentials v7
 [[Study Questions]]
@@ -28,16 +27,18 @@ computer parts we researched for a lab
 		[[Printers]]
 		[[Monitor]]
 	[[Mobile Devices]]
+	[[Hardware Troubleshooting]]
 [[Networks]]
 	[[Network Troubleshooting]]
 	[[Virtualization and Cloud Computing]]
 	[[Network Topology Key.canvas|Network Topology]]
 
 ## 220-1102
-[[Operating System]]
 [[Operational Procedures]]
 [[Network Security]]
-[[Software Troubleshooting]]
+[[Software]]
+	[[Software Troubleshooting]]
+	[[Operating System]]
 
 # Additional Lectures
 [[On Professionalism]]
@@ -45,6 +46,7 @@ computer parts we researched for a lab
 [[On Office Conduct]]
 [[On IT Consulting]]
 [[On Time Management]]
+[[On Working with Recruiters]]
 ## Lunch and Learn Sessions
 [[Penn Gaming]]
 [[Raiders IT Security]]
@@ -61,7 +63,10 @@ Lvstudents@techimpact.org
 	[Page 3](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1101-hardware/pages/3)
 	[Page 4](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1101-hardware/pages/4)
 	[Page 5](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1101-hardware/pages/5)
-[[Network Troubleshooting]]
+[[Mobile Devices]]
+	[Page 1](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1101-mobile-devices/pages/1)
+	[Page 2]()
+[[Hardware Troubleshooting]]
 	[Page 1](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1101-hardware-and-network-troubleshooting/pages/1)
 	[Page 2](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1101-hardware-and-network-troubleshooting/pages/2)
 	[Page 3](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1101-hardware-and-network-troubleshooting/pages/3)
@@ -70,12 +75,25 @@ Lvstudents@techimpact.org
 	[Page 1](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1101-networking/pages/1)
 	[Page 2](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1101-networking/pages/2)
 	[Page 3](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1101-networking/pages/3)
-[[Mobile Devices]]
-	[Page 1](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1101-mobile-devices/pages/1)
-	[Page 2]()
+[[Network Troubleshooting]]
+	[Page 1](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1101-hardware-and-network-troubleshooting/pages/1)
+	[Page 2](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1101-hardware-and-network-troubleshooting/pages/2)
+	[Page 3](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1101-hardware-and-network-troubleshooting/pages/3)
+	[Page 4](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1101-hardware-and-network-troubleshooting/pages/4)
+[[Network Security]]
+	[Page 1](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1102-security/pages/1)
+	[Page 2](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1102-security/pages/2)
+	[Page 3](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1102-security/pages/3)
+	[Page 4](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1102-security/pages/4)
+	[Page 5](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1102-security/pages/5)
 [[Virtualization and Cloud Computing]]
 	[Page 1](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1101-virtualization-and-cloud-computing/pages/1)
-
+[[Operating System]]
+	[Page 1](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1102-operating-systems/pages/1)
+	[Page 2](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1102-operating-systems/pages/2)
+	[Page 3](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1102-operating-systems/pages/3)
+	[Page 4](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1102-operating-systems/pages/4)
+	[Page 5](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1102-operating-systems/pages/5)
 ## NetAcad
 www.netacad.com
 
@@ -86,7 +104,7 @@ https://www.pcmag.com/encyclopedia
 https://www.transcend-info.com/Support/FAQ-292
 
 # Templates
-Default temp - [[_Properties_]]
+Default temp - [[_DefaultProperties_]]
 
 # How to Use Obsidian
 https://help.obsidian.md/Home

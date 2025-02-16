@@ -12,7 +12,7 @@ media:
 ---
 ## Components
 
-### Central Processing Unit ([[CPU]])
+### Central Processing Unit ([[Central Processing Unit]])
 This is considered the brain of the computer.
 The central processing unit (CPU) is responsible for interpreting and executing commands. It handles instructions from the computer's other hardware, such as a keyboard, and software. The CPU interprets the instructions and outputs the information to the monitor or performs the requested tasks.
 
@@ -133,7 +133,7 @@ Motherboards have a variety of connectors that determine what can be connected t
 ## Motherboard Compatibility
 Motherboards only work with compatible components. Components dependent upon motherboard compatibility include bus architecture, chipsets, expansion slots, memory slots, CPUs, power connectors, non-volatile storage, firmware, CMOS batteries, and front panel connectors and headers.
 
-### [[CPU]] Sockets
+### [[Central Processing Unit]] Sockets
 the space on the motherboard designed to hold the CPU that contains a specific pin grid array dependent upon the motherboard.
 
 #### [[Advanced Micro Devices, Inc.™ (AMD)]]
@@ -314,8 +314,8 @@ For high-performance computers, air cooling may not be enough. Liquid cooling is
 
 # Installation
 
-1. Install the [[CPU]]
-2. Install the [[RAM]]
+1. Install the [[Central Processing Unit]]
+2. Install the [[Random Access Memory]]
 3. Install motherboard in the case
 
 ## Upgrade 

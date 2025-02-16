@@ -10,7 +10,7 @@ media:
 | < [[Cabling and Ports]] < | ^ [[Hardware]] ^ | > [[Storage]] > |
 
 ---
-# Random Access Memory | [[RAM]] 
+# Random Access Memory | [[Random Access Memory]] 
 This is the memory bank for data currently in use by a computer or device. It is a temporary location to store data and applications.
 RAM is the temporary working storage for data and programs that are being accessed by the CPU. Unlike ROM, RAM is volatile memory, which means that the contents are erased every time the computer is powered off.
 Adding more RAM in a computer enhances the system performance. For instance, more RAM increases the memory capacity of the computer to hold and process programs and files. With less RAM, a computer must swap data between RAM and the much slower hard drive. The maximum amount of RAM that can be installed is limited by the form factor of the motherboard.

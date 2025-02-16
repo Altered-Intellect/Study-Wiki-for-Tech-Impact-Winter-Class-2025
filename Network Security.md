@@ -11,8 +11,6 @@ media:
 
 ---
 
-# [Page 1](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1102-security/pages/1)
-
 No IT system is totally functional without impeccable security, and there is a need for increasing proficiency in this area so that vital data is protected. This involves not only planning to deter threat actors but also having plans in place for procedures in case security is breached. You need to be ultimately conversant in all types of security vulnerabilities for devices and network connections. The CompTIA A+ 1102 test devotes **25% (one-fourth) of its questions** to security concept assessment. More than half (**60%**) of the questions about security will begin with a **scenario**.
 
 ## Security Measures
@@ -87,13 +85,13 @@ Unlike physical security controls that you can see and touch, logical security c
 #### Principle of Least Privilege
 Permissions should only be given to a user if they absolutely need them to complete their job. This idea is known as the principle of least privilege. The fewer users who have access to sensitive files, the less likelihood that something bad will happen to those files.
 
-#### Access-Control Lists (ACLs)
+#### [[Access Control List|ACL]]s
 ACLs are used to specify **which traffic should be allowed** through a firewall and which traffic should be blocked. Using an ACL, traffic can be blocked or allowed based upon a number of items including source or destination port as well as source or destination IP address.
 
-#### Multi-Factor Authentication (MFA)
+#### [[Multi-Factor Authentication|MFA]]
 Even the strongest passwords can be compromised. This is where MFA comes in. MFA requires two or more _different_ authentication types. Authentication types are typically broken down into categories, such as **something you know** (password, PIN, security question), **something you have** (authenticator, token), and **something you are** (biometrics). Because MFA requires two or more _different types_ of authentication, a user would not be able to use just a personal identification number (PIN) and a password, since they both fall into the category of something you know. Rather, the user would need a combination of the authentication types, such as a password and a token.
 
-#### Email
+#### [[Email]]
 Email can be used as a method of MFA, but it is the **least secure method** of MFA. Email can be helpful as a notification tool for unauthorized access by notifying the individual if suspicious activity has been detected.
 
 #### Hard Token
@@ -141,8 +139,6 @@ A security group can be created to make assigning privileges and permissions to 
 
 ---
 
-# [Page 2](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1102-security/pages/2)
-
 ## Wireless Security Protocols and Authentication Methods
 Wireless networks are inherently less secure than wired networks. However, there are several methods that can be used to secure wireless networks. You must be able to compare and contrast these protocols and authentication methods.
 
@@ -150,37 +146,30 @@ Wireless networks are inherently less secure than wired networks. However, there
 You should be able to differentiate between different protocols and encryption methods used with wireless networks.
 
 #### Wi-Fi Protected Access 2 (WPA2)
-WPA2 improved upon WPA by using the Advanced Encryption Standard (AES). WPA2 is exploitable if the WPS service is enabled on the device.
+WPA2 improved upon WPA by using the [[Advanced Encryption Standard|AES]]. WPA2 is exploitable if the WPS service is enabled on the device.
 
 #### WPA3
 WPA3 is the successor to WPA2. It introduced 192-bit cryptographic strength in Enterprise mode and requires CCMP 128 as a minimum in personal mode. WPA3-Personal also uses Simultaneous Authentication of Equals (SAE) instead of the preshared key (PSK) exchange used in previous versions of WPA.
 
-#### Temporal Key Integrity Protocol (TKIP)
-
+#### [[Temporal Key Integrity Protocol|TKIP]]
 The TKIP provides a new encryption key for every sent packet. TKIP uses the RC4 encryption algorithm protocol for its cipher. An RC4 encryption algorithm encrypts plain text by bytes to produce a cipher stream. The key for the RC4 algorithm is based on the MAC address and initialization vector of the sending device and is used to check message integrity.
 
-#### Advanced Encryption Standard (AES)
-
+#### [[Advanced Encryption Standard|AES]]
 The AES is a secure encryption method that is still used today. WPA2 uses AES in order to secure wireless networks.
 
 ### Authentication
-
 Wireless networks should never be left open, and they should always require some form of authentication. Let’s look at a few wireless authentication methods.
 
-#### Remote Authentication Dial-In User Service (RADIUS)
-
+#### [[Remote Authentication Dial-In User Service|RADIUS]]
 RADIUS is an authentication method used to allow for centralized authentication and accounting. Although it gets its name from the days of dial-up internet, RADIUS is now the common method used to authenticate over virtual private networks (VPNs) and wireless networks.
 
-#### Terminal Access Controller Access-Control System (TACACS)
-
+#### [[Terminal Access Controller Access-Control System|TACACS]]
 TACACS (now TACACS+) was originally developed by Cisco®, but was released as an open standard. These protocols are used for the authentication of users on network devices, such as routers and switches.
 
 #### Kerberos
-
 Kerberos is an open standard for authentication that is used in conjunction with AD for authentication. Kerberos can also be used with the 802.1X protocol for direct authentication.
 
-#### Multi-Factor
-
+#### [[Multi-Factor Authentication]]
 Multi-factor authentication requires a user to provide more than one authentication type, as discussed earlier in this study guide. A common implementation of multi-factor relating to wireless authentication is the Extensible Authentication Protocol-Transport Layer Security (EAP-TLS), which requires the user to not only have a password but also a certificate installed on the computer.
 
 ## Detecting, Removing, and Preventing Malware
@@ -188,184 +177,138 @@ Multi-factor authentication requires a user to provide more than one authenticat
 To succeed on questions about malware, you should be able to evaluate a given scenario, find malware, and remove it with effective tools and procedures. You should also know how to prevent malware in the future. Questions of this type will be scenario based.
 
 ### Malware
-
 The term malware is used to describe **any malicious software** that includes (but is not limited to) trojans, spyware, viruses, and worms. Let’s take a deeper look at some of the different types of malware that exist today.
 
 #### Trojan
-
-Trojans are malicious programs that **disguise themselves as valuable programs**. Imagine a scenario where a user downloads a program that they believe will allow them to listen to music or watch a movie for free. They downloaded the program because they believed it to be a valuable and legitimate program; however, when they run the program, they have actually installed malware on their device. This is an example of a trojan.
+Malicious programs that **disguise themselves as valuable programs**. Imagine a scenario where a user downloads a program that they believe will allow them to listen to music or watch a movie for free. They downloaded the program because they believed it to be a valuable and legitimate program; however, when they run the program, they have actually installed malware on their device. This is an example of a trojan.
 
 #### Rootkit
-
-Rootkits are malicious programs with the **goal of gaining privileged access** to a computer. Rootkits hide themselves by taking advantage of operating system (OS) functions, and they can attack operating systems, hypervisors, and firmware.
+Malicious programs with the **goal of gaining privileged access** to a computer. Rootkits hide themselves by taking advantage of operating system (OS) functions, and they can attack operating systems, hypervisors, and firmware.
 
 #### Virus
-
-A virus is defined as any malicious program that **replicates itself** and attempts to infect other computers. Viruses, unlike worms, **need human interaction** to spread. They are only able to replicate to other drives on the same computer and not across the network. Viruses are designed for many different goals, from corrupting data to stealing information.
+Defined as any malicious program that replicates itself and attempts to infect other computers. Viruses, unlike worms, need human interaction to spread. They are only able to replicate to other drives on the same computer and not across the network. Viruses are designed for many different goals, from corrupting data to stealing information.
 
 #### Spyware
-
-Spyware is a type of malware that **covertly collects data** on a user after it is installed on their computer. Spyware is typically a virus that **requires user interaction** to infect. For example, a user would have to click on a link in an email for the spyware to download. Spyware can be used for malicious purposes, such as stealing confidential data or credentials, or as a data collection device for advertising purposes.
+A type of malware that covertly collects data on a user after it is installed on their computer. Spyware is typically a virus that requires user interaction to infect. For example, a user would have to click on a link in an email for the spyware to download. Spyware can be used for malicious purposes, such as stealing confidential data or credentials, or as a data collection device for advertising purposes.
 
 #### Ransomware
-
-Ransomware is so named because it essentially **holds your files and data ransom** until you pay the attacker. As the popularity of cryptocurrency (e.g., Bitcoin) has grown, so has ransomware. Attackers can request Bitcoin as their method of payment to release the data after a ransomware attack, making the attackers more difficult to track down after the transaction.
+Named because it essentially holds your files and data ransom until you pay the attacker. As the popularity of cryptocurrency (e.g., Bitcoin) has grown, so has ransomware. Attackers can request Bitcoin as their method of payment to release the data after a ransomware attack, making the attackers more difficult to track down after the transaction.
 
 #### Keylogger
-
 Some attacks will try to install keyloggers onto a user’s computer in order to steal private data, passwords, or credit card numbers. Keyloggers come in both hardware and software forms. A keylogger will **track all the keystrokes** made on the computer running the keylogger. This information can then be transmitted over to the attack entity for them to parse for useful stolen information.
 
 #### Boot Sector Virus
-
 A boot sector virus infects the master boot record (MBR) of a hard disk and is designed to load when a device is booted up, reinfecting the OS each time it is booted up. **Secure boot** can be used to identify a boot sector virus.
 
 #### Cryptominers
-
-Cryptominers are users who **perform cryptographic computations to create cryptocoins**. A cryptominer can infect others computers and use the other computer’s processing power to perform the computations for the cryptominer.
+Are users who perform cryptographic computations to create cryptocoins. A cryptominer can infect others computers and use the other computer’s processing power to perform the computations for the cryptominer.
 
 ### Tools and Methods
-
 There are various tools and methods that can be used to detect and prevent malware. Tools and methods for the prevention of malware are not one-off procedures. Multiple layers of **prevention, detection, and eradication** should be used to fully protect a system.
 
 #### Recovery Mode
-
 Microsoft Windows® offers a suite of built-in recovery tools known as the **Windows Recovery Environment (WinRE)**. This console can be especially helpful if a computer has been infected by malware. Some of the tools in the recovery console will allow you to reset the operating system back to default or simply restore the computer to an earlier time, such as before the computer became infected.
 
 #### Antivirus
-
 Many threats described above can be mitigated simply by having an antivirus program installed. Antivirus software is made up of two main components, the antivirus engine and the antivirus database. The **antivirus engine** is responsible for real-time scanning. The **antivirus definitions database** is a repository of signatures that is used to detect known malware.
 
 #### Anti-Malware
-
 Anti-malware software is extremely similar to antivirus software, but it takes the detection a step farther. Anti-malware software can usually **check files outside of the Windows file systems**, such as those on malicious websites and those coming in via email.
 
 #### Software Firewalls
-
 When referring to software firewalls in this section, we are referring to firewalls that come as part of the operating system. Windows computers come with a built-in software firewall called **Windows Defender Firewall**. This firewall can help prevent worms and malicious inbound connections.
 
 #### Anti-Phishing Training
-
 Anti-phishing training is training of end users targeted specifically at understanding phishing techniques and tactics. This training may involve sending spoof phishing emails to end users to identify potential weak spots in users and training.
 
 #### User Education
-
 While there are plenty of wonderful tools out there to help protect against attacks, end user education is **one of the most important**. This is because antivirus software and spam filters are not perfect. It is important for users to understand what types of items they should download and not download, what types of websites they should _not_ visit, and how to identify a phishing scam.
 
 #### OS Reinstallation
-
 For a highly corrupted OS, the OS may need to be reinstalled with a clean installation. This will remove all data previously attached to the old installation of the OS, including viruses and malware it may have been infected with.
 
 ## Social Engineering Attacks, Threats, and Vulnerabilities
-
 For this test you should be able to compare and contrast different types of threats, social engineering, and vulnerabilities. In the following section, we will cover the important details about these issues.
 
 ### Social Engineering
-
 Social engineering is the act of **manipulating individuals** into giving you unauthorized access to a building or room, or giving you private information.
 
 #### Phishing
-
-Phishing is the most common type of social engineering. In a phishing attack, the attacker sends a **fraudulent email** pretending to be from a legitimate source, such as a colleague, vendor, or even a user’s bank. The goal of a phishing attempt is to get the unsuspecting user to give up their private information.
+The most common type of social engineering. In a phishing attack, the attacker sends a **fraudulent email** pretending to be from a legitimate source, such as a colleague, vendor, or even a user’s bank. The goal of a phishing attempt is to get the unsuspecting user to give up their private information.
 
 #### Vishing
-
-Vishing is **phishing through Voice over Internet Protocol (VoIP) calls**. Vishing calls may attempt to elicit information from the recipient using social engineering techniques. For example, a caller may state that they are from the IRS and the recipient needs to provide back tax payment or risk further financial or legal penalties.
+**Phishing through Voice over Internet Protocol (VoIP) calls**. Vishing calls may attempt to elicit information from the recipient using social engineering techniques. For example, a caller may state that they are from the IRS and the recipient needs to provide back tax payment or risk further financial or legal penalties.
 
 #### Shoulder Surfing
-
-Shoulder surfing is the act of stealing a person’s data by looking over their shoulder as they type private information on a computer or a code into a door or ATM.
+The act of stealing a person’s data by looking over their shoulder as they type private information on a computer or a code into a door or ATM.
 
 #### Whaling
-
-Whaling is phishing that specifically targets individuals high up in a company’s hierarchy, such as CEOs and CFOs or other **high-value targets**.
+Phishing that specifically targets individuals high up in a company’s hierarchy, such as CEOs and CFOs or other high-value targets.
 
 #### Tailgating
-
 Social engineers will sometimes tailgate or **follow another person** into a building. This means sneaking into a locked door right behind a person who has permission to enter. Sometimes, the social engineer may carry boxes so that an individual, who is just trying to be polite, will unlock and hold the door open for them.
 
 #### Impersonation
-
 One common social engineering tactic is impersonation. Social engineers will often pretend to be someone else to gain access to what they are looking for. One example of this would be an attacker pretending to be from your internet provider asking for access to your network closet.
 
 #### Dumpster Diving
-
 Businesses and individuals throw away a lot of valuable information that can be used by an attacker. When an attacker digs through the trash hoping to find private information that wasn’t shredded, this is known as dumpster diving.
 
 #### Evil Twin
-
 An evil twin is an **imposter access point** that impersonates a legitimate access point in order to intercept data. For example, a user could connect to an access point at their local cafe that provides free Wi-Fi access under the name “Cafe Guest.” The evil twin will create an imposter access point also named “Cafe Guest” and intercept data when the user connects to the evil twin.
 
 ### Threats
+Are potential hazards to a network that can be either **physically or logically based**. A threat is an attack designed to interrupt, intercept, or damage data from a target. Threats can come from a single threat actor, such as a **script kiddie**, or numerous threat actors acting in coordination with one another, such as a **nation state**.
 
-Threats are potential hazards to a network that can be either **physically or logically based**. A threat is an attack designed to interrupt, intercept, or damage data from a target. Threats can come from a single threat actor, such as a **script kiddie**, or numerous threat actors acting in coordination with one another, such as a **nation state**.
-
-#### Denial of Service (DoS)
-
+#### [[Denial of Service|DoS]]
 A denial-of-service (DoS) attack is one in which a **large amount of meaningless traffic** is directed toward a device or network in an attempt to overburden and bring it down.
 
-#### Distributed Denial of Service (DDoS)
-
+#### [[Distributed Denial of Service|DDoS]]
 A distributed denial of service (DDOS) is a denial-of-service attack in which multiple computers (often a **botnet**) are used to send an abundance of traffic in an attempt to bring down a network’s resources.
 
 #### Zero-Day Attack
-
 A zero-day attack is one that **targets a vulnerability** that developers have not identified yet or for which they have not had time to release a patch or fix.
 
 #### Spoofing
-
 Spoofing is a form of an **impersonation attack**. Some commonly spoofed items include a source IP address, source MAC address, source email address, and usernames.
 
 #### On-Path Attack
-
 An on-path attack, previously known as a **man-in-the-middle (MITM)** attack, is an **eavesdropping** attack. The attacker will try to plant themself between two systems and intercept the traffic.
 
 #### Brute-Force Attack
-
 In a brute-force attack, the attacker attempts to guess as many of the possible values as they can. Brute force is generally used as a method of **password cracking**, but can be used in some other scenarios as well.
 
 #### Dictionary Attack
-
 One form of brute-force attack is known as a dictionary attack. Rather than the attacker trying to come up with passwords to guess themselves, they can use a **list of all leaked passwords** online (known as a dictionary).
 
 #### Insider Threat
-
 An insider threat is a **threat from within the organization itself** and may be perpetrated by disgruntled employees or for personal gain. Insider threats are **more common than external threats** and can expose the organization to significant levels of damage as the threat has access to the network. An internal threat may be **more difficult to detect** since the threat is expected to be on the network.
 
-#### Structured Query Language (SQL) Injection
-
+#### [[Structured Query Language|SQL]] Injection
 An SQL injection is an attack in which the threat enters a series of malicious code with a Structured Query Language (SQL) query to gain access to SQL databases.
 
 #### Cross-Site Scripting (XSS)
-
 Cross-site scripting (XSS) is used to **embed malicious scripts** into a legitimate web page and is commonly used to hijack web pages to coax the end user to install malware.
 
 ### Vulnerabilities
-
 Vulnerabilities in cyber security are weaknesses in the OS or network that can be exploited for access. Threat actors leverage vulnerabilities to gain access to a network. While zero-day threats do occur, the majority of vulnerabilities have been previously identified with released patches. It is easier for a threat actor to try known vulnerabilities against a target to gain access to the network than to attempt to discover a new vulnerability.
 
 #### Non-Compliant Systems
-
 A non-compliant system is a system or device that does not follow the standard security precautions as dictated by the system administrator. Non-compliant software or systems can pose a threat to an organization’s network. It’s important to fix non-compliant devices as soon as you notice them.
 
 #### Unpatched Systems
-
 Patches protect systems, software, or networks from known vulnerabilities. Unpatched systems leave the network or device open to exploitation through these known vulnerabilities.
 
 #### Unprotected Systems
-
 An unprotected system is a system that does not have the appropriate security measures in place, such as a device without an antivirus or anti-malware program installed or a system without a properly configured firewall.
 
-#### End-of-Life (EOL) Operating Systems (OSs)
-
+#### [[End-of-Life|EOL]] [[Operating System|OSs]]
 An EOL OS is an OS that is no longer supported by the vendor. This means that no new patches or updates will be released for vulnerabilities, leaving the OS open to exploitation.
 
-#### Bring Your Own Device (BYOD)
-
+#### [[Bring Your Own Device|BYOD]]
 The prevalence of BYOD policies in networks **complicates network security**. BYOD policies allow users to use their own devices on a network and are therefore difficult to police and pose both a data leakage and data portability vulnerability. These devices may not be properly secured, both physically and logically, making them targets for threat actors.
 
 ---
-
-# [Page 3](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1102-security/pages/3)
 
 ## Basic Security Settings in Microsoft Windows® OS
 
@@ -568,9 +511,6 @@ Certain programs or discs will run immediately when put into the computer. It is
 AutoPlay is disabled by default in the Windows OS. AutoPlay does not look in the autorun.inf file for permissions and will prompt the user to choose to execute or not.
 
 ---
-
-# [Page 4](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1102-security/pages/4)
-
 ## Securing Mobile and Embedded Devices
 
 Mobile and embedded devices have become an important part of business as we know it. Employees are expected to be available at all times via their phone. But with the new wave of mobile devices in business, organizations must consider the risks. You must be able to identify common methods for securing mobile and embedded devices.
@@ -703,154 +643,117 @@ When an organization uses a third-party vendor to dispose and destroy their devi
 
 ---
 
-# [Page 5](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1102-security/pages/5)
-
-## Security for Small Office/Home Office (SOHO) Wireless and Wired Networks
-
+## Security for [[Small Office/Home Office|SOHO]] Wireless and Wired Networks
 It will also be important for you to manage a scenario related to a SOHO situation and devise best practice security measures for that environment, whether it is wired or wireless. Questions of this type will be scenario based.
 
 ### Home Router Settings
-
 Routers used in the home can be **configured for security** and best practices should be followed. While most home routers are considered to be plug and play, you should always access the router to change the default password and manage updates and other security settings prior to use.
 
 #### Change Default Passwords
-
 It is easy to do an online search and find the default usernames and passwords of wireless devices. When setting up a wireless network, ensure that the default passwords are not being used.
 
-#### IP Filtering
-
-IP filtering, also referred to as **firewall rules**, should be used on a home router to secure the internal network from an external network, such as the internet.
+#### [[Internet Protocol|IP]] Filtering
+Also referred to as firewall rules, should be used on a home router to secure the internal network from an external network, such as the internet.
 
 #### Firmware Updates
-
 Just like any other device we’ve talked about, the firmware on a wireless device should be kept up to date. Whenever the latest updates are not installed on a device, that device is susceptible to attacks.
 
 #### Content Filtering
-
 Some wireless routers will come with built-in content filtering and **parental controls**. These can be used to block users from navigating to sites that could contain malware.
 
 #### Physical Placement/Secure Locations
-
 Ideally, when setting up a wireless network, you want the network to span your entire building or workspace, without leaking outside of your organization. It’s a difficult task to do perfectly, but it can be achieved by doing wireless network surveys and ensuring that your antennas and access points are placed in the right locations.
 
-#### Dynamic Host Configuration Protocol (DHCP) Reservations
+#### [[Dynamic Host Configuration Protocol|DHCP]] Reservations
+Used to create a dynamically static-assigned [[Internet Protocol|IP]] address and is commonly used with network printers.
 
-DHCP reservations can be used to create a dynamically static-assigned IP address and is commonly used with network printers.
-
-#### Static Wide-Area Network (WAN) IP
-
+#### Static [[Wide Area Network|WAN]] IP
 It is generally a good idea to set a static IP address on your wireless router so that, in the event of an internet outage or power outage, the IP address will not change when the device is back online.
 
-#### Universal Plug and Play (UPnP)
+#### [[Universal Plug and Play|UPnP]]
+Designed to make connecting devices to a network simpler. To protect a SOHO, UPnP should be required to ask permission prior to connection to the SOHO network or network-connected device.
 
-UPnP is designed to make connecting devices to a network simpler. To protect a SOHO, UPnP should be required to ask permission prior to connection to the SOHO network or network-connected device.
-
-#### Screened Subnet
-
-A screened subnet, also referred to as a **demilitarized zone (DMZ)**, creates a separation between the exterior and interior of a network where a communication can take place without placing the interior of the network at risk.
+#### Screened Subnet/[[De-Militarized Zone]]
+Also referred to as a [[De-Militarized Zone|DMZ]], creates a separation between the exterior and interior of a network where a communication can take place without placing the interior of the network at risk.
 
 ### Wireless-Specific
-
 There are some security measures specific to wireless networks. Let’s take a look at some of them.
 
-#### Changing the Service Set Identifier (SSID)
+#### Changing the [[Service Set Identifier|SSID]]
 
 Keeping the default SSID can provide a potential attacker with information they need to target you. For example, the default SSID may show exactly what type of wireless device you are using. It’s best to change the SSID before you begin using the wireless network.
 
 #### Disabling SSID Broadcast
-
 Disabling the SSID is one way to prevent attackers from finding your wireless network. It requires a few extra steps for getting yourself and other users connected to the network, but it does add that additional layer of protection. Experienced hackers will still be able to locate hidden networks, but generally attackers go after the low-hanging fruit.
 
 #### Encryption Settings
-
 Setting wireless encryption secures your wireless network with an authentication protocol. Wireless encryption requires both a password and an encrypted key when you connect. The encryption key can generally be located in the setup page of a wireless router.
 
 #### Disabling Guest Access
-
 Guest access should be disabled on the wireless network. While guest access is designed to allow minimal permissions, it can easily be exploited for privilege escalation.
 
 #### Changing Channels
 [[Networks#Wireless Local Area Network|WLAN]] operate on two primary frequency channels, 2.4 GHz and 5 GHz. For security, the channel can be changed to reduce the possibility of overlap in the network.
 
 ### Firewall Settings
-
 As with other network-connected devices, firewalls should be configured to provide the **highest security possible** for wireless networks.
 
 #### Disabling Unused Ports
-
 Disabling ports that are not in use on the wireless router can prevent unauthorized parties from plugging in and gaining access to the entire network.
 
 #### Port Forwarding/Mapping
-
 Port forwarding, also referred to as port mapping, is the configuration of ports on a device to allow or block port access. Port forwarding/mapping can be configured on a wireless device in the same way that it is on a wired network.
 
 ## Browser Security
-
 Web browsers are one of the most used tools on the internet and require security considerations and best practices in and of themselves. Questions in this section will be scenario based.
 
 ### Browser Download/Installation
-
 Browsers can be downloaded either online or offline. An **online browser download** is an online link that installs a smaller installation application on a device. The installation application then pulls the needed data for the rest of the browser from the internet via a live internet connection. An **offline browser download** is a download of the complete installation package in a single file. The initial offline installation download does require an active internet connection. However, once the download is complete, it can be used to install the browser on additional devices without the need of an internet connection. With either method, care must be taken to install a clean version of the browser.
 
 #### Trusted Sources
-
 Browsers should be downloaded and installed only from trusted sources, preferably through the official distributor.
 
 ##### Hashing
-
-Hashing is one method of verifying the integrity of a downloaded browser installation. This method creates a secure hash algorithm of the executable that is stored in a separate location and can be compared to the executable if the browser needs to be reinstalled.
+One method of verifying the integrity of a downloaded browser installation. This method creates a secure hash algorithm of the executable that is stored in a separate location and can be compared to the executable if the browser needs to be reinstalled.
 
 #### Untrusted Sources
-
-Untrusted or unverified sources should not be used for browser installation or download. To ensure a verified installation, go directly to the vendor page for the browser you wish to install. Do not follow links within a non-vendor page for installation.
+Also know as unverified sources, it should not be used for browser installation or download. To ensure a verified installation, go directly to the vendor page for the browser you wish to install. Do not follow links within a non-vendor page for installation.
 
 ### Extensions and Plug-ins
-
-Extensions and plug-ins are designed to make a browser more functional to the end user. However, care must be taken when installing extensions and plug-ins.
+Are designed to make a browser more functional to the end user. However, care must be taken when installing extensions and plug-ins.
 
 #### Trusted Sources
-
 As with browser installation, trusted sources should be used when downloading and installing extensions and plug-ins.
 
 #### Untrusted Sources
-
-Untrusted sources, such as third-party links, should not be used for extension and plug-in installation. Verify the source prior to installation.
+third-party links should not be used for extension and plug-in installation. Verify the source prior to installation.
 
 ### Password Managers
-
 A password or credential manager is offered by many browsers as a way to store credentials and passwords. Only use a password manager on a private and secure device.
 
 ### Secure Connections/Sites—Valid Certificates
-
 Web browsers identify secure connections through certificate validation. Try to avoid connections or sites with invalid certificates.
 
 ### Settings
-
 Like firewall settings, a web browser has browser-specific security settings that can be configured to provide the highest level of security.
 
 #### Pop-Up Blocker
-
 A pop-up blocker is designed to prevent pop-ups and pop-unders from appearing. Pop-ups are blocked by default on most browsers but may need to be allowed for specific websites that require pop-ups for functionality.
 
 #### Clearing Browsing Data
-
 Clearing browser data removes the data that was stored during browsing and should be used to maintain data privacy. The frequency of clearing browser data is dependent upon the usage of the device. For example, if the browser is on your home computer that only you have access to, it is not as vital to clear browser data after browsing. However, if you are using a public browser, such as at the library, the browser history should be cleared upon each usage.
 
 #### Clearing Cache
-
 The browser cache is where data is placed when rendering a website for quick retrieval. The cache should be cleared frequently to maintain browser security.
 
 #### Private-Browsing Mode
-
 Private-browsing mode does not store any web browsing data and can be used for security as well as privacy. However, private-browsing mode is **not completely private**. Private-browsing mode merely keeps the browsing data on a device secret for that particular device. All visited websites will still receive any information that was collected by the website.
 
 #### Sign-In/Browser Data Synchronization
-
 Browser synchronization allows for the synchronization of a user’s browser across multiple devices. Caution should be used when synchronizing browsers. Do not synchronize on public devices or, if synchronization is required, remember to log off and delete the history and cache before leaving the browser.
 
 #### Ad Blockers
-
-Ad blockers are designed to prevent spam advertisements in browsers. Ad blockers work by comparing a URL to a set list of blacklisted or whitelisted URLs. If the URL is **blacklisted**, it is denied download on the browser. URLs can be **whitelisted** by users to allow them through the ad blocker. For example, an ad blocker may ask the browser if they want to see advertisements from ABC Company. If the user agrees, the URL for ABC Company is whitelisted and allowed access.
+Designed to prevent spam advertisements in browsers. Ad blockers work by comparing a URL to a set list of blacklisted or whitelisted URLs. If the URL is **blacklisted**, it is denied download on the browser. URLs can be **whitelisted** by users to allow them through the ad blocker. For example, an ad blocker may ask the browser if they want to see advertisements from ABC Company. If the user agrees, the URL for ABC Company is whitelisted and allowed access.
 
 ---
 # Nav

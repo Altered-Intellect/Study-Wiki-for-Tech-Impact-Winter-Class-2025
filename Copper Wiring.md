@@ -20,7 +20,7 @@ Coaxial cable (or coax) carries data in the form of electrical signals. It provi
 cable is heavy gauge and has insulation and shielding tuned for high-bandwidth, high-frequency applications such as Internet, Cable TV, and Satellite TV signals. RG-6 commonly uses an F-Type connector, as shown in the figure.
 
 ### RG-59
-cable is thinner than RG-6 and has less shielding. RG-59 is recommended in low bandwidth and lower frequency applications such as analog video and CCTV applications. RG-59 commonly uses a BNC connector as shown in the next figure.
+cable is thinner than RG-6 and has less shielding. RG-59 is recommended in low bandwidth and lower frequency applications such as analog video and CCTV applications. RG-59 commonly uses a BNC connector.
 
 **British Naval (BNC)** BNC connectors connect coaxial cables to devices using a quarter-turn connection scheme. BNC is used with digital or analog audio, or video.
 

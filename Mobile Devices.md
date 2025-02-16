@@ -45,7 +45,7 @@ The process of replacing a keyboard usually requires removing the screws and dis
 The removal or replacement of a key cap is usually a delicate procedure as the mechanism for the key-switch is precise. 
 
 #### Random-Access Memory 
-[[RAM]] : The industry-standard form factor for RAM in laptops is the **[Small Outline Inline Memory Module (SODIMM)]**. When replacing a SODIMM, ensure that the SODIMM is compatible with the motherboard. SODIMMs can be 200-pin DDR and DDR2, 204-pin DDR3, 260-pin DDR4, or 262-pin DDR5, and they can be 32-bit or 64-bit configurations. The RAM is located in the bottom of the clamshell.
+[[Random Access Memory]] : The industry-standard form factor for RAM in laptops is the **[Small Outline Inline Memory Module (SODIMM)]**. When replacing a SODIMM, ensure that the SODIMM is compatible with the motherboard. SODIMMs can be 200-pin DDR and DDR2, 204-pin DDR3, 260-pin DDR4, or 262-pin DDR5, and they can be 32-bit or 64-bit configurations. The RAM is located in the bottom of the clamshell.
 
 #### Hard Disk Drive (HDD)/Solid State Drive (SSD) Migration
 After HDD or SSD replacement, data stored on the old drive may need to be migrated to the new drive. Migration can be done either **manually** or through the use of **migration software**. Manual migration is typically preferable when only user data needs to be migrated. Before replacement, move all data to a separate location, such as the cloud or external device, and copy the data to the new drive once installed. Manual migration does not move user settings or configurations. Migration software can be used to move files, settings configurations, and applications from one drive to another. Typically, **both drives need to be accessible** for migration software to work.

@@ -72,7 +72,7 @@ Peripheral cables attach peripheral devices to a computing device. Input/output 
 
 **Personal System 2 (PS/2)**—A PS/2 port connects a keyboard or a mouse to a computer. The PS/2 port is a 6-pin mini-DIN female connector. The connectors for the keyboard and mouse are often colored differently. If the ports are not color-coded, look for a small figure of a mouse or keyboard next to each port.
 
-**[[Thunderbolt]]**—Thunderbolt is a combination of PCI Express 2.0 x4 and DisplayPort 1.x technology. Thunderbolt was designed primarily for video transmission but can be used by other peripheral devices as well. There are **four Thunderbolt standards** labeled 1 to 4 with Thunderbolt 1 and 2 terminating in a Mini-DisplayPort connector and Thunderbolt 3 and 4 terminating in a USB-C connector.
+**Thunderbolt**—Thunderbolt is a combination of PCI Express 2.0 x4 and DisplayPort 1.x technology. Thunderbolt was designed primarily for video transmission but can be used by other peripheral devices as well. There are **four Thunderbolt standards** labeled 1 to 4 with Thunderbolt 1 and 2 terminating in a Mini-DisplayPort connector and Thunderbolt 3 and 4 terminating in a USB-C connector.
 
 **Audio ports**—Audio ports connect audio devices to the computer. Analog ports typically include a line in port to connect to an external source (e.g., stereo system), a microphone port, and line out ports to connect speakers or headphones.
 

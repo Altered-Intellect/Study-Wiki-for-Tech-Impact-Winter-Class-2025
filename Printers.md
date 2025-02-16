@@ -126,7 +126,7 @@ It is possible to configure the MFD as a device on the network, just like a netw
 
 The scan is uploaded to a storage location in the cloud such as Google Drive or Apple iCloud. The MFD may have specific cloud locations that are preconfigured or allow you to configure your own. You log in using the scanning prompts either in the software or on the MFD screen if it has one.
 
-### Automatic Document Feeder (ADF)
+### [[Automatic Document Feeder|ADF]]
 There are two primary types of scanners. An **automatic document feeder (AFD)** is a scanning device that allows for multiple pages to be scanned automatically through the use of a feeder, eliminating the need to manually change the document being scanned. 
 
 An automatic document feeder (ADF) can be found on some laser and inkjet printers which also have the capabilities of copy machines. These are called multi-function devices (MFDs). The ADF is a slot where an existing document can be placed. The machine is then set to make copies of this document.

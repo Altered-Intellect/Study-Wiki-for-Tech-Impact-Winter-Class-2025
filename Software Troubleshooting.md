@@ -218,7 +218,7 @@ The following are concerns and symptoms you need to be familiar with when dealin
 ### Security Concerns
 While many security concerns of mobile OSs and applications are similar to desktop devices, there are some security issues that are unique to mobile devices.
 
-#### Android Package (APK) Source
+#### [[Android PacKage|APK]] Source
 Unlike an Apple device, Android devices are not proprietary and are **open-source**. Most applications that a user may download are obtained through the **Google Play Store**, which verifies and monitors the APK of the application for malicious or inappropriate content. However, if an application is installed via an untrusted source, it poses the risk of being malicious.
 
 #### Developer Mode

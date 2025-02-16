@@ -189,15 +189,15 @@ To change the default login password, find the administration portion of the rou
 ### Step 3: Log in with the new admin password
 After you save the new password, the wireless router will request authorization again. Enter the username and new password, as shown in the example.
 
-### Step 4: Change the default [[#Dynamic Host Protocol DHCP|DHCP]] [[IP#IPv4|IPv4]] address
+### Step 4: Change the default [[#Dynamic Host Protocol DHCP|DHCP]] [[Internet Protocol#IPv4|IPv4]] address
 You can change the default router IPv4 address. It is a best practice to use private IPv4 addressing inside your network. The IPv4 address 10.10.10.1 is used in the example but it could be any private IPv4 address you choose.
 
 Search the internet for “private ip addressing” to learn more.
 
-### Step 5: Renew the [[IP]] Address
+### Step 5: Renew the [[Internet Protocol]] Address
 When you click save, you will temporarily lose access to the wireless router. Open a command window and renew your IP address with the ipconfig /renew command, as shown in the example.
 
-### Step 6: Log in to the [[#Router]] with the new [[IP]] address
+### Step 6: Log in to the [[#Router]] with the new [[Internet Protocol]] address
 Enter the router’s new IP address to regain access to the router configuration GUI, as shown in the example. You are now ready to continue configuring the router for wireless access.
 
 ## Basic Wireless Settings
@@ -346,7 +346,7 @@ PoE standards are the **IEEE 802.3 standards** that define PoE specifications.
 - **PoE++- 802.3bt (Type 3)-60 W**—multi-radio WAPs, video conferencing equipment
 - **PoE++- 802.3bt (Type 4)-100 W**—laptops, flat-screen monitors
 
-#### Ethernet of Power
+#### Ethernet over Power
 More commonly called powerline networking, uses existing electrical wiring to connect devices, as shown in the next figure. The concept of “no new wires” means the ability to connect a device to the network wherever there is an electrical outlet. This saves the cost of installing data cables and without any additional cost to the electrical bill. Using the same wiring that delivers electricity, powerline networking sends information by sending data on certain frequencies. A powerline networking adapter can plugged into an electrical outlet to send data over the existing power grid. 
 
 ### Repeater
@@ -581,7 +581,7 @@ A popular use for proxy servers is to act as storage or cache for web pages that
 
 In addition, a proxy server can effectively hide the IP addresses of internal hosts because all requests going out to the internet are sourced from the proxy server’s IP address.
 
-### Authentication, Authorization, and Accounting : [[AAA]]
+### [[Authentication, Authorization, Accounting|AAA]]
 An authentication, authorization, and accounting (triple A or AAA) server is an access control server that acts as a gatekeeper for critical network components. AAA servers are also known as domain controllers. Examples of AAA servers include remote access service (RAS), Remote Authentication Dial-In User Service : [[RADIUS]], Terminal Access Controller Access-Control System Plus : [[TACACS+]], and Kerberos.
 The remote client goes through a four-step process to authenticate with a AAA server and gain access to the network.
 1. The client establishes a connection with the router
@@ -662,7 +662,7 @@ When setting up a [[SOHO]] network, keep the following steps in mind:
 
 You must be able to install and configure basic wired and wireless SOHO networks. On the CompTIA A+ exam, these concepts will be addressed in scenario-based questions.
 
-## Internet Protocol : [[IP]] Addressing
+## Internet Protocol : [[Internet Protocol]] Addressing
 Internet protocol (IP) addressing is the assignment of a unique device identifier on a local network or the internet. The IP address is responsible for managing logical network addresses.
 
 ## Configurations

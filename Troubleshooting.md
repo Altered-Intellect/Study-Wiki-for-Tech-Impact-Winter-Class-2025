@@ -82,7 +82,7 @@ Conduct research to determine which software is available to help diagnose and s
 The Device Manager displays all the devices that are configured on a computer. The operating system flags the devices that are not operating correctly with an error icon. A yellow triangle with an exclamation point indicates that the device is in a problem state. A red X means that the device is disabled, removed, or Windows can't locate the device. An arrow down means the device has been disabled. A yellow question mark indicates that the system does not know which driver to install for the hardware.
 
 **Task Manager**
-Displays the applications and background processes that are currently running. With the Task Manager, you can close applications that have stopped responding. You can also monitor the performance of the [[CPU]] and virtual memory, view all processes that are currently running, and view information about the network connections.
+Displays the applications and background processes that are currently running. With the Task Manager, you can close applications that have stopped responding. You can also monitor the performance of the [[Central Processing Unit]] and virtual memory, view all processes that are currently running, and view information about the network connections.
 
 #### 2. Create a Theory of Probable Cause
 Keep it **simple**. Always question the obvious and don’t assume something isn’t relevant. You might think it is common sense to be plugged into the network, but the user might not know this. Using your questioning ability, develop a theory (or two) regarding what the problem might be. When developing a theory, remember to **eliminate possible theories** as well if they do not fit the scenario.
@@ -444,7 +444,7 @@ After updating the BOIS firmware, the computer will not start
 | -------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | the BIOS firmware update did not install correctly | restore the original firmware from the onboard backup if it is available, if the motherboard has two BIOS chips use the second one, or contact the motherboard manufacturer to obtain a new BIOS chip |
 
-### [[CPU]]
+### [[Central Processing Unit]]
 #### Solutions
 The computer will not boot or it locks up
 

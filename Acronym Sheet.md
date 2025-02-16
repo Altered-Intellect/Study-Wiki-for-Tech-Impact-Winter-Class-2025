@@ -9,24 +9,24 @@ media:
 
 | Aronym   | Definition                                                                |
 | -------- | ------------------------------------------------------------------------- |
-| AAA      | Authentication, Authorization, Accounting                                 |
-| AC       | Alternating Current                                                       |
-| ACL      | Access Control List                                                       |
-| ACPI     | Advanced Configuraiton and Power Interface                                |
-| ADF      | Automatic Document Feeder                                                 |
-| AES      | Advanced Ecryption Standard                                               |
-| AP       | Access Protocol                                                           |
-| APK      | Android Package                                                           |
-| APIPA    | Automatic Private IP Addressing                                           |
+| AAA      | [[Authentication, Authorization, Accounting]]                             |
+| AC       | [[Alternating Current]]                                                   |
+| ACL      | [[Access Control List]]                                                   |
+| ACPI     | [[Advanced Configuration and Power Interface]]                            |
+| ADF      | [[Automatic Document Feeder]]                                             |
+| AES      | [[Advanced Encryption Standard]]                                          |
+| AP       | [[Access Protocol]]                                                       |
+| APK      | [[Android PacKage]]                                                       |
+| APIPA    | [[Automatic Private IP Addressing]]                                       |
 | ARM      | Advance RISC Machine                                                      |
 | ARP      | Address Resolution Protocol                                               |
 | ATA      | AT Attachment                                                             |
-| ATM      | Asynchronous transfer Protocol                                            |
+| ATP      | Asynchronous Transfer Protocol                                            |
 | ATX      | Advanced Technology eXtended                                              |
 | AUP      | Acceptable Use Policy                                                     |
 | BIOS     | Basic Input/Output System                                                 |
 | BSOD     | Blue Screen of Death                                                      |
-| BYOD     | Bring Your Own Device                                                     |
+| BYOD     | [[Bring Your Own Device]]                                                 |
 | CAD      | Computer Aided Design                                                     |
 | CAPTCHA  | Completely Automated Public Turing Test to Tell Computers and Human Apart |
 | CD       | Compact Disc                                                              |
@@ -36,9 +36,9 @@ media:
 | CIFS     | Common Internet File System                                               |
 | CMD      | Comand                                                                    |
 | CMOS     | Complimentary Metal-Oxide Semi-conductor                                  |
-| CPU      | Central Processing Unit                                                   |
+| CPU      | [[Central Processing Unit]]                                               |
 | CRL      | Certificate Revocation List                                               |
-| DC       | Direct Current                                                            |
+| DC       | [[Direct Current]]                                                        |
 | DDoS     | Distributed Denial of Service                                             |
 | DDR      | Double Data Rate                                                          |
 | DHCP     | Dynamic Host Configuration Protocol                                       |
@@ -92,7 +92,7 @@ media:
 | IMAP     | Internet Mail Access Protocol                                             |
 | IOPS     | Input/Output operations Per Second                                        |
 | IoT      | Internet of Things                                                        |
-| IP       | Internet Protocol                                                         |
+| IP       | [[Internet Protocol]]                                                     |
 | IPS      | Internet Protocol System                                                  |
 | IPSec    | Internet Protocol Security                                                |
 | IR       | Infra-Red                                                                 |
@@ -112,7 +112,7 @@ media:
 | MAN      | Metropolitain Area Network                                                |
 | MBR      | Master Boot Record                                                        |
 | MDM      | Mobile Device Management                                                  |
-| MFA      | Multi-Factor Autentication                                                |
+| MFA      | [[Multi-Factor Authentication]]                                           |
 | MFD      | Multi-Function Device                                                     |
 | MFP      | Multi-Function Printer                                                    |
 | MMC      | Microsoft Management Console                                              |
@@ -149,7 +149,7 @@ media:
 | PRL      | Preferred Roaming List                                                    |
 | PSU      | Power Supply Unit                                                         |
 | PXE      | Pre-boot Execution Environment                                            |
-| RADIUS   | Remote Authentication Dial-In User Server                                 |
+| RADIUS   | [[Remote Authentication Dial-In User Service]]                            |
 | RAID     | Redundant Array of Independent/Inexpensive Discs                          |
 | RAM      | Random Access Memory                                                      |
 | RDP      | Remote Desktop Protocol                                                   |
@@ -158,10 +158,10 @@ media:
 | RFID     | Radio Frequency Identification                                            |
 | RJ-11/45 | Registered Jack Function                                                  |
 | RMM      | Remote Monitoring and Management                                          |
-| RTO      | Recovery Point Objective                                                  |
+| RPO      | Recovery Point Objective                                                  |
 | SaaS     | Software as a Service                                                     |
 | SAN      | Storage Area Network                                                      |
-| SAS      | Serical Attached SCSI                                                     |
+| SAS      | Serially Attached SCSI                                                    |
 | SC       | Subscription Channel                                                      |
 | SCADA    | Supervisory Control And Data Aquisition                                   |
 | SCP      | Secure Copy Protection                                                    |
@@ -179,7 +179,7 @@ media:
 | SODIMM   | Small Outline Dual Inline Memory Modual                                   |
 | SOHO     | Small Office/Home Office                                                  |
 | SPF      | Sender Policy Framework                                                   |
-| SQL      | S Query Language                                                          |
+| SQL      | Structured Query Language                                                 |
 | SRAM     | Static Random Access Memory                                               |
 | SSD      | Solid State Drive                                                         |
 | SSH      | Secure Shell                                                              |
@@ -188,11 +188,11 @@ media:
 | SSO      | Single Sign On                                                            |
 | ST       | Straight Tip                                                              |
 | STP      | Shielded Twisted Pair                                                     |
-| TACACAS  | Terminal Access Controller Access Control System                          |
+| TACACAS  | [[Terminal Access Controller Access-Control System]]                      |
 | TCP      | Transmission Control Protocol                                             |
-| TCP/IP   | Trivial File Transfer Protocol/Internet Protocol                          |
+| TCP/IP   | Transmission Control Protocol/Internet Protocol                           |
 | TFTP     | Trivial File Transfer Protocol                                            |
-| TKIP     | Temporal Key Integrity Protocol                                           |
+| TKIP     | [[Temporal Key Integrity Protocol]]                                       |
 | TLS      | Transport Layer Security                                                  |
 | TN       | Twisted Neumatic                                                          |
 | TPM      | Trusted Platform Module                                                   |
@@ -219,6 +219,6 @@ media:
 | WLAN     | Wireless Local Area Network                                               |
 | WMN      | Wireless Mesh Network                                                     |
 | WPA      | Wireless Protected Setup                                                  |
-| WWAM     | Wireless Wide Area Network                                                |
-| WPS      | Wi-Fi Protected                                                           |
+| WWAN     | Wireless Wide Area Network                                                |
+| WPS      | Wi-Fi Protected Setup                                                     |
 | XSS      | Cross-Site Scripting                                                      |

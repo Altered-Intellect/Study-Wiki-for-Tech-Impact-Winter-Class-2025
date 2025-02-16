@@ -75,12 +75,11 @@ The cloud provider manages the network and provides organizations access to netw
 
 Cloud service providers have extended the IaaS model to also provide IT as a service (ITaaS). ITaaS can extend the capability of IT without requiring investment in new infrastructure, training new personnel, or licensing new software. These services are available on demand and delivered economically to any device anywhere in the world without compromising security or function.
 
-#### Software as a Service (SaaS)
-In recent years, there has been a major shift from locally installed software to **web-based software**. Software as a service (SaaS) has become a popular choice for organizations because it allows them to access their programs **anywhere an internet connection is available**. SaaS can be described as any program that is accessed via the web and not locally installed.
+#### Metal as a Service (MaaS)
 
-The cloud provider provides access to services, such as email, calendar, communication, and office tools over the Internet on a subscription basis. Users access the software using a browser. Advantages include minimal upfront costs for customers and immediate application availability. SaaS providers include Salesforce customer management relationship (CRM) software, Microsoft Office 365, MS SharePoint software, and Google G Suite.
-- Software applications (e.g., email, office 365, ...) are provided over the network on a subscription basis
-- Typically used by end users
+
+#### Containers as a Service (CaaS)
+
 
 #### Platform as a Service (PaaS)
 provides a platform for developers to **build their own applications**. PaaS providers will handle everything on the back end, including servers, operating systems, and development tools. This allows developers to focus on creating, building, and managing their applications.
@@ -89,6 +88,22 @@ The cloud provider provides access to operating systems, development tools, prog
 - Includes tools and services used to deliver the applications
 - Includes OS and applications stack
 - Typically requested by application and software developers
+
+#### Function as a Service (FaaS)
+
+
+#### Software as a Service (SaaS)
+In recent years, there has been a major shift from locally installed software to **web-based software**. Software as a service (SaaS) has become a popular choice for organizations because it allows them to access their programs **anywhere an internet connection is available**. SaaS can be described as any program that is accessed via the web and not locally installed.
+
+The cloud provider provides access to services, such as email, calendar, communication, and office tools over the Internet on a subscription basis. Users access the software using a browser. Advantages include minimal upfront costs for customers and immediate application availability. SaaS providers include Salesforce customer management relationship (CRM) software, Microsoft Office 365, MS SharePoint software, and Google G Suite.
+- Software applications (e.g., email, office 365, ...) are provided over the network on a subscription basis
+- Typically used by end users
+
+#### Security as a Service (SECaaS)
+
+
+#### IT as a Service (ITaaS)
+
 
 ### Cloud Characteristics
 **features available on the cloud**. You must be able to summarize these common features.

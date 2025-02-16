@@ -9,8 +9,8 @@
 		{"id":"3599e92e2a6c2c1b","type":"text","text":"# [[Host]]","x":-251,"y":100,"width":126,"height":60},
 		{"id":"86f79ef9f4f23c83","type":"text","text":"# [[Host]]","x":449,"y":0,"width":126,"height":60},
 		{"id":"8648de8bbaebf226","type":"text","text":"# [[Host]]","x":213,"y":100,"width":126,"height":60},
-		{"id":"2f00891dbae3b342","type":"text","text":"# [[Laptop]]\n- [[MAC]] : 00:50:56:BE:D7:87\n- [[IP#IPv4|IPv4]] : 192.168.100.8\n- [[IP#IPv6|IPv6]] : 2001:db8:cafe100::8","x":140,"y":-420,"width":272,"height":200},
-		{"id":"f721066ce8f22ad3","x":-324,"y":-420,"width":272,"height":200,"type":"text","text":"# [[Laptop]]\n- [[MAC]] : 00:50:56:BE:D7:87\n- [[IP#IPv4|IPv4]] : 192.168.200.8\n- [[IP#IPv6|IPv6]] : 2001:db8:cafe200::8"}
+		{"id":"2f00891dbae3b342","type":"text","text":"# [[Laptop]]\n- [[MAC]] : 00:50:56:BE:D7:87\n- [[Internet Protocol#IPv4|IPv4]] : 192.168.100.8\n- [[Internet Protocol#IPv6|IPv6]] : 2001:db8:cafe100::8","x":140,"y":-420,"width":272,"height":200},
+		{"id":"f721066ce8f22ad3","x":-324,"y":-420,"width":272,"height":200,"type":"text","text":"# [[Laptop]]\n- [[MAC]] : 00:50:56:BE:D7:87\n- [[Internet Protocol#IPv4|IPv4]] : 192.168.200.8\n- [[Internet Protocol#IPv6|IPv6]] : 2001:db8:cafe200::8"}
 	],
 	"edges":[
 		{"id":"d1cae6a912e01e84","fromNode":"4bedf65a67824d79","fromSide":"left","toNode":"12e36ad749797a09","toSide":"right","toEnd":"none"},

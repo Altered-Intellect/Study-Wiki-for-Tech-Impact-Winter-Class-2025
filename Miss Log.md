@@ -56,6 +56,10 @@ A technician has assembled a new computer and must now configure the BIOS. At wh
 - X : after the POST, but before Windows starts to load
 - V : during the POST
 
+Run a memory test to verify all memory addresses can be reliably written to and read from.
+- X : miniSD microSD
+- V : xD
+
 # [[Troubleshooting]]
 Which two types of data should be backed up before troubleshooting a computer for a customer? (Choose two.)
 - X : BIOS system file
@@ -76,6 +80,10 @@ A computer technician performed a number of actions to correct a problem. Some a
 If a technician is unable to create a backup of data on a customer computer, what three pieces of information should the technician include on the liability release form signed by the customer before beginning work? (Choose three.)
 - X : a description of the problem and the steps required to resolve the problem
 - V : a description of the work to be performed, permission to work on the computer without a current backup available, and a release from liability if data is lost or corrupted
+
+An engineer's workstation experiences a BSOD whenever loading very large CAD files to modify. Which of the following troubleshooting steps should a technician take to isolate the issue?
+- X : Increase the size of the swap file to ensure adequate virtual memory is available.
+- V : Run a memory test to verify all memory addresses can be reliably written to and read from.
 
 # [[Networks]]
 Which internet connection type is an always-on service that uses radio signals sent from a tower to a receiver in a home or business?
@@ -118,6 +126,21 @@ Which type of network requires an active, powered TAP (test access point) to cap
 - X : wireless
 - V : gigabit Ethernet
 
+Which IEEE standard implements PoE+?
+- X : IEEE 802.3ab
+- V : IEEE 802.3at
+
+What is the most common type of DSL Internet access?
+- X : VDSL
+- V : ADSL
+
+Which DNS TXT records are used for spam management? (Select 3 answers)
+- V : DKIM, SPF, DMARC
+
+ A database on a mobile device containing bands, sub-bands and service provider IDs allowing the device to establish connection with the right cell phone tower is called:
+ - X : PII
+ - V : PRL
+
 # [[Mobile Devices]]
 Which cellular technology supports speeds up to 20 Gbps?
 - X : 4G
@@ -155,3 +178,37 @@ Which technology automatically and rapidly re-configures network topologies to a
 An international civil engineering association has members from all over the world. The research division of the association plans to have a cloud-based service to share research ideas and to promote collaboration among members in multiple divisions of the association. Which cloud model is suitable for them?
 - X : hybrid
 - V : community
+
+An organization uses a cloud storage service to store company files. The file synchronization client for this cloud service is installed on every user's computer. One user reports that a file synced with the client to their computer does not contain information a co-worker of theirs added earlier today. Indicate the BEST action to take when troubleshooting this problem.
+- V : Open the cloud service's client that is locally installed and check to see if there are any updates available for the client.
+- X : Open the cloud service's client that is locally installed, determine if there are any reported errors, and follow the steps provided to correct the synchronization errors.
+
+ Which of the terms listed below refers to a cloud computing feature that allows for automatic allocation of computing resources in proportion with the demand?
+ - X : On-demand self-service
+ - V : Rapid Elasticity
+
+# [[Cabling and Ports]]
+USB 3.2 Gen 2 is also labeled as:
+- X : SuperSpeed USB 15 Gbps
+- V : SuperSpeed USB 10 Gbps
+
+Which of the following dedicated expansion slots/ports on the PC motherboard enable(s) connecting an M.2 device? (Select all that apply)
+- X : PCIe slot
+- V : B key slot, M key slot, and B+M key slot
+
+Which of the following answers refers to an older type of serial cable used for connecting modems, printers, mice, and other peripheral devices?
+- X : RG-59
+- V : RS-232
+
+Which of the following answers refer to storage media device interfaces for SSDs? (Select 3 answers)
+- X : IDE, PCI
+- V : NVMe, SATA, PCIe
+
+What is the maximum allowable length for a Thunderbolt copper cable?
+- X : Up to 15 meters
+- V : Up to 3 meters
+
+USB 2.0 (a.k.a. Hi-Speed USB) specifies the maximum data transfer rate of:
+- X : 240 Mbps
+- V : 480 Mbps
+
