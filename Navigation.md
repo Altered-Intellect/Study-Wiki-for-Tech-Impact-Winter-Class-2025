@@ -45,11 +45,12 @@ computer parts we researched for a lab
 [[On Recruiting and the IT Workplace]]
 [[On Office Conduct]]
 [[On IT Consulting]]
-[[On Time Management]]
 [[On Working with Recruiters]]
+[[On Capital One]]
 ## Lunch and Learn Sessions
 [[Penn Gaming]]
 [[Raiders IT Security]]
+[[On Sultaneh Tadrous]]
 # References
 ## IT-Works by Tech Impact
 https://techimpact.org/itworks

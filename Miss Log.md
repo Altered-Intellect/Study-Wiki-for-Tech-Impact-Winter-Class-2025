@@ -212,3 +212,35 @@ USB 2.0 (a.k.a. Hi-Speed USB) specifies the maximum data transfer rate of:
 - X : 240 Mbps
 - V : 480 Mbps
 
+# [[Microsoft Windows]]
+What type of file system allows the use of files larger than 5 GB and is mostly used on internal hard drives?
+- X : exFAT
+- V : NTFS
+
+What term is used to describe a logical drive that can be formatted to store data?
+- X : volume
+-  V : partition
+
+What are two types of computer user interface? (Choose two.)
+- X : API
+- V : GUI, CLI
+
+What is the maximum amount of physical RAM that can be addressed by a PC running 32-bit Windows 10 Pro?
+- X : 8GB
+- V : 4GB
+
+Which type of user account is created automatically and enabled during a Windows 10 installation?
+- X : Standard User
+- V : Administrator
+
+What is a Windows alternative to a page file?
+- V : Ready Boost
+
+# [[Operating System]]
+A Linux PC user notices that the PC freezes on startup and exhibits kernel panic where there is a stop screen. What is a possible cause for the issue?
+- X : GRUB has been corrupted.
+- V : a driver has become corrupt
+
+A mobile device user notices that the system update includes an update of the Primary Rate ISDN (PRI). What is the function of the PRI?
+- X : It is the data rate setting of the user account with the carrier service.
+- V : It is the configuration of the data rates between the device and the cell tower.
