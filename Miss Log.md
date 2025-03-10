@@ -60,6 +60,9 @@ Run a memory test to verify all memory addresses can be reliably written to and 
 - X : miniSD microSD
 - V : xD
 
+What type of connector can be used to connect an internal hard drive to the motherboard?
+- X : eSATA
+- V : SATA
 # [[Troubleshooting]]
 Which two types of data should be backed up before troubleshooting a computer for a customer? (Choose two.)
 - X : BIOS system file
@@ -84,6 +87,10 @@ If a technician is unable to create a backup of data on a customer computer, wha
 An engineer's workstation experiences a BSOD whenever loading very large CAD files to modify. Which of the following troubleshooting steps should a technician take to isolate the issue?
 - X : Increase the size of the swap file to ensure adequate virtual memory is available.
 - V : Run a memory test to verify all memory addresses can be reliably written to and read from.
+
+What are two probable causes of a VoIP implementation experiencing dropouts, echoes, or glitches?
+- X : high cable impedance
+- V : high jitter and high latency
 
 # [[Networks]]
 Which internet connection type is an always-on service that uses radio signals sent from a tower to a receiver in a home or business?
@@ -141,6 +148,9 @@ Which DNS TXT records are used for spam management? (Select 3 answers)
  - X : PII
  - V : PRL
 
+What are three common solutions for a PC that displays an IP address starting with 169.254.x.x?
+- X : Enable the client machine to receive an IPv4 address automatically
+- V : Turn on the device that is acting as a DHCP server, then use the **ipconfig /release** and **ipconfig /renew** commands to request a new IPv4 address, and reboot the client machine that is using the 169.254.x.x address
 # [[Mobile Devices]]
 Which cellular technology supports speeds up to 20 Gbps?
 - X : 4G
@@ -244,3 +254,20 @@ A Linux PC user notices that the PC freezes on startup and exhibits kernel panic
 A mobile device user notices that the system update includes an update of the Primary Rate ISDN (PRI). What is the function of the PRI?
 - X : It is the data rate setting of the user account with the carrier service.
 - V : It is the configuration of the data rates between the device and the cell tower.
+
+# [[IT Professional]]
+What is the correct way to conduct a telephone call to troubleshoot a computer problem?
+- X : Explain each step to help the customer understand the troubleshooting process.
+- V : Maintain professional behavior at all times.
+
+What approach should a technician take when receiving a call from a stressed customer?
+- X : Ask the customer to hold, and then wait five minutes for the customer to calm down.
+- V : Try to establish a rapport with the customer.
+
+What two roles or tasks are associated with the level one technician?
+- X : gathering diagnostic information from a customer computer
+- V : escalating a trouble ticket to a level two technician, and gathering customer information to initiate a work order
+
+Which statement best describes a call center?
+- X : It is a help desk used by customers to make an appointment to report their computer problems.
+- V : It is a place to provide computer support to customers.

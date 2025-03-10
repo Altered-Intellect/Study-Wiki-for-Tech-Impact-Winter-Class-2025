@@ -299,7 +299,7 @@ A managed switch is one that **allows for port configuration**, traffic manageme
 ### Unmanaged
 An unmanaged switch does _not_ allow for configuration and passes on all data for a MAC address to its ports. usually use for home, or public applications
 
-## Access Points
+## [[Access Point]]
 An access point is technically any device to which a host can connect in order to access a network. Wired access points include **hubs** and **switches**. However, the term usually refers to a wireless access point (WAP) that allows Wi-Fi devices to connect to a network.
 ### Wireless
 provide network access to wireless devices, such as laptops and tablets. The wireless AP uses radio waves to communicate with the wireless NIC in the devices and other wireless access points. An access point has a limited range of coverage. Large networks require several access points to provide adequate wireless coverage. A wireless access point provides connectivity only to the network, while a wireless router provides additional features.
@@ -314,7 +314,7 @@ For safety, ensure that all cables are secured using cable ties or cable managem
 ## Firewall
 A firewall is a **security appliance**, either hardware or software, that filters network traffic based on a preconfigured set of rules. Firewalls protect data and equipment on a network from unauthorized access. A firewall resides between two or more networks. It does not use the resources of the computers it is protecting, so there is no impact on processing performance. Basic firewalls track source and destination ports and the IP of the packets.
 
-Firewalls use various techniques for determining what is permitted or denied access to a network segment, such as an Access Control List [ACL]. This list is a file that the router uses which contains rules about data traffic between networks.
+Firewalls use various techniques for determining what is permitted or denied access to a network segment, such as an [[Access Control List|ACL]]. This list is a file that the router uses which contains rules about data traffic between networks.
 
 **Note**: On a secure network, if computer performance is not an issue, enable the internal operating system firewall for additional security. For example, in Windows 10 the firewall is called Windows Defender Firewall. Some applications might not operate properly unless the firewall is configured correctly for them.
 

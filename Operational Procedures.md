@@ -11,9 +11,6 @@ media:
 
 ---
 
-# [Page 1](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1102-operational-procedures/pages/1)
-
-## General Information
 Any IT operation must have procedures in place covering safety, communication, professionalism, and environmental impact. These must be standard for all people with access to the system and must be accurately communicated and recorded for reference. The procedures must also be based on industry best practices. The CompTIA A+ 1102 test assesses your knowledge of operational procedures in 22% of the questions. A little over half (about 56%) of the questions about operational procedures will begin with a scenario.
 
 ## Documentation and Support Systems
@@ -112,8 +109,6 @@ A repository of information regarding an application or system. When working on 
 
 ---
 
-# [Page 2](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1102-operational-procedures/pages/2)
-
 ## Change Management
 The process of addressing changes within an organization. Whenever a change is going to be made in an organization, proper procedures must be followed to ensure that any negative impact on the business or users is minimized. You will need to be able to explain change management best practices.
 
@@ -158,10 +153,10 @@ The change board is the group of users who are in charge of determining whether 
 In order for a successful change to occur, all users must be on board and prepared for the change. User acceptance testing is a common practice in which real users ensure that the change doesn’t negatively affect their ability to perform tasks.
 
 ## Workstation Backup and Recovery
-All organizations should have a **[business continuity and disaster recovery (BCDR)]** plan documented and in place. Disaster prevention and recovery refers to the ability to be able to bounce back after any type of disaster, such as a natural disaster or a cyber attack. Questions in this section will be scenario based.
+All organizations should have a [[Business Continuity and Disaster Recovery|BCDR]] plan documented and in place. Disaster prevention and recovery refers to the ability to be able to bounce back after any type of disaster, such as a natural disaster or a cyber attack. Questions in this section will be scenario based.
 
 ### Backup and Recovery
-A backup is a stored data clone of a workstation, device, OS, files, or network that can be used in case of disaster or if needed for recovery. The backup provides a **[recovery point objective (RPO)]**, which is a point in time to which a dataset can be restored. A backup can be a full backup of the entire dataset at a specified point in time or a partial backup of the changes since the previous backup.
+A backup is a stored data clone of a workstation, device, OS, files, or network that can be used in case of disaster or if needed for recovery. The backup provides a [[Recovery Point Objective|RPO]], which is a point in time to which a dataset can be restored. A backup can be a full backup of the entire dataset at a specified point in time or a partial backup of the changes since the previous backup.
 
 #### Full
 A full backup **[copies the entire dataset]** at a specific point in time and may include the OS, files, and personalizations. A full backup can be used to completely restore a dataset in case of complete failure. A full backup, however, is memory intensive and time consuming.
@@ -236,8 +231,6 @@ Use goggles when working with chemicals, batteries, or printer toner.
 To protect yourself from an environment where dust, smoke, or other air particles exist in the surrounding atmosphere, you should wear a special mask designed to filter out these items.
 
 ---
-
-# [Page 3](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1102-operational-procedures/pages/3)
 
 ## Environmental Impacts and Controls
 You should be able to quickly analyze and apply the proper controls for any possible environmental impacts. Some questions in this area will be scenario based.
@@ -327,8 +320,6 @@ Contains protected health information/personal health information (PHI) and is a
 The policies and regulations set in place that require a specified amount of time that data should be retained. These regulations vary by data type as well as by companies. Be aware of data retention requirements that affect your data type.
 
 ---
-
-# [Page 4](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1102-operational-procedures/pages/4)
 
 ## Communication and Professionalism
 IT technicians have to communicate effectively with many different audiences. Those working in IT should be aware of the following concepts in order to use proper communication techniques and professionalism. Questions in this section will be scenario based.
@@ -431,90 +422,64 @@ Access to the locations of private customer materials, whether on a computer, de
 
 ---
 
-# [Page 5](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1102-operational-procedures/pages/5)
-
 ## Scripting
-
 Scripting can be used to automate IT management processes. It is important to be familiar with all of these concepts.
 
 ### Script File Types
-
 There are numerous scripting languages in use, each with its own syntax and nuances. You should be familiar with the most common script languages and be able to recognize their file types.
-
 **.bat**—A batch file is a series of commands to be run by the Windows operating system stored in a plain text file.
-
 **.ps1**—A .ps1 file is used to run scripts in Powershell.
-
 **.vbs**—A .vbs file contains lines of codes in the Visual Basic programming language that are encoded in plain text format.
-
 **.sh**—A .sh file is like the batch files of Windows, but they can be executed in Linux or Unix.
-
 **.js**—A .js file is a script written in JavaScript.
-
 **.py**—A .py script is a script written in the Python programming language.
 
 ### Use Cases for Scripting
-
 Use cases for scripting are scenarios that you are likely to encounter as an IT technician. You should be familiar with the most common use cases.
 
 #### Basic Automation
-
 Automation uses a set script to perform a specific task that needs to remain constant each time the script is run. Basic automation may be used for creating users or adding users to a group.
 
 #### Restarting Machines
-
 Scripting is useful for restarting machines when multiple machines need to be restarted. By creating a script, you automate the process rather than having to command each machine individually.
 
 #### Remapping Network Drives
-
 Mapping a drive is the process of mounting a remote filesystem to a drive letter. Creating a script for the process ensures a reproducible result each time.
 
 #### Installation of Applications
-
 Scripting can be used for the installation of applications to ease the process. For example, a script may be written that requires the successful installation of all prerequisites before the application is installed rather than having to manually install each prerequisite prior to application installation.
 
 #### Automated Backups
-
 Scripts may also be used to automate the backup process to increase reliability. For example, a script may be used to automate the backup of a SQL database.
 
 #### Gathering of Information/Data
-
 When dealing with information and data gathering about a network, device, or batch of devices, scripting can be more efficient than using a **graphical user interface (GUI)**. With a scripting command, you are able to view the exact data you need without having to maneuver through a GUI.
 
 #### Initiating Updates
-
 Installing updates is a common automated process offered on operating systems such as the Windows OS. However, this process may not update and install a patch as quickly as it may be needed. To immediately initiate an update, a script may be used.
 
 ### Other Considerations
-
 While using scripts can be highly effective, there are also many considerations to be aware of that may affect your device or your entire system.
 
 #### Introducing Malware
-
 Be aware of the potential for introducing malware into a system via a script. Sometimes you may need additional scripts to aid in the functionality or a script. Scripts can be imported using a third-party tool. Third-party tools, however, are a common environment for malware to reside. Malware may be attached to the script and inserted unintentionally.
 
 #### Changing System Settings
-
 Scripts, such as those for basic automation, are commonly used to make changes to a system. However, if not properly executed, the script may make unintentional changes to other system settings. Try new scripts in a test environment before implementing them, if possible.
 
 #### Browser or System Crashes
-
 Scripting can be a powerful tool in helping to automate processes. However, if not properly constructed, a script can inadvertently consume resources, such as RAM, leading to system crashes.
 
 ## Remote Access Technologies
-
 Accessing devices remotely is a major part of troubleshooting issues. Questions in this section will be scenario based, and you will need to be able to identify and use these common methods and tools.
 
 ### Methods and Tools
-
 Methods and tools for remote connection vary and may be dependent upon the OS.
 
-#### Remote Desktop Protocol (RDP)
+#### [[Remote Desktop Protocol|RDP]]
+A Microsoft proprietary technology for remotely accessing Windows computers. RDP provides a user with a graphical interface to connect to another computer over a network connection. RDP uses TCP port 3389.
 
-RDP is a Microsoft proprietary technology for remotely accessing Windows computers. RDP provides a user with a graphical interface to connect to another computer over a network connection. RDP uses TCP port 3389.
-
-#### Virtual Private Network (VPN)
-
+#### [[Virtual Private Network|VPN]]
 A VPN can be used for secure remote access by creating an encrypted tunnel through which the data is transmitted and accessed. Common VPN configurations include a site-to-site VPN, a client-to-site VPN, or a clientless VPN.
 
 #### Virtual Network Computer (VNC)
@@ -530,19 +495,15 @@ SSH creates a two-way communication connection between computers over a network 
 RMM provides a way for a company to monitor and manage multiple devices over a wide range of locations through a single interface. There are numerous RMM software packages available on the market. RMM software requires the placement of an agent on each connected device that reports back to the primary agent or the managed service provider (MSP).
 
 #### Microsoft Remote Assistance (MSRA)
-
 MSRA is a Windows program that allows for remote connection to a compatible device by a trusted user via an invitation. RDP must be allowed and active for a MSRA connection to be established.
 
 #### Third-Party Tools
-
 Many third-party tools can provide a quick, reliable, and efficient way to connect to computers.
 
 ##### Screen-Sharing Software
-
 One common feature that most third-party remote access tools include is screen sharing. A screen-sharing feature allows a technician to view the client’s screen and see exactly what they are seeing. Popular examples are Splashtop and TeamViewer.
 
 ##### Video-Conferencing Software
-
 Video-conferencing software is similar to screen-sharing software but offers added functionality, such as allowing multiple users to join in at once as well as calendar invitations and attendee management. Popular examples include Microsoft Teams and Zoom.
 
 ##### File Transfer Software
@@ -550,11 +511,9 @@ Video-conferencing software is similar to screen-sharing software but offers add
 File transfer software is software dedicated solely to sharing files. Popular examples include Dropbox and OneDrive.
 
 ##### Desktop Management Software
-
-Desktop Management Software is an extension of screen-sharing, which, when integrated with other management software such as Intun, allows for complete device management remotely. To be considered desktop management software, the extension must be configured to await an incoming connection.
+An extension of screen-sharing, which, when integrated with other management software such as Intun, allows for complete device management remotely. To be considered desktop management software, the extension must be configured to await an incoming connection.
 
 ### Security Considerations for Each Method
-
 When considering which remote access option to use, it’s vital to consider the security ramifications. Take into consideration the type of data being transmitted, the encryption level of the method, and the transmission method. Keep in mind that any remote connection accessed via an internet connection may be vulnerable to attack.
 
 **RDP**—RDP may be vulnerable through the use of weak credentials as well as the known usage of port 3389, which may be targeted for an on-path attack.

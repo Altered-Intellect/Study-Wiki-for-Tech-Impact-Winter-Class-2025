@@ -103,7 +103,7 @@ If an application is uninstalled incorrectly, you might be leaving files on the 
 Some applications may include an uninstall feature that is located in the Windows Start menu with the application.
 
 ### Compatibility Mode
-Older applications may not run properly on newer Windows operating systems. Windows provides a way that these programs can be configured to run. If older software is not running properly, locate the executable file for the application. This can be done by right-clicking a shortcut for the application and selecting **Open file location**. Right-click the executable file and choose Properties. From the **Compatibility** tab, shown in the figure, you can run the **Windows compatibility troubleshooter** or manually configure the environment for the application.
+Older applications may not run properly on newer Windows operating systems. Windows provides a way that these programs can be configured to run. If older software is not running properly, locate the executable file for the application. This can be done by right-clicking a shortcut for the application and selecting **Open file location**. Right-click the executable file and choose Properties. From the **Compatibility** tab you can run the **Windows compatibility troubleshooter** or manually configure the environment for the application.
 
 
 ### Considerations
@@ -121,7 +121,6 @@ By using deployment tools, the users are not required to log-on with administrat
 
 ### Impact to Business
 Any application deployed in a business must be supported and maintained.
-
 - **Software licensing** – Software licensing establishes the number of devices that can install the software or number of authorized users. Using unlicensed software can expose a business to legal and financial penalties.
 - **Technical support** – Depending on the availability and technical expertise of the internal IT staff, some or all the technical support maybe outsourced to the software vendor. The vendor can provide paid technical support that can provide updates and maintenance releases, monitor and fix security issues and provide technical assistance. The impact to the business should be assessed for either support method.
 - **User training** – Training on programs should be available to the users if applicable. Training can be a recurring cost as the vendors deploy newer versions of the program or as part of the onboarding process for new employees. The program may also be supported by an internal team who requires more in-depth technical training to support and maintain the programs in a secure manner.

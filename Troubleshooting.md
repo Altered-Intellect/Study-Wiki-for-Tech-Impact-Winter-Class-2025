@@ -15,6 +15,8 @@ Troubleshooting requires an organized and logical approach to problems with comp
 
 Troubleshooting is a skill that you refine over time. Each time you solve a problem, you increase your troubleshooting skills by gaining more experience. You learn how and when to combine steps, or skip steps, to reach a solution quickly. The troubleshooting process is a guideline that is modified to fit your needs. This section presents an approach to problem-solving that you can apply to both hardware and software.
 
+Always trust the user but verify and double check.
+
 **Note**: The term user, as used in this course, is any user that requires technical computer assistance.
 
 Before you begin troubleshooting problems, always follow the necessary precautions to protect data on a computer. Some repairs, such as replacing a hard drive or reinstalling an operating system, might put the data on the computer at risk. Make sure you do everything possible to prevent data loss while attempting repairs. If your work results in data loss for the user, you or your company could be held liable.

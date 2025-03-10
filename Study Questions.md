@@ -757,3 +757,498 @@ Hybrid:
 
 
 12. What is the purpose of Software Defined Networking (SDN)? 
+
+# [[Microsoft Windows]]
+1.) Define the following terms:
+Multi-user - the feature of a computer to have multiple different accounts assigned to different people, allows each user to have a separate access to files and applications
+Multitasking - the ability for a computer to run several applications at the same time, all computers in the modern day are capable of multitasking
+Multiprocessing - an operating system that can support multiple CPU cores
+Multithreading - allows a processor to compute multiple parts of a program at once, such as tabs on a computer
+
+2.) What are the basic functions of an operating system?
+to allow the user to interface with a computer and its hardware and software components 
+
+3.) What hardware may be upgraded to meet OS minimum requirements?
+RAM, CPU, HDD/SSD, video card, motherboard
+
+4.) What are the minimum system requirements for Windows 10?
+Processor: 1GHz or faster
+RAM: 1GB for 32, 2GB for 64
+Drive space: 16GB for 32, 20GB for 64
+Graphics card: DriectX 9 up, WDDM 1.0 driver and up
+Display: 800x600
+Internet connection: yes
+Trusted Platform Module: none
+
+5.) What are the minimum system requirements for Windows 11?
+Processor: 1GHz or faster, 2 or more cores
+RAM: 4GB
+Drive space: 64GB
+Graphics card: DirectX 12 up, WDDM 2.0 driver and up
+Display: HD (720p)
+Internet connection: yes
+Trusted Platform Module: 2.0
+
+6.) Which versions of Windows can be upgraded to Windows 10? For versions of Windows that cannot be upgraded to Windows 10, how can the OS be installed?
+Windows 7 and up can be upgraded to Windows 11, for older versions it requires a clean install
+
+7.) What differentiates a 32-bit architecture from a 64-bit architecture?
+its determines the amount of data a CPU can handle in the register, and the amount of bits processed in parallel
+
+8.) List 3 migration tools available for Windows:
+PC-Mover Express, Windows Easy Transfer, and User State Migration Tool
+
+9.) In what situations might you need to perform a clean installation of an OS?
+when the data on a computer has become corrupted, the OS has been infected with a virus or other malware, or the OS is too old to be updated or upgraded to the preferred OS
+
+10.) What are the two most common types of data storage devices used today?
+[[Hard Drive Disk|HDD]], and [[Solid State Drive|SSD]]
+
+11.) What is a master boot record (MBR)? List defining features.
+a 517 byte long table used in conjunction with the BIOS to configure boot order, sets the requirements of the basic disk of four primary partitions, and the behavior of the extended partitions and logical drives
+
+12.) What is a GUID partition table? List defining features
+a Global Unique IDentifier table is a UEFI BIOS only partition table, support larger drives
+
+13.) What is a primary partition?
+a set of 4 partition used in a master boot record that is used to store the OS and drivers
+
+14.) What is an active partition?
+The partition that the computer boots from
+
+15.) What is an extended partition?
+if the computer needs more than 4 partitions, one of the primary partitions can be turned into an extended partition that can be further divided into smaller partitions
+
+16.) What is a basic disk? What is a dynamic disk?
+basic disk : the default disk partitioning setup, uses primary, extended and logical drives to configure partitions, used either MBR or GPT
+dynamic disk : an extended version of the basic disk that allows the table to be set across multiple disks, can be changed at any time and can automatically use up free space regardless if it is contiguous, partitions are unable to be shrunk without repartitioning
+
+17.) List 5 common file systems.
+NTFS : new technology file system
+FAT32 : file allocation table 32-bit
+Ext3/4 : third/fourth extended file system
+exFAT : extensible file allocation table
+APFS : apple file system
+
+18.) What differentiates a quick format from a full format? What tool is used for this in Windows?
+the quick format removes files but does not check the integrity of the disk but is faster, it is not an option in windows 7 and 8.1
+full format both removed files and checks the integrity of the disk for failed sectors but takes more time than the quick boot, this is required for new hard drives
+
+19.) What is a boot manager? Which ones are commonly used by Linux and macOS?
+a boot manager puts the devices a computer can boot from in a hierarchy, can be configured using the BIOS, or the UEFI. GRUB, GNU gRand Unified Bootloader, is commonly used by Linux and mac
+
+20.) What is Single-Sign On (SSO) authentication?
+allows a user to log in once on an OS to access all system resources including user accounts, usually used for single user computers
+
+21.) What are the differences between Administrator and Standard user accounts?
+the admin has full access to all of the OSs systems, while the standard user is unable to install programs
+
+22.) What can you do with Microsoft’s System Preparation (SysPrep) tool? How do you run it?
+can be a windows solution for installing an OS on multiple computers via disk cloning
+
+23.) What is remote network installation?
+the installation of an OS over a network connection, often to multiple computers, a server has a copy of the OS and each computer is installed with an NIC that can load a PXE, and the OS is downloaded onto the computer and booted for configuration
+
+24.) What is the Preboot eXecution Environment?
+it is a boot environment that allows the installation of an OS over a network connection
+
+25.) What is an unattended installation?
+allows an OS to self configure based in an answer file stored on the drive, this contains all of the necessary answers to the options given when setting up an OS
+
+26.) How do you access Windows Advanced Boot Options and what are four common startup options?
+press f8 during start-up
+- safe mode : used for troubleshooting on-device and start up issues, limited functionality as most drivers are not loaded
+- safe mode with networking : allows for network connection and support in safe mode
+- safe mode with cmd prompt : safe mode that loads the command prompt instead of the GUI, should only be used by users who are proficient at cmd prompt navigation and features
+- last know good config : loads the config setting of the last instance of the Windows OS in the registry 
+
+27.) How do you access startup modes in Windows 8 and 10?
+hold the SHIFT key on boot and navigate to desired startup mode
+
+28.) The Windows 10 Start menu consists of three main parts. What are the locations and functions of each part?
+shortcut ribbon - includes the power button and common libraries
+application list - lists all installed applications
+app tiles - groups apps together by type 
+
+29.) What is the Taskbar and where is it typically located?
+a ribbon on the bottom of the screen that give the user access to important features on the OS, such as applications, tools, and programs
+
+30.) What is the Task Manager and how can you access it?
+an application that displays statistics on the OS, such as a table of running applications, can be used terminate applications so they are no longer using system resources
+
+31.) What does the “Run as Administrator” option do?
+allows an admin to access the features of an admin account while another user is logged in
+
+32.) In what folder are 32-bit programs installed in a 64-bit system?
+the Program (x86) directory
+
+33.) What are the categories found in Control Panel?
+- User and Account Control
+- Network and Internet 
+- Display Settings
+- Power and System
+- Hardware and Sound
+- Clock Region and Language
+- Programs and Features
+
+34.) What is User Account Control (UAC)?
+a program that informs the user when an application is making a change on the computer, can be configured to various levels of change on the OS
+
+35.) What are the 4 most common file attributes in Windows?
+.exe
+.py
+.js
+.docx
+
+36.) What is the purpose of Sync Center?
+to synchronize files between different computers across a network, is now a mostly deprecated feature of older windows systems
+
+37.) What tabs are part of Internet Options?
+General, Security, Privacy, Content, Connections, Programs, and Advanced
+
+38.) What is Windows ReadyBoost? How is it enabled?
+A windows feature that allows a user to use a flash drive as a temporary RAM, right clicking it in the file explorer
+
+39.) Device Manager allows you to perform what four functions?
+downloading and updating drivers, disabling, or uninstalling a device
+
+40.) Where can you find Event Viewer and what does it do?
+the event viewer is an application that keeps track of all of the executed tasks on the OS including user inputs and outputs
+ 
+41.) What is System Configuration (MSCONFIG)?
+manages the boot order and devices, system services, and the startup preferences
+
+42.) What is the Windows Registry? How is it used? How can you access Registry Editor?
+a database of low level settings that the OS and applications, it allows a user to configure these settings 
+
+43.) What do the following Windows Registry Keys do?
+HKKEY_LOCAL_MACHINE – config info for the whole machine, abbreviated as HKLM
+HKEY_CURRENT_USER – config info for the current user
+HKEY_CLASSES_ROOT – subkey of HKLM, config info for the windows explorer
+HKEY_CURRENT_CONFIG – config info on the hardware profile
+
+44.) What does “mounting a drive” refer to? What is a common file type used in drive mounting?
+
+
+45.) What are the five methods of installation?
+clean installation, upgrade installation, network installation, custom installation, and unattended installation
+
+46.) What is Compatibility Mode?
+A windows feature that allows a program that can only be executed in a previous version of windows to be run on a more recent version
+
+47.) Define each listed Command Prompt command:
+md – create a directory at specified location
+rd – deleting a selected directory
+move – move file to specified directory
+del – delete selected file
+copy – copy selected file
+
+48.) Define each listed Task operations command:
+tasklist – lists all currently running applications
+taskkill – terminates a running application
+dism – used to work with system images before they are deployed
+sfc – repairs system files
+shutdown – powers off a local or remote computer
+
+49.) Define each listed command:
+chkdsk – check a disk for errors or bad sectors
+format – creating a disk partition
+gpupdate – updates the group policy
+net use – network configuration
+
+50.) Define each run line utility command:
+EXPLORER – opens the file explorer
+MMC – 
+MSINFO32 – opens the system information
+MSTSC – opens the remote desktop connection
+
+51.) What are the local file sharing mechanisms used by each OS vendor:
+
+
+52.) What does each ipconfig option do?
+/all - brings up all of the IP information of the host computer
+/release - removes the IP of the computer
+/renew - reassigns 
+/displaydns - brings up the DNS information such as the IP of the DNS server
+
+53.) List and define the two network profiles in Windows 10:
+public and private
+
+54.) What do the following network connectivity commands do?
+ping – sends 32 bytes over the network to a specified IP
+tracert – 
+nslookup – 
+
+55.) How do RADIUS and TACACS+ operate?
+They are both AAA servers
+
+56.) Under what situations should a technician create a restore point with System restore?
+before changing the OS in any way, such as updating 
+
+57.) You get an “Invalid Boot Disk” error. What setting loads the correct drive and where is it?
+
+
+58.) What RAID levels are supported by Windows 10?
+0,1,5
+
+59.) What is the difference between GP update and GP result
+gpupdate updates the group policy
+gpresult brings up the info for the group policy
+
+60.) Define the netstat command and its utility.
+displays all network connections on the OS
+
+61.) List and define file attributes
+R - 
+A - admin
+S - system
+H
+
+# [[Operating System]]
+1.) Which mobile OS(s) are open source? Which are closed source?
+Open source - 
+Closed source - 
+
+2.) Which mobile OS allows for the direct installation of apps from third party websites? What is this process called? What is the proper storefront for this mobile OS?
+Apple, side loading, App Store
+
+3.) Apple uses what app distribution model for their Apple iOS mobile devices? What are the benefits?
+ walled garden, allows for increased security, and quality of applications at the cost of higher priced apps and a smaller developer base
+
+4.) Where is the system bar displayed in Android OS? What buttons does it contain?
+the bottom of the screen, contains the Back, Home, and Recent Applications buttons
+
+5.) How do you access the notification area on Android devices? How do you dismiss a notification?
+by swiping down from the top of the screen, swiping left or right on the notification
+
+6.) What three items are present on the Android interface and are missing from the iOS interface?
+no nav icons, app shortcuts and widgets
+
+7.) What differentiates iOS app icons from Android OS app icons?
+Android apps icons are shortcuts while the iOS icon are not
+
+8.) What iOS search field shows suggestions from many sources including your installed apps, Settings, the internet, iTunes, App Store, and nearby locations? How do you access it?
+Spotlight, swiping down from the top of the screen
+
+9.) How do you access iOS voice control? What is the name of the advanced iOS voice control software?
+press and hold the home button on older iphones, and the increase volume button on new iphones
+
+10.) What issues are resolved by adjusting the brightness level of a mobile device?
+visibility
+
+11.) What is Wi-Fi calling? What are the advantages of it?
+using cellular services over a Wi-Fi connection
+
+12.) How can a mobile device running iOS be accessed if the passcode is forgotten?
+using a system restore via a backup on iTunes or iCloud
+
+13.) How can you unlock an Android device after it has been locked due to passcode failure?
+entering the gmail information used to set up the device
+
+14.) What is a remote backup? What are the cloud services for each OS vendor?
+a copy of all information on an computer that is stored on a file server on the cloud
+android - google sync
+apple - iTunes, or iCloud
+microsoft - onedrive
+
+15.) What is a locator app used for? What are its data sources?
+ to find a device if it is misplaced or stolen, uses GPS, cellular services, and network connections to locate the device
+
+16.) What are the names of iOS and Android remote lock features? What are the remote wipe names?
+iOS - lost mode, erase phone
+Android - lock, erase
+
+17.) What is the Primary Rate ISDN (PRI)?
+the rate of data transfer between a device and the cellular network, both need to be synced in order for data to be transferred
+
+18.) What are Rooting and Jailbreaking?
+respectively, the android and apple versions of giving the user elevated permissions of the OS
+
+19.) Which file systems are most used on Linux operating systems? Describe their features.
+ext3/4, they are the 64 bit versions of the FAT32 system, it support larger partitions with larger files while also improving performance
+
+20.) What is NetBoot? What OS supports it?
+a PXE like service that perform OS installation over a network, used by macOS
+
+21.) What file systems are used by Apple Mac workstations and macOS High Sierra and later? Which one supports native file encryption?
+APFS or Apple File System, and HS+ or High Sierra Plus, which supports encryption
+
+22.) What is Force Quit in macOS? How do you access it?
+a way to terminate applications, accessed by pressing the quit button in the Activity Monitor
+
+23.) What does the crontab command do? What are the six columns?
+displays the current scheduled commands, each columns is a detail about the time, such as the month, day, hour and second
+
+24.) What are signature files? How are they used?
+sections of code used in malware, it is used by anti-malware applications to identify if the system has been infected
+
+25.) What is the kernel? How can a user interact with the kernel?
+the core of the operating system that manages the resources, and firmware of the computer, it can be interacted with through the shell via commands
+
+26.) Define the following Linux commands:
+ls – lists the items in the current directory
+cp – the copy function, used to copy directories or files
+grep – search command, allows the user to search files for text
+man – the manual, allows the user to read on the function of a command
+
+27.) Define what users have what permissions for the following file permissions: -rwx--x-w-
+admin - all access
+standard - execute
+guest - write
+
+28.) Provide the permission octal for the related account permissions:
+-rw-r--r--	     A.) 344
+-rwxrwxrwx	      A.) 377
+-r--rw--wx	      A.) 46
+
+29.) Define the following administrative commands:
+ps – displays all of the currently running applications
+kill – terminate application
+iwconfig – manage and configure network interfaces
+chmod – modify user permissions
+
+30.) Define the following commands involving root access:
+sudo – super user do, allows an admin to use their privileges in while another user is logged in
+chown – changes the ownership of a directory
+apt-get – download an application from a server
+shutdown – powers off the computer
+
+31.) Linux or macOS freezes on startup and exhibits kernel panic with a stop screen. What are the possible causes?
+
+# [[Security]]
+1.) Define “malware” and give two examples of this type of computer problem. 
+
+
+2.) Banners and ads are examples of what type of computer nuisance?
+
+
+3.) How does a computer “worm” work to harm a computer?
+
+
+4.) Which type of software is downloaded onto the computer of a user without the knowledge of the user and causes information about various products to be displayed on the user's monitor?
+
+
+5.) What kind of attack is involved with “phishing?”
+
+
+6.) What is involved in a DDoS attack on a network? 
+
+
+7.) Give two examples of ways to prevent social engineering attacks.
+
+
+8.) How can you best protect yourself and confidential information when getting rid of old hard drives? 
+
+
+9.) How are “acceptable use” policies different from “remote access” policies? 
+
+
+10.) What are the 5 types of NTFS file permissions? 
+
+
+11.) What is required to enable and use BitLocker? 
+
+
+12.) What do antivirus and antimalware programs use to identify and classify viruses on a machine? 
+
+
+13.) What three separate levels of password protection can be used to protect a computer?
+
+
+14.) What is the difference between port forwarding and port triggering? 
+
+
+15.) How do software and hardware firewalls impact computers differently?
+
+
+16.) What is the most important step to take before updating your computer system? 
+
+
+27.) Explain the principle of least privilege. 
+
+
+28.) What is a consideration that should be taken when securing laptops rather than PC towers?
+
+
+29.) \______________________ encryption requires both sides of an encrypted conversation to use an encryption key to be able to encode and decode the data. The sender and receiver must use identical keys. 
+
+
+30.) \______________________ encryption uses public and private keys. 
+
+
+31.) A(n) \___________ creates a secure tunnel through the Internet.
+
+# [[IT Professional]]
+1.) What are some ways to establish a good relationship with the customer at the beginning of the call?
+introduce yourself, and exchange names
+
+2.) Give an example of an open ended and a close ended question to the following problems:
+I can't access the email client.
+Open: when was the last time it was working?
+Closed: have you checked your wifi connection
+
+3.) I don't remember my password.
+Open: when was the last time you used it?
+Closed: did you write it down anywhere?
+
+4.) My computer won't turn on.
+Open: what have you done to check the power?
+Closed: have you checked if it is plugged in?
+
+5.) Why is it important to follow up with a customer after a problem has been solved?
+to educate and reassure the customer 
+
+6.) Which 3 of the professional behaviors on the list in 14.1.3.1 do YOU need to practice or work on most? 
+interruption by accident and not using jargon
+
+7.) Which type of customer would be hardest for you to work with? Why? What can you do to provide good customer service? 
+the rude or angry customer, i have a hard time taking criticism 
+
+8.) Rephrase the technician responses below for the difficult customer type indicated:
+“Remove the dongle from the machine before rebooting” for an Inexperienced Customer
+- take out the device that you plugged in earlier be fore you turn the computer off and back on again.
+“You messed up the DRM when you tried to copy your library” for an Angry Customer
+- I am sorry that happened, from your description the Digital Rights Management was misconfigured when you copied the files, this is an easy fix
+“Open Internet Explorer and click on the gear at the top right, then go to Manage Add-ons” for a Knowledgeable Customer
+- go to the browser settings and navigate to Manage Add-ons and you should find the option there
+“Just restart and then try whatever you were doing again” for a Rude Customer
+- I think the best course of action is to start from the first step and make sure we are not missing a step
+
+9.) Why is documentation important, and what are the four categories of documentation discussed? 
+Documentation is used to preserve information about operational procedures
+the four types of documentation are Policy, User, Project, and Operational 
+
+10.) Why is change management important to a company? 
+to ensure that upgrades and installations go smoothly
+
+11.) What should be considered in a disaster recovery plan? 
+to prevent data lost, downtime and recovery time
+
+12.) What are some guidelines around dealing with private customer information?
+
+
+13.) Why must IT professionals be aware of cyber law? 
+
+
+14.) What are two data types that are important to someone conducting a forensics study on computers?
+
+
+15.) Name 4 things you should document as a first responder to suspected illegal activity on a computer.
+the location of the computer, the reason you are accessing the computer, the 
+
+16.) What is Chain of Custody and why is it important?  
+information about how data is stored, by who, if it has been change, and what the change is
+
+17.) What are the differences between Level one and Level two technicians’ responsibilities? 
+
+
+18.) What is a script and how can it help you as a technician? 
+a file that contains a list of commands that can be run manually or automatically
+
+19.) What is the difference between a scripting language and a compiled language? Give an example of each. 
+C+, C++, C#, and Javascript
+
+20.)  What is the purpose of each in scripting: variables, conditional statements, and loops? 
+statements : 
+variables : to hold section
+loops : 
