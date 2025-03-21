@@ -361,39 +361,30 @@ While working with clients, be sure to avoid any type of distractions. This incl
 Personal calls should not be answered when working with a client. Silence phones or send incoming calls straight to voicemail to avoid interruption.
 
 #### Texting/Social Media Sites
-
 Texting should also be avoided when interacting with a client. Answering text messages or receiving constant notifications when with a client is disrespectful. Additionally, do not browse social media sites when working with a client.
 
 #### Personal Interruptions
-
 Personal interruptions should be kept to a minimum. This is especially true for individuals working from home. Maintain a space where personal interruptions can be minimized.
 
 ### Difficult Customers or Situations
-
 Working as an IT technician, you will be faced with stressed and anxious clients who may become difficult. While these situations do occur in the field, it is important to adhere to some basic rules for diffusing the situation with the following five don’ts and one do.
 
 #### **DON’T** Argue
-
 Arguing with customers will not get the result that either of you are hoping to achieve. Try not to become defensive when speaking with a client, even if they seem like they are being unreasonable. Letting the customer know that you understand their frustration will help them to feel confident that you can help them solve the problem.
 
 #### **DON’T** Be Defensive
-
 When a client is upset or angry, he or she may lash out at you as a way of venting their frustration. Avoid being defensive and taking it personally. Remind the customer that you are there to help and you understand how frustrated they are. Lead the client to focus on the problem and not on you.
 
 #### **DON’T** Dismiss Customer Problems
-
 Try to avoid dismissing the customer’s problems or issues. Even though an issue may not seem like a big deal to you, it may be very important to them.
 
 #### **DON’T** Be Judgmental
-
 Avoid being judgemental when working with clients. Something that may seem easy and self-explanatory to you could be quite challenging and difficult for them. It’s important to keep in mind that not everyone is tech-savvy.
 
 #### **DON’T** Recount Experiences on Social Media
-
 Never use social media as an outlet to vent about a particular customer or experience. Things on the internet typically stay there forever, and this could portray you or your company in a bad light.
 
 #### **DO** Clarify Customer Statements
-
 Ask questions to ascertain the root of the problem. When a customer tells you their story, restate what you believe the problem to be to confirm an understanding through the verification process. Some helpful clarification tactics include asking the client to walk you through the problem, asking open-ended questions, restating what the client is saying, and asking specific questions to verify your understanding of the problem.
 
 ### Using a Timeline

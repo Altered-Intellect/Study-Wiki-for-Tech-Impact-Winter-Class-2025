@@ -9,6 +9,7 @@ child docs:
 [[Acronym Sheet]]
 [[PC build]]
 computer parts we researched for a lab
+[[Resume Checklist]]
 # CompTIA A+ Core Series
 [[CompTIA Testing Policies]]
 [[CompTIA A+ Objectives]]
@@ -103,7 +104,9 @@ Lvstudents@techimpact.org
 	[Page 3](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1102-operational-procedures/pages/3)
 	[Page 4](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1102-operational-procedures/pages/4)
 	[Page 5](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1102-operational-procedures/pages/5)
-
+[[Software Troubleshooting]]
+	[Page 1](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1102-software-troubleshooting/pages/1)
+	[Page 2](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1102-software-troubleshooting/pages/2)
 ## NetAcad
 www.netacad.com
 

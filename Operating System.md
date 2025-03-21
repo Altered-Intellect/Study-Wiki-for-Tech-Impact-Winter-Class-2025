@@ -4,13 +4,7 @@ parent docs:
   - "[[Navigation]]"
 sibling docs: 
 child docs: 
-media:
-  - "[[f73756dfd104490f30df1db9c1f1cd05095640d5.jpg]]"
-  - "[[383a8674485298b94205a526f167d57e93e77ab8.png]]"
-  - "[[8b2b12277a5b88a9d258c387224872a1c0ae3107.jpg]]"
-  - "[[3fbcd833fe7f9f91432b9d2f7df61bb8150d1c70.jpg]]"
-  - "[[02209077c6c1db04168d42388ea2aff5fcd34315.png]]"
-  - "[[8f371be19fb7ede8d3fa9f3a1b93e15ab25f1f46.jpg]]"
+media: []
 ---
 # Nav
 < [[Virtualization and Cloud Computing|Previous]] < ^ [[Navigation|Home]] ^ > [[Operational Procedures|Next]] >
@@ -105,7 +99,6 @@ Some applications may include an uninstall feature that is located in the Window
 ### Compatibility Mode
 Older applications may not run properly on newer Windows operating systems. Windows provides a way that these programs can be configured to run. If older software is not running properly, locate the executable file for the application. This can be done by right-clicking a shortcut for the application and selecting **Open file location**. Right-click the executable file and choose Properties. From the **Compatibility** tab you can run the **Windows compatibility troubleshooter** or manually configure the environment for the application.
 
-
 ### Considerations
 When deploying new third-party applications, potential impacts to operation and the business must be considered to maintain a secure computing environment.
 
@@ -168,7 +161,7 @@ Before upgrading the operating system, check the minimum hardware requirements o
 When a new installation is required, user data must be migrated from the old OS to the new one. There are several tools available to transfer data and settings. The tool you select depends on your level of experience and your requirements.
 
 ### User State Migration Tool
-The User State Migration Tool (USMT) is a command line utility program developed by Microsoft that allows users who are comfortable with scripting languages to transfer files and settings between Windows PCs. USMT is one of many core assessment and deployment tools included in the Windows Assessment and Deployment Kit which can be downloaded from the Microsoft website. You can use USMT version 10.0 to streamline and simplify user state migration during large deployments of Windows operating systems. USMT captures user accounts, user files, operating system settings, and application settings, and then migrates them to a new Windows installation. You can use USMT for both PC replacement and PC refresh migrations.  
+The User State Migration Tool (USMT) is a command line utility program developed by Microsoft that allows users who are comfortable with scripting languages to transfer files and settings between Windows PCs. USMT is one of many core assessment and deployment tools included in the Windows Assessment and Deployment Kit which can be downloaded from the Microsoft website. You can use USMT version 10.0 to streamline and simplify user state migration during large deployments of Windows operating systems. USMT captures user accounts, user files, operating system settings, and application settings, and then migrates them to a new Windows installation. You can use USMT for both PC replacement and PC refresh migrations. 
   
 **Note**: USMT version 10.0 supports data migration from Windows 7 through Windows 10.
 
@@ -182,7 +175,6 @@ Windows easy transfer is not available in Windows 10 and is replaced with PC-mov
 
 ### PC-mover Express
 Microsoft has partnered with Laplink to provide PC-mover Express which is a tool for transferring selected files, folders, profiles, and applications from an old Windows PC to a Windows 10 PC. Instead of repurchasing and manually installing programs on the new PC, a user can use **PC-mover** to transfer selected applications to the new PC, and they will be installed and ready to use.
-
 
 # [[Storage]]
 As a technician, you might have to perform a clean installation of an OS. Perform a clean install in the following situations:
@@ -321,8 +313,6 @@ Integrated graphics chips are integrated on the motherboard or the same die as t
 
 For a graphics intensive game or application, a dedicated graphics card with its own video RAM (VRAM) maybe the better choice. A dedicated graphics card can simply be replaced when upgrading; however, the cards are usually more expensive and require more power, air circulation, and heat dissipation than the integrated version. 
 
-
-
 ## Windows 11
 The most current version of Windows, as of this writing, is Windows 11. Windows 11 changes are mostly superficial, but it does require more robust hardware in order to run. Like Windows 10, Windows 11 is an upgrade from the previous version. Most of the changes are visual, like smaller taskbar icons that are placed in the center. There are also other additions such as a better dark mode, transparency changes, and animation changes, among others. Widgets have been expanded and are now more personalized. The settings application has been redesigned with a menu on the left, making navigation easier. There are also minor convenience additions for Windows tablets running Windows 11, including better spacing of taskbar icons and a three-finger swipe to customize actions. Windows 11 is more energy efficient, yet usually performs faster than previous versions. Windows 11 is a 64-bit only operating system, so it will not install on older, 32-bit computers.
 
@@ -359,10 +349,10 @@ The default mode for the Windows OS and is a decentralized collection of compute
 #### Desktop Styles/User Interface
 The Windows desktop and user interface are very similar to previous editions of Windows going back to Windows 95. Users are, however, able to easily customize and personalize the desktop and user interface through the Settings menu. Standard items found on the Windows desktop include the Start menu, the taskbar, and various icons or shortcuts.
 
-#### Availability of Remote Desktop Protocol (RDP)
-Remote Desktop Protocol (RDP) is not supported on Windows Home, but it is supported on Windows Pro, Pro for Workstations, and Enterprise.
+#### Availability of [[Remote Desktop Protocol|RDP]]
+Not supported on Windows Home, but it is supported on Windows Pro, Pro for Workstations, and Enterprise.
 
-#### Random-Access Memory (RAM) Support Limitations
+#### [[Random-Access Memory|RAM]] Support Limitations
 Windows Home supports 128 GB of RAM and two CPUs. Windows Pro supports 2 TB of RAM and two CPUs. Windows Pro for Workstations supports 6 TB of RAM and four CPUs. Windows Enterprise supports 6 TB of RAM and two CPUs.
 
 #### BitLocker
@@ -397,7 +387,7 @@ The `cd` command allows for navigation within the current drive. To navigate to 
 
 #### Command-Line Tools
 Used for numerous other functions, such as testing or tracing network connectivity or paths. You should be familiar with common command-line tools.
-- **ipconfig**— The `ipconfig` command is used to display basic connectivity information, such as the IP address, subnet mask, and default gateway to which TCP/IP is bound. This command is highly useful in diagnosing network issues. There are serveral ipconfig switches and arguments which are useful to know.
+- **ipconfig**— The `ipconfig` command is used to display basic connectivity information, such as the IP address, subnet mask, and default gateway to which TCP/IP is bound. This command is highly useful in diagnosing network issues. There are several ipconfig switches and arguments which are useful to know.
 	- /all : displays additional network configuration information including DHCP and servers, MAC address, NetBIOS status, and domain name
 	- /release : drops the IP address learned from the DHCP server resulting in the network adapter no longer having an IP address
 	- /renew : forces a DHCP client to renew its DHCP address from the DHCP server

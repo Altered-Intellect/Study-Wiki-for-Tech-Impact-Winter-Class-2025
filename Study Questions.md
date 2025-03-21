@@ -1114,70 +1114,73 @@ apt-get – download an application from a server
 shutdown – powers off the computer
 
 31.) Linux or macOS freezes on startup and exhibits kernel panic with a stop screen. What are the possible causes?
-
+the boot loader or driver on the system has become corrupted
 # [[Security]]
 1.) Define “malware” and give two examples of this type of computer problem. 
-
+malicious software : a program designed to attack an end user or computer
+- files are encrypted and a pop up demand a payment in bitcoin
+- computer slows with no visible applications in the cache
 
 2.) Banners and ads are examples of what type of computer nuisance?
-
+popups or notificaitons
 
 3.) How does a computer “worm” work to harm a computer?
-
+self replicates
 
 4.) Which type of software is downloaded onto the computer of a user without the knowledge of the user and causes information about various products to be displayed on the user's monitor?
-
+adware
 
 5.) What kind of attack is involved with “phishing?”
-
+the impersonation of a trusted sources such as a company or staff to get an end user to submit information to the attacker
 
 6.) What is involved in a DDoS attack on a network? 
-
+a network of malware on multiple computers targeting a server or network resources
 
 7.) Give two examples of ways to prevent social engineering attacks.
-
+staff training, and personal authentication methods
 
 8.) How can you best protect yourself and confidential information when getting rid of old hard drives? 
-
+using a low level format, a degaussing wand, incinerator or shredder, to dispose of the data on the drive
 
 9.) How are “acceptable use” policies different from “remote access” policies? 
-
+AUP : how company resources are able to be used an congfigured
+remote access : how an end user is able to connect to the network and the security methods put in place
 
 10.) What are the 5 types of NTFS file permissions? 
-
+read, write, read and execute, modify and full control 
 
 11.) What is required to enable and use BitLocker? 
-
+Windows Pro or better
 
 12.) What do antivirus and antimalware programs use to identify and classify viruses on a machine? 
-
+signatures - known sections of malware code that an antimalware program can use to identify malware on a system
 
 13.) What three separate levels of password protection can be used to protect a computer?
-
+text, image, and graphical
 
 14.) What is the difference between port forwarding and port triggering? 
-
+port forwarding is making an indefinite exception for a service, and port triggering is a temporary port forward that has a times leased
 
 15.) How do software and hardware firewalls impact computers differently?
-
+software firewalls take up computational resources, and hardware firewalls take up network resources
 
 16.) What is the most important step to take before updating your computer system? 
-
+that you have a back up of important data
 
 27.) Explain the principle of least privilege. 
-
+each end user gets the least needed privileges to accomplish their work
 
 28.) What is a consideration that should be taken when securing laptops rather than PC towers?
-
+a cable lock so that it cannot be stolen
 
 29.) \______________________ encryption requires both sides of an encrypted conversation to use an encryption key to be able to encode and decode the data. The sender and receiver must use identical keys. 
-
+symmetric
 
 30.) \______________________ encryption uses public and private keys. 
-
+asymmetric 
 
 31.) A(n) \___________ creates a secure tunnel through the Internet.
-
+a VPN
 # [[IT Professional]]
 1.) What are some ways to establish a good relationship with the customer at the beginning of the call?
 introduce yourself, and exchange names
@@ -1225,22 +1228,23 @@ to ensure that upgrades and installations go smoothly
 to prevent data lost, downtime and recovery time
 
 12.) What are some guidelines around dealing with private customer information?
-
+keep it safe, and do not use it without their explicit information
 
 13.) Why must IT professionals be aware of cyber law? 
-
+so that they are able to comply with local regulations and to not break the law and recognize when it is being broken
 
 14.) What are two data types that are important to someone conducting a forensics study on computers?
-
+volatile and nonvolatile
 
 15.) Name 4 things you should document as a first responder to suspected illegal activity on a computer.
 the location of the computer, the reason you are accessing the computer, the 
 
 16.) What is Chain of Custody and why is it important?  
-information about how data is stored, by who, if it has been change, and what the change is
+information about how data is stored, by who, if it has been change, and what the change is, peripherals, network connections, and the evidence of illegal material or actions 
 
 17.) What are the differences between Level one and Level two technicians’ responsibilities? 
-
+level one : deals with ticket documentation, simple problems, and basic troubleshooting
+level two : escalation of problems, complex troubleshooting, and hardware handling
 
 18.) What is a script and how can it help you as a technician? 
 a file that contains a list of commands that can be run manually or automatically
@@ -1249,6 +1253,8 @@ a file that contains a list of commands that can be run manually or automaticall
 C+, C++, C#, and Javascript
 
 20.)  What is the purpose of each in scripting: variables, conditional statements, and loops? 
-statements : 
+statements : to tell the computer to perform an action
 variables : to hold section
-loops : 
+loops : recursive logic 
+constants : values that do not change
+variables : values that can be written into

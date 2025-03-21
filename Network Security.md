@@ -145,7 +145,7 @@ Wireless networks are inherently less secure than wired networks. However, there
 ### Protocols and Encryption
 You should be able to differentiate between different protocols and encryption methods used with wireless networks.
 
-#### Wi-Fi Protected Access 2 (WPA2)
+#### [[Wi-Fi Protected Access 2|WPA2]]
 WPA2 improved upon WPA by using the [[Advanced Encryption Standard|AES]]. WPA2 is exploitable if the WPS service is enabled on the device.
 
 #### WPA3
@@ -161,19 +161,18 @@ The AES is a secure encryption method that is still used today. WPA2 uses AES in
 Wireless networks should never be left open, and they should always require some form of authentication. Let’s look at a few wireless authentication methods.
 
 #### [[Remote Authentication Dial-In User Service|RADIUS]]
-RADIUS is an authentication method used to allow for centralized authentication and accounting. Although it gets its name from the days of dial-up internet, RADIUS is now the common method used to authenticate over virtual private networks (VPNs) and wireless networks.
-
+An authentication method used to allow for centralized authentication and accounting. Although it gets its name from the days of dial-up internet, RADIUS is now the common method used to authenticate over virtual private networks (VPNs) and wireless networks.
+13242543
 #### [[Terminal Access Controller Access-Control System|TACACS]]
-TACACS (now TACACS+) was originally developed by Cisco®, but was released as an open standard. These protocols are used for the authentication of users on network devices, such as routers and switches.
+now TACACS+ was originally developed by Cisco®, but was released as an open standard. These protocols are used for the authentication of users on network devices, such as routers and switches.
 
 #### Kerberos
-Kerberos is an open standard for authentication that is used in conjunction with AD for authentication. Kerberos can also be used with the 802.1X protocol for direct authentication.
+An open standard for authentication that is used in conjunction with AD for authentication. Kerberos can also be used with the 802.1X protocol for direct authentication.
 
 #### [[Multi-Factor Authentication]]
 Multi-factor authentication requires a user to provide more than one authentication type, as discussed earlier in this study guide. A common implementation of multi-factor relating to wireless authentication is the Extensible Authentication Protocol-Transport Layer Security (EAP-TLS), which requires the user to not only have a password but also a certificate installed on the computer.
 
 ## Detecting, Removing, and Preventing Malware
-
 To succeed on questions about malware, you should be able to evaluate a given scenario, find malware, and remove it with effective tools and procedures. You should also know how to prevent malware in the future. Questions of this type will be scenario based.
 
 ### Malware

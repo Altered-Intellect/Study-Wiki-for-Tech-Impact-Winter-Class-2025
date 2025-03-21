@@ -1,7 +1,10 @@
 ---
 tags: 
-parent docs: 
-sibling docs: 
+parent docs:
+  - "[[Navigation]]"
+sibling docs:
+  - "[[Software]]"
+  - "[[Troubleshooting]]"
 child docs: 
 media:
 ---
@@ -9,10 +12,6 @@ media:
 < [[Operational Procedures|Previous]] < ^ [[Navigation|Home]] ^
 
 ---
-
-# [Page 1](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1102-software-troubleshooting/pages/1)
-
-## General Information
 
 When software is deficient, so is the system that uses it, and processes are slowed down, stopped, or threatened. To be skilled in software troubleshooting, you must be knowledgeable in all types of PC and mobile device software issues. These include things like operating system issues, malware use, and security threats. Of the questions on the CompTIA A+ 1102 test, 22% of them concern these types of concepts. Obviously, software troubleshooting requires a lot of thinking on your feet, so _all_ the questions about this topic will begin with a scenario.
 
@@ -134,8 +133,6 @@ If you are browsing the internet and receive a security alert that a site has an
 If you find your browser has been changed or the results of a search come from a third-party site, it is likely that your browser has been redirected by **malware**. An anti-malware cleaner may or may not address the issue. You may want to restore your system from a known good backup.
 
 ---
-
-# [Page 2](https://uniontestprep.com/comptia-a-core-series-exam/study-guide/220-1102-software-troubleshooting/pages/2)
 
 ## Malware Removal
 Malware can spread rapidly and cause severe damage to a PC. Discovering malware is just the first step. It’s vital that you can remove the malware quickly without causing further damage. Be sure to follow these steps _in order_. Questions in this area will be scenario based.
